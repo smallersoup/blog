@@ -35,10 +35,10 @@ jobs:
       #     cd ../envoy-handbook
       #     hugo -v --gc --minify -d ../blog/public/envoy-handbook
 
-      # - uses: actions/checkout@v4
-      #   with:
-      #     repository: "smallersoup/jstc"
-      #     path: "public/jstc"
+      - uses: actions/checkout@v4
+        with:
+           repository: "smallersoup/jstc"
+           path: "public/jstc"
 
       - name: Clean
         run: |
