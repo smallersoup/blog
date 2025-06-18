@@ -1,4 +1,4 @@
-baseURL = 'https://smallersoup.github.io/smaller-site'
+baseURL = 'https://smallersoup.github.io/blog'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme="blowfish"
