@@ -28,9 +28,9 @@ jobs:
           sed -i "s#cdn.staticfile.org/Swiper/#cdn.jsdelivr.net/npm/swiper@#g" $(grep -rl "cdn\.staticfile\.org" ./)
           sed -i "s#cdn.staticfile.org/layer#cdnjs.cloudflare.com/ajax/libs/layer#g" $(grep -rl "cdn\.staticfile\.org" ./)
 
-      # - name: Build
-      #   run: |
-      #     hugo -v --gc --minify
+      - name: Build
+        run: |
+           hugo -v --gc --minify
       #     git clone https://github.com/smallersoup/envoy-handbook ../envoy-handbook
       #     cd ../envoy-handbook
       #     hugo -v --gc --minify -d ../blog/public/envoy-handbook
