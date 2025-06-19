@@ -5,11 +5,11 @@ WORKDIR /app
 ADD ../ hugo
 
 RUN cd hugo; \
-    hugo -v --gc --minify
+    hugo --gc --minify
 
 # RUN git clone https://github.com/smallersoup/envoy-handbook envoy-handbook; \
 #     cd envoy-handbook; \
-#     hugo -v --gc --minify
+#     hugo --gc --minify
 
 RUN git clone https://github.com/smallersoup/jstc
 

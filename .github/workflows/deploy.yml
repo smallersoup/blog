@@ -30,10 +30,10 @@ jobs:
 
       - name: Build
         run: |
-           hugo -v --gc --minify
+           hugo --gc --minify
       #     git clone https://github.com/smallersoup/envoy-handbook ../envoy-handbook
       #     cd ../envoy-handbook
-      #     hugo -v --gc --minify -d ../blog/public/envoy-handbook
+      #     hugo --gc --minify -d ../blog/public/envoy-handbook
 
       - uses: actions/checkout@v4
         with:
