@@ -1,5 +1,0 @@
-# baseURL = 'https://smallersoup.github.io/blog'
-baseURL = 'https://blog.kubeinfo.cn'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme="blowfish"
