@@ -1,3 +1,5 @@
+# https://gohugo.io/configuration/module/#hugo-version
+# 您可以在模块部分为您的模块指定所需的Hugo版本。如果用户的Hugo版本不兼容，用户将收到警告。
 [hugoVersion]
   extended = false
-  min = "0.87.0"
+  min = "0.144.0"

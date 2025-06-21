@@ -3,117 +3,218 @@
 # customise the display of your website.
 #
 # Refer to the theme docs for more details about each of these parameters.
+# Blowfish提供了大量控制主题功能的配置参数。下表概述了config/_default/params. toml文件中的每个可用参数
 # https://blowfish.page/docs/configuration/#theme-parameters
 
-colorScheme = "blowfish"
+# 主题的配色方案
+# blowfish, avocado, fire, ocean, forest, princess, neon, bloody, terminal, marvel, noir, autumn, congo, slate
+colorScheme = "congo"
+# 主题的默认外观
 defaultAppearance = "dark" # valid options: light or dark
+# 主题外观是否应根据浏览器的设置自动切换
 autoSwitchAppearance = false
 
+# 是否启用搜索功能
 enableSearch = true
+# 代码块上是否显示复制按钮
 enableCodeCopy = true
 
+# 应在最近文章列表中显示的部分。如果未提供，则使用文章数量最多的部分。
 mainSections = ["posts"]
+
+# 指示机器人应该如何处理您的网站的字符串。如果设置，它将在页面标题中输出。有关有效值，请参阅Google的文档。
 # robots = ""
 
+# 禁用网站上所有图像的大小调整和优化功能，但使用 Markdown 语法（![](image.jpg)）的图像除外
 disableImageOptimization = false
+
+# 禁用标题中的文本，对基于徽标的标题很有用。
 disableTextInHeader = false
 
+# 整个网站的默认背景图像。将被本地特色图片覆盖。
 defaultBackgroundImage = "/img/ocean.jpg"
+
+# 文章的 featured 图像的默认背景图像，这将被本地 featured 图像覆盖。
 defaultFeaturedImage = "/img/ocean.jpg"
 
+# 在相应区域时，在主菜单中标记菜单项为活动状态
 highlightCurrentMenuArea = true
+
+# 激活智能目录，视图中的项目将突出显示。
 smartTOC = true
+
+# 当 smartTOC 开启时，这将隐藏未聚焦时表格的更深层级
 smartTOCHideUnfocusedChildren = false
 
+# https://blowfish.page/docs/configuration/#header
 [header]
+  # 用于显示标题的样式
   layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
 
 [footer]
+  # 是否在页脚中显示菜单
   showMenu = true
+  # 是否在页脚中显示版权声明
   showCopyright = false
+  # 是否在页脚中显示主题归属
   showThemeAttribution = false
+  # 是否在页脚中显示外观切换器
   showAppearanceSwitcher = true
+  # 是否在页脚中显示返回顶部按钮
   showScrollToTop = true
 
 [homepage]
+  # 主页的布局
   layout = "custom" # valid options: page, profile, hero, card, background, custom
+  # 主页上显示的图像。用于 hero 和 card 布局
   # homepageImage = "/img/iceland.jpg" # used in: hero, and card
+  # 是否在主页上显示最近的文章
   showRecent = true
+  # 主页上显示的最近文章的数量
   showRecentItems = 12
+  # 是否在主页上显示指向文章列表的链接
   showMoreLink = true
+  # 主页上"显示更多"链接的目标
   showMoreLinkDest = "posts"
+  # 将列表显示为卡片库
   cardView = true
+  # 增强列表中卡片库的宽度以占据可用全宽
   cardViewScreenWidth = false
+  # 启用后，背景图像将被模糊。仅在 layout 等于 background 时使用
   layoutBackgroundBlur = true # only used when layout equals background
 
 [article]
+  # 是否在文章底部显示评论
   showComments = true
+  # 是否在文章标题中显示文章日期
   showDate = true
+  # 是否显示文章浏览量。需要启用 firebase 集成
   showViews = true
+  # 是否显示文章点赞数。需要启用 firebase 集成
   showLikes = false
+  # 是否在文章标题中显示文章的最后更新日期
   showDateUpdated = true
+  # 是否在文章标题中显示文章作者
   showAuthor = true
+  # 是否在文章底部显示文章作者
   showAuthorBottom = false
+  # 缩略图是否将作为英雄图片显示在每篇文章中
   showHero = true
+  # 用于显示英雄图片的样式
   heroStyle = "big" # valid options: basic, big, background, thumbAndBackground
+  # 启用后，背景图像将被模糊。仅在 heroStyle 等于 background 时使用
   layoutBackgroundBlur = true # only used when heroStyle equals background
+  # 面包屑是否显示在文章标题中。是一种辅助导航工具，用于显示用户在网站中的位置，使其能够轻松回到之前的层级页面。
+  # 面包屑导航通常呈现为一系列链接，按照层级关系从首页到当前页面顺序排列，类似于以下示例：
+  # 首页 > 分类 > 子分类 > 文章
+  # 首页 > 分类 > 文章
+  # 首页 > 文章
   showBreadcrumbs = true
+  # 使用--buildDrafts构建网站时，草稿指标是否显示在文章旁边。
   showDraftLabel = true
+  # 是否应该显示编辑文章内容的链接。
   showEdit = true
+  # 当文章. show Edit处于活动状态时，编辑链接的URL
   editURL = "https://github.com/smallersoup/blog/tree/main/content"
+  # 当文章 .showEdit 处于活动状态时，是否应将当前文章的路径附加到文章 .editURL 处设置的URL。
   editAppendPath = true
+  # 当一篇文章是一系列文章的一部分时，这将强制默认打开系列列表
   seriesOpened = false
+  # 是否显示标题锚点链接
   showHeadingAnchors = true
+  # 是否在文章底部显示上一篇/下一篇文章的分页
   showPagination = true
+  # 反转上一篇/下一篇文章分页的方向
   invertPagination = false
+  # 是否在文章标题中显示文章阅读时间
   showReadingTime = true
+  # 是否显示目录
   showTableOfContents = true
+  # 是否在文章底部显示相关文章
   showRelatedContent = true
+  # 在文章底部显示的相关文章数量
   relatedContentLimit = 6
+  # 是否在文章底部显示分类法
   showTaxonomies = true 
+  # 是否在文章顶部显示作者徽章
   showAuthorsBadges = true 
+  # 是否在文章标题中显示文章字数
   showWordCount = true
+  # 用于显示分享链接的社交媒体平台列表
   sharingLinks = [ "linkedin", "twitter", "reddit", "whatsapp", "telegram", "pinterest", "facebook", "email"]
+  # 是否在文章标题中显示禅模式切换
   showZenMode = true
 
 [list]
+  # 缩略图是否将作为英雄图片显示在每个列表页面中
   showHero = true
+  # 用于显示英雄图片的样式
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  # 启用后，背景图像将被模糊。仅在 heroStyle 等于 background 时使用
   layoutBackgroundBlur = true # only used when heroStyle equals background
+  # 启用后，将在列表顶部添加额外空间以考虑页眉。仅在 heroStyle 等于 background 时使用
   layoutBackgroundHeaderSpace = false
+  # 是否在列表标题中显示面包屑
   showBreadcrumbs = false
+  # 是否在文章列表中显示文章摘要
   showSummary = false
+  # 是否显示文章浏览量。需要启用 firebase 集成
   showViews = true
+  # 是否显示文章点赞数。需要启用 firebase 集成
   showLikes = false
+  # 是否在列表上显示目录
   showTableOfContents = true
+  # 是否将列表项显示为卡片。这是一个旧参数，将在未来版本中删除。请改用 list.cardView
   showCards = true
+  # 是否在列表页面上按年份对文章进行分组
   groupByYear = false
+  # 将列表显示为卡片库
   cardView = true
+  # 增强列表中卡片库的宽度以占据可用全宽
   cardViewScreenWidth = false
+  # 禁用后，列表项将占据可用全宽
   constrainItemsWidth = false
 
 [sitemap]
+  # 要从站点地图中排除的页面类型列表
   excludedKinds = []
 
 [taxonomy]
+  # 是否显示每个术语中的文章数量
   showTermCount = true
+  # 缩略图是否将作为英雄图片显示在每个分类法页面中
   showHero = true
+  # 用于显示英雄图片的样式
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  # 是否在分类法标题中显示面包屑
   showBreadcrumbs = false
+  # 是否显示文章浏览量。需要启用 firebase 集成
   showViews = true
+  # 是否显示文章点赞数。需要启用 firebase 集成
   showLikes = false
+  # 是否在分类法上显示目录
   showTableOfContents = true
+  # 将列表显示为卡片库
   cardView = false
 
 [term]
+  # 缩略图是否将作为英雄图片显示在每个术语页面中
   showHero = true
+  # 用于显示英雄图片的样式
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  # 是否在术语标题中显示面包屑
   showBreadcrumbs = false
+  # 是否显示文章浏览量。需要启用 firebase 集成
   showViews = true
+  # 是否显示文章点赞数。需要启用 firebase 集成
   showLikes = false
+  # 是否在术语上显示目录
   showTableOfContents = true
+  # 是否在术语页面上按年份对文章进行分组
   groupByYear = false
+  # 将列表显示为卡片库
   cardView = true
+  # 增强列表中卡片库的宽度以占据可用全宽
   cardViewScreenWidth = false
 
 [fathomAnalytics]
@@ -121,15 +222,23 @@ smartTOCHideUnfocusedChildren = false
   # domain = "llama.yoursite.com"
 
 [umamiAnalytics]
-  websiteid = "f415abb1-1cb9-402e-a1c4-225ca9d792b0"
+  # Umami Analytics 为网站生成的站点代码
+  websiteid = "f5c28d4b-4ab0-4edc-be58-1ecbe88bfbf5"
+  # 如果将自定义域与 Umami Analytics 一起使用，请在此处提供它以从自定义域提供 script.js
   domain = "umami.kubeinfo.cn"
+  # 用于反广告拦截的 script.js 的名称由环境变量 TRACKER_SCRIPT_NAME 配置
   scriptName = "oishii"
 
 [buymeacoffee]
+  # 目标 buymeacoffee 帐户的标识符
   identifier = "nunocoracao"
+  # 激活全局 buymeacoffee 小部件
   globalWidget = false
+  # 新用户首次登陆网站时将显示的消息
   globalWidgetMessage = ""
+  # 小部件颜色，十六进制格式
   globalWidgetColor = "#FFDD00"
+  # 小部件的位置，即"Left"或"Right"
   globalWidgetPosition = "Right"
 
 [verification]

@@ -9,7 +9,7 @@
 # By default the menu is ordered alphabetically. This can be
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
-
+# https://gohugo.io/content-management/multilingual/#method-2--use-a-configuration-directory
 [[main]]
   name = "项目"
   pre = "github"
@@ -25,7 +25,7 @@
 [[main]]
   name = "实时访客"
   pre = "eye"
-  url = "https://umami.kubeinfo.cn/share/UuDHNJJWIShegM2N/%E4%BA%91%E5%8E%9F%E7%94%9F%E5%AE%9E%E9%AA%8C%E5%AE%A4?theme=dark"
+  url = "https://cloud.umami.is/share/h5GReomkOf4fsBGd/kubeinfo.cn?theme=dark"
   weight = 15
 
 [[main]]
