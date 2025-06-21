@@ -1,0 +1,21 @@
+# -- Markup --
+# These settings are required for the theme to function.
+# https://gohugo.io/configuration/markup/#goldmark
+# 在默认配置中，Hugo使用Goldmark将Markdown呈现为HTML。
+[goldmark]
+[goldmark.renderer]
+  # 是否渲染混合在Markdown中的原始超文本标记语言。除非内容在您的控制之下，否则这是不安全的。默认为假。
+  unsafe = true
+  # 是否用br元素替换段落中的换行符。默认为假。
+  hardWraps = true
+  xHTML = true
+
+[highlight]
+# 是否使用内联CSS样式而不是外部CSS文件。默认为true。要使用外部CSS文件，请将此值设置为false并从命令行生成CSS文件：
+  noClasses = false
+
+[tableOfContents]
+# 小于此值的标题级别将从目录中排除。例如，要从目录中排除h1元素，请将此值设置为2。默认值为2。
+  startLevel = 2
+  # 大于此值的标题级别将从目录中排除。例如，要从目录中排除h4、h5和h6元素，请将此值设置为3。默认值为3。
+  endLevel = 4

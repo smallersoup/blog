@@ -1,0 +1,159 @@
+# -- Theme Options --
+# These options control how the theme functions and allow you to
+# customise the display of your website.
+#
+# Refer to the theme docs for more details about each of these parameters.
+# https://blowfish.page/docs/configuration/#theme-parameters
+
+colorScheme = "blowfish"
+defaultAppearance = "dark" # valid options: light or dark
+autoSwitchAppearance = false
+
+enableSearch = true
+enableCodeCopy = true
+
+mainSections = ["posts"]
+# robots = ""
+
+disableImageOptimization = false
+disableTextInHeader = false
+
+defaultBackgroundImage = "/img/ocean.jpg"
+defaultFeaturedImage = "/img/ocean.jpg"
+
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = false
+
+[header]
+  layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
+
+[footer]
+  showMenu = true
+  showCopyright = false
+  showThemeAttribution = false
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "custom" # valid options: page, profile, hero, card, background, custom
+  # homepageImage = "/img/iceland.jpg" # used in: hero, and card
+  showRecent = true
+  showRecentItems = 12
+  showMoreLink = true
+  showMoreLinkDest = "posts"
+  cardView = true
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = true # only used when layout equals background
+
+[article]
+  showComments = true
+  showDate = true
+  showViews = true
+  showLikes = false
+  showDateUpdated = true
+  showAuthor = true
+  showAuthorBottom = false
+  showHero = true
+  heroStyle = "big" # valid options: basic, big, background, thumbAndBackground
+  layoutBackgroundBlur = true # only used when heroStyle equals background
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = true
+  editURL = "https://github.com/smallersoup/blog/tree/main/content"
+  editAppendPath = true
+  seriesOpened = false
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = true
+  showTableOfContents = true
+  showRelatedContent = true
+  relatedContentLimit = 6
+  showTaxonomies = true 
+  showAuthorsBadges = true 
+  showWordCount = true
+  sharingLinks = [ "linkedin", "twitter", "reddit", "whatsapp", "telegram", "pinterest", "facebook", "email"]
+  showZenMode = true
+
+[list]
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  layoutBackgroundBlur = true # only used when heroStyle equals background
+  layoutBackgroundHeaderSpace = false
+  showBreadcrumbs = false
+  showSummary = false
+  showViews = true
+  showLikes = false
+  showTableOfContents = true
+  showCards = true
+  groupByYear = false
+  cardView = true
+  cardViewScreenWidth = false
+  constrainItemsWidth = false
+
+[sitemap]
+  excludedKinds = []
+
+[taxonomy]
+  showTermCount = true
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showBreadcrumbs = false
+  showViews = true
+  showLikes = false
+  showTableOfContents = true
+  cardView = false
+
+[term]
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showBreadcrumbs = false
+  showViews = true
+  showLikes = false
+  showTableOfContents = true
+  groupByYear = false
+  cardView = true
+  cardViewScreenWidth = false
+
+[fathomAnalytics]
+  # site = "ABC12345"
+  # domain = "llama.yoursite.com"
+
+[umamiAnalytics]
+  websiteid = "f415abb1-1cb9-402e-a1c4-225ca9d792b0"
+  domain = "umami.kubeinfo.cn"
+  scriptName = "oishii"
+
+[buymeacoffee]
+  identifier = "nunocoracao"
+  globalWidget = false
+  globalWidgetMessage = ""
+  globalWidgetColor = "#FFDD00"
+  globalWidgetPosition = "Right"
+
+[verification]
+  # google = ""
+  # bing = ""
+  # pinterest = ""
+  # yandex = ""
+
+[[slideImages]]
+  imgAddress = "https://images.kubeinfo.cn/uPic/2024-12-20-19-35-mMvvtA.jpeg"
+  linkAddress = "https://mkdirs.com?via=carsonyang"
+  linkEvent = "mkdirs"
+
+[[slideImages]]
+  imgAddress = "https://images.kubeinfo.cn/uPic/2023-09-15-12-36-W4I1A8.png"
+  linkAddress = "https://gptgod.online/#/register?invite_code=46rrqz6qzscsey1jci7sdjw95"
+  linkEvent = "gptgod"
+
+[[slideImages]]
+  imgAddress = "https://socialify.git.ci/labring/fastgpt/image?description=1&descriptionEditable=%E5%9F%BA%E4%BA%8E%20LLM%20%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%EF%BC%8C%E6%8F%90%E4%BE%9B%E5%BC%80%E7%AE%B1%E5%8D%B3%E7%94%A8%E7%9A%84%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E3%80%81%E6%A8%A1%E5%9E%8B%E8%B0%83%E7%94%A8%E7%AD%89%E8%83%BD%E5%8A%9B%E3%80%82&font=Raleway&forks=1&logo=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Flabring%2FFastGPT%40main%2F.github%2Fimgs%2Flogo.svg&name=1&pattern=Brick%20Wall&stargazers=1&theme=Light"
+  linkAddress = "https://cloud.fastgpt.in/?inviterId=64215e9914d068bf840141d0"
+  linkEvent = "FastGPT"
+
+[[slideImages]]
+  imgAddress = "https://images.kubeinfo.cn/uPic/2023-02-05-16-18-ofcgZS.png"
+  linkAddress = "https://images.kubeinfo.cn/uPic/20200430221955.png"
+  linkEvent = "Contact me"

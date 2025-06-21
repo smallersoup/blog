@@ -2,47 +2,66 @@
 # Refer to the theme docs for more details about each of these parameters.
 
 theme = ["blowfish"]
-baseURL = "https://blog.kubeinfo.cn"
+baseURL = "https://kubeinfo.cn"
 defaultContentLanguage = "zh-cn"
 # 优化对中文、日文、韩文的处理
 hasCJKLanguage = true
 # 当显示内容列表（如文章、页面列表）时，以复数形式呈现  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
-pluralizeListTitles = "true"
+pluralizeListTitles = true
 
 enableRobotsTXT = true
-pagination.pagerSize = 100
 summaryLength = 30
 
 buildDrafts = false
 buildFuture = false
 
+[pagination]
+  pagerSize = 100
+
+# https://gohugo.io/configuration/build/
 [build]
+# https://gohugo.io/configuration/build/#nojsconfiginassets
+# 是否禁用在资产目录中写入jsconfig. json，并映射从运行js.Build导入的内容。此文件旨在帮助在VS Code等代码编辑器中进行智能感知/导航。请注意，如果您不使用js.Build，则不会写入任何文件。
   noJSConfigInAssets = true
 
 # 无论是缩放还是裁剪操作，都会以图像的中心点作为基准
+# https://gohugo.io/configuration/imaging/
 [imaging]
+# 使用Crop或Fill方法时，锚点确定裁剪框的位置。上左、上、上、右、左、中、右、下左、下、下右或智能之一。默认为智能。
   anchor = 'Center'
 
+# https://gohugo.io/configuration/taxonomies/
+# 默认配置定义了两个分类、类别和标签。创建分类时，键使用单数形式，值使用复数形式。
 [taxonomies]
   tag = "tags"
   category = "categories"
   author = "authors"
   series = "series"
 
+# https://gohugo.io/configuration/sitemap/
 [sitemap]
+# 页面可能更改的频率。有效值有：每小时、每天、每周、每月、每年和从不。使用默认值“”，Hugo将从站点地图中省略此字段。查看详细信息。
   changefreq = 'always'
+  # 生成文件的名称。默认为sitemap. xml
   filename = 'sitemap.xml'
+  # 页面相对于站点上任何其他页面的优先级。有效值范围为0.0到1.0。默认值为-1时，Hugo将从站点地图中省略此字段。查看详细信息。
   priority = 0.5
 
+# https://gohugo.io/configuration/outputs/
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+# https://gohugo.io/configuration/related-content/
+# 通过展示与当前阅读内容相关的其他内容，用户可以更方便地发现他们感兴趣的进一步信息，从而增加网站的黏性和浏览时长。
 [related]
+# 0-100之间的值，包括。较低的值将返回更多但可能不太相关的匹配项。
   threshold = 0
+  # 是否将索引和查询中的关键字转换为小写。这可能会以轻微的性能损失提供更准确的结果。默认为假。
   toLower = false
-
+    # Hugo 将根据这些定义的索引项来计算哪些内容是相关的。
     [[related.indices]]
         name = "tags"
+        # 权重值，用于表示每个索引项在计算相关性时的重要性。较高的权重值表示该项对相关性的影响更大。
         weight = 100
 
     [[related.indices]]
@@ -62,7 +81,9 @@ buildFuture = false
         weight = 10
 
     [[related.indices]]
+    # （可选）：表示是否应用过滤器。false 表示不应用过滤器，即使片段中定义的内容也将被包含在相关性计算中。
       applyFilter = false
+      # 特定于片段类型的索引，类型为 fragments，这通常包含页面中定义的特定片段（例如：标题）。
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
