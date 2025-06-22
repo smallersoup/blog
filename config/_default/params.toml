@@ -225,9 +225,9 @@ smartTOCHideUnfocusedChildren = false
   # Umami Analytics 为网站生成的站点代码
   websiteid = "f5c28d4b-4ab0-4edc-be58-1ecbe88bfbf5"
   # 如果将自定义域与 Umami Analytics 一起使用，请在此处提供它以从自定义域提供 script.js
-  domain = "umami.kubeinfo.cn"
+  #domain = "umami.kubeinfo.cn"
   # 用于反广告拦截的 script.js 的名称由环境变量 TRACKER_SCRIPT_NAME 配置
-  scriptName = "oishii"
+  #scriptName = "oishii"
 
 [buymeacoffee]
   # 目标 buymeacoffee 帐户的标识符
