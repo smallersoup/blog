@@ -1,3 +1,4 @@
+---
 title: kubernetes pod exec接口调用
 date: '2019-10-18 13:30:04'
 updated: '2019-10-18 13:30:04'

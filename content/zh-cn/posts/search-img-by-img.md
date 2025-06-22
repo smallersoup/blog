@@ -3,6 +3,7 @@ keywords:
 - 以图搜图
 - AIGC
 - Towhee
+---
 title: "手把手带你 5 分钟构建以图搜图系统..."
 date: 2021-09-15T05:15:34Z
 lastmod: 2021-09-15T05:15:34Z
@@ -450,7 +451,8 @@ iface = gr.Interface(
     # inputs=gr.inputs.File(type="file"),
     inputs=gr.inputs.Textbox(default='test/goldfish/*.JPEG'),
     outputs=gr.Gallery(label="最终的结果图片").style(height='auto', columns=4),
-    title='Tencent vector db 案例: 以图搜图',
+    ---
+title='Tencent vector db 案例: 以图搜图',
 )
 iface.launch()
 ```

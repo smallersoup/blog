@@ -1,3 +1,4 @@
+---
 title: java图形验证码实现
 date: '2019-10-17 17:59:04'
 updated: '2019-10-17 18:00:18'
@@ -88,10 +89,12 @@ html中添加验证码标签，并绑定javascript事件：
 <li class="align-top">
  <div class="item-content">
    <div class="item-inner">
-     <div class="item-title label">验证码</div>
+     <div class="item----
+title label">验证码</div>
      <input type="text" id="j_captcha" placeholder="验证码">
        <div class="item-input">
-         <img id="captcha_img" alt="点击更换" title="点击更换" src="../Kaptcha"
+         <img id="captcha_img" alt="点击更换" ---
+title="点击更换" src="../Kaptcha"
                                         onclick="changeVerifyCode(this)"/>
        </div>
    </div>

@@ -1,3 +1,4 @@
+---
 title: 自动评论csdn博客文章实现
 date: '2019-10-17 17:52:19'
 updated: '2019-10-17 17:52:19'
@@ -96,7 +97,8 @@ String html = HttpUtils.sendGet("https://blog.csdn.net/");
 
      Document blogDoc = Jsoup.parse(blogHtml);
 
-     Elements blogAs = blogDoc.select(".title").select("h2").select("a");
+     Elements blogAs = blogDoc.select(".---
+title").select("h2").select("a");
 
      System.out.println(blogAs);
      blogList.add(blogAs);
@@ -132,15 +134,22 @@ String html = HttpUtils.sendGet("https://blog.csdn.net/");
          System.out.println(blog.text() + "------------" + blog.attr("href"));
 
          Document blogDoc = Jsoup.parse(blogHtml);
-         Elements titleAs = blogDoc.select(".title-box").select("a");
+         Elements ---
+titleAs = blogDoc.select(".---
+title-box").select("a");
 
-         System.out.println(titleAs);
+         System.out.println(---
+titleAs);
 
-         if (titleAs != null && !titleAs.isEmpty()) {
+         if (---
+titleAs != null && !---
+titleAs.isEmpty()) {
            // 评论请求url前缀
-           String commitPrefixUrl = titleAs.get(0).attr("href");
+           String commitPrefixUrl = ---
+titleAs.get(0).attr("href");
            //
-           System.out.println(titleAs.text() + "-----------" + commitPrefixUrl);
+           System.out.println(---
+titleAs.text() + "-----------" + commitPrefixUrl);
 
            // 拼接评论请求url
            String commitUrl = commitPrefixUrl + "/phoenix/comment/submit?id=" + commitSuffixUrl;

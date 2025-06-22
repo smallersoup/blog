@@ -1,3 +1,4 @@
+---
 title: 开发一个operator扩展kubernetes的能力
 date: '2019-10-18 13:31:08'
 updated: '2019-10-18 13:31:08'

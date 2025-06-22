@@ -1,3 +1,4 @@
+---
 title: 搭建博客时，被mysql的sql_mode中ONLY_FULL_GROUP_BY坑倒了
 date: '2019-11-03 09:54:58'
 updated: '2019-11-03 09:54:58'

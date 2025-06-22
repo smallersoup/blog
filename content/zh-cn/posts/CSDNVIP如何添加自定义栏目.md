@@ -1,3 +1,4 @@
+---
 title: CSDN VIP如何添加自定义栏目
 date: '2019-10-17 14:33:49'
 updated: '2019-10-17 14:33:49'
@@ -35,7 +36,8 @@ permalink: /201910171433blog
 ```html
 <div>
     <p><strong>公众号</strong></p>
-    <img src="http://www.liabio.cn/img/me/gongzhonghao-ercode.jpg" alt="长按识别二维码关注,精彩第一时间送达" title="长按识别二维码关注,精彩第一时间送达" height="100%" width="100%">
+    <img src="http://www.liabio.cn/img/me/gongzhonghao-ercode.jpg" alt="长按识别二维码关注,精彩第一时间送达" ---
+title="长按识别二维码关注,精彩第一时间送达" height="100%" width="100%">
     <marquee><font color=" red">欢迎扫码关注！ </font></marquee>
 </div>
 ```
@@ -53,7 +55,8 @@ permalink: /201910171433blog
     </ul>
     
     <ul class="panel_head">
-        <span><a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=1a08adf5d7f9d49a2a83bb0d3b4acf0e94554895e12dc657ecfb88d706d82673"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="程序员实战" title="程序员实战"></a></span>
+        <span><a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=1a08adf5d7f9d49a2a83bb0d3b4acf0e94554895e12dc657ecfb88d706d82673"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="程序员实战" ---
+title="程序员实战"></a></span>
     </ul>
     <ul class="panel_head">
         <span><a target="_blank" href="https://github.com/liabio">☞ github.com/liabio</a></span>
@@ -86,7 +89,8 @@ permalink: /201910171433blog
 ```html
 <div>
     <p><strong>欢迎打赏和提问</strong></p>
-    <img src="http://www.liabio.cn/img/fee-say2.png" alt="长按识别提问码 向我提问" title="长按识别提问码 向我提问" height="100%" width="100%">
+    <img src="http://www.liabio.cn/img/fee-say2.png" alt="长按识别提问码 向我提问" ---
+title="长按识别提问码 向我提问" height="100%" width="100%">
 </div>
 ```
 
@@ -100,7 +104,8 @@ permalink: /201910171433blog
 <div>
     <p><strong>扫码打赏</strong></p>
     <br>
-    <img src="http://www.liabio.cn/img/wechat-zhifubao-QR.png" alt="长按识别 微信|支付宝打赏通用" title="长按识别 微信|支付宝打赏通用" height="100%" width="100%">
+    <img src="http://www.liabio.cn/img/wechat-zhifubao-QR.png" alt="长按识别 微信|支付宝打赏通用" ---
+title="长按识别 微信|支付宝打赏通用" height="100%" width="100%">
 </div>
 ```
 
@@ -112,7 +117,8 @@ permalink: /201910171433blog
     <div class="aside-content clearfix">
         <div>
              <p><strong>公众号</strong></p>
-             <img src="http://www.liabio.cn/img/me/gongzhonghao-ercode.jpg" alt="长按识别二维码关注,精彩第一时间送达" title="长按识别二维码关注,精彩第一时间送达" height="100%" width="100%">
+             <img src="http://www.liabio.cn/img/me/gongzhonghao-ercode.jpg" alt="长按识别二维码关注,精彩第一时间送达" ---
+title="长按识别二维码关注,精彩第一时间送达" height="100%" width="100%">
              <marquee><font color=" red">欢迎扫码关注！ </font></marquee>
         </div>
         <br>
@@ -125,7 +131,8 @@ permalink: /201910171433blog
             </ul>
             
             <ul class="panel_head">
-                <span><a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=1a08adf5d7f9d49a2a83bb0d3b4acf0e94554895e12dc657ecfb88d706d82673"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="程序员实战" title="程序员实战"></a></span>
+                <span><a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=1a08adf5d7f9d49a2a83bb0d3b4acf0e94554895e12dc657ecfb88d706d82673"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="程序员实战" ---
+title="程序员实战"></a></span>
             </ul>
             <ul class="panel_head">
                 <span><a target="_blank" href="https://github.com/liabio">☞ github.com/liabio</a></span>
@@ -147,12 +154,14 @@ permalink: /201910171433blog
 
         <div>
             <p><strong>欢迎打赏和提问</strong></p>
-            <img src="http://www.liabio.cn/img/fee-say2.png" alt="长按识别提问码 向我提问" title="长按识别提问码 向我提问" height="100%" width="100%">
+            <img src="http://www.liabio.cn/img/fee-say2.png" alt="长按识别提问码 向我提问" ---
+title="长按识别提问码 向我提问" height="100%" width="100%">
         </div>
         <br>
         <div>
             <p><strong>扫码打赏</strong></p>
-            <img src="http://www.liabio.cn/img/wechat-zhifubao-QR.png" alt="长按识别 微信|支付宝打赏通用" title="长按识别 微信|支付宝打赏通用" height="100%" width="100%">
+            <img src="http://www.liabio.cn/img/wechat-zhifubao-QR.png" alt="长按识别 微信|支付宝打赏通用" ---
+title="长按识别 微信|支付宝打赏通用" height="100%" width="100%">
         </div>
     </div>
 </div>

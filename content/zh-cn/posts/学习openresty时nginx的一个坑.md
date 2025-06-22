@@ -1,3 +1,4 @@
+---
 title: 学习openresty时，nginx的一个坑
 date: '2019-10-18 13:34:48'
 updated: '2019-10-18 13:34:48'

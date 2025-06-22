@@ -1,3 +1,4 @@
+---
 title: nginx学习之模块
 date: '2019-10-18 13:09:03'
 updated: '2019-10-18 13:09:03'
@@ -89,7 +90,9 @@ black.html   green.html   red.html
 <html>
 <head>
       <meta charset="utf-8"/>
-      <title>nginx-test</title>
+      <---
+title>nginx-test</---
+title>
 </head>
 
 <body style="background-color:red;">
@@ -138,7 +141,9 @@ Context：http、server、location下配置
 <html>
 <head>
        <meta charset="utf-8"/>
-       <title>nginx-test</title>
+       <---
+title>nginx-test</---
+title>
 </head>
 <body>
        <h2>smallsoup test tomcat test tomcat </h2>
