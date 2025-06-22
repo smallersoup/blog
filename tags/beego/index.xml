@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Beego on 进击云原生</title><link>https://kubeinfo.cn/tags/beego/</link><description>Recent content in Beego on 进击云原生</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 18 Oct 2019 13:00:25 +0000</lastBuildDate><atom:link href="https://kubeinfo.cn/tags/beego/index.xml" rel="self" type="application/rss+xml"/><item><title>Go语言及Beego框架环境搭建</title><link>https://kubeinfo.cn/posts/go%E8%AF%AD%E8%A8%80%E5%8F%8Abeego%E6%A1%86%E6%9E%B6%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link><pubDate>Fri, 18 Oct 2019 13:00:25 +0000</pubDate><guid>https://kubeinfo.cn/posts/go%E8%AF%AD%E8%A8%80%E5%8F%8Abeego%E6%A1%86%E6%9E%B6%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid><description>&lt;p>在开始环境搭建之前，我们先一起来看看：&lt;/p>
+&lt;p>&lt;strong>Go有什么优势：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>不用虚拟机，它可直接编译成机器码，除了glibc外没有其他外部依赖，部署十分方便，就是扔一个文件就完成了。&lt;/p></description></item><item><title>一个神秘现象引发对beego框架的思考</title><link>https://kubeinfo.cn/posts/%E4%B8%80%E4%B8%AA%E7%A5%9E%E7%A7%98%E7%8E%B0%E8%B1%A1%E5%BC%95%E5%8F%91%E5%AF%B9beego%E6%A1%86%E6%9E%B6%E7%9A%84%E6%80%9D%E8%80%83/</link><pubDate>Fri, 18 Oct 2019 12:57:23 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E4%B8%80%E4%B8%AA%E7%A5%9E%E7%A7%98%E7%8E%B0%E8%B1%A1%E5%BC%95%E5%8F%91%E5%AF%B9beego%E6%A1%86%E6%9E%B6%E7%9A%84%E6%80%9D%E8%80%83/</guid><description>&lt;p>小强最近在项目中遇到了一个很奇怪的问题：在整改日志规范时，为了避免影响现有的代码结构以及改动尽可能小的前提下，在调用记日志的SDK处将某一个字段值首字母改为大写，代码示例如下：&lt;/p></description></item><item><title>beego与curl三件事</title><link>https://kubeinfo.cn/posts/beego%E4%B8%8Ecurl%E4%B8%89%E4%BB%B6%E4%BA%8B/</link><pubDate>Thu, 17 Oct 2019 15:23:44 +0000</pubDate><guid>https://kubeinfo.cn/posts/beego%E4%B8%8Ecurl%E4%B8%89%E4%BB%B6%E4%BA%8B/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190706.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>今天来看三件事：&lt;/p></description></item></channel></rss>

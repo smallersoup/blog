@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CKA on 进击云原生</title><link>https://kubeinfo.cn/tags/cka/</link><description>Recent content in CKA on 进击云原生</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 21 Nov 2019 22:56:55 +0000</lastBuildDate><atom:link href="https://kubeinfo.cn/tags/cka/index.xml" rel="self" type="application/rss+xml"/><item><title>备战CKA每日一题——第3天 | 对接CSI存储知识</title><link>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC3%E5%A4%A9%E5%AF%B9%E6%8E%A5csi%E5%AD%98%E5%82%A8%E7%9F%A5%E8%AF%86/</link><pubDate>Thu, 21 Nov 2019 22:56:55 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC3%E5%A4%A9%E5%AF%B9%E6%8E%A5csi%E5%AD%98%E5%82%A8%E7%9F%A5%E8%AF%86/</guid><description>&lt;blockquote>
+&lt;p>本活动在微信公众号【我的小碗汤】上举行，这里参与答题无效哦！&lt;/p>&lt;/blockquote>
+&lt;h2 class="relative group">昨日考题
+&lt;div id="昨日考题" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%98%a8%e6%97%a5%e8%80%83%e9%a2%98" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>在Kubernetes PVC+PV体系下通过CSI实现的volume plugins动态创建pv到pv可被pod使用有哪些组件需要参与？&lt;/p></description></item><item><title>CKA概述、考试形式、考试地址、考纲占比等</title><link>https://kubeinfo.cn/posts/cka%E6%A6%82%E8%BF%B0%E8%80%83%E8%AF%95%E5%BD%A2%E5%BC%8F%E8%80%83%E8%AF%95%E5%9C%B0%E5%9D%80%E8%80%83%E7%BA%B2%E5%8D%A0%E6%AF%94%E7%AD%89/</link><pubDate>Thu, 21 Nov 2019 22:53:38 +0000</pubDate><guid>https://kubeinfo.cn/posts/cka%E6%A6%82%E8%BF%B0%E8%80%83%E8%AF%95%E5%BD%A2%E5%BC%8F%E8%80%83%E8%AF%95%E5%9C%B0%E5%9D%80%E8%80%83%E7%BA%B2%E5%8D%A0%E6%AF%94%E7%AD%89/</guid><description>&lt;h2 class="relative group">CKA概述
+&lt;div id="cka概述" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#cka%e6%a6%82%e8%bf%b0" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>认证Kubernetes管理员（CKA）计划由Linux基金会和云原生计算基金会（CNCF）创建，作为他们为帮助开发Kubernetes生态系统而不断努力的一部分。作为速度最快的开源项目之一，Kubernetes的使用正在爆炸式增长。&lt;/p></description></item><item><title>备战CKA每日一题——第2天 | Daemonset、对接存储CSI知识点</title><link>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC2%E5%A4%A9daemonset%E5%AF%B9%E6%8E%A5%E5%AD%98%E5%82%A8csi%E7%9F%A5%E8%AF%86%E7%82%B9/</link><pubDate>Tue, 19 Nov 2019 09:54:46 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC2%E5%A4%A9daemonset%E5%AF%B9%E6%8E%A5%E5%AD%98%E5%82%A8csi%E7%9F%A5%E8%AF%86%E7%82%B9/</guid><description>&lt;blockquote>
+&lt;p>本活动在微信公众号【我的小碗汤】上举行，这里参与答题无效哦！&lt;/p>&lt;/blockquote>
+&lt;p>&lt;strong>接上一篇&lt;a href="https://liabio.blog.csdn.net/article/details/103126903" target="_blank">备战CKA每日一题——第1天&lt;/a>&lt;/strong>&lt;/p></description></item><item><title>备战CKA每日一题——第1天 | CKA简介、考纲、Daemonset知识知识点初探</title><link>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC1%E5%A4%A9cka%E7%AE%80%E4%BB%8B%E8%80%83%E7%BA%B2daemonset%E7%9F%A5%E8%AF%86%E7%9F%A5%E8%AF%86%E7%82%B9%E5%88%9D%E6%8E%A2/</link><pubDate>Tue, 19 Nov 2019 09:52:40 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC1%E5%A4%A9cka%E7%AE%80%E4%BB%8B%E8%80%83%E7%BA%B2daemonset%E7%9F%A5%E8%AF%86%E7%9F%A5%E8%AF%86%E7%82%B9%E5%88%9D%E6%8E%A2/</guid><description>&lt;blockquote>
+&lt;p>本活动在微信公众号【我的小碗汤】上举行，有送书活动！这里参与答题不能参与到送书活动哦！&lt;/p></description></item></channel></rss>

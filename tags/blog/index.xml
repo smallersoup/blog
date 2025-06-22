@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on 进击云原生</title><link>https://kubeinfo.cn/tags/blog/</link><description>Recent content in Blog on 进击云原生</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 03 Nov 2019 09:54:58 +0000</lastBuildDate><atom:link href="https://kubeinfo.cn/tags/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>搭建博客时，被mysql的sql_mode中ONLY_FULL_GROUP_BY坑倒了</title><link>https://kubeinfo.cn/posts/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%97%B6%E8%A2%ABmysql%E7%9A%84sqlmode%E4%B8%ADonlyfullgroupby%E5%9D%91%E5%80%92%E4%BA%86/</link><pubDate>Sun, 03 Nov 2019 09:54:58 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%97%B6%E8%A2%ABmysql%E7%9A%84sqlmode%E4%B8%ADonlyfullgroupby%E5%9D%91%E5%80%92%E4%BA%86/</guid><description>&lt;h2 class="relative group">1、背景
+&lt;div id="1背景" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#1%e8%83%8c%e6%99%af" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>前两天在阿里云服务器上搭建了自己的博客，一切都很顺利，今天在点击归档按钮时，发现是报404。于是我把solo代码在本地运行起来，用本地的mysql数据库，看是否有同样的问题，结果是可以正常访问的。那就看看服务器上的solo日志呗，结果发现了以下报错：&lt;/p></description></item><item><title>5分钟搭建个博客玩玩</title><link>https://kubeinfo.cn/posts/5%E5%88%86%E9%92%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%8E%A9%E7%8E%A9/</link><pubDate>Thu, 24 Oct 2019 23:06:39 +0000</pubDate><guid>https://kubeinfo.cn/posts/5%E5%88%86%E9%92%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%8E%A9%E7%8E%A9/</guid><description>&lt;p>大家都知道最近阿里云服务器很便宜火爆，于是小编也入手了一台3年的，配置：1核2G内存，40G硬盘。&lt;/p></description></item><item><title>5分钟搭建个博客玩玩</title><link>https://kubeinfo.cn/posts/title-5%E5%88%86%E9%92%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%8E%A9%E7%8E%A9/</link><pubDate>Thu, 24 Oct 2019 23:06:39 +0000</pubDate><guid>https://kubeinfo.cn/posts/title-5%E5%88%86%E9%92%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%8E%A9%E7%8E%A9/</guid><description>&lt;p>大家都知道最近阿里云服务器很便宜火爆，于是小编也入手了一台3年的，配置：1核2G内存，40G硬盘。&lt;/p></description></item><item><title>github怎么绑定自己的域名？以及怎么支持https？</title><link>https://kubeinfo.cn/posts/github%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9F%9F%E5%90%8D%E4%BB%A5%E5%8F%8A%E6%80%8E%E4%B9%88%E6%94%AF%E6%8C%81https/</link><pubDate>Sun, 20 Oct 2019 21:49:14 +0000</pubDate><guid>https://kubeinfo.cn/posts/github%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9F%9F%E5%90%8D%E4%BB%A5%E5%8F%8A%E6%80%8E%E4%B9%88%E6%94%AF%E6%8C%81https/</guid><description>&lt;blockquote>
+&lt;p>作者：严晟嘉&lt;br />
+链接：https://www.zhihu.com/question/31377141/answer/103056861&lt;/p></description></item><item><title>自动评论csdn博客文章实现</title><link>https://kubeinfo.cn/posts/%E8%87%AA%E5%8A%A8%E8%AF%84%E8%AE%BAcsdn%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E5%AE%9E%E7%8E%B0/</link><pubDate>Thu, 17 Oct 2019 17:52:19 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E8%87%AA%E5%8A%A8%E8%AF%84%E8%AE%BAcsdn%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E5%AE%9E%E7%8E%B0/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20181123.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>我们来用java代码爬取csdn博客网站，然后自动评论，这一波操作可以说是相当风骚了，话不多说，咱上代码。&lt;/p></description></item><item><title>CSDN VIP如何添加自定义栏目</title><link>https://kubeinfo.cn/posts/csdnvip%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A0%8F%E7%9B%AE/</link><pubDate>Thu, 17 Oct 2019 14:33:49 +0000</pubDate><guid>https://kubeinfo.cn/posts/csdnvip%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A0%8F%E7%9B%AE/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180806.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;p>几个月前我也开始在csdn上开了博客，一来给自己加几个少的可怜的流量，再者，让公众号的原创文章获得更多的曝光，让有需要的同学看到。&lt;/p></description></item><item><title>ReadMore 之 cnblogs 博客园使用指南</title><link>https://kubeinfo.cn/posts/readmore%E4%B9%8Bcnblogs%E5%8D%9A%E5%AE%A2%E5%9B%AD%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link><pubDate>Thu, 17 Oct 2019 14:30:32 +0000</pubDate><guid>https://kubeinfo.cn/posts/readmore%E4%B9%8Bcnblogs%E5%8D%9A%E5%AE%A2%E5%9B%AD%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180330.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;p>readmore来源于：https://openwrite.cn/openwrite/openwrite-readmore/&lt;/p></description></item></channel></rss>

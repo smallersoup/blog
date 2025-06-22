@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Springmvc on 进击云原生</title><link>https://kubeinfo.cn/tags/springmvc/</link><description>Recent content in Springmvc on 进击云原生</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 17 Oct 2019 18:03:34 +0000</lastBuildDate><atom:link href="https://kubeinfo.cn/tags/springmvc/index.xml" rel="self" type="application/rss+xml"/><item><title>SpringMVC实现发送邮件</title><link>https://kubeinfo.cn/posts/springmvc%E5%AE%9E%E7%8E%B0%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6/</link><pubDate>Thu, 17 Oct 2019 18:03:34 +0000</pubDate><guid>https://kubeinfo.cn/posts/springmvc%E5%AE%9E%E7%8E%B0%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6/</guid><description>&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>今天来试着用SpringMVC发送邮件，主要需要依赖以下两个包；&lt;/p></description></item><item><title>java这个404你能解决吗？</title><link>https://kubeinfo.cn/posts/java%E8%BF%99%E4%B8%AA404%E4%BD%A0%E8%83%BD%E8%A7%A3%E5%86%B3%E5%90%97/</link><pubDate>Thu, 17 Oct 2019 17:57:03 +0000</pubDate><guid>https://kubeinfo.cn/posts/java%E8%BF%99%E4%B8%AA404%E4%BD%A0%E8%83%BD%E8%A7%A3%E5%86%B3%E5%90%97/</guid><description>&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>今天在tomcat里部署运行了一个小工程，工程结构如下：&lt;/p></description></item></channel></rss>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ingress-Nginx on 进击云原生</title><link>https://kubeinfo.cn/tags/ingress-nginx/</link><description>Recent content in Ingress-Nginx on 进击云原生</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 17 Oct 2019 14:46:13 +0000</lastBuildDate><atom:link href="https://kubeinfo.cn/tags/ingress-nginx/index.xml" rel="self" type="application/rss+xml"/><item><title>k8s中负载均衡器【ingress-nginx】部署</title><link>https://kubeinfo.cn/posts/k8s%E4%B8%AD%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E5%99%A8ingressnginx%E9%83%A8%E7%BD%B2/</link><pubDate>Thu, 17 Oct 2019 14:46:13 +0000</pubDate><guid>https://kubeinfo.cn/posts/k8s%E4%B8%AD%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E5%99%A8ingressnginx%E9%83%A8%E7%BD%B2/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190422.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;p>在Kubernetes中，服务和Pod的IP地址仅可以在集群网络内部使用，对于集群外的应用是不可见的。为了使外部的应用能够访问集群内的服务，在Kubernetes 目前 提供了以下几种方案：&lt;/p></description></item></channel></rss>

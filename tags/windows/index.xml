@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on 进击云原生</title><link>https://kubeinfo.cn/tags/windows/</link><description>Recent content in Windows on 进击云原生</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 18 Oct 2019 13:30:29 +0000</lastBuildDate><atom:link href="https://kubeinfo.cn/tags/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>连上公司的vpn后，电脑上不了外网解决办法</title><link>https://kubeinfo.cn/posts/%E8%BF%9E%E4%B8%8A%E5%85%AC%E5%8F%B8%E7%9A%84vpn%E5%90%8E%E7%94%B5%E8%84%91%E4%B8%8A%E4%B8%8D%E4%BA%86%E5%A4%96%E7%BD%91%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</link><pubDate>Fri, 18 Oct 2019 13:30:29 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E8%BF%9E%E4%B8%8A%E5%85%AC%E5%8F%B8%E7%9A%84vpn%E5%90%8E%E7%94%B5%E8%84%91%E4%B8%8A%E4%B8%8D%E4%BA%86%E5%A4%96%E7%BD%91%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</guid><description>&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>最近工作需要连接公司的vpn。连接前电脑可以上外网，微信、网页都可以访问，但是连接上vpn后，只能访问公司网络了，这就有点虐了。消息收不到很不方便，也查不了资料。以下来说道说道怎么解决，因为网上查到的一些资料，只有文字，无图导致理解的费劲儿，所以下文有很多图，也对比了vpn各种配置的图，可能会有点啰嗦，还望海涵！&lt;/p></description></item><item><title>一款最好用的windows文件管理器</title><link>https://kubeinfo.cn/posts/%E4%B8%80%E6%AC%BE%E6%9C%80%E5%A5%BD%E7%94%A8%E7%9A%84windows%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%E5%99%A8/</link><pubDate>Thu, 17 Oct 2019 15:33:29 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E4%B8%80%E6%AC%BE%E6%9C%80%E5%A5%BD%E7%94%A8%E7%9A%84windows%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%E5%99%A8/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180704.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>在日常生活或工作中，除了一些文本编辑工具以及网页浏览器以外，我们接触的最多的可能就是资源管理器了。资源管理器软件有很多。如：&lt;/p></description></item></channel></rss>

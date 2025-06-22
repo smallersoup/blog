@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Openresty on 进击云原生</title><link>https://kubeinfo.cn/tags/openresty/</link><description>Recent content in Openresty on 进击云原生</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 18 Oct 2019 13:34:48 +0000</lastBuildDate><atom:link href="https://kubeinfo.cn/tags/openresty/index.xml" rel="self" type="application/rss+xml"/><item><title>学习openresty时，nginx的一个坑</title><link>https://kubeinfo.cn/posts/%E5%AD%A6%E4%B9%A0openresty%E6%97%B6nginx%E7%9A%84%E4%B8%80%E4%B8%AA%E5%9D%91/</link><pubDate>Fri, 18 Oct 2019 13:34:48 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%AD%A6%E4%B9%A0openresty%E6%97%B6nginx%E7%9A%84%E4%B8%80%E4%B8%AA%E5%9D%91/</guid><description>&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;h4 class="relative group">报错：
+&lt;div id="报错" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%8a%a5%e9%94%99" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h4>
+&lt;p>nginx: [error] CreateFile() &amp;ldquo;./logs/nginx.pid&amp;rdquo; failed (2: The system cannot find the file specified)&lt;/p></description></item></channel></rss>

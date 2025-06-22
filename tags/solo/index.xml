@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Solo on 进击云原生</title><link>https://kubeinfo.cn/tags/solo/</link><description>Recent content in Solo on 进击云原生</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 16 Oct 2019 20:53:35 +0000</lastBuildDate><atom:link href="https://kubeinfo.cn/tags/solo/index.xml" rel="self" type="application/rss+xml"/><item><title>世界，你好！</title><link>https://kubeinfo.cn/posts/%E4%B8%96%E7%95%8C%E4%BD%A0%E5%A5%BD/</link><pubDate>Wed, 16 Oct 2019 20:53:35 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E4%B8%96%E7%95%8C%E4%BD%A0%E5%A5%BD/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20181206.jpg?imageView2/1/w/1280/h/720/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;p>Solo 博客系统已经初始化完毕，可在管理后台 - 工具 - 偏好设定中调整更多细节设置。如果需要导入已有博客文章，请参考文档 &lt;a href="https://hacpai.com/article/1498490209748" target="_blank">Hexo/Jekyll/Markdown 文件导入&lt;/a>。&lt;/p></description></item></channel></rss>

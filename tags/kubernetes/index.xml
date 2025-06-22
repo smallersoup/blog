@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kubernetes on 进击云原生</title><link>https://kubeinfo.cn/tags/kubernetes/</link><description>Recent content in Kubernetes on 进击云原生</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 21 Nov 2019 22:56:55 +0000</lastBuildDate><atom:link href="https://kubeinfo.cn/tags/kubernetes/index.xml" rel="self" type="application/rss+xml"/><item><title>备战CKA每日一题——第3天 | 对接CSI存储知识</title><link>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC3%E5%A4%A9%E5%AF%B9%E6%8E%A5csi%E5%AD%98%E5%82%A8%E7%9F%A5%E8%AF%86/</link><pubDate>Thu, 21 Nov 2019 22:56:55 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC3%E5%A4%A9%E5%AF%B9%E6%8E%A5csi%E5%AD%98%E5%82%A8%E7%9F%A5%E8%AF%86/</guid><description>&lt;blockquote>
+&lt;p>本活动在微信公众号【我的小碗汤】上举行，这里参与答题无效哦！&lt;/p>&lt;/blockquote>
+&lt;h2 class="relative group">昨日考题
+&lt;div id="昨日考题" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%98%a8%e6%97%a5%e8%80%83%e9%a2%98" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>在Kubernetes PVC+PV体系下通过CSI实现的volume plugins动态创建pv到pv可被pod使用有哪些组件需要参与？&lt;/p></description></item><item><title>CKA概述、考试形式、考试地址、考纲占比等</title><link>https://kubeinfo.cn/posts/cka%E6%A6%82%E8%BF%B0%E8%80%83%E8%AF%95%E5%BD%A2%E5%BC%8F%E8%80%83%E8%AF%95%E5%9C%B0%E5%9D%80%E8%80%83%E7%BA%B2%E5%8D%A0%E6%AF%94%E7%AD%89/</link><pubDate>Thu, 21 Nov 2019 22:53:38 +0000</pubDate><guid>https://kubeinfo.cn/posts/cka%E6%A6%82%E8%BF%B0%E8%80%83%E8%AF%95%E5%BD%A2%E5%BC%8F%E8%80%83%E8%AF%95%E5%9C%B0%E5%9D%80%E8%80%83%E7%BA%B2%E5%8D%A0%E6%AF%94%E7%AD%89/</guid><description>&lt;h2 class="relative group">CKA概述
+&lt;div id="cka概述" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#cka%e6%a6%82%e8%bf%b0" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>认证Kubernetes管理员（CKA）计划由Linux基金会和云原生计算基金会（CNCF）创建，作为他们为帮助开发Kubernetes生态系统而不断努力的一部分。作为速度最快的开源项目之一，Kubernetes的使用正在爆炸式增长。&lt;/p></description></item><item><title>备战CKA每日一题——第2天 | Daemonset、对接存储CSI知识点</title><link>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC2%E5%A4%A9daemonset%E5%AF%B9%E6%8E%A5%E5%AD%98%E5%82%A8csi%E7%9F%A5%E8%AF%86%E7%82%B9/</link><pubDate>Tue, 19 Nov 2019 09:54:46 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC2%E5%A4%A9daemonset%E5%AF%B9%E6%8E%A5%E5%AD%98%E5%82%A8csi%E7%9F%A5%E8%AF%86%E7%82%B9/</guid><description>&lt;blockquote>
+&lt;p>本活动在微信公众号【我的小碗汤】上举行，这里参与答题无效哦！&lt;/p>&lt;/blockquote>
+&lt;p>&lt;strong>接上一篇&lt;a href="https://liabio.blog.csdn.net/article/details/103126903" target="_blank">备战CKA每日一题——第1天&lt;/a>&lt;/strong>&lt;/p></description></item><item><title>备战CKA每日一题——第1天 | CKA简介、考纲、Daemonset知识知识点初探</title><link>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC1%E5%A4%A9cka%E7%AE%80%E4%BB%8B%E8%80%83%E7%BA%B2daemonset%E7%9F%A5%E8%AF%86%E7%9F%A5%E8%AF%86%E7%82%B9%E5%88%9D%E6%8E%A2/</link><pubDate>Tue, 19 Nov 2019 09:52:40 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC1%E5%A4%A9cka%E7%AE%80%E4%BB%8B%E8%80%83%E7%BA%B2daemonset%E7%9F%A5%E8%AF%86%E7%9F%A5%E8%AF%86%E7%82%B9%E5%88%9D%E6%8E%A2/</guid><description>&lt;blockquote>
+&lt;p>本活动在微信公众号【我的小碗汤】上举行，有送书活动！这里参与答题不能参与到送书活动哦！&lt;/p></description></item><item><title>kubernetes垃圾回收器GarbageCollector源码分析</title><link>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/</link><pubDate>Tue, 22 Oct 2019 10:57:26 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/</guid><description>&lt;h1 class="relative group">kubernetes垃圾回收器GarbageCollector 源码分析
+&lt;div id="kubernetes垃圾回收器garbagecollector-源码分析" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#kubernetes%e5%9e%83%e5%9c%be%e5%9b%9e%e6%94%b6%e5%99%a8garbagecollector-%e6%ba%90%e7%a0%81%e5%88%86%e6%9e%90" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h1>
+&lt;blockquote>
+&lt;p>&lt;strong>kubernetes版本：1.13.2&lt;/strong>&lt;/p></description></item><item><title>kubernetes垃圾回收器GarbageCollector 源码分析（三）</title><link>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B8%89/</link><pubDate>Mon, 21 Oct 2019 17:40:11 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B8%89/</guid><description>&lt;blockquote>
+&lt;p>&lt;strong>kubernetes版本：1.13.2&lt;/strong>&lt;/p>&lt;/blockquote>
+&lt;p>接前两节：&lt;br />
+&lt;a href="https://liabio.blog.csdn.net/article/details/100081941" target="_blank">kubernetes垃圾回收器GarbageCollector Controller源码分析（一）&lt;/a>&lt;br />
+&lt;a href="https://liabio.blog.csdn.net/article/details/100549251" target="_blank">kubernetes垃圾回收器GarbageCollector Controller源码分析（二）&lt;/a>&lt;/p></description></item><item><title>kubernetes自定义资源对象高级功能</title><link>https://kubeinfo.cn/posts/kubernetes%E8%87%AA%E5%AE%9A%E4%B9%89%E8%B5%84%E6%BA%90%E5%AF%B9%E8%B1%A1%E9%AB%98%E7%BA%A7%E5%8A%9F%E8%83%BD/</link><pubDate>Fri, 18 Oct 2019 13:33:34 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubernetes%E8%87%AA%E5%AE%9A%E4%B9%89%E8%B5%84%E6%BA%90%E5%AF%B9%E8%B1%A1%E9%AB%98%E7%BA%A7%E5%8A%9F%E8%83%BD/</guid><description>&lt;p>kubernetes自定义资源对象再极大程度提高了API Server的可扩展性，让企业能够根据业务需求通过CRD编写controller或者operator来实现生产中各种特殊场景。随着k8s的版本升级，CRD的功能也越来越完善，下面对其中几点进行说明。&lt;/p></description></item><item><title>史上最全k8s必学必会知识梳理</title><link>https://kubeinfo.cn/posts/%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%85%A8k8s%E5%BF%85%E5%AD%A6%E5%BF%85%E4%BC%9A%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86/</link><pubDate>Fri, 18 Oct 2019 13:32:28 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%85%A8k8s%E5%BF%85%E5%AD%A6%E5%BF%85%E4%BC%9A%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86/</guid><description>&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>&lt;strong>kube-apiserver&lt;/strong>&lt;/p></description></item><item><title>kube-scheduler调度扩展</title><link>https://kubeinfo.cn/posts/kubescheduler%E8%B0%83%E5%BA%A6%E6%89%A9%E5%B1%95/</link><pubDate>Fri, 18 Oct 2019 13:31:42 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubescheduler%E8%B0%83%E5%BA%A6%E6%89%A9%E5%B1%95/</guid><description>&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>Kubernetes 自带了一个默认调度器kube-scheduler，其内置了很多节点预选和优选的调度算法，一般调度场景下可以满足要求。但是在一些特殊场景下，默认调度器不能满足我们复杂的调度需求。我们就需要对调度器进行扩展，以达到调度适合业务场景的目的。&lt;/p></description></item><item><title>开发一个operator扩展kubernetes的能力</title><link>https://kubeinfo.cn/posts/%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AAoperator%E6%89%A9%E5%B1%95kubernetes%E7%9A%84%E8%83%BD%E5%8A%9B/</link><pubDate>Fri, 18 Oct 2019 13:31:08 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AAoperator%E6%89%A9%E5%B1%95kubernetes%E7%9A%84%E8%83%BD%E5%8A%9B/</guid><description>&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>Operator 是 CoreOS 推出的旨在简化复杂有状态应用管理，它是一个感知应用状态的控制器，通过扩展 Kubernetes API 来自动创建、管理和配置应用实例。 Operator 基于 CRD 扩展资源对象，并通过控制器来保证应用处于预期状态。&lt;/p></description></item><item><title>kubernetes pod exec接口调用</title><link>https://kubeinfo.cn/posts/kubernetespodexec%E6%8E%A5%E5%8F%A3%E8%B0%83%E7%94%A8/</link><pubDate>Fri, 18 Oct 2019 13:30:04 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubernetespodexec%E6%8E%A5%E5%8F%A3%E8%B0%83%E7%94%A8/</guid><description>&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>一般生产环境上由于网络安全策略，大多数端口是不能为集群外部访问的。多个集群之间一般都是通过k8s的ApiServer组件提供的接口通信，如https://192.168.1.101:6443。所以在做云平台时，集群管理平台（雅称：观云台）需要操作其他集群的资源对象时，必然也得通过ApiServer。&lt;/p></description></item><item><title>k8s自定义资源类型代码自动生成</title><link>https://kubeinfo.cn/posts/k8s%E8%87%AA%E5%AE%9A%E4%B9%89%E8%B5%84%E6%BA%90%E7%B1%BB%E5%9E%8B%E4%BB%A3%E7%A0%81%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90/</link><pubDate>Fri, 18 Oct 2019 13:29:09 +0000</pubDate><guid>https://kubeinfo.cn/posts/k8s%E8%87%AA%E5%AE%9A%E4%B9%89%E8%B5%84%E6%BA%90%E7%B1%BB%E5%9E%8B%E4%BB%A3%E7%A0%81%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90/</guid><description>&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>用以下命令生成代码：&lt;/p></description></item><item><title>kube-apiserver审计日志记录和采集</title><link>https://kubeinfo.cn/posts/kubeapiserver%E5%AE%A1%E8%AE%A1%E6%97%A5%E5%BF%97%E8%AE%B0%E5%BD%95%E5%92%8C%E9%87%87%E9%9B%86/</link><pubDate>Fri, 18 Oct 2019 13:03:22 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubeapiserver%E5%AE%A1%E8%AE%A1%E6%97%A5%E5%BF%97%E8%AE%B0%E5%BD%95%E5%92%8C%E9%87%87%E9%9B%86/</guid><description>&lt;p>Kubernetes 审计功能提供了与安全相关的按时间顺序排列的记录集，记录单个用户、管理员或系统其他组件影响系统的活动顺序。它能帮助集群管理员处理以下问题：&lt;/p></description></item><item><title>k8s中负载均衡器【ingress-nginx】部署</title><link>https://kubeinfo.cn/posts/k8s%E4%B8%AD%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E5%99%A8ingressnginx%E9%83%A8%E7%BD%B2/</link><pubDate>Thu, 17 Oct 2019 14:46:13 +0000</pubDate><guid>https://kubeinfo.cn/posts/k8s%E4%B8%AD%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E5%99%A8ingressnginx%E9%83%A8%E7%BD%B2/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190422.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;p>在Kubernetes中，服务和Pod的IP地址仅可以在集群网络内部使用，对于集群外的应用是不可见的。为了使外部的应用能够访问集群内的服务，在Kubernetes 目前 提供了以下几种方案：&lt;/p></description></item><item><title>k8s使用Job执行任务失败了怎么办</title><link>https://kubeinfo.cn/posts/k8s%E4%BD%BF%E7%94%A8job%E6%89%A7%E8%A1%8C%E4%BB%BB%E5%8A%A1%E5%A4%B1%E8%B4%A5%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E/</link><pubDate>Thu, 17 Oct 2019 14:43:07 +0000</pubDate><guid>https://kubeinfo.cn/posts/k8s%E4%BD%BF%E7%94%A8job%E6%89%A7%E8%A1%8C%E4%BB%BB%E5%8A%A1%E5%A4%B1%E8%B4%A5%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180724.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;p>Kubernetes 中使用 Job 和 CronJob 两个资源分别提供了一次性任务和定时任务的特性，这两种对象也使用控制器模型来实现资源的管理，我们在这篇文章来介绍Job执行如果失败了会怎么样呢？&lt;/p></description></item><item><title>采坑指南——k8s域名解析coredns问题排查过程</title><link>https://kubeinfo.cn/posts/%E9%87%87%E5%9D%91%E6%8C%87%E5%8D%97k8s%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90coredns%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5%E8%BF%87%E7%A8%8B/</link><pubDate>Thu, 17 Oct 2019 14:40:05 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E9%87%87%E5%9D%91%E6%8C%87%E5%8D%97k8s%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90coredns%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5%E8%BF%87%E7%A8%8B/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180826.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>前几天，在ucloud上搭建的k8s集群（搭建教程后续会发出）。今天发现域名解析不了。&lt;/p></description></item><item><title>如何批量删除k8s资源对象</title><link>https://kubeinfo.cn/posts/%E5%A6%82%E4%BD%95%E6%89%B9%E9%87%8F%E5%88%A0%E9%99%A4k8s%E8%B5%84%E6%BA%90%E5%AF%B9%E8%B1%A1/</link><pubDate>Thu, 17 Oct 2019 14:38:49 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%A6%82%E4%BD%95%E6%89%B9%E9%87%8F%E5%88%A0%E9%99%A4k8s%E8%B5%84%E6%BA%90%E5%AF%B9%E8%B1%A1/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180630.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;blockquote>
+&lt;p>本文首发于公众号【我的小碗汤】扫描文末二维码关注，一起交流学习&lt;/p></description></item><item><title>kubernetes垃圾回收器GarbageCollector控制器源码分析（二）</title><link>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%8E%A7%E5%88%B6%E5%99%A8%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%BA%8C/</link><pubDate>Wed, 16 Oct 2019 23:29:12 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%8E%A7%E5%88%B6%E5%99%A8%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%BA%8C/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190103.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>kubernetes版本：1.13.2&lt;/strong>&lt;/p>&lt;/blockquote>
+&lt;p>接上一节：&lt;a href="https://liabio.blog.csdn.net/article/details/100081941" target="_blank">kubernetes垃圾回收器GarbageCollector Controller源码分析（一）&lt;/a>&lt;/p></description></item><item><title>kubernetes垃圾回收器GarbageCollector控制器源码分析（一）</title><link>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%8E%A7%E5%88%B6%E5%99%A8%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B8%80/</link><pubDate>Wed, 16 Oct 2019 23:14:24 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%8E%A7%E5%88%B6%E5%99%A8%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B8%80/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190604.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>kubernetes版本：1.13.2&lt;/strong>&lt;/p>&lt;/blockquote>
+&lt;h2 class="relative group">背景
+&lt;div id="背景" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e8%83%8c%e6%99%af" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>由于operator创建的redis集群，在kubernetes apiserver重启后，redis集群被异常删除（包括redis exporter statefulset、redis statefulset）。删除后operator将其重建，重新组建集群，实例IP发生变更（中间件容器化，我们开发了固定IP，当statefulset删除后，IP会被回收），导致创建集群失败，最终集群不可用。&lt;/p></description></item></channel></rss>

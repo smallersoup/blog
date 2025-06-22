@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>短信 on 进击云原生</title><link>https://kubeinfo.cn/tags/%E7%9F%AD%E4%BF%A1/</link><description>Recent content in 短信 on 进击云原生</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 17 Oct 2019 18:01:34 +0000</lastBuildDate><atom:link href="https://kubeinfo.cn/tags/%E7%9F%AD%E4%BF%A1/index.xml" rel="self" type="application/rss+xml"/><item><title>java发送手机验证码实现</title><link>https://kubeinfo.cn/posts/java%E5%8F%91%E9%80%81%E6%89%8B%E6%9C%BA%E9%AA%8C%E8%AF%81%E7%A0%81%E5%AE%9E%E7%8E%B0/</link><pubDate>Thu, 17 Oct 2019 18:01:34 +0000</pubDate><guid>https://kubeinfo.cn/posts/java%E5%8F%91%E9%80%81%E6%89%8B%E6%9C%BA%E9%AA%8C%E8%AF%81%E7%A0%81%E5%AE%9E%E7%8E%B0/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180526.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>今天来用java实现手机验证码的发送。&lt;/p></description></item></channel></rss>

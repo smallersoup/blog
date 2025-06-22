@@ -1,60 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 进击云原生</title><link>https://kubeinfo.cn/posts/</link><description>Recent content in Posts on 进击云原生</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 15 Sep 2021 05:15:34 +0000</lastBuildDate><atom:link href="https://kubeinfo.cn/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>手把手带你 5 分钟构建以图搜图系统...</title><link>https://kubeinfo.cn/posts/search-img-by-img/</link><pubDate>Wed, 15 Sep 2021 05:15:34 +0000</pubDate><guid>https://kubeinfo.cn/posts/search-img-by-img/</guid><description>&lt;h1 class="relative group">手把手带你 5 分钟构建以图搜图系统
-&lt;div id="手把手带你-5-分钟构建以图搜图系统" class="anchor">&lt;/div>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 进击云原生</title><link>https://kubeinfo.cn/posts/</link><description>Recent content in Posts on 进击云原生</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 21 Nov 2019 22:56:55 +0000</lastBuildDate><atom:link href="https://kubeinfo.cn/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>备战CKA每日一题——第3天 | 对接CSI存储知识</title><link>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC3%E5%A4%A9%E5%AF%B9%E6%8E%A5csi%E5%AD%98%E5%82%A8%E7%9F%A5%E8%AF%86/</link><pubDate>Thu, 21 Nov 2019 22:56:55 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC3%E5%A4%A9%E5%AF%B9%E6%8E%A5csi%E5%AD%98%E5%82%A8%E7%9F%A5%E8%AF%86/</guid><description>&lt;blockquote>
+&lt;p>本活动在微信公众号【我的小碗汤】上举行，这里参与答题无效哦！&lt;/p>&lt;/blockquote>
+&lt;h2 class="relative group">昨日考题
+&lt;div id="昨日考题" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%e6%89%8b%e6%8a%8a%e6%89%8b%e5%b8%a6%e4%bd%a0-5-%e5%88%86%e9%92%9f%e6%9e%84%e5%bb%ba%e4%bb%a5%e5%9b%be%e6%90%9c%e5%9b%be%e7%b3%bb%e7%bb%9f" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h1>
-&lt;h2 class="relative group">向量和向量数据库
-&lt;div id="向量和向量数据库" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%e5%90%91%e9%87%8f%e5%92%8c%e5%90%91%e9%87%8f%e6%95%b0%e6%8d%ae%e5%ba%93" aria-label="锚点">#&lt;/a>
+style="text-decoration-line: none !important;" href="#%e6%98%a8%e6%97%a5%e8%80%83%e9%a2%98" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>向量在数学中是一个可以表示多个维度或特性的对象。在我们日常生活中，也可以用来描述一个物体的多个属性。&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/5%E5%88%86%E9%92%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%8E%A9%E7%8E%A9/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/5%E5%88%86%E9%92%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%8E%A9%E7%8E%A9/</guid><description>&lt;h2 class="relative group">title: 5分钟搭建个博客玩玩&lt;br />
-date: &amp;lsquo;2019-10-24 23:06:39&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-26 20:15:18&amp;rsquo;&lt;br />
-tags: [blog]&lt;br />
-permalink: /201910242306blog
-&lt;div id="permalink-201910242306blog" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910242306blog" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>大家都知道最近阿里云服务器很便宜火爆，于是小编也入手了一台3年的，配置：1核2G内存，40G硬盘。&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/beego%E4%B8%8Ecurl%E4%B8%89%E4%BB%B6%E4%BA%8B/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/beego%E4%B8%8Ecurl%E4%B8%89%E4%BB%B6%E4%BA%8B/</guid><description>&lt;h2 class="relative group">title: beego与curl三件事&lt;br />
-date: &amp;lsquo;2019-10-17 15:23:44&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 15:23:44&amp;rsquo;&lt;br />
-tags: [beego, golang, curl]&lt;br />
-permalink: /201910171522beego
-&lt;div id="permalink-201910171522beego" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171522beego" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190706.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/cka%E6%A6%82%E8%BF%B0%E8%80%83%E8%AF%95%E5%BD%A2%E5%BC%8F%E8%80%83%E8%AF%95%E5%9C%B0%E5%9D%80%E8%80%83%E7%BA%B2%E5%8D%A0%E6%AF%94%E7%AD%89/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/cka%E6%A6%82%E8%BF%B0%E8%80%83%E8%AF%95%E5%BD%A2%E5%BC%8F%E8%80%83%E8%AF%95%E5%9C%B0%E5%9D%80%E8%80%83%E7%BA%B2%E5%8D%A0%E6%AF%94%E7%AD%89/</guid><description>&lt;h2 class="relative group">title: CKA概述、考试形式、考试地址、考纲占比等&lt;br />
-date: &amp;lsquo;2019-11-21 22:53:38&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-11-21 22:53:38&amp;rsquo;&lt;br />
-tags: [kubernetes, CKA]&lt;br />
-permalink: /201911212253cka
-&lt;div id="permalink-201911212253cka" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201911212253cka" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;h2 class="relative group">CKA概述
+&lt;p>在Kubernetes PVC+PV体系下通过CSI实现的volume plugins动态创建pv到pv可被pod使用有哪些组件需要参与？&lt;/p></description></item><item><title>CKA概述、考试形式、考试地址、考纲占比等</title><link>https://kubeinfo.cn/posts/cka%E6%A6%82%E8%BF%B0%E8%80%83%E8%AF%95%E5%BD%A2%E5%BC%8F%E8%80%83%E8%AF%95%E5%9C%B0%E5%9D%80%E8%80%83%E7%BA%B2%E5%8D%A0%E6%AF%94%E7%AD%89/</link><pubDate>Thu, 21 Nov 2019 22:53:38 +0000</pubDate><guid>https://kubeinfo.cn/posts/cka%E6%A6%82%E8%BF%B0%E8%80%83%E8%AF%95%E5%BD%A2%E5%BC%8F%E8%80%83%E8%AF%95%E5%9C%B0%E5%9D%80%E8%80%83%E7%BA%B2%E5%8D%A0%E6%AF%94%E7%AD%89/</guid><description>&lt;h2 class="relative group">CKA概述
 &lt;div id="cka概述" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
@@ -62,89 +16,33 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#cka%e6%a6%82%e8%bf%b0" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>认证Kubernetes管理员（CKA）计划由Linux基金会和云原生计算基金会（CNCF）创建，作为他们为帮助开发Kubernetes生态系统而不断努力的一部分。作为速度最快的开源项目之一，Kubernetes的使用正在爆炸式增长。&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/csdnvip%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A0%8F%E7%9B%AE/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/csdnvip%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A0%8F%E7%9B%AE/</guid><description>&lt;h2 class="relative group">title: CSDN VIP如何添加自定义栏目&lt;br />
-date: &amp;lsquo;2019-10-17 14:33:49&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 14:33:49&amp;rsquo;&lt;br />
-tags: [blog]&lt;br />
-permalink: /201910171433blog
-&lt;div id="permalink-201910171433blog" class="anchor">&lt;/div>
+&lt;p>认证Kubernetes管理员（CKA）计划由Linux基金会和云原生计算基金会（CNCF）创建，作为他们为帮助开发Kubernetes生态系统而不断努力的一部分。作为速度最快的开源项目之一，Kubernetes的使用正在爆炸式增长。&lt;/p></description></item><item><title>备战CKA每日一题——第2天 | Daemonset、对接存储CSI知识点</title><link>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC2%E5%A4%A9daemonset%E5%AF%B9%E6%8E%A5%E5%AD%98%E5%82%A8csi%E7%9F%A5%E8%AF%86%E7%82%B9/</link><pubDate>Tue, 19 Nov 2019 09:54:46 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC2%E5%A4%A9daemonset%E5%AF%B9%E6%8E%A5%E5%AD%98%E5%82%A8csi%E7%9F%A5%E8%AF%86%E7%82%B9/</guid><description>&lt;blockquote>
+&lt;p>本活动在微信公众号【我的小碗汤】上举行，这里参与答题无效哦！&lt;/p>&lt;/blockquote>
+&lt;p>&lt;strong>接上一篇&lt;a href="https://liabio.blog.csdn.net/article/details/103126903" target="_blank">备战CKA每日一题——第1天&lt;/a>&lt;/strong>&lt;/p></description></item><item><title>备战CKA每日一题——第1天 | CKA简介、考纲、Daemonset知识知识点初探</title><link>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC1%E5%A4%A9cka%E7%AE%80%E4%BB%8B%E8%80%83%E7%BA%B2daemonset%E7%9F%A5%E8%AF%86%E7%9F%A5%E8%AF%86%E7%82%B9%E5%88%9D%E6%8E%A2/</link><pubDate>Tue, 19 Nov 2019 09:52:40 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC1%E5%A4%A9cka%E7%AE%80%E4%BB%8B%E8%80%83%E7%BA%B2daemonset%E7%9F%A5%E8%AF%86%E7%9F%A5%E8%AF%86%E7%82%B9%E5%88%9D%E6%8E%A2/</guid><description>&lt;blockquote>
+&lt;p>本活动在微信公众号【我的小碗汤】上举行，有送书活动！这里参与答题不能参与到送书活动哦！&lt;/p></description></item><item><title>搭建博客时，被mysql的sql_mode中ONLY_FULL_GROUP_BY坑倒了</title><link>https://kubeinfo.cn/posts/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%97%B6%E8%A2%ABmysql%E7%9A%84sqlmode%E4%B8%ADonlyfullgroupby%E5%9D%91%E5%80%92%E4%BA%86/</link><pubDate>Sun, 03 Nov 2019 09:54:58 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%97%B6%E8%A2%ABmysql%E7%9A%84sqlmode%E4%B8%ADonlyfullgroupby%E5%9D%91%E5%80%92%E4%BA%86/</guid><description>&lt;h2 class="relative group">1、背景
+&lt;div id="1背景" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171433blog" aria-label="锚点">#&lt;/a>
+style="text-decoration-line: none !important;" href="#1%e8%83%8c%e6%99%af" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180806.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/docker%E9%95%9C%E5%83%8F%E5%88%B6%E4%BD%9C%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/docker%E9%95%9C%E5%83%8F%E5%88%B6%E4%BD%9C%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD/</guid><description>&lt;h2 class="relative group">title: docker镜像制作必备技能&lt;br />
-date: &amp;lsquo;2019-10-17 14:18:17&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 14:21:27&amp;rsquo;&lt;br />
-tags: [docker]&lt;br />
-permalink: /articles/2019/10/17/1571293096948.html
-&lt;div id="permalink-articles201910171571293096948html" class="anchor">&lt;/div>
+&lt;p>前两天在阿里云服务器上搭建了自己的博客，一切都很顺利，今天在点击归档按钮时，发现是报404。于是我把solo代码在本地运行起来，用本地的mysql数据库，看是否有同样的问题，结果是可以正常访问的。那就看看服务器上的solo日志呗，结果发现了以下报错：&lt;/p></description></item><item><title>5分钟搭建个博客玩玩</title><link>https://kubeinfo.cn/posts/5%E5%88%86%E9%92%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%8E%A9%E7%8E%A9/</link><pubDate>Thu, 24 Oct 2019 23:06:39 +0000</pubDate><guid>https://kubeinfo.cn/posts/5%E5%88%86%E9%92%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%8E%A9%E7%8E%A9/</guid><description>&lt;p>大家都知道最近阿里云服务器很便宜火爆，于是小编也入手了一台3年的，配置：1核2G内存，40G硬盘。&lt;/p></description></item><item><title>5分钟搭建个博客玩玩</title><link>https://kubeinfo.cn/posts/title-5%E5%88%86%E9%92%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%8E%A9%E7%8E%A9/</link><pubDate>Thu, 24 Oct 2019 23:06:39 +0000</pubDate><guid>https://kubeinfo.cn/posts/title-5%E5%88%86%E9%92%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%8E%A9%E7%8E%A9/</guid><description>&lt;p>大家都知道最近阿里云服务器很便宜火爆，于是小编也入手了一台3年的，配置：1核2G内存，40G硬盘。&lt;/p></description></item><item><title>kubernetes垃圾回收器GarbageCollector源码分析</title><link>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/</link><pubDate>Tue, 22 Oct 2019 10:57:26 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/</guid><description>&lt;h1 class="relative group">kubernetes垃圾回收器GarbageCollector 源码分析
+&lt;div id="kubernetes垃圾回收器garbagecollector-源码分析" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-articles201910171571293096948html" aria-label="锚点">#&lt;/a>
+style="text-decoration-line: none !important;" href="#kubernetes%e5%9e%83%e5%9c%be%e5%9b%9e%e6%94%b6%e5%99%a8garbagecollector-%e6%ba%90%e7%a0%81%e5%88%86%e6%9e%90" aria-label="锚点">#&lt;/a>
 &lt;/span>
-&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180416.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/elasticsearch5.x%E5%88%A0%E9%99%A4%E6%95%B0%E6%8D%AE/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/elasticsearch5.x%E5%88%A0%E9%99%A4%E6%95%B0%E6%8D%AE/</guid><description>&lt;h2 class="relative group">title: ElasticSearch5.x 删除数据&lt;br />
-date: &amp;lsquo;2019-10-18 13:06:55&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:06:55&amp;rsquo;&lt;br />
-tags: [elasticsearch]&lt;br />
-permalink: /201910181306elasticsearch
-&lt;div id="permalink-201910181306elasticsearch" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181306elasticsearch" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>以下测试在elasticsearch5.6.10版本。&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/github%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9F%9F%E5%90%8D%E4%BB%A5%E5%8F%8A%E6%80%8E%E4%B9%88%E6%94%AF%E6%8C%81https/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/github%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9F%9F%E5%90%8D%E4%BB%A5%E5%8F%8A%E6%80%8E%E4%B9%88%E6%94%AF%E6%8C%81https/</guid><description>&lt;h2 class="relative group">title: github怎么绑定自己的域名？以及怎么支持https？&lt;br />
-date: &amp;lsquo;2019-10-20 21:49:14&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-20 21:49:14&amp;rsquo;&lt;br />
-tags: [blog]&lt;br />
-permalink: /201910202149blog
-&lt;div id="permalink-201910202149blog" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910202149blog" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
+&lt;/h1>
 &lt;blockquote>
+&lt;p>&lt;strong>kubernetes版本：1.13.2&lt;/strong>&lt;/p></description></item><item><title>kubernetes垃圾回收器GarbageCollector 源码分析（三）</title><link>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B8%89/</link><pubDate>Mon, 21 Oct 2019 17:40:11 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B8%89/</guid><description>&lt;blockquote>
+&lt;p>&lt;strong>kubernetes版本：1.13.2&lt;/strong>&lt;/p>&lt;/blockquote>
+&lt;p>接前两节：&lt;br />
+&lt;a href="https://liabio.blog.csdn.net/article/details/100081941" target="_blank">kubernetes垃圾回收器GarbageCollector Controller源码分析（一）&lt;/a>&lt;br />
+&lt;a href="https://liabio.blog.csdn.net/article/details/100549251" target="_blank">kubernetes垃圾回收器GarbageCollector Controller源码分析（二）&lt;/a>&lt;/p></description></item><item><title>github怎么绑定自己的域名？以及怎么支持https？</title><link>https://kubeinfo.cn/posts/github%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9F%9F%E5%90%8D%E4%BB%A5%E5%8F%8A%E6%80%8E%E4%B9%88%E6%94%AF%E6%8C%81https/</link><pubDate>Sun, 20 Oct 2019 21:49:14 +0000</pubDate><guid>https://kubeinfo.cn/posts/github%E6%80%8E%E4%B9%88%E7%BB%91%E5%AE%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9F%9F%E5%90%8D%E4%BB%A5%E5%8F%8A%E6%80%8E%E4%B9%88%E6%94%AF%E6%8C%81https/</guid><description>&lt;blockquote>
 &lt;p>作者：严晟嘉&lt;br />
-链接：https://www.zhihu.com/question/31377141/answer/103056861&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/golang%E5%88%9D%E6%8E%A2%E4%B8%8E%E5%91%BD%E4%BB%A4%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/golang%E5%88%9D%E6%8E%A2%E4%B8%8E%E5%91%BD%E4%BB%A4%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/</guid><description>&lt;h2 class="relative group">title: golang初探与命令源码分析&lt;br />
-date: &amp;lsquo;2019-10-18 13:05:47&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:05:47&amp;rsquo;&lt;br />
-tags: [golang]&lt;br />
-permalink: /201910181305golang
-&lt;div id="permalink-201910181305golang" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181305golang" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>前段时间有群友在群里问一个go语言的问题：&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/golang%E8%AE%BE%E7%BD%AEhttpresponse%E5%93%8D%E5%BA%94%E5%A4%B4%E4%B8%8E%E5%9D%91/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/golang%E8%AE%BE%E7%BD%AEhttpresponse%E5%93%8D%E5%BA%94%E5%A4%B4%E4%B8%8E%E5%9D%91/</guid><description>&lt;h2 class="relative group">title: golang 设置 http response 响应头与坑&lt;br />
-date: &amp;lsquo;2019-10-17 18:02:26&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 18:02:26&amp;rsquo;&lt;br />
-tags: [golang]&lt;br />
-permalink: /201910171802golang
-&lt;div id="permalink-201910171802golang" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171802golang" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;h2 class="relative group">正文
+链接：https://www.zhihu.com/question/31377141/answer/103056861&lt;/p></description></item><item><title>学习openresty时，nginx的一个坑</title><link>https://kubeinfo.cn/posts/%E5%AD%A6%E4%B9%A0openresty%E6%97%B6nginx%E7%9A%84%E4%B8%80%E4%B8%AA%E5%9D%91/</link><pubDate>Fri, 18 Oct 2019 13:34:48 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%AD%A6%E4%B9%A0openresty%E6%97%B6nginx%E7%9A%84%E4%B8%80%E4%B8%AA%E5%9D%91/</guid><description>&lt;h2 class="relative group">正文
 &lt;div id="正文" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
@@ -152,43 +50,15 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>&lt;strong>1、 设置WriteHeader的顺序问题&lt;/strong>&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/go%E8%AF%AD%E8%A8%80%E5%8F%8Abeego%E6%A1%86%E6%9E%B6%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/go%E8%AF%AD%E8%A8%80%E5%8F%8Abeego%E6%A1%86%E6%9E%B6%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid><description>&lt;h2 class="relative group">title: Go语言及Beego框架环境搭建&lt;br />
-date: &amp;lsquo;2019-10-18 13:00:25&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:00:25&amp;rsquo;&lt;br />
-tags: [golang, beego]&lt;br />
-permalink: /201910181300golang
-&lt;div id="permalink-201910181300golang" class="anchor">&lt;/div>
+&lt;h4 class="relative group">报错：
+&lt;div id="报错" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181300golang" aria-label="锚点">#&lt;/a>
+style="text-decoration-line: none !important;" href="#%e6%8a%a5%e9%94%99" aria-label="锚点">#&lt;/a>
 &lt;/span>
-&lt;/h2>
-&lt;p>在开始环境搭建之前，我们先一起来看看：&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/go%E8%AF%AD%E8%A8%80%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/go%E8%AF%AD%E8%A8%80%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</guid><description>&lt;h2 class="relative group">title: go语言正则表达式&lt;br />
-date: &amp;lsquo;2019-10-18 12:55:32&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 12:57:45&amp;rsquo;&lt;br />
-tags: [golang, 爬虫]&lt;br />
-permalink: /201910181255golang
-&lt;div id="permalink-201910181255golang" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181255golang" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>我们前两节课爬取珍爱网的时候，用到了很多正则表达式去匹配城市列表、城市、用户信息，其实除了正则表达式去匹配，还可以利用goquery和xpath第三方库匹配有用信息。而我利用了更优雅的正则表达式匹配。下来大概介绍下正则表达式。&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/go%E8%AF%AD%E8%A8%80%E7%94%9F%E6%88%90%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/go%E8%AF%AD%E8%A8%80%E7%94%9F%E6%88%90%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6/</guid><description>&lt;h2 class="relative group">title: go语言生成可执行文件&lt;br />
-date: &amp;lsquo;2019-10-17 14:49:10&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 14:49:10&amp;rsquo;&lt;br />
-tags: [golang]&lt;br />
-permalink: /201910171448golang
-&lt;div id="permalink-201910171448golang" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171448golang" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;h2 class="relative group">正文
+&lt;/h4>
+&lt;p>nginx: [error] CreateFile() &amp;ldquo;./logs/nginx.pid&amp;rdquo; failed (2: The system cannot find the file specified)&lt;/p></description></item><item><title>mysql数据导出golang实现</title><link>https://kubeinfo.cn/posts/mysql%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%87%BAgolang%E5%AE%9E%E7%8E%B0/</link><pubDate>Fri, 18 Oct 2019 13:34:05 +0000</pubDate><guid>https://kubeinfo.cn/posts/mysql%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%87%BAgolang%E5%AE%9E%E7%8E%B0/</guid><description>&lt;h2 class="relative group">正文
 &lt;div id="正文" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
@@ -196,36 +66,8 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>安装go后，我们一般会设置好GOROOT和GOPATH环境变量，但是有时候因为实际工作中项目结构复杂，设置的GOPATH不能满足需要时，可以在cmd设置临时的GOPATH；很多IDE，比如IDEA也可以设置全局的GOPATH和临时的GOPATH，但是编译可执行文件可能有些复杂或者通过IDE编译或者运行会出现app.conf配置文件加载不到的情况，这个坑我遇到过。请看https://github.com/astaxie/beego/issues/1831&lt;br />
-故通过命令的方式生成go的可执行文件。&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/javagolang%E6%97%A5%E5%BF%97%E6%96%87%E4%BB%B6%E8%BD%AC%E5%82%A8%E5%8E%8B%E7%BC%A9%E5%AE%9E%E7%8E%B0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/javagolang%E6%97%A5%E5%BF%97%E6%96%87%E4%BB%B6%E8%BD%AC%E5%82%A8%E5%8E%8B%E7%BC%A9%E5%AE%9E%E7%8E%B0/</guid><description>&lt;h2 class="relative group">title: java、golang日志文件转储压缩实现&lt;br />
-date: &amp;lsquo;2019-10-17 15:27:52&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 15:27:52&amp;rsquo;&lt;br />
-tags: [golang, java, 日志]&lt;br />
-permalink: /201910171527golangjava
-&lt;div id="permalink-201910171527golangjava" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171527golangjava" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190324.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/javamail%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/javamail%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6/</guid><description>&lt;h2 class="relative group">title: Javamail发送邮件&lt;br />
-date: &amp;lsquo;2019-10-18 13:27:45&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:27:45&amp;rsquo;&lt;br />
-tags: [java, email]&lt;br />
-permalink: /201910181327java
-&lt;div id="permalink-201910181327java" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181327java" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;h2 class="relative group">正文
+&lt;p>mysql数据导出为excel文件，golang实现：&lt;/p></description></item><item><title>kubernetes自定义资源对象高级功能</title><link>https://kubeinfo.cn/posts/kubernetes%E8%87%AA%E5%AE%9A%E4%B9%89%E8%B5%84%E6%BA%90%E5%AF%B9%E8%B1%A1%E9%AB%98%E7%BA%A7%E5%8A%9F%E8%83%BD/</link><pubDate>Fri, 18 Oct 2019 13:33:34 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubernetes%E8%87%AA%E5%AE%9A%E4%B9%89%E8%B5%84%E6%BA%90%E5%AF%B9%E8%B1%A1%E9%AB%98%E7%BA%A7%E5%8A%9F%E8%83%BD/</guid><description>&lt;p>kubernetes自定义资源对象再极大程度提高了API Server的可扩展性，让企业能够根据业务需求通过CRD编写controller或者operator来实现生产中各种特殊场景。随着k8s的版本升级，CRD的功能也越来越完善，下面对其中几点进行说明。&lt;/p></description></item><item><title>一次写shell脚本的经历记录——特殊字符惹的祸</title><link>https://kubeinfo.cn/posts/%E4%B8%80%E6%AC%A1%E5%86%99shell%E8%84%9A%E6%9C%AC%E7%9A%84%E7%BB%8F%E5%8E%86%E8%AE%B0%E5%BD%95%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6%E6%83%B9%E7%9A%84%E7%A5%B8/</link><pubDate>Fri, 18 Oct 2019 13:33:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E4%B8%80%E6%AC%A1%E5%86%99shell%E8%84%9A%E6%9C%AC%E7%9A%84%E7%BB%8F%E5%8E%86%E8%AE%B0%E5%BD%95%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6%E6%83%B9%E7%9A%84%E7%A5%B8/</guid><description>&lt;blockquote>
+&lt;p>本文首发于微信公众号“我的小碗汤”，扫码文末二维码即可关注，欢迎一起交流！&lt;/p></description></item><item><title>史上最全k8s必学必会知识梳理</title><link>https://kubeinfo.cn/posts/%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%85%A8k8s%E5%BF%85%E5%AD%A6%E5%BF%85%E4%BC%9A%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86/</link><pubDate>Fri, 18 Oct 2019 13:32:28 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%85%A8k8s%E5%BF%85%E5%AD%A6%E5%BF%85%E4%BC%9A%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86/</guid><description>&lt;h2 class="relative group">正文
 &lt;div id="正文" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
@@ -233,51 +75,63 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>这几篇文章写的就挺好了，传送过去看看吧：&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/java%E4%B8%ADthis%E5%85%B3%E9%94%AE%E5%AD%97%E6%98%93%E9%94%99%E7%82%B9%E5%92%8C%E8%AF%B4%E6%98%8E/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/java%E4%B8%ADthis%E5%85%B3%E9%94%AE%E5%AD%97%E6%98%93%E9%94%99%E7%82%B9%E5%92%8C%E8%AF%B4%E6%98%8E/</guid><description>&lt;h2 class="relative group">title: java中this关键字易错点和说明&lt;br />
-date: &amp;lsquo;2019-10-17 15:36:27&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 15:36:27&amp;rsquo;&lt;br />
-tags: [java]&lt;br />
-permalink: /201910171536java
-&lt;div id="permalink-201910171536java" class="anchor">&lt;/div>
+&lt;p>&lt;strong>kube-apiserver&lt;/strong>&lt;/p></description></item><item><title>kube-scheduler调度扩展</title><link>https://kubeinfo.cn/posts/kubescheduler%E8%B0%83%E5%BA%A6%E6%89%A9%E5%B1%95/</link><pubDate>Fri, 18 Oct 2019 13:31:42 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubescheduler%E8%B0%83%E5%BA%A6%E6%89%A9%E5%B1%95/</guid><description>&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171536java" aria-label="锚点">#&lt;/a>
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180324.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/java%E5%8A%A0%E8%BD%BD%E5%9B%BD%E9%99%85%E5%8C%96%E6%96%87%E4%BB%B6%E7%9A%84%E5%87%A0%E7%A7%8D%E5%A7%BF%E5%8A%BF/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/java%E5%8A%A0%E8%BD%BD%E5%9B%BD%E9%99%85%E5%8C%96%E6%96%87%E4%BB%B6%E7%9A%84%E5%87%A0%E7%A7%8D%E5%A7%BF%E5%8A%BF/</guid><description>&lt;h2 class="relative group">title: java加载国际化文件的几种姿势&lt;br />
-date: &amp;lsquo;2019-10-17 15:37:23&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 15:37:23&amp;rsquo;&lt;br />
-tags: [java]&lt;br />
-permalink: /201910171537java
-&lt;div id="permalink-201910171537java" class="anchor">&lt;/div>
+&lt;p>Kubernetes 自带了一个默认调度器kube-scheduler，其内置了很多节点预选和优选的调度算法，一般调度场景下可以满足要求。但是在一些特殊场景下，默认调度器不能满足我们复杂的调度需求。我们就需要对调度器进行扩展，以达到调度适合业务场景的目的。&lt;/p></description></item><item><title>开发一个operator扩展kubernetes的能力</title><link>https://kubeinfo.cn/posts/%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AAoperator%E6%89%A9%E5%B1%95kubernetes%E7%9A%84%E8%83%BD%E5%8A%9B/</link><pubDate>Fri, 18 Oct 2019 13:31:08 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AAoperator%E6%89%A9%E5%B1%95kubernetes%E7%9A%84%E8%83%BD%E5%8A%9B/</guid><description>&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171537java" aria-label="锚点">#&lt;/a>
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190316.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/java%E5%8F%91%E9%80%81html%E6%A8%A1%E6%9D%BF%E7%9A%84%E9%AB%98%E9%80%BC%E6%A0%BC%E9%82%AE%E4%BB%B6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/java%E5%8F%91%E9%80%81html%E6%A8%A1%E6%9D%BF%E7%9A%84%E9%AB%98%E9%80%BC%E6%A0%BC%E9%82%AE%E4%BB%B6/</guid><description>&lt;h2 class="relative group">title: java发送html模板的高逼格邮件&lt;br />
-date: &amp;lsquo;2019-10-18 13:26:26&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:26:26&amp;rsquo;&lt;br />
-tags: [java, email]&lt;br />
-permalink: /201910181325java
-&lt;div id="permalink-201910181325java" class="anchor">&lt;/div>
+&lt;p>Operator 是 CoreOS 推出的旨在简化复杂有状态应用管理，它是一个感知应用状态的控制器，通过扩展 Kubernetes API 来自动创建、管理和配置应用实例。 Operator 基于 CRD 扩展资源对象，并通过控制器来保证应用处于预期状态。&lt;/p></description></item><item><title>连上公司的vpn后，电脑上不了外网解决办法</title><link>https://kubeinfo.cn/posts/%E8%BF%9E%E4%B8%8A%E5%85%AC%E5%8F%B8%E7%9A%84vpn%E5%90%8E%E7%94%B5%E8%84%91%E4%B8%8A%E4%B8%8D%E4%BA%86%E5%A4%96%E7%BD%91%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</link><pubDate>Fri, 18 Oct 2019 13:30:29 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E8%BF%9E%E4%B8%8A%E5%85%AC%E5%8F%B8%E7%9A%84vpn%E5%90%8E%E7%94%B5%E8%84%91%E4%B8%8A%E4%B8%8D%E4%BA%86%E5%A4%96%E7%BD%91%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</guid><description>&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181325java" aria-label="锚点">#&lt;/a>
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;h2 class="relative group">正文
+&lt;p>最近工作需要连接公司的vpn。连接前电脑可以上外网，微信、网页都可以访问，但是连接上vpn后，只能访问公司网络了，这就有点虐了。消息收不到很不方便，也查不了资料。以下来说道说道怎么解决，因为网上查到的一些资料，只有文字，无图导致理解的费劲儿，所以下文有很多图，也对比了vpn各种配置的图，可能会有点啰嗦，还望海涵！&lt;/p></description></item><item><title>kubernetes pod exec接口调用</title><link>https://kubeinfo.cn/posts/kubernetespodexec%E6%8E%A5%E5%8F%A3%E8%B0%83%E7%94%A8/</link><pubDate>Fri, 18 Oct 2019 13:30:04 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubernetespodexec%E6%8E%A5%E5%8F%A3%E8%B0%83%E7%94%A8/</guid><description>&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>一般生产环境上由于网络安全策略，大多数端口是不能为集群外部访问的。多个集群之间一般都是通过k8s的ApiServer组件提供的接口通信，如https://192.168.1.101:6443。所以在做云平台时，集群管理平台（雅称：观云台）需要操作其他集群的资源对象时，必然也得通过ApiServer。&lt;/p></description></item><item><title>k8s自定义资源类型代码自动生成</title><link>https://kubeinfo.cn/posts/k8s%E8%87%AA%E5%AE%9A%E4%B9%89%E8%B5%84%E6%BA%90%E7%B1%BB%E5%9E%8B%E4%BB%A3%E7%A0%81%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90/</link><pubDate>Fri, 18 Oct 2019 13:29:09 +0000</pubDate><guid>https://kubeinfo.cn/posts/k8s%E8%87%AA%E5%AE%9A%E4%B9%89%E8%B5%84%E6%BA%90%E7%B1%BB%E5%9E%8B%E4%BB%A3%E7%A0%81%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90/</guid><description>&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>用以下命令生成代码：&lt;/p></description></item><item><title>nginx map配置根据请求头不同分配流量到不同后端服务</title><link>https://kubeinfo.cn/posts/nginxmap%E9%85%8D%E7%BD%AE%E6%A0%B9%E6%8D%AE%E8%AF%B7%E6%B1%82%E5%A4%B4%E4%B8%8D%E5%90%8C%E5%88%86%E9%85%8D%E6%B5%81%E9%87%8F%E5%88%B0%E4%B8%8D%E5%90%8C%E5%90%8E%E7%AB%AF%E6%9C%8D%E5%8A%A1/</link><pubDate>Fri, 18 Oct 2019 13:28:31 +0000</pubDate><guid>https://kubeinfo.cn/posts/nginxmap%E9%85%8D%E7%BD%AE%E6%A0%B9%E6%8D%AE%E8%AF%B7%E6%B1%82%E5%A4%B4%E4%B8%8D%E5%90%8C%E5%88%86%E9%85%8D%E6%B5%81%E9%87%8F%E5%88%B0%E4%B8%8D%E5%90%8C%E5%90%8E%E7%AB%AF%E6%9C%8D%E5%8A%A1/</guid><description>&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>最近在做一个需求开发：根据请求后的不同，nginx将请求分发到不同的后端服务；需要修改kubernetes的ingress-nginx-controller的源码，调试的时候遇到了挺多问题，写出来，有需要的老铁可以参考。具体方案就不说了，只说一下nginx配置这一块。&lt;/p></description></item><item><title>Javamail发送邮件</title><link>https://kubeinfo.cn/posts/javamail%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6/</link><pubDate>Fri, 18 Oct 2019 13:27:45 +0000</pubDate><guid>https://kubeinfo.cn/posts/javamail%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6/</guid><description>&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>这几篇文章写的就挺好了，传送过去看看吧：&lt;/p></description></item><item><title>java发送html模板的高逼格邮件</title><link>https://kubeinfo.cn/posts/java%E5%8F%91%E9%80%81html%E6%A8%A1%E6%9D%BF%E7%9A%84%E9%AB%98%E9%80%BC%E6%A0%BC%E9%82%AE%E4%BB%B6/</link><pubDate>Fri, 18 Oct 2019 13:26:26 +0000</pubDate><guid>https://kubeinfo.cn/posts/java%E5%8F%91%E9%80%81html%E6%A8%A1%E6%9D%BF%E7%9A%84%E9%AB%98%E9%80%BC%E6%A0%BC%E9%82%AE%E4%BB%B6/</guid><description>&lt;h2 class="relative group">正文
 &lt;div id="正文" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
@@ -289,67 +143,286 @@ style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-l
 &lt;figure>
 &lt;img class="my-0 rounded-md" loading="lazy" alt="简单邮件" src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWNmY2JjMzM4MDBiMGExY2EucG5n?x-oss-process=image/format,png" />
 &lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/java%E5%8F%91%E9%80%81%E6%89%8B%E6%9C%BA%E9%AA%8C%E8%AF%81%E7%A0%81%E5%AE%9E%E7%8E%B0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/java%E5%8F%91%E9%80%81%E6%89%8B%E6%9C%BA%E9%AA%8C%E8%AF%81%E7%A0%81%E5%AE%9E%E7%8E%B0/</guid><description>&lt;h2 class="relative group">title: java发送手机验证码实现&lt;br />
-date: &amp;lsquo;2019-10-17 18:01:34&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 18:01:34&amp;rsquo;&lt;br />
-tags: [java, 短信]&lt;br />
-permalink: /201910171801java
-&lt;div id="permalink-201910171801java" class="anchor">&lt;/div>
+&lt;/p></description></item><item><title>yum源配置</title><link>https://kubeinfo.cn/posts/yum%E6%BA%90%E9%85%8D%E7%BD%AE/</link><pubDate>Fri, 18 Oct 2019 13:21:40 +0000</pubDate><guid>https://kubeinfo.cn/posts/yum%E6%BA%90%E9%85%8D%E7%BD%AE/</guid><description>&lt;p>在配置yum前首先得说说rpm，在redhat和centos linux系统上，rpm作为软件包管理工具，可以方便的安装、查询、卸载软件包。常见命令如下：&lt;/p></description></item><item><title>NAT模式实现虚拟机共享主机网络</title><link>https://kubeinfo.cn/posts/nat%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%85%B1%E4%BA%AB%E4%B8%BB%E6%9C%BA%E7%BD%91%E7%BB%9C/</link><pubDate>Fri, 18 Oct 2019 13:20:47 +0000</pubDate><guid>https://kubeinfo.cn/posts/nat%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%85%B1%E4%BA%AB%E4%B8%BB%E6%9C%BA%E7%BD%91%E7%BB%9C/</guid><description>&lt;p>上一节我们在虚拟机上搭建了linux系统，并利用桥接模式访问互联网，这一节，我们来配置一下通过NAT模式访问互联网。说到这里有些小伙伴可能要问了，NAT模式和桥接模式有什么区别呢？&lt;/p></description></item><item><title>vmware上安装linux过程记录</title><link>https://kubeinfo.cn/posts/vmware%E4%B8%8A%E5%AE%89%E8%A3%85linux%E8%BF%87%E7%A8%8B%E8%AE%B0%E5%BD%95/</link><pubDate>Fri, 18 Oct 2019 13:20:03 +0000</pubDate><guid>https://kubeinfo.cn/posts/vmware%E4%B8%8A%E5%AE%89%E8%A3%85linux%E8%BF%87%E7%A8%8B%E8%AE%B0%E5%BD%95/</guid><description>&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171801java" aria-label="锚点">#&lt;/a>
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
+&lt;p>以前的电脑上安装过vmware+redhat，但是奈何电脑太老，配置太低，打开的时候超级卡，没法用。换了电脑后，再装上玩玩，故此记录一下安装过程。需要安装的小伙伴可以在此获取包然后按此步骤安装。&lt;/p></description></item><item><title>推荐一款超好用的工具cmder</title><link>https://kubeinfo.cn/posts/%E6%8E%A8%E8%8D%90%E4%B8%80%E6%AC%BE%E8%B6%85%E5%A5%BD%E7%94%A8%E7%9A%84%E5%B7%A5%E5%85%B7cmder/</link><pubDate>Fri, 18 Oct 2019 13:13:44 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E6%8E%A8%E8%8D%90%E4%B8%80%E6%AC%BE%E8%B6%85%E5%A5%BD%E7%94%A8%E7%9A%84%E5%B7%A5%E5%85%B7cmder/</guid><description>&lt;p>今天来推荐一个超级好用的命令行工具：cmder&lt;/p>
+&lt;p>一款Windows环境下非常简洁美观易用的cmd替代者，它支持了大部分的Linux命令。支持ssh连接linux，使用起来非常方便。比起cmd、powershell、conEmu，其界面美观简洁，功能强大。下面来看看效果：&lt;/p></description></item><item><title>LAMP环境部署物联网项目</title><link>https://kubeinfo.cn/posts/lamp%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2%E7%89%A9%E8%81%94%E7%BD%91%E9%A1%B9%E7%9B%AE/</link><pubDate>Fri, 18 Oct 2019 13:12:36 +0000</pubDate><guid>https://kubeinfo.cn/posts/lamp%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2%E7%89%A9%E8%81%94%E7%BD%91%E9%A1%B9%E7%9B%AE/</guid><description>&lt;p>今天来在LAMP环境下搭建一个PHP项目，开始之前，先来普及下物联网常识：&lt;/p></description></item><item><title>linux上安装LAMP笔记</title><link>https://kubeinfo.cn/posts/linux%E4%B8%8A%E5%AE%89%E8%A3%85lamp%E7%AC%94%E8%AE%B0/</link><pubDate>Fri, 18 Oct 2019 13:11:44 +0000</pubDate><guid>https://kubeinfo.cn/posts/linux%E4%B8%8A%E5%AE%89%E8%A3%85lamp%E7%AC%94%E8%AE%B0/</guid><description>&lt;p>B哥最近在参加比赛，需要把一个php项目部署到服务器上，故此在linux上安装LAMP环境，用于部署项目，第一次安装，做点儿笔记记录一下。&lt;/p></description></item><item><title>nginx请求连接限制笔记</title><link>https://kubeinfo.cn/posts/nginx%E8%AF%B7%E6%B1%82%E8%BF%9E%E6%8E%A5%E9%99%90%E5%88%B6%E7%AC%94%E8%AE%B0/</link><pubDate>Fri, 18 Oct 2019 13:09:48 +0000</pubDate><guid>https://kubeinfo.cn/posts/nginx%E8%AF%B7%E6%B1%82%E8%BF%9E%E6%8E%A5%E9%99%90%E5%88%B6%E7%AC%94%E8%AE%B0/</guid><description>&lt;p>之前也有写过有关于爬虫的实战练习：&lt;a href="http://mp.weixin.qq.com/s?__biz=MjM5MzU5NDYwNA==&amp;amp;mid=2247484158&amp;amp;idx=1&amp;amp;sn=20d37b629a9ae2ae47fa08ae8c9b8c7d&amp;amp;chksm=a695ef7d91e2666b6547fa4cecbc9032cb520a5466eb107b24ab43f48e12d89dbd1d6ea01441&amp;amp;scene=21#wechat_redirect" target="_blank">go语言爬取珍爱网&lt;/a>&lt;/p>
+&lt;p>当时爬取时当并发过大的时候，请求就会出现卡死的情况。其实这可能就是珍爱网对请求和连接进行了限制。&lt;/p></description></item><item><title>nginx学习之模块</title><link>https://kubeinfo.cn/posts/nginx%E5%AD%A6%E4%B9%A0%E4%B9%8B%E6%A8%A1%E5%9D%97/</link><pubDate>Fri, 18 Oct 2019 13:09:03 +0000</pubDate><guid>https://kubeinfo.cn/posts/nginx%E5%AD%A6%E4%B9%A0%E4%B9%8B%E6%A8%A1%E5%9D%97/</guid><description>&lt;p>&lt;em>&lt;strong>1、&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>&lt;strong>stub_status模块：&lt;/strong>&lt;/p>
+&lt;p>用于展示nginx处理连接时的状态。&lt;/p></description></item><item><title>nginx学习笔记</title><link>https://kubeinfo.cn/posts/nginx%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link><pubDate>Fri, 18 Oct 2019 13:08:21 +0000</pubDate><guid>https://kubeinfo.cn/posts/nginx%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid><description>&lt;blockquote>
+&lt;p>中间件位于客户机/ 服务器的操作系统之上，管理计算机资源和网络通讯。 是连接两个独立应用程序或独立系统的软件。&lt;/p></description></item><item><title>ElasticSearch5.x 删除数据</title><link>https://kubeinfo.cn/posts/elasticsearch5.x%E5%88%A0%E9%99%A4%E6%95%B0%E6%8D%AE/</link><pubDate>Fri, 18 Oct 2019 13:06:55 +0000</pubDate><guid>https://kubeinfo.cn/posts/elasticsearch5.x%E5%88%A0%E9%99%A4%E6%95%B0%E6%8D%AE/</guid><description>&lt;p>以下测试在elasticsearch5.6.10版本。&lt;/p>
+&lt;p>首先要说明的是ElasticSearch从2.x开始就已经不支持删除一个type了，所以使用delete命令想要尝试删除一个type的时候会出现如下错误：&lt;/p></description></item><item><title>golang初探与命令源码分析</title><link>https://kubeinfo.cn/posts/golang%E5%88%9D%E6%8E%A2%E4%B8%8E%E5%91%BD%E4%BB%A4%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/</link><pubDate>Fri, 18 Oct 2019 13:05:47 +0000</pubDate><guid>https://kubeinfo.cn/posts/golang%E5%88%9D%E6%8E%A2%E4%B8%8E%E5%91%BD%E4%BB%A4%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/</guid><description>&lt;p>前段时间有群友在群里问一个go语言的问题：&lt;/p>
+&lt;p>就是有一个main.go的main函数里调用了另一个demo.go里的hello()函数。其中main.go和hello.go同属于main包。但是在main.go的目录下执行go run main.go却报hello函数没有定义的错：&lt;/p></description></item><item><title>搭建个私有docker镜像仓库</title><link>https://kubeinfo.cn/posts/%E6%90%AD%E5%BB%BA%E4%B8%AA%E7%A7%81%E6%9C%89docker%E9%95%9C%E5%83%8F%E4%BB%93%E5%BA%93/</link><pubDate>Fri, 18 Oct 2019 13:04:24 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E6%90%AD%E5%BB%BA%E4%B8%AA%E7%A7%81%E6%9C%89docker%E9%95%9C%E5%83%8F%E4%BB%93%E5%BA%93/</guid><description>&lt;p>&lt;strong>公有仓库和私有仓库：&lt;/strong>&lt;/p>
+&lt;p>**速度：**公有仓库走的公网，速度较慢；私有仓库走的是内网，即局域网；&lt;/p></description></item><item><title>kube-apiserver审计日志记录和采集</title><link>https://kubeinfo.cn/posts/kubeapiserver%E5%AE%A1%E8%AE%A1%E6%97%A5%E5%BF%97%E8%AE%B0%E5%BD%95%E5%92%8C%E9%87%87%E9%9B%86/</link><pubDate>Fri, 18 Oct 2019 13:03:22 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubeapiserver%E5%AE%A1%E8%AE%A1%E6%97%A5%E5%BF%97%E8%AE%B0%E5%BD%95%E5%92%8C%E9%87%87%E9%9B%86/</guid><description>&lt;p>Kubernetes 审计功能提供了与安全相关的按时间顺序排列的记录集，记录单个用户、管理员或系统其他组件影响系统的活动顺序。它能帮助集群管理员处理以下问题：&lt;/p></description></item><item><title>浅谈json web token及应用</title><link>https://kubeinfo.cn/posts/%E6%B5%85%E8%B0%88jsonwebtoken%E5%8F%8A%E5%BA%94%E7%94%A8/</link><pubDate>Fri, 18 Oct 2019 13:02:25 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E6%B5%85%E8%B0%88jsonwebtoken%E5%8F%8A%E5%BA%94%E7%94%A8/</guid><description>&lt;blockquote>
+&lt;p>Json Web Token (JWT)，是一个非常轻巧的规范，这个规范允许在网络应用环境间客户端和服务器间较安全的传递信息。该token被设计为紧凑且安全的，特别适用于分布式站点的单点登录（SSO）场景。JWT一般被用来在身份提供者和服务提供者间传递被认证的用户身份信息，以便于从资源服务器获取资源。&lt;/p></description></item><item><title>Go语言及Beego框架环境搭建</title><link>https://kubeinfo.cn/posts/go%E8%AF%AD%E8%A8%80%E5%8F%8Abeego%E6%A1%86%E6%9E%B6%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link><pubDate>Fri, 18 Oct 2019 13:00:25 +0000</pubDate><guid>https://kubeinfo.cn/posts/go%E8%AF%AD%E8%A8%80%E5%8F%8Abeego%E6%A1%86%E6%9E%B6%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid><description>&lt;p>在开始环境搭建之前，我们先一起来看看：&lt;/p>
+&lt;p>&lt;strong>Go有什么优势：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>不用虚拟机，它可直接编译成机器码，除了glibc外没有其他外部依赖，部署十分方便，就是扔一个文件就完成了。&lt;/p></description></item><item><title>利用golang优雅的实现单实例</title><link>https://kubeinfo.cn/posts/%E5%88%A9%E7%94%A8golang%E4%BC%98%E9%9B%85%E7%9A%84%E5%AE%9E%E7%8E%B0%E5%8D%95%E5%AE%9E%E4%BE%8B/</link><pubDate>Fri, 18 Oct 2019 12:58:57 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%88%A9%E7%94%A8golang%E4%BC%98%E9%9B%85%E7%9A%84%E5%AE%9E%E7%8E%B0%E5%8D%95%E5%AE%9E%E4%BE%8B/</guid><description>&lt;p>平时编写代码过程中，经常会遇到对于全局角度只需运行一次的代码，比如全局初始化操作，设计模式中的单例模式。针对单例模式，&lt;strong>java&lt;/strong>中又出现了饿汉模式、懒汉模式，再配合&lt;strong>synchronized&lt;/strong>同步关键字来实现。其目的无非就是将对象只初始化一次，而且最好保证在用到的时候再进行初始化，以避免初始化太早浪费资源，或者两次初始化破坏单例模式的实例唯一性。&lt;/p></description></item><item><title>一个神秘现象引发对beego框架的思考</title><link>https://kubeinfo.cn/posts/%E4%B8%80%E4%B8%AA%E7%A5%9E%E7%A7%98%E7%8E%B0%E8%B1%A1%E5%BC%95%E5%8F%91%E5%AF%B9beego%E6%A1%86%E6%9E%B6%E7%9A%84%E6%80%9D%E8%80%83/</link><pubDate>Fri, 18 Oct 2019 12:57:23 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E4%B8%80%E4%B8%AA%E7%A5%9E%E7%A7%98%E7%8E%B0%E8%B1%A1%E5%BC%95%E5%8F%91%E5%AF%B9beego%E6%A1%86%E6%9E%B6%E7%9A%84%E6%80%9D%E8%80%83/</guid><description>&lt;p>小强最近在项目中遇到了一个很奇怪的问题：在整改日志规范时，为了避免影响现有的代码结构以及改动尽可能小的前提下，在调用记日志的SDK处将某一个字段值首字母改为大写，代码示例如下：&lt;/p></description></item><item><title>go语言正则表达式</title><link>https://kubeinfo.cn/posts/go%E8%AF%AD%E8%A8%80%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</link><pubDate>Fri, 18 Oct 2019 12:55:32 +0000</pubDate><guid>https://kubeinfo.cn/posts/go%E8%AF%AD%E8%A8%80%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</guid><description>&lt;p>我们前两节课爬取珍爱网的时候，用到了很多正则表达式去匹配城市列表、城市、用户信息，其实除了正则表达式去匹配，还可以利用goquery和xpath第三方库匹配有用信息。而我利用了更优雅的正则表达式匹配。下来大概介绍下正则表达式。&lt;/p></description></item><item><title>用go语言爬取珍爱网 | 第一回</title><link>https://kubeinfo.cn/posts/%E7%94%A8go%E8%AF%AD%E8%A8%80%E7%88%AC%E5%8F%96%E7%8F%8D%E7%88%B1%E7%BD%91%E7%AC%AC%E4%B8%80%E5%9B%9E/</link><pubDate>Fri, 18 Oct 2019 10:24:14 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E7%94%A8go%E8%AF%AD%E8%A8%80%E7%88%AC%E5%8F%96%E7%8F%8D%E7%88%B1%E7%BD%91%E7%AC%AC%E4%B8%80%E5%9B%9E/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="image" src="https://img-blog.csdnimg.cn/20191018002129589.jpeg" />
+&lt;/figure>
+&lt;/p>
+&lt;p>我们来用go语言爬取“珍爱网”用户信息。&lt;/p>
+&lt;p>首先分析到请求url为：&lt;/p></description></item><item><title>用go语言爬取珍爱网 | 第二回</title><link>https://kubeinfo.cn/posts/%E7%94%A8go%E8%AF%AD%E8%A8%80%E7%88%AC%E5%8F%96%E7%8F%8D%E7%88%B1%E7%BD%91%E7%AC%AC%E4%BA%8C%E5%9B%9E/</link><pubDate>Fri, 18 Oct 2019 10:23:11 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E7%94%A8go%E8%AF%AD%E8%A8%80%E7%88%AC%E5%8F%96%E7%8F%8D%E7%88%B1%E7%BD%91%E7%AC%AC%E4%BA%8C%E5%9B%9E/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="image" src="https://img-blog.csdnimg.cn/20191018002356226.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70" />
+&lt;/figure>
+&lt;/p>
 &lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="image" src="https://img-blog.csdnimg.cn/20191018002355495.gif" />
+&lt;/figure>
+&lt;/p>
+&lt;p>昨天我们一起爬取珍爱网首页，拿到了城市列表页面，接下来在返回体城市列表中提取城市和url，即下图中的a标签里的href的值和innerText值。&lt;/p></description></item><item><title>用go语言爬取珍爱网 | 第三回</title><link>https://kubeinfo.cn/posts/%E7%94%A8go%E8%AF%AD%E8%A8%80%E7%88%AC%E5%8F%96%E7%8F%8D%E7%88%B1%E7%BD%91%E7%AC%AC%E4%B8%89%E5%9B%9E/</link><pubDate>Fri, 18 Oct 2019 10:21:53 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E7%94%A8go%E8%AF%AD%E8%A8%80%E7%88%AC%E5%8F%96%E7%8F%8D%E7%88%B1%E7%BD%91%E7%AC%AC%E4%B8%89%E5%9B%9E/</guid><description>&lt;p>前两节我们获取到了城市的URL和城市名，今天我们来解析用户信息。&lt;/p></description></item><item><title>爬虫性能分析及优化</title><link>https://kubeinfo.cn/posts/%E7%88%AC%E8%99%AB%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E5%8F%8A%E4%BC%98%E5%8C%96/</link><pubDate>Fri, 18 Oct 2019 10:20:58 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E7%88%AC%E8%99%AB%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E5%8F%8A%E4%BC%98%E5%8C%96/</guid><description>&lt;p>前两天我们写了单任务版爬虫爬取了珍爱网用户信息，那么它的性能如何呢？&lt;/p></description></item><item><title>爬虫遇到了点问题</title><link>https://kubeinfo.cn/posts/%E7%88%AC%E8%99%AB%E9%81%87%E5%88%B0%E4%BA%86%E7%82%B9%E9%97%AE%E9%A2%98/</link><pubDate>Fri, 18 Oct 2019 10:19:34 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E7%88%AC%E8%99%AB%E9%81%87%E5%88%B0%E4%BA%86%E7%82%B9%E9%97%AE%E9%A2%98/</guid><description>&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>golang爬珍爱网代码优化后，运行报了如下的错，找了半小时才找到原因，在此记录一下。&lt;/p></description></item><item><title>爬取珍爱网后用户信息展示</title><link>https://kubeinfo.cn/posts/%E7%88%AC%E5%8F%96%E7%8F%8D%E7%88%B1%E7%BD%91%E5%90%8E%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF%E5%B1%95%E7%A4%BA/</link><pubDate>Thu, 17 Oct 2019 18:09:21 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E7%88%AC%E5%8F%96%E7%8F%8D%E7%88%B1%E7%BD%91%E5%90%8E%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF%E5%B1%95%E7%A4%BA/</guid><description>&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>golang爬取珍爱网，爬到了3万多用户信息，并存到了elasticsearch中，如下图，查询到了3万多用户信息。&lt;/p></description></item><item><title>mysql支持原生json使用说明</title><link>https://kubeinfo.cn/posts/mysql%E6%94%AF%E6%8C%81%E5%8E%9F%E7%94%9Fjson%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/</link><pubDate>Thu, 17 Oct 2019 18:08:26 +0000</pubDate><guid>https://kubeinfo.cn/posts/mysql%E6%94%AF%E6%8C%81%E5%8E%9F%E7%94%9Fjson%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/</guid><description>&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>MySQL在5.7.8开始对json原生支持，本文将对MySQL中json类型的用法简单说明，希望对你有用。&lt;/p></description></item><item><title>SpringMVC实现发送邮件</title><link>https://kubeinfo.cn/posts/springmvc%E5%AE%9E%E7%8E%B0%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6/</link><pubDate>Thu, 17 Oct 2019 18:03:34 +0000</pubDate><guid>https://kubeinfo.cn/posts/springmvc%E5%AE%9E%E7%8E%B0%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6/</guid><description>&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>今天来试着用SpringMVC发送邮件，主要需要依赖以下两个包；&lt;/p></description></item><item><title>golang 设置 http response 响应头与坑</title><link>https://kubeinfo.cn/posts/golang%E8%AE%BE%E7%BD%AEhttpresponse%E5%93%8D%E5%BA%94%E5%A4%B4%E4%B8%8E%E5%9D%91/</link><pubDate>Thu, 17 Oct 2019 18:02:26 +0000</pubDate><guid>https://kubeinfo.cn/posts/golang%E8%AE%BE%E7%BD%AEhttpresponse%E5%93%8D%E5%BA%94%E5%A4%B4%E4%B8%8E%E5%9D%91/</guid><description>&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>&lt;strong>1、 设置WriteHeader的顺序问题&lt;/strong>&lt;/p></description></item><item><title>java发送手机验证码实现</title><link>https://kubeinfo.cn/posts/java%E5%8F%91%E9%80%81%E6%89%8B%E6%9C%BA%E9%AA%8C%E8%AF%81%E7%A0%81%E5%AE%9E%E7%8E%B0/</link><pubDate>Thu, 17 Oct 2019 18:01:34 +0000</pubDate><guid>https://kubeinfo.cn/posts/java%E5%8F%91%E9%80%81%E6%89%8B%E6%9C%BA%E9%AA%8C%E8%AF%81%E7%A0%81%E5%AE%9E%E7%8E%B0/</guid><description>&lt;p>
 &lt;figure>
 &lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180526.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
 &lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/java%E5%8F%91%E9%82%AE%E4%BB%B6%E8%BF%99%E4%B8%AA%E5%9D%91%E4%BD%A0%E8%83%BD%E5%A1%AB%E5%90%97/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/java%E5%8F%91%E9%82%AE%E4%BB%B6%E8%BF%99%E4%B8%AA%E5%9D%91%E4%BD%A0%E8%83%BD%E5%A1%AB%E5%90%97/</guid><description>&lt;h2 class="relative group">title: java发邮件，这个坑你能填吗？&lt;br />
-date: &amp;lsquo;2019-10-17 17:53:49&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 17:53:49&amp;rsquo;&lt;br />
-tags: [email, java]&lt;br />
-permalink: /201910171753java
-&lt;div id="permalink-201910171753java" class="anchor">&lt;/div>
+&lt;/p>
+&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171753java" aria-label="锚点">#&lt;/a>
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190601.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/java%E5%9B%BE%E5%BD%A2%E9%AA%8C%E8%AF%81%E7%A0%81%E5%AE%9E%E7%8E%B0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/java%E5%9B%BE%E5%BD%A2%E9%AA%8C%E8%AF%81%E7%A0%81%E5%AE%9E%E7%8E%B0/</guid><description>&lt;h2 class="relative group">title: java图形验证码实现&lt;br />
-date: &amp;lsquo;2019-10-17 17:59:04&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 18:00:18&amp;rsquo;&lt;br />
-tags: [java, 验证码]&lt;br />
-permalink: /201910171758java
-&lt;div id="permalink-201910171758java" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171758java" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
+&lt;p>今天来用java实现手机验证码的发送。&lt;/p></description></item><item><title>java图形验证码实现</title><link>https://kubeinfo.cn/posts/java%E5%9B%BE%E5%BD%A2%E9%AA%8C%E8%AF%81%E7%A0%81%E5%AE%9E%E7%8E%B0/</link><pubDate>Thu, 17 Oct 2019 17:59:04 +0000</pubDate><guid>https://kubeinfo.cn/posts/java%E5%9B%BE%E5%BD%A2%E9%AA%8C%E8%AF%81%E7%A0%81%E5%AE%9E%E7%8E%B0/</guid><description>&lt;p>
 &lt;figure>
 &lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190705.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
 &lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/java%E5%AD%90%E7%B1%BB%E8%B0%83%E7%94%A8%E7%88%B6%E7%B1%BB%E6%9E%84%E9%80%A0%E5%99%A8%E5%87%BD%E6%95%B0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/java%E5%AD%90%E7%B1%BB%E8%B0%83%E7%94%A8%E7%88%B6%E7%B1%BB%E6%9E%84%E9%80%A0%E5%99%A8%E5%87%BD%E6%95%B0/</guid><description>&lt;h2 class="relative group">title: java子类调用父类构造器函数&lt;br />
-date: &amp;lsquo;2019-10-17 14:51:34&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 14:51:34&amp;rsquo;&lt;br />
-tags: [java]&lt;br />
-permalink: /201910171451java
-&lt;div id="permalink-201910171451java" class="anchor">&lt;/div>
+&lt;/p>
+&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171451java" aria-label="锚点">#&lt;/a>
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
+&lt;p>今天来学习下图形验证码的生成，首先依赖开源组件：&lt;/p></description></item><item><title>java这个404你能解决吗？</title><link>https://kubeinfo.cn/posts/java%E8%BF%99%E4%B8%AA404%E4%BD%A0%E8%83%BD%E8%A7%A3%E5%86%B3%E5%90%97/</link><pubDate>Thu, 17 Oct 2019 17:57:03 +0000</pubDate><guid>https://kubeinfo.cn/posts/java%E8%BF%99%E4%B8%AA404%E4%BD%A0%E8%83%BD%E8%A7%A3%E5%86%B3%E5%90%97/</guid><description>&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>今天在tomcat里部署运行了一个小工程，工程结构如下：&lt;/p></description></item><item><title>java发邮件，这个坑你能填吗？</title><link>https://kubeinfo.cn/posts/java%E5%8F%91%E9%82%AE%E4%BB%B6%E8%BF%99%E4%B8%AA%E5%9D%91%E4%BD%A0%E8%83%BD%E5%A1%AB%E5%90%97/</link><pubDate>Thu, 17 Oct 2019 17:53:49 +0000</pubDate><guid>https://kubeinfo.cn/posts/java%E5%8F%91%E9%82%AE%E4%BB%B6%E8%BF%99%E4%B8%AA%E5%9D%91%E4%BD%A0%E8%83%BD%E5%A1%AB%E5%90%97/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190601.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
 &lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>今天利用java发邮件，本地windows上测试时发送ok的，部署到服务器上却报异常，让我们走进异常，探索到底坑在哪里，并填之。&lt;/p></description></item><item><title>自动评论csdn博客文章实现</title><link>https://kubeinfo.cn/posts/%E8%87%AA%E5%8A%A8%E8%AF%84%E8%AE%BAcsdn%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E5%AE%9E%E7%8E%B0/</link><pubDate>Thu, 17 Oct 2019 17:52:19 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E8%87%AA%E5%8A%A8%E8%AF%84%E8%AE%BAcsdn%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E5%AE%9E%E7%8E%B0/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20181123.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>我们来用java代码爬取csdn博客网站，然后自动评论，这一波操作可以说是相当风骚了，话不多说，咱上代码。&lt;/p></description></item><item><title>一款效率神器Ditto</title><link>https://kubeinfo.cn/posts/%E4%B8%80%E6%AC%BE%E6%95%88%E7%8E%87%E7%A5%9E%E5%99%A8ditto/</link><pubDate>Thu, 17 Oct 2019 17:50:48 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E4%B8%80%E6%AC%BE%E6%95%88%E7%8E%87%E7%A5%9E%E5%99%A8ditto/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20181202.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>Ditto 是一款开源、免费、强大的剪贴板增强工具。可以把复制过的所有内容保存起来（可以设定保存日期或条目总数），快捷地供后续调用。还可以合并粘贴，纯文本粘贴，支持分组、置顶、快速搜索、热键粘贴功能。并且，还可以通过网络共享剪贴板内容。&lt;/p></description></item><item><title>java加载国际化文件的几种姿势</title><link>https://kubeinfo.cn/posts/java%E5%8A%A0%E8%BD%BD%E5%9B%BD%E9%99%85%E5%8C%96%E6%96%87%E4%BB%B6%E7%9A%84%E5%87%A0%E7%A7%8D%E5%A7%BF%E5%8A%BF/</link><pubDate>Thu, 17 Oct 2019 15:37:23 +0000</pubDate><guid>https://kubeinfo.cn/posts/java%E5%8A%A0%E8%BD%BD%E5%9B%BD%E9%99%85%E5%8C%96%E6%96%87%E4%BB%B6%E7%9A%84%E5%87%A0%E7%A7%8D%E5%A7%BF%E5%8A%BF/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190316.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>&lt;em>&lt;strong>1、&lt;/strong>&lt;/em>&lt;/p></description></item><item><title>java中this关键字易错点和说明</title><link>https://kubeinfo.cn/posts/java%E4%B8%ADthis%E5%85%B3%E9%94%AE%E5%AD%97%E6%98%93%E9%94%99%E7%82%B9%E5%92%8C%E8%AF%B4%E6%98%8E/</link><pubDate>Thu, 17 Oct 2019 15:36:27 +0000</pubDate><guid>https://kubeinfo.cn/posts/java%E4%B8%ADthis%E5%85%B3%E9%94%AE%E5%AD%97%E6%98%93%E9%94%99%E7%82%B9%E5%92%8C%E8%AF%B4%E6%98%8E/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180324.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>今天首先来看个问题，用原生servlet实现的接口，大家看下控制台输出结果是什么？&lt;/p></description></item><item><title>mysql大小写敏感与校对规则</title><link>https://kubeinfo.cn/posts/mysql%E5%A4%A7%E5%B0%8F%E5%86%99%E6%95%8F%E6%84%9F%E4%B8%8E%E6%A0%A1%E5%AF%B9%E8%A7%84%E5%88%99/</link><pubDate>Thu, 17 Oct 2019 15:34:30 +0000</pubDate><guid>https://kubeinfo.cn/posts/mysql%E5%A4%A7%E5%B0%8F%E5%86%99%E6%95%8F%E6%84%9F%E4%B8%8E%E6%A0%A1%E5%AF%B9%E8%A7%84%E5%88%99/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190521.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>大家在使用mysql过程中，可能会遇到类似以下的问题：&lt;/p></description></item><item><title>一款最好用的windows文件管理器</title><link>https://kubeinfo.cn/posts/%E4%B8%80%E6%AC%BE%E6%9C%80%E5%A5%BD%E7%94%A8%E7%9A%84windows%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%E5%99%A8/</link><pubDate>Thu, 17 Oct 2019 15:33:29 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E4%B8%80%E6%AC%BE%E6%9C%80%E5%A5%BD%E7%94%A8%E7%9A%84windows%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%E5%99%A8/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180704.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>在日常生活或工作中，除了一些文本编辑工具以及网页浏览器以外，我们接触的最多的可能就是资源管理器了。资源管理器软件有很多。如：&lt;/p></description></item><item><title>java、golang日志文件转储压缩实现</title><link>https://kubeinfo.cn/posts/javagolang%E6%97%A5%E5%BF%97%E6%96%87%E4%BB%B6%E8%BD%AC%E5%82%A8%E5%8E%8B%E7%BC%A9%E5%AE%9E%E7%8E%B0/</link><pubDate>Thu, 17 Oct 2019 15:27:52 +0000</pubDate><guid>https://kubeinfo.cn/posts/javagolang%E6%97%A5%E5%BF%97%E6%96%87%E4%BB%B6%E8%BD%AC%E5%82%A8%E5%8E%8B%E7%BC%A9%E5%AE%9E%E7%8E%B0/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190324.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>日志的转储和压缩是非常关键的，它不仅可以减少硬盘空间占用，主要还可以在发生故障时根据日志定位出故障原因。下面来看看golang和java的文件转储实现。&lt;/p></description></item><item><title>一款很好用的markdown编辑器</title><link>https://kubeinfo.cn/posts/%E4%B8%80%E6%AC%BE%E5%BE%88%E5%A5%BD%E7%94%A8%E7%9A%84markdown%E7%BC%96%E8%BE%91%E5%99%A8/</link><pubDate>Thu, 17 Oct 2019 15:25:57 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E4%B8%80%E6%AC%BE%E5%BE%88%E5%A5%BD%E7%94%A8%E7%9A%84markdown%E7%BC%96%E8%BE%91%E5%99%A8/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190115.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>Markdown 其实向来是文字爱好者和码农们的小众需求，市面上也涌现出了形形色色的 Markdown 编辑器，Mou、Typed、Ulysess、Macdown、简书、有道云等，这些比较流行的 Markdown 编辑器，都基本采用了「写字」和「预览」相分离的策略。&lt;/p></description></item><item><title>beego与curl三件事</title><link>https://kubeinfo.cn/posts/beego%E4%B8%8Ecurl%E4%B8%89%E4%BB%B6%E4%BA%8B/</link><pubDate>Thu, 17 Oct 2019 15:23:44 +0000</pubDate><guid>https://kubeinfo.cn/posts/beego%E4%B8%8Ecurl%E4%B8%89%E4%BB%B6%E4%BA%8B/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190706.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>今天来看三件事：&lt;/p></description></item><item><title>slf4j打印日志必须的三个依赖包</title><link>https://kubeinfo.cn/posts/slf4j%E6%89%93%E5%8D%B0%E6%97%A5%E5%BF%97%E5%BF%85%E9%A1%BB%E7%9A%84%E4%B8%89%E4%B8%AA%E4%BE%9D%E8%B5%96%E5%8C%85/</link><pubDate>Thu, 17 Oct 2019 15:22:03 +0000</pubDate><guid>https://kubeinfo.cn/posts/slf4j%E6%89%93%E5%8D%B0%E6%97%A5%E5%BF%97%E5%BF%85%E9%A1%BB%E7%9A%84%E4%B8%89%E4%B8%AA%E4%BE%9D%E8%B5%96%E5%8C%85/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180329.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>日志相关包 slf4j打印日志必须的三个依赖包&lt;br />
+slf4j假设使用log4j做为底层日志工具，运行以上程序需要三个包：&lt;/p></description></item><item><title>MySql镜像安装</title><link>https://kubeinfo.cn/posts/mysql%E9%95%9C%E5%83%8F%E5%AE%89%E8%A3%85/</link><pubDate>Thu, 17 Oct 2019 15:21:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/mysql%E9%95%9C%E5%83%8F%E5%AE%89%E8%A3%85/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20181021.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;hr />
+&lt;h2 class="relative group">安装MySql镜像
+&lt;div id="安装mysql镜像" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e5%ae%89%e8%a3%85mysql%e9%95%9c%e5%83%8f" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;pre tabindex="0">&lt;code>&amp;gt; docker search mysql #查找MySql镜像版本
+&amp;gt; docker pull mysql:tag #安装指定版本的mysql镜像，tag为版本号
+&lt;/code>&lt;/pre>&lt;p>例如：&lt;/p></description></item><item><title>java子类调用父类构造器函数</title><link>https://kubeinfo.cn/posts/java%E5%AD%90%E7%B1%BB%E8%B0%83%E7%94%A8%E7%88%B6%E7%B1%BB%E6%9E%84%E9%80%A0%E5%99%A8%E5%87%BD%E6%95%B0/</link><pubDate>Thu, 17 Oct 2019 14:51:34 +0000</pubDate><guid>https://kubeinfo.cn/posts/java%E5%AD%90%E7%B1%BB%E8%B0%83%E7%94%A8%E7%88%B6%E7%B1%BB%E6%9E%84%E9%80%A0%E5%99%A8%E5%87%BD%E6%95%B0/</guid><description>&lt;h2 class="relative group">正文
 &lt;div id="正文" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
@@ -393,449 +466,11 @@ style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-l
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">son1&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="na">fun&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">2&lt;/span>&lt;span class="p">);&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="p">}&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="p">}&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>子类 调用 父类的构造函数：（构造函数不会被继承，只是被子类调用而已）&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/java%E8%BF%99%E4%B8%AA404%E4%BD%A0%E8%83%BD%E8%A7%A3%E5%86%B3%E5%90%97/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/java%E8%BF%99%E4%B8%AA404%E4%BD%A0%E8%83%BD%E8%A7%A3%E5%86%B3%E5%90%97/</guid><description>&lt;h2 class="relative group">title: java这个404你能解决吗？&lt;br />
-date: &amp;lsquo;2019-10-17 17:57:03&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 17:57:03&amp;rsquo;&lt;br />
-tags: [java, springmvc]&lt;br />
-permalink: /201910171756java
-&lt;div id="permalink-201910171756java" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171756java" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;h2 class="relative group">正文
-&lt;div id="正文" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>今天在tomcat里部署运行了一个小工程，工程结构如下：&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/k8s%E4%B8%AD%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E5%99%A8ingressnginx%E9%83%A8%E7%BD%B2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/k8s%E4%B8%AD%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E5%99%A8ingressnginx%E9%83%A8%E7%BD%B2/</guid><description>&lt;h2 class="relative group">title: k8s中负载均衡器【ingress-nginx】部署&lt;br />
-date: &amp;lsquo;2019-10-17 14:46:13&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 14:46:13&amp;rsquo;&lt;br />
-tags: [kubernetes, ingress-nginx]&lt;br />
-permalink: /201910171445kube
-&lt;div id="permalink-201910171445kube" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171445kube" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190422.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/k8s%E4%BD%BF%E7%94%A8job%E6%89%A7%E8%A1%8C%E4%BB%BB%E5%8A%A1%E5%A4%B1%E8%B4%A5%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/k8s%E4%BD%BF%E7%94%A8job%E6%89%A7%E8%A1%8C%E4%BB%BB%E5%8A%A1%E5%A4%B1%E8%B4%A5%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E/</guid><description>&lt;h2 class="relative group">title: k8s使用Job执行任务失败了怎么办&lt;br />
-date: &amp;lsquo;2019-10-17 14:43:07&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 14:43:07&amp;rsquo;&lt;br />
-tags: [kubernetes]&lt;br />
-permalink: /201910171442kube
-&lt;div id="permalink-201910171442kube" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171442kube" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180724.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/k8s%E8%87%AA%E5%AE%9A%E4%B9%89%E8%B5%84%E6%BA%90%E7%B1%BB%E5%9E%8B%E4%BB%A3%E7%A0%81%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/k8s%E8%87%AA%E5%AE%9A%E4%B9%89%E8%B5%84%E6%BA%90%E7%B1%BB%E5%9E%8B%E4%BB%A3%E7%A0%81%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90/</guid><description>&lt;h2 class="relative group">title: k8s自定义资源类型代码自动生成&lt;br />
-date: &amp;lsquo;2019-10-18 13:29:09&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:29:09&amp;rsquo;&lt;br />
-tags: [kubernetes]&lt;br />
-permalink: /201910181329k8s
-&lt;div id="permalink-201910181329k8s" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181329k8s" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;h2 class="relative group">正文
-&lt;div id="正文" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>用以下命令生成代码：&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/kubeapiserver%E5%AE%A1%E8%AE%A1%E6%97%A5%E5%BF%97%E8%AE%B0%E5%BD%95%E5%92%8C%E9%87%87%E9%9B%86/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubeapiserver%E5%AE%A1%E8%AE%A1%E6%97%A5%E5%BF%97%E8%AE%B0%E5%BD%95%E5%92%8C%E9%87%87%E9%9B%86/</guid><description>&lt;h2 class="relative group">title: kube-apiserver审计日志记录和采集&lt;br />
-date: &amp;lsquo;2019-10-18 13:03:22&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:03:22&amp;rsquo;&lt;br />
-tags: [kubernetes]&lt;br />
-permalink: /201910181303k8s
-&lt;div id="permalink-201910181303k8s" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181303k8s" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>Kubernetes 审计功能提供了与安全相关的按时间顺序排列的记录集，记录单个用户、管理员或系统其他组件影响系统的活动顺序。它能帮助集群管理员处理以下问题：&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/kubernetespodexec%E6%8E%A5%E5%8F%A3%E8%B0%83%E7%94%A8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubernetespodexec%E6%8E%A5%E5%8F%A3%E8%B0%83%E7%94%A8/</guid><description>&lt;h2 class="relative group">title: kubernetes pod exec接口调用&lt;br />
-date: &amp;lsquo;2019-10-18 13:30:04&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:30:04&amp;rsquo;&lt;br />
-tags: [kubernetes]&lt;br />
-permalink: /201910181329kubernetes
-&lt;div id="permalink-201910181329kubernetes" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181329kubernetes" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;h2 class="relative group">正文
-&lt;div id="正文" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>一般生产环境上由于网络安全策略，大多数端口是不能为集群外部访问的。多个集群之间一般都是通过k8s的ApiServer组件提供的接口通信，如https://192.168.1.101:6443。所以在做云平台时，集群管理平台（雅称：观云台）需要操作其他集群的资源对象时，必然也得通过ApiServer。&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%8E%A7%E5%88%B6%E5%99%A8%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B8%80/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%8E%A7%E5%88%B6%E5%99%A8%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B8%80/</guid><description>&lt;h2 class="relative group">title: kubernetes垃圾回收器GarbageCollector控制器源码分析（一）&lt;br />
-date: &amp;lsquo;2019-10-16 23:14:24&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-22 19:40:57&amp;rsquo;&lt;br />
-tags: [kubernetes]&lt;br />
-permalink: /201910162317kube
-&lt;div id="permalink-201910162317kube" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910162317kube" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190604.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%8E%A7%E5%88%B6%E5%99%A8%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%BA%8C/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%8E%A7%E5%88%B6%E5%99%A8%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%BA%8C/</guid><description>&lt;h2 class="relative group">title: kubernetes垃圾回收器GarbageCollector控制器源码分析（二）&lt;br />
-date: &amp;lsquo;2019-10-16 23:29:12&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-22 19:40:05&amp;rsquo;&lt;br />
-tags: [kubernetes]&lt;br />
-permalink: /201910162329kube
-&lt;div id="permalink-201910162329kube" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910162329kube" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190103.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/</guid><description>&lt;h2 class="relative group">title: kubernetes垃圾回收器GarbageCollector源码分析&lt;br />
-date: &amp;lsquo;2019-10-22 10:57:26&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-22 19:39:43&amp;rsquo;&lt;br />
-tags: [kubernetes]&lt;br />
-permalink: /201910221057gc
-&lt;div id="permalink-201910221057gc" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910221057gc" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;h1 class="relative group">kubernetes垃圾回收器GarbageCollector 源码分析
-&lt;div id="kubernetes垃圾回收器garbagecollector-源码分析" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#kubernetes%e5%9e%83%e5%9c%be%e5%9b%9e%e6%94%b6%e5%99%a8garbagecollector-%e6%ba%90%e7%a0%81%e5%88%86%e6%9e%90" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h1>
-&lt;blockquote>
-&lt;p>&lt;strong>kubernetes版本：1.13.2&lt;/strong>&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B8%89/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B8%89/</guid><description>&lt;h2 class="relative group">title: kubernetes垃圾回收器GarbageCollector 源码分析（三）&lt;br />
-date: &amp;lsquo;2019-10-21 17:40:11&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-22 10:39:05&amp;rsquo;&lt;br />
-tags: [kubernetes]&lt;br />
-permalink: /201910211740k8s
-&lt;div id="permalink-201910211740k8s" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910211740k8s" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;blockquote>
-&lt;p>&lt;strong>kubernetes版本：1.13.2&lt;/strong>&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/kubernetes%E8%87%AA%E5%AE%9A%E4%B9%89%E8%B5%84%E6%BA%90%E5%AF%B9%E8%B1%A1%E9%AB%98%E7%BA%A7%E5%8A%9F%E8%83%BD/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubernetes%E8%87%AA%E5%AE%9A%E4%B9%89%E8%B5%84%E6%BA%90%E5%AF%B9%E8%B1%A1%E9%AB%98%E7%BA%A7%E5%8A%9F%E8%83%BD/</guid><description>&lt;h2 class="relative group">title: kubernetes自定义资源对象高级功能&lt;br />
-date: &amp;lsquo;2019-10-18 13:33:34&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:33:34&amp;rsquo;&lt;br />
-tags: [kubernetes]&lt;br />
-permalink: /201910181333kubernetes
-&lt;div id="permalink-201910181333kubernetes" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181333kubernetes" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>kubernetes自定义资源对象再极大程度提高了API Server的可扩展性，让企业能够根据业务需求通过CRD编写controller或者operator来实现生产中各种特殊场景。随着k8s的版本升级，CRD的功能也越来越完善，下面对其中几点进行说明。&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/kubescheduler%E8%B0%83%E5%BA%A6%E6%89%A9%E5%B1%95/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubescheduler%E8%B0%83%E5%BA%A6%E6%89%A9%E5%B1%95/</guid><description>&lt;h2 class="relative group">title: kube-scheduler调度扩展&lt;br />
-date: &amp;lsquo;2019-10-18 13:31:42&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:31:42&amp;rsquo;&lt;br />
-tags: [kubernetes]&lt;br />
-permalink: /201910181331scheduler
-&lt;div id="permalink-201910181331scheduler" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181331scheduler" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;h2 class="relative group">正文
-&lt;div id="正文" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>Kubernetes 自带了一个默认调度器kube-scheduler，其内置了很多节点预选和优选的调度算法，一般调度场景下可以满足要求。但是在一些特殊场景下，默认调度器不能满足我们复杂的调度需求。我们就需要对调度器进行扩展，以达到调度适合业务场景的目的。&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/lamp%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2%E7%89%A9%E8%81%94%E7%BD%91%E9%A1%B9%E7%9B%AE/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/lamp%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2%E7%89%A9%E8%81%94%E7%BD%91%E9%A1%B9%E7%9B%AE/</guid><description>&lt;h2 class="relative group">title: LAMP环境部署物联网项目&lt;br />
-date: &amp;lsquo;2019-10-18 13:12:36&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:12:36&amp;rsquo;&lt;br />
-tags: [linux, lamp, 物联网]&lt;br />
-permalink: /201910181312lamp
-&lt;div id="permalink-201910181312lamp" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181312lamp" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>今天来在LAMP环境下搭建一个PHP项目，开始之前，先来普及下物联网常识：&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/linux%E4%B8%8A%E5%AE%89%E8%A3%85lamp%E7%AC%94%E8%AE%B0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/linux%E4%B8%8A%E5%AE%89%E8%A3%85lamp%E7%AC%94%E8%AE%B0/</guid><description>&lt;h2 class="relative group">title: linux上安装LAMP笔记&lt;br />
-date: &amp;lsquo;2019-10-18 13:11:44&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:11:44&amp;rsquo;&lt;br />
-tags: [linux, lamp]&lt;br />
-permalink: /201910181311linux
-&lt;div id="permalink-201910181311linux" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181311linux" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>B哥最近在参加比赛，需要把一个php项目部署到服务器上，故此在linux上安装LAMP环境，用于部署项目，第一次安装，做点儿笔记记录一下。&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/linux%E9%80%9A%E8%BF%87vmware%E5%92%8C%E4%B8%BB%E6%9C%BA%E7%9B%B8%E8%BF%9E%E8%BF%9E%E6%8E%A5%E4%BA%92%E8%81%94%E7%BD%91/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/linux%E9%80%9A%E8%BF%87vmware%E5%92%8C%E4%B8%BB%E6%9C%BA%E7%9B%B8%E8%BF%9E%E8%BF%9E%E6%8E%A5%E4%BA%92%E8%81%94%E7%BD%91/</guid><description>&lt;h2 class="relative group">title: linux通过VMware和主机相连连接互联网&lt;br />
-date: &amp;lsquo;2019-10-17 14:48:20&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 14:48:20&amp;rsquo;&lt;br />
-tags: [linux]&lt;br />
-permalink: /201910171448linux
-&lt;div id="permalink-201910171448linux" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171448linux" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20181014.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/mysql%E5%A4%A7%E5%B0%8F%E5%86%99%E6%95%8F%E6%84%9F%E4%B8%8E%E6%A0%A1%E5%AF%B9%E8%A7%84%E5%88%99/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/mysql%E5%A4%A7%E5%B0%8F%E5%86%99%E6%95%8F%E6%84%9F%E4%B8%8E%E6%A0%A1%E5%AF%B9%E8%A7%84%E5%88%99/</guid><description>&lt;h2 class="relative group">title: mysql大小写敏感与校对规则&lt;br />
-date: &amp;lsquo;2019-10-17 15:34:30&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 15:34:30&amp;rsquo;&lt;br />
-tags: [mysql]&lt;br />
-permalink: /201910171534mysql
-&lt;div id="permalink-201910171534mysql" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171534mysql" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190521.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/mysql%E6%94%AF%E6%8C%81%E5%8E%9F%E7%94%9Fjson%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/mysql%E6%94%AF%E6%8C%81%E5%8E%9F%E7%94%9Fjson%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/</guid><description>&lt;h2 class="relative group">title: mysql支持原生json使用说明&lt;br />
-date: &amp;lsquo;2019-10-17 18:08:26&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 18:08:26&amp;rsquo;&lt;br />
-tags: [mysql]&lt;br />
-permalink: /201910171808mysql
-&lt;div id="permalink-201910171808mysql" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171808mysql" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;h2 class="relative group">正文
-&lt;div id="正文" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>MySQL在5.7.8开始对json原生支持，本文将对MySQL中json类型的用法简单说明，希望对你有用。&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/mysql%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%87%BAgolang%E5%AE%9E%E7%8E%B0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/mysql%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%87%BAgolang%E5%AE%9E%E7%8E%B0/</guid><description>&lt;h2 class="relative group">title: mysql数据导出golang实现&lt;br />
-date: &amp;lsquo;2019-10-18 13:34:05&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:34:05&amp;rsquo;&lt;br />
-tags: [mysql]&lt;br />
-permalink: /201910181333mysql
-&lt;div id="permalink-201910181333mysql" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181333mysql" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;h2 class="relative group">正文
-&lt;div id="正文" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>mysql数据导出为excel文件，golang实现：&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/mysql%E9%95%9C%E5%83%8F%E5%AE%89%E8%A3%85/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/mysql%E9%95%9C%E5%83%8F%E5%AE%89%E8%A3%85/</guid><description>&lt;h2 class="relative group">title: MySql镜像安装&lt;br />
-date: &amp;lsquo;2019-10-17 15:21:00&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 15:21:00&amp;rsquo;&lt;br />
-tags: [mysql, docker]&lt;br />
-permalink: /201910171520mysql
-&lt;div id="permalink-201910171520mysql" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171520mysql" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20181021.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/nat%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%85%B1%E4%BA%AB%E4%B8%BB%E6%9C%BA%E7%BD%91%E7%BB%9C/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/nat%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%85%B1%E4%BA%AB%E4%B8%BB%E6%9C%BA%E7%BD%91%E7%BB%9C/</guid><description>&lt;h2 class="relative group">title: NAT模式实现虚拟机共享主机网络&lt;br />
-date: &amp;lsquo;2019-10-18 13:20:47&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:20:47&amp;rsquo;&lt;br />
-tags: [linux]&lt;br />
-permalink: /201910181320linux
-&lt;div id="permalink-201910181320linux" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181320linux" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>上一节我们在虚拟机上搭建了linux系统，并利用桥接模式访问互联网，这一节，我们来配置一下通过NAT模式访问互联网。说到这里有些小伙伴可能要问了，NAT模式和桥接模式有什么区别呢？&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/nginxmap%E9%85%8D%E7%BD%AE%E6%A0%B9%E6%8D%AE%E8%AF%B7%E6%B1%82%E5%A4%B4%E4%B8%8D%E5%90%8C%E5%88%86%E9%85%8D%E6%B5%81%E9%87%8F%E5%88%B0%E4%B8%8D%E5%90%8C%E5%90%8E%E7%AB%AF%E6%9C%8D%E5%8A%A1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/nginxmap%E9%85%8D%E7%BD%AE%E6%A0%B9%E6%8D%AE%E8%AF%B7%E6%B1%82%E5%A4%B4%E4%B8%8D%E5%90%8C%E5%88%86%E9%85%8D%E6%B5%81%E9%87%8F%E5%88%B0%E4%B8%8D%E5%90%8C%E5%90%8E%E7%AB%AF%E6%9C%8D%E5%8A%A1/</guid><description>&lt;h2 class="relative group">title: nginx map配置根据请求头不同分配流量到不同后端服务&lt;br />
-date: &amp;lsquo;2019-10-18 13:28:31&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:28:31&amp;rsquo;&lt;br />
-tags: [nginx]&lt;br />
-permalink: /201910181328nginx
-&lt;div id="permalink-201910181328nginx" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181328nginx" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;h2 class="relative group">正文
-&lt;div id="正文" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>最近在做一个需求开发：根据请求后的不同，nginx将请求分发到不同的后端服务；需要修改kubernetes的ingress-nginx-controller的源码，调试的时候遇到了挺多问题，写出来，有需要的老铁可以参考。具体方案就不说了，只说一下nginx配置这一块。&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/nginx%E5%AD%A6%E4%B9%A0%E4%B9%8B%E6%A8%A1%E5%9D%97/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/nginx%E5%AD%A6%E4%B9%A0%E4%B9%8B%E6%A8%A1%E5%9D%97/</guid><description>&lt;h2 class="relative group">title: nginx学习之模块&lt;br />
-date: &amp;lsquo;2019-10-18 13:09:03&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:09:03&amp;rsquo;&lt;br />
-tags: [nginx]&lt;br />
-permalink: /201910181308nginx
-&lt;div id="permalink-201910181308nginx" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181308nginx" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>&lt;em>&lt;strong>1、&lt;/strong>&lt;/em>&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/nginx%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/nginx%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid><description>&lt;h2 class="relative group">title: nginx学习笔记&lt;br />
-date: &amp;lsquo;2019-10-18 13:08:21&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:08:21&amp;rsquo;&lt;br />
-tags: [nginx]&lt;br />
-permalink: /201910181307nginx
-&lt;div id="permalink-201910181307nginx" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181307nginx" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;blockquote>
-&lt;p>中间件位于客户机/ 服务器的操作系统之上，管理计算机资源和网络通讯。 是连接两个独立应用程序或独立系统的软件。&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/nginx%E8%AF%B7%E6%B1%82%E8%BF%9E%E6%8E%A5%E9%99%90%E5%88%B6%E7%AC%94%E8%AE%B0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/nginx%E8%AF%B7%E6%B1%82%E8%BF%9E%E6%8E%A5%E9%99%90%E5%88%B6%E7%AC%94%E8%AE%B0/</guid><description>&lt;h2 class="relative group">title: nginx请求连接限制笔记&lt;br />
-date: &amp;lsquo;2019-10-18 13:09:48&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:09:48&amp;rsquo;&lt;br />
-tags: [nginx]&lt;br />
-permalink: /201910181309nginx
-&lt;div id="permalink-201910181309nginx" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181309nginx" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>之前也有写过有关于爬虫的实战练习：&lt;a href="http://mp.weixin.qq.com/s?__biz=MjM5MzU5NDYwNA==&amp;amp;mid=2247484158&amp;amp;idx=1&amp;amp;sn=20d37b629a9ae2ae47fa08ae8c9b8c7d&amp;amp;chksm=a695ef7d91e2666b6547fa4cecbc9032cb520a5466eb107b24ab43f48e12d89dbd1d6ea01441&amp;amp;scene=21#wechat_redirect" target="_blank">go语言爬取珍爱网&lt;/a>&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/readmore%E4%B9%8Bcnblogs%E5%8D%9A%E5%AE%A2%E5%9B%AD%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/readmore%E4%B9%8Bcnblogs%E5%8D%9A%E5%AE%A2%E5%9B%AD%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid><description>&lt;h2 class="relative group">title: ReadMore 之 cnblogs 博客园使用指南&lt;br />
-date: &amp;lsquo;2019-10-17 14:30:32&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 14:30:32&amp;rsquo;&lt;br />
-tags: [blog]&lt;br />
-permalink: /201910171430blog
-&lt;div id="permalink-201910171430blog" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171430blog" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180330.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/shell%E8%84%9A%E6%9C%AC%E6%89%B9%E9%87%8F%E8%B0%83%E7%94%A8%E6%8E%A5%E5%8F%A3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/shell%E8%84%9A%E6%9C%AC%E6%89%B9%E9%87%8F%E8%B0%83%E7%94%A8%E6%8E%A5%E5%8F%A3/</guid><description>&lt;h2 class="relative group">title: shell脚本批量调用接口&lt;br />
-date: &amp;lsquo;2019-10-17 14:50:11&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 14:50:11&amp;rsquo;&lt;br />
-tags: [shell]&lt;br />
-permalink: /201910171449shell
-&lt;div id="permalink-201910171449shell" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171449shell" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>子类 调用 父类的构造函数：（构造函数不会被继承，只是被子类调用而已）&lt;/p></description></item><item><title>shell脚本批量调用接口</title><link>https://kubeinfo.cn/posts/shell%E8%84%9A%E6%9C%AC%E6%89%B9%E9%87%8F%E8%B0%83%E7%94%A8%E6%8E%A5%E5%8F%A3/</link><pubDate>Thu, 17 Oct 2019 14:50:11 +0000</pubDate><guid>https://kubeinfo.cn/posts/shell%E8%84%9A%E6%9C%AC%E6%89%B9%E9%87%8F%E8%B0%83%E7%94%A8%E6%8E%A5%E5%8F%A3/</guid><description>&lt;p>
 &lt;figure>
 &lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190405.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
 &lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/slf4j%E6%89%93%E5%8D%B0%E6%97%A5%E5%BF%97%E5%BF%85%E9%A1%BB%E7%9A%84%E4%B8%89%E4%B8%AA%E4%BE%9D%E8%B5%96%E5%8C%85/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/slf4j%E6%89%93%E5%8D%B0%E6%97%A5%E5%BF%97%E5%BF%85%E9%A1%BB%E7%9A%84%E4%B8%89%E4%B8%AA%E4%BE%9D%E8%B5%96%E5%8C%85/</guid><description>&lt;h2 class="relative group">title: slf4j打印日志必须的三个依赖包&lt;br />
-date: &amp;lsquo;2019-10-17 15:22:03&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 15:22:03&amp;rsquo;&lt;br />
-tags: [java, slf4j]&lt;br />
-permalink: /201910171521java
-&lt;div id="permalink-201910171521java" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171521java" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180329.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/springmvc%E5%AE%9E%E7%8E%B0%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/springmvc%E5%AE%9E%E7%8E%B0%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6/</guid><description>&lt;h2 class="relative group">title: SpringMVC实现发送邮件&lt;br />
-date: &amp;lsquo;2019-10-17 18:03:34&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 18:03:34&amp;rsquo;&lt;br />
-tags: [java, springmvc, email]&lt;br />
-permalink: /201910171803java
-&lt;div id="permalink-201910171803java" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171803java" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
+&lt;/p>
 &lt;h2 class="relative group">正文
 &lt;div id="正文" class="anchor">&lt;/div>
 &lt;span
@@ -844,30 +479,20 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>今天来试着用SpringMVC发送邮件，主要需要依赖以下两个包；&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/title-5%E5%88%86%E9%92%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%8E%A9%E7%8E%A9/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/title-5%E5%88%86%E9%92%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%8E%A9%E7%8E%A9/</guid><description>&lt;h2 class="relative group">title: 5分钟搭建个博客玩玩&lt;br />
-date: &amp;lsquo;2019-10-24 23:06:39&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-26 20:15:18&amp;rsquo;&lt;br />
-tags: [blog]&lt;br />
-permalink: /201910242306blog
-&lt;div id="permalink-201910242306blog" class="anchor">&lt;/div>
+&lt;p>&lt;strong>  要求在页面查询到5000条数据，为了方便插入，用shell脚本写curl命令调用自己写的代码接口；&lt;/strong>&lt;/p></description></item><item><title>go语言生成可执行文件</title><link>https://kubeinfo.cn/posts/go%E8%AF%AD%E8%A8%80%E7%94%9F%E6%88%90%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6/</link><pubDate>Thu, 17 Oct 2019 14:49:10 +0000</pubDate><guid>https://kubeinfo.cn/posts/go%E8%AF%AD%E8%A8%80%E7%94%9F%E6%88%90%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6/</guid><description>&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910242306blog" aria-label="锚点">#&lt;/a>
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>大家都知道最近阿里云服务器很便宜火爆，于是小编也入手了一台3年的，配置：1核2G内存，40G硬盘。&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/vmware%E4%B8%8A%E5%AE%89%E8%A3%85linux%E8%BF%87%E7%A8%8B%E8%AE%B0%E5%BD%95/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/vmware%E4%B8%8A%E5%AE%89%E8%A3%85linux%E8%BF%87%E7%A8%8B%E8%AE%B0%E5%BD%95/</guid><description>&lt;h2 class="relative group">title: vmware上安装linux过程记录&lt;br />
-date: &amp;lsquo;2019-10-18 13:20:03&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-19 14:47:11&amp;rsquo;&lt;br />
-tags: [linux, vmware]&lt;br />
-permalink: /201910181319linux
-&lt;div id="permalink-201910181319linux" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181319linux" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
+&lt;p>安装go后，我们一般会设置好GOROOT和GOPATH环境变量，但是有时候因为实际工作中项目结构复杂，设置的GOPATH不能满足需要时，可以在cmd设置临时的GOPATH；很多IDE，比如IDEA也可以设置全局的GOPATH和临时的GOPATH，但是编译可执行文件可能有些复杂或者通过IDE编译或者运行会出现app.conf配置文件加载不到的情况，这个坑我遇到过。请看https://github.com/astaxie/beego/issues/1831&lt;br />
+故通过命令的方式生成go的可执行文件。&lt;/p></description></item><item><title>linux通过VMware和主机相连连接互联网</title><link>https://kubeinfo.cn/posts/linux%E9%80%9A%E8%BF%87vmware%E5%92%8C%E4%B8%BB%E6%9C%BA%E7%9B%B8%E8%BF%9E%E8%BF%9E%E6%8E%A5%E4%BA%92%E8%81%94%E7%BD%91/</link><pubDate>Thu, 17 Oct 2019 14:48:20 +0000</pubDate><guid>https://kubeinfo.cn/posts/linux%E9%80%9A%E8%BF%87vmware%E5%92%8C%E4%B8%BB%E6%9C%BA%E7%9B%B8%E8%BF%9E%E8%BF%9E%E6%8E%A5%E4%BA%92%E8%81%94%E7%BD%91/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20181014.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
 &lt;h2 class="relative group">正文
 &lt;div id="正文" class="anchor">&lt;/div>
 &lt;span
@@ -876,191 +501,15 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>以前的电脑上安装过vmware+redhat，但是奈何电脑太老，配置太低，打开的时候超级卡，没法用。换了电脑后，再装上玩玩，故此记录一下安装过程。需要安装的小伙伴可以在此获取包然后按此步骤安装。&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/yum%E6%BA%90%E9%85%8D%E7%BD%AE/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/yum%E6%BA%90%E9%85%8D%E7%BD%AE/</guid><description>&lt;h2 class="relative group">title: yum源配置&lt;br />
-date: &amp;lsquo;2019-10-18 13:21:40&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-19 14:41:50&amp;rsquo;&lt;br />
-tags: [linux, yum]&lt;br />
-permalink: /201910181321linux
-&lt;div id="permalink-201910181321linux" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181321linux" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>在配置yum前首先得说说rpm，在redhat和centos linux系统上，rpm作为软件包管理工具，可以方便的安装、查询、卸载软件包。常见命令如下：&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E4%B8%80%E4%B8%AA%E7%A5%9E%E7%A7%98%E7%8E%B0%E8%B1%A1%E5%BC%95%E5%8F%91%E5%AF%B9beego%E6%A1%86%E6%9E%B6%E7%9A%84%E6%80%9D%E8%80%83/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E4%B8%80%E4%B8%AA%E7%A5%9E%E7%A7%98%E7%8E%B0%E8%B1%A1%E5%BC%95%E5%8F%91%E5%AF%B9beego%E6%A1%86%E6%9E%B6%E7%9A%84%E6%80%9D%E8%80%83/</guid><description>&lt;h2 class="relative group">title: 一个神秘现象引发对beego框架的思考&lt;br />
-date: &amp;lsquo;2019-10-18 12:57:23&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 12:57:23&amp;rsquo;&lt;br />
-tags: [golang, beego]&lt;br />
-permalink: /201910181257beego
-&lt;div id="permalink-201910181257beego" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181257beego" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>小强最近在项目中遇到了一个很奇怪的问题：在整改日志规范时，为了避免影响现有的代码结构以及改动尽可能小的前提下，在调用记日志的SDK处将某一个字段值首字母改为大写，代码示例如下：&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E4%B8%80%E6%AC%A1%E5%86%99shell%E8%84%9A%E6%9C%AC%E7%9A%84%E7%BB%8F%E5%8E%86%E8%AE%B0%E5%BD%95%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6%E6%83%B9%E7%9A%84%E7%A5%B8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E4%B8%80%E6%AC%A1%E5%86%99shell%E8%84%9A%E6%9C%AC%E7%9A%84%E7%BB%8F%E5%8E%86%E8%AE%B0%E5%BD%95%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6%E6%83%B9%E7%9A%84%E7%A5%B8/</guid><description>&lt;h2 class="relative group">title: 一次写shell脚本的经历记录——特殊字符惹的祸&lt;br />
-date: &amp;lsquo;2019-10-18 13:33:00&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:33:00&amp;rsquo;&lt;br />
-tags: [shell]&lt;br />
-permalink: /201910181332shell
-&lt;div id="permalink-201910181332shell" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181332shell" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;blockquote>
-&lt;p>本文首发于微信公众号“我的小碗汤”，扫码文末二维码即可关注，欢迎一起交流！&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E4%B8%80%E6%AC%BE%E5%BE%88%E5%A5%BD%E7%94%A8%E7%9A%84markdown%E7%BC%96%E8%BE%91%E5%99%A8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E4%B8%80%E6%AC%BE%E5%BE%88%E5%A5%BD%E7%94%A8%E7%9A%84markdown%E7%BC%96%E8%BE%91%E5%99%A8/</guid><description>&lt;h2 class="relative group">title: 一款很好用的markdown编辑器&lt;br />
-date: &amp;lsquo;2019-10-17 15:25:57&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 15:25:57&amp;rsquo;&lt;br />
-tags: [工具, typora]&lt;br />
-permalink: /201910171525tools
-&lt;div id="permalink-201910171525tools" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171525tools" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
+&lt;p>&lt;strong>1. VM8 使用固定IP：&lt;/strong>&lt;br />
 &lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190115.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;img class="my-0 rounded-md" loading="lazy" alt="VMnet8 IP设置" src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWUzMzA0OGM5ZWU3Njg2ODEucG5n?x-oss-process=image/format,png" />
 &lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E4%B8%80%E6%AC%BE%E6%95%88%E7%8E%87%E7%A5%9E%E5%99%A8ditto/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E4%B8%80%E6%AC%BE%E6%95%88%E7%8E%87%E7%A5%9E%E5%99%A8ditto/</guid><description>&lt;h2 class="relative group">title: 一款效率神器Ditto&lt;br />
-date: &amp;lsquo;2019-10-17 17:50:48&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 17:50:48&amp;rsquo;&lt;br />
-tags: [工具, ditto]&lt;br />
-permalink: /201910171750tools
-&lt;div id="permalink-201910171750tools" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171750tools" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20181202.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E4%B8%80%E6%AC%BE%E6%9C%80%E5%A5%BD%E7%94%A8%E7%9A%84windows%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%E5%99%A8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E4%B8%80%E6%AC%BE%E6%9C%80%E5%A5%BD%E7%94%A8%E7%9A%84windows%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%E5%99%A8/</guid><description>&lt;h2 class="relative group">title: 一款最好用的windows文件管理器&lt;br />
-date: &amp;lsquo;2019-10-17 15:33:29&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 15:33:29&amp;rsquo;&lt;br />
-tags: [windows, xYplorer]&lt;br />
-permalink: /201910171533windows
-&lt;div id="permalink-201910171533windows" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171533windows" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180704.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E4%B8%96%E7%95%8C%E4%BD%A0%E5%A5%BD/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E4%B8%96%E7%95%8C%E4%BD%A0%E5%A5%BD/</guid><description>&lt;h2 class="relative group">title: 世界，你好！&lt;br />
-date: &amp;lsquo;2019-10-16 20:53:35&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-16 20:53:35&amp;rsquo;&lt;br />
-tags: [Solo]&lt;br />
-permalink: /hello-solo
-&lt;div id="permalink-hello-solo" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-hello-solo" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20181206.jpg?imageView2/1/w/1280/h/720/interlace/1/q/100" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BD%BF%E7%94%A8docker%E6%90%AD%E5%BB%BA%E6%9C%8D%E5%8A%A1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BD%BF%E7%94%A8docker%E6%90%AD%E5%BB%BA%E6%9C%8D%E5%8A%A1/</guid><description>&lt;h2 class="relative group">title: 云服务器使用docker搭建服务&lt;br />
-date: &amp;lsquo;2019-10-17 14:44:30&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 14:44:30&amp;rsquo;&lt;br />
-tags: [docker]&lt;br />
-permalink: /201910171444docker
-&lt;div id="permalink-201910171444docker" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171444docker" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>&lt;strong>前提：亚马逊云已经配置好启动。&lt;/strong>&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E4%BA%9A%E9%A9%AC%E9%80%8Aaws%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8D%E5%90%88%E7%90%86%E6%89%A3%E8%B4%B9%E6%80%8E%E4%B9%88%E5%A4%84%E7%90%86/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E4%BA%9A%E9%A9%AC%E9%80%8Aaws%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8D%E5%90%88%E7%90%86%E6%89%A3%E8%B4%B9%E6%80%8E%E4%B9%88%E5%A4%84%E7%90%86/</guid><description>&lt;h2 class="relative group">title: 亚马逊AWS云服务器不合理扣费怎么处理&lt;br />
-date: &amp;lsquo;2019-10-17 14:37:39&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 14:37:39&amp;rsquo;&lt;br />
-tags: [服务器]&lt;br />
-permalink: /201910171437aes
-&lt;div id="permalink-201910171437aes" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171437aes" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180512.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E5%88%A9%E7%94%A8golang%E4%BC%98%E9%9B%85%E7%9A%84%E5%AE%9E%E7%8E%B0%E5%8D%95%E5%AE%9E%E4%BE%8B/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%88%A9%E7%94%A8golang%E4%BC%98%E9%9B%85%E7%9A%84%E5%AE%9E%E7%8E%B0%E5%8D%95%E5%AE%9E%E4%BE%8B/</guid><description>&lt;h2 class="relative group">title: 利用golang优雅的实现单实例&lt;br />
-date: &amp;lsquo;2019-10-18 12:58:57&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 12:58:57&amp;rsquo;&lt;br />
-tags: [golang]&lt;br />
-permalink: /201910181258golang
-&lt;div id="permalink-201910181258golang" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181258golang" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>平时编写代码过程中，经常会遇到对于全局角度只需运行一次的代码，比如全局初始化操作，设计模式中的单例模式。针对单例模式，&lt;strong>java&lt;/strong>中又出现了饿汉模式、懒汉模式，再配合&lt;strong>synchronized&lt;/strong>同步关键字来实现。其目的无非就是将对象只初始化一次，而且最好保证在用到的时候再进行初始化，以避免初始化太早浪费资源，或者两次初始化破坏单例模式的实例唯一性。&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E5%88%A9%E7%94%A8procedure%E6%89%B9%E9%87%8F%E6%8F%92%E5%85%A5%E6%95%B0%E6%8D%AE/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%88%A9%E7%94%A8procedure%E6%89%B9%E9%87%8F%E6%8F%92%E5%85%A5%E6%95%B0%E6%8D%AE/</guid><description>&lt;h2 class="relative group">title: 利用procedure批量插入数据&lt;br />
-date: &amp;lsquo;2019-10-17 14:47:21&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 14:47:21&amp;rsquo;&lt;br />
-tags: [mysql]&lt;br />
-permalink: /201910171447mysql
-&lt;div id="permalink-201910171447mysql" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171447mysql" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
+&lt;/p></description></item><item><title>利用procedure批量插入数据</title><link>https://kubeinfo.cn/posts/%E5%88%A9%E7%94%A8procedure%E6%89%B9%E9%87%8F%E6%8F%92%E5%85%A5%E6%95%B0%E6%8D%AE/</link><pubDate>Thu, 17 Oct 2019 14:47:21 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%88%A9%E7%94%A8procedure%E6%89%B9%E9%87%8F%E6%8F%92%E5%85%A5%E6%95%B0%E6%8D%AE/</guid><description>&lt;p>
 &lt;figure>
 &lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180204.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
 &lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%85%A8docker%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%85%A8docker%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/</guid><description>&lt;h2 class="relative group">title: 史上最全docker基础知识汇总&lt;br />
-date: &amp;lsquo;2019-10-17 14:25:20&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 14:25:20&amp;rsquo;&lt;br />
-tags: [docker]&lt;br />
-permalink: /201910171424docker
-&lt;div id="permalink-201910171424docker" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171424docker" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20191002.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%85%A8k8s%E5%BF%85%E5%AD%A6%E5%BF%85%E4%BC%9A%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%85%A8k8s%E5%BF%85%E5%AD%A6%E5%BF%85%E4%BC%9A%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86/</guid><description>&lt;h2 class="relative group">title: 史上最全k8s必学必会知识梳理&lt;br />
-date: &amp;lsquo;2019-10-18 13:32:28&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:32:28&amp;rsquo;&lt;br />
-tags: [kubernetes]&lt;br />
-permalink: /201910181332k8s
-&lt;div id="permalink-201910181332k8s" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181332k8s" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
+&lt;/p>
 &lt;h2 class="relative group">正文
 &lt;div id="正文" class="anchor">&lt;/div>
 &lt;span
@@ -1069,46 +518,138 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>&lt;strong>kube-apiserver&lt;/strong>&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC1%E5%A4%A9cka%E7%AE%80%E4%BB%8B%E8%80%83%E7%BA%B2daemonset%E7%9F%A5%E8%AF%86%E7%9F%A5%E8%AF%86%E7%82%B9%E5%88%9D%E6%8E%A2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC1%E5%A4%A9cka%E7%AE%80%E4%BB%8B%E8%80%83%E7%BA%B2daemonset%E7%9F%A5%E8%AF%86%E7%9F%A5%E8%AF%86%E7%82%B9%E5%88%9D%E6%8E%A2/</guid><description>&lt;h2 class="relative group">title: 备战CKA每日一题——第1天 | CKA简介、考纲、Daemonset知识知识点初探&lt;br />
-date: &amp;lsquo;2019-11-19 09:52:40&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-11-21 22:55:02&amp;rsquo;&lt;br />
-tags: [kubernetes, CKA]&lt;br />
-permalink: /201911190952kube
-&lt;div id="permalink-201911190952kube" class="anchor">&lt;/div>
+&lt;p>&lt;strong>  要求在页面查询到5000条数据，为了方便插入，准备用shell脚本写curl命令调用自己写的代码接口，但是速度慢，而且写的时候遇到点儿小问题，故用sql语句写了这个功能&lt;/strong>&lt;br />
+&lt;strong>  由于operationlog表中的ts字段为13位的时间戳，所以采用了截取的方式。&lt;/strong>&lt;/p></description></item><item><title>k8s中负载均衡器【ingress-nginx】部署</title><link>https://kubeinfo.cn/posts/k8s%E4%B8%AD%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E5%99%A8ingressnginx%E9%83%A8%E7%BD%B2/</link><pubDate>Thu, 17 Oct 2019 14:46:13 +0000</pubDate><guid>https://kubeinfo.cn/posts/k8s%E4%B8%AD%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E5%99%A8ingressnginx%E9%83%A8%E7%BD%B2/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190422.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;p>在Kubernetes中，服务和Pod的IP地址仅可以在集群网络内部使用，对于集群外的应用是不可见的。为了使外部的应用能够访问集群内的服务，在Kubernetes 目前 提供了以下几种方案：&lt;/p></description></item><item><title>云服务器使用docker搭建服务</title><link>https://kubeinfo.cn/posts/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BD%BF%E7%94%A8docker%E6%90%AD%E5%BB%BA%E6%9C%8D%E5%8A%A1/</link><pubDate>Thu, 17 Oct 2019 14:44:30 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BD%BF%E7%94%A8docker%E6%90%AD%E5%BB%BA%E6%9C%8D%E5%8A%A1/</guid><description>&lt;p>&lt;strong>前提：亚马逊云已经配置好启动。&lt;/strong>&lt;/p>
+&lt;p>安全组入站策略如下：&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="在这里插入图片描述" src="https://img-blog.csdnimg.cn/20190715082029462.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70" />
+&lt;/figure>
+&lt;br />
+出站策略如下：&lt;br />
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="在这里插入图片描述" src="https://img-blog.csdnimg.cn/20190715082044270.png" />
+&lt;/figure>
+&lt;/p></description></item><item><title>k8s使用Job执行任务失败了怎么办</title><link>https://kubeinfo.cn/posts/k8s%E4%BD%BF%E7%94%A8job%E6%89%A7%E8%A1%8C%E4%BB%BB%E5%8A%A1%E5%A4%B1%E8%B4%A5%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E/</link><pubDate>Thu, 17 Oct 2019 14:43:07 +0000</pubDate><guid>https://kubeinfo.cn/posts/k8s%E4%BD%BF%E7%94%A8job%E6%89%A7%E8%A1%8C%E4%BB%BB%E5%8A%A1%E5%A4%B1%E8%B4%A5%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180724.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;p>Kubernetes 中使用 Job 和 CronJob 两个资源分别提供了一次性任务和定时任务的特性，这两种对象也使用控制器模型来实现资源的管理，我们在这篇文章来介绍Job执行如果失败了会怎么样呢？&lt;/p></description></item><item><title>采坑指南——k8s域名解析coredns问题排查过程</title><link>https://kubeinfo.cn/posts/%E9%87%87%E5%9D%91%E6%8C%87%E5%8D%97k8s%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90coredns%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5%E8%BF%87%E7%A8%8B/</link><pubDate>Thu, 17 Oct 2019 14:40:05 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E9%87%87%E5%9D%91%E6%8C%87%E5%8D%97k8s%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90coredns%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5%E8%BF%87%E7%A8%8B/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180826.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201911190952kube" aria-label="锚点">#&lt;/a>
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
+&lt;p>前几天，在ucloud上搭建的k8s集群（搭建教程后续会发出）。今天发现域名解析不了。&lt;/p></description></item><item><title>如何批量删除k8s资源对象</title><link>https://kubeinfo.cn/posts/%E5%A6%82%E4%BD%95%E6%89%B9%E9%87%8F%E5%88%A0%E9%99%A4k8s%E8%B5%84%E6%BA%90%E5%AF%B9%E8%B1%A1/</link><pubDate>Thu, 17 Oct 2019 14:38:49 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%A6%82%E4%BD%95%E6%89%B9%E9%87%8F%E5%88%A0%E9%99%A4k8s%E8%B5%84%E6%BA%90%E5%AF%B9%E8%B1%A1/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180630.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
 &lt;blockquote>
-&lt;p>本活动在微信公众号【我的小碗汤】上举行，有送书活动！这里参与答题不能参与到送书活动哦！&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC2%E5%A4%A9daemonset%E5%AF%B9%E6%8E%A5%E5%AD%98%E5%82%A8csi%E7%9F%A5%E8%AF%86%E7%82%B9/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC2%E5%A4%A9daemonset%E5%AF%B9%E6%8E%A5%E5%AD%98%E5%82%A8csi%E7%9F%A5%E8%AF%86%E7%82%B9/</guid><description>&lt;h2 class="relative group">title: 备战CKA每日一题——第2天 | Daemonset、对接存储CSI知识点&lt;br />
-date: &amp;lsquo;2019-11-19 09:54:46&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-11-21 23:24:21&amp;rsquo;&lt;br />
-tags: [kubernetes, CKA]&lt;br />
-permalink: /201911190954kube
-&lt;div id="permalink-201911190954kube" class="anchor">&lt;/div>
+&lt;p>本文首发于公众号【我的小碗汤】扫描文末二维码关注，一起交流学习&lt;/p></description></item><item><title>亚马逊AWS云服务器不合理扣费怎么处理</title><link>https://kubeinfo.cn/posts/%E4%BA%9A%E9%A9%AC%E9%80%8Aaws%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8D%E5%90%88%E7%90%86%E6%89%A3%E8%B4%B9%E6%80%8E%E4%B9%88%E5%A4%84%E7%90%86/</link><pubDate>Thu, 17 Oct 2019 14:37:39 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E4%BA%9A%E9%A9%AC%E9%80%8Aaws%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8D%E5%90%88%E7%90%86%E6%89%A3%E8%B4%B9%E6%80%8E%E4%B9%88%E5%A4%84%E7%90%86/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180512.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;p>有些小伙伴可能不知道，亚马逊AWS对新用户有个免费体验一年的活动。如果希望体验免费亚马逊AWS云服务器产品，或者看看他们后台面板长什么样，体验产品的速度和性能，又或者准备搭建一个免费t z，可以&lt;br />
+注册玩玩。&lt;/p></description></item><item><title>CSDN VIP如何添加自定义栏目</title><link>https://kubeinfo.cn/posts/csdnvip%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A0%8F%E7%9B%AE/</link><pubDate>Thu, 17 Oct 2019 14:33:49 +0000</pubDate><guid>https://kubeinfo.cn/posts/csdnvip%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A0%8F%E7%9B%AE/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180806.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;p>几个月前我也开始在csdn上开了博客，一来给自己加几个少的可怜的流量，再者，让公众号的原创文章获得更多的曝光，让有需要的同学看到。&lt;/p></description></item><item><title>ReadMore 之 cnblogs 博客园使用指南</title><link>https://kubeinfo.cn/posts/readmore%E4%B9%8Bcnblogs%E5%8D%9A%E5%AE%A2%E5%9B%AD%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link><pubDate>Thu, 17 Oct 2019 14:30:32 +0000</pubDate><guid>https://kubeinfo.cn/posts/readmore%E4%B9%8Bcnblogs%E5%8D%9A%E5%AE%A2%E5%9B%AD%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180330.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;p>readmore来源于：https://openwrite.cn/openwrite/openwrite-readmore/&lt;/p></description></item><item><title>史上最全docker基础知识汇总</title><link>https://kubeinfo.cn/posts/%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%85%A8docker%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/</link><pubDate>Thu, 17 Oct 2019 14:25:20 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%85%A8docker%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20191002.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201911190954kube" aria-label="锚点">#&lt;/a>
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;blockquote>
-&lt;p>本活动在微信公众号【我的小碗汤】上举行，这里参与答题无效哦！&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC3%E5%A4%A9%E5%AF%B9%E6%8E%A5csi%E5%AD%98%E5%82%A8%E7%9F%A5%E8%AF%86/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC3%E5%A4%A9%E5%AF%B9%E6%8E%A5csi%E5%AD%98%E5%82%A8%E7%9F%A5%E8%AF%86/</guid><description>&lt;h2 class="relative group">title: 备战CKA每日一题——第3天 | 对接CSI存储知识&lt;br />
-date: &amp;lsquo;2019-11-21 22:56:55&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-11-21 22:56:55&amp;rsquo;&lt;br />
-tags: [kubernetes, CKA]&lt;br />
-permalink: /201911212256cka
-&lt;div id="permalink-201911212256cka" class="anchor">&lt;/div>
+&lt;p>&lt;strong>Docker常用命令&lt;/strong>&lt;/p></description></item><item><title>docker镜像制作必备技能</title><link>https://kubeinfo.cn/posts/docker%E9%95%9C%E5%83%8F%E5%88%B6%E4%BD%9C%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD/</link><pubDate>Thu, 17 Oct 2019 14:18:17 +0000</pubDate><guid>https://kubeinfo.cn/posts/docker%E9%95%9C%E5%83%8F%E5%88%B6%E4%BD%9C%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180416.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;h2 class="relative group">正文
+&lt;div id="正文" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201911212256cka" aria-label="锚点">#&lt;/a>
+style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
+&lt;p>使用过docker的都知道dockerfile，其用于定义制作镜像的流程，由一系列命令和参数构成的脚本，这些命令应用于基础镜像并最终创建一个新的镜像。可参考往期文章学习：&lt;a href="https://mp.weixin.qq.com/s/lzFL4eWU8h23sTbFbHEZkg" target="_blank">docker基础知识整理&lt;/a>&lt;/p></description></item><item><title>kubernetes垃圾回收器GarbageCollector控制器源码分析（二）</title><link>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%8E%A7%E5%88%B6%E5%99%A8%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%BA%8C/</link><pubDate>Wed, 16 Oct 2019 23:29:12 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%8E%A7%E5%88%B6%E5%99%A8%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%BA%8C/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190103.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
 &lt;blockquote>
-&lt;p>本活动在微信公众号【我的小碗汤】上举行，这里参与答题无效哦！&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC4%E5%A4%A9%E7%86%9F%E7%BB%83%E6%8E%8C%E6%8F%A1kubectl%E5%91%BD%E4%BB%A4%E8%BF%9B%E8%A1%8C%E5%88%9B%E5%BB%BA%E8%B5%84%E6%BA%90%E5%AF%B9%E8%B1%A1%E6%93%8D%E4%BD%9C%E5%B9%B6%E4%BB%8E%E6%BA%90%E7%A0%81%E8%BF%9B%E8%A1%8C%E8%A7%A3%E6%9E%90/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC4%E5%A4%A9%E7%86%9F%E7%BB%83%E6%8E%8C%E6%8F%A1kubectl%E5%91%BD%E4%BB%A4%E8%BF%9B%E8%A1%8C%E5%88%9B%E5%BB%BA%E8%B5%84%E6%BA%90%E5%AF%B9%E8%B1%A1%E6%93%8D%E4%BD%9C%E5%B9%B6%E4%BB%8E%E6%BA%90%E7%A0%81%E8%BF%9B%E8%A1%8C%E8%A7%A3%E6%9E%90/</guid><description>&lt;h2 class="relative group">title: 备战CKA每日一题——第4天 | 熟练掌握kubectl命令进行创建资源对象操作，并从源码进行解析&lt;br />
+&lt;p>&lt;strong>kubernetes版本：1.13.2&lt;/strong>&lt;/p>&lt;/blockquote>
+&lt;p>接上一节：&lt;a href="https://liabio.blog.csdn.net/article/details/100081941" target="_blank">kubernetes垃圾回收器GarbageCollector Controller源码分析（一）&lt;/a>&lt;/p></description></item><item><title>kubernetes垃圾回收器GarbageCollector控制器源码分析（一）</title><link>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%8E%A7%E5%88%B6%E5%99%A8%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B8%80/</link><pubDate>Wed, 16 Oct 2019 23:14:24 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%8E%A7%E5%88%B6%E5%99%A8%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B8%80/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190604.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>kubernetes版本：1.13.2&lt;/strong>&lt;/p>&lt;/blockquote>
+&lt;h2 class="relative group">背景
+&lt;div id="背景" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%e8%83%8c%e6%99%af" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>由于operator创建的redis集群，在kubernetes apiserver重启后，redis集群被异常删除（包括redis exporter statefulset、redis statefulset）。删除后operator将其重建，重新组建集群，实例IP发生变更（中间件容器化，我们开发了固定IP，当statefulset删除后，IP会被回收），导致创建集群失败，最终集群不可用。&lt;/p></description></item><item><title>我在 GitHub 上的开源项目</title><link>https://kubeinfo.cn/posts/%E6%88%91%E5%9C%A8github%E4%B8%8A%E7%9A%84%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/</link><pubDate>Wed, 16 Oct 2019 21:27:48 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E6%88%91%E5%9C%A8github%E4%B8%8A%E7%9A%84%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/</guid><description>&lt;!-- 该页面会被定时任务自动覆盖，所以请勿手工更新 -->
+&lt;!-- 如果你有更漂亮的排版方式，请发 issue 告诉我们 -->
+&lt;h3 class="relative group">1. &lt;a href="https://github.com/liabio/crawler" target="_blank">crawler&lt;/a> &amp;lt;kbd &amp;mdash;
+&lt;div id="1-crawler-kbd-" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#1-crawler-kbd-" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h3>
+&lt;p>title=&amp;ldquo;主要编程语言&amp;rdquo;&amp;gt;HTML&lt;/kbd> &lt;span style="font-size: 12px;">&lt;a href="https://github.com/liabio/crawler/watchers"title="关注数" target="_blank">🤩&lt;code>0&lt;/code>&lt;/a>  &lt;a href="https://github.com/liabio/crawler/stargazers"title="收藏数" target="_blank">⭐️&lt;code>12&lt;/code>&lt;/a>  &lt;a href="https://github.com/liabio/crawler/network/members"title="分叉数" target="_blank">🖖&lt;code>6&lt;/code>&lt;/a>&lt;/span>&lt;/p></description></item><item><title>世界，你好！</title><link>https://kubeinfo.cn/posts/%E4%B8%96%E7%95%8C%E4%BD%A0%E5%A5%BD/</link><pubDate>Wed, 16 Oct 2019 20:53:35 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E4%B8%96%E7%95%8C%E4%BD%A0%E5%A5%BD/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20181206.jpg?imageView2/1/w/1280/h/720/interlace/1/q/100" />
+&lt;/figure>
+&lt;/p>
+&lt;p>Solo 博客系统已经初始化完毕，可在管理后台 - 工具 - 偏好设定中调整更多细节设置。如果需要导入已有博客文章，请参考文档 &lt;a href="https://hacpai.com/article/1498490209748" target="_blank">Hexo/Jekyll/Markdown 文件导入&lt;/a>。&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/search-img-by-img/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/search-img-by-img/</guid><description>&lt;p>title: &amp;ldquo;手把手带你 5 分钟构建以图搜图系统&amp;hellip;&amp;rdquo;&lt;br />
+date: 2021-09-15T05:15:34Z&lt;br />
+lastmod: 2021-09-15T05:15:34Z&lt;br />
+description: 描述构建以图搜图系统。&lt;br />
+draft: false&lt;br />
+author: 小碗汤&lt;br />
+hideToc: false&lt;br />
+enableToc: true&lt;br />
+enableTocContent: false&lt;br />
+tocFolding: false&lt;br />
+tocLevels: [&amp;ldquo;h2&amp;rdquo;, &amp;ldquo;h3&amp;rdquo;, &amp;ldquo;h4&amp;rdquo;]&lt;br />
+tags:&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC4%E5%A4%A9%E7%86%9F%E7%BB%83%E6%8E%8C%E6%8F%A1kubectl%E5%91%BD%E4%BB%A4%E8%BF%9B%E8%A1%8C%E5%88%9B%E5%BB%BA%E8%B5%84%E6%BA%90%E5%AF%B9%E8%B1%A1%E6%93%8D%E4%BD%9C%E5%B9%B6%E4%BB%8E%E6%BA%90%E7%A0%81%E8%BF%9B%E8%A1%8C%E8%A7%A3%E6%9E%90/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC4%E5%A4%A9%E7%86%9F%E7%BB%83%E6%8E%8C%E6%8F%A1kubectl%E5%91%BD%E4%BB%A4%E8%BF%9B%E8%A1%8C%E5%88%9B%E5%BB%BA%E8%B5%84%E6%BA%90%E5%AF%B9%E8%B1%A1%E6%93%8D%E4%BD%9C%E5%B9%B6%E4%BB%8E%E6%BA%90%E7%A0%81%E8%BF%9B%E8%A1%8C%E8%A7%A3%E6%9E%90/</guid><description>&lt;h2 class="relative group">title: 备战CKA每日一题——第4天 | 熟练掌握kubectl命令进行创建资源对象操作，并从源码进行解析&lt;br />
 date: &amp;lsquo;2019-11-21 22:57:53&amp;rsquo;&lt;br />
 updated: &amp;lsquo;2019-11-21 22:57:53&amp;rsquo;&lt;br />
 tags: [kubernetes, CKA]&lt;br />
@@ -1121,304 +662,4 @@ style="text-decoration-line: none !important;" href="#permalink-201911212257cka"
 &lt;/span>
 &lt;/h2>
 &lt;blockquote>
-&lt;p>本活动在微信公众号【我的小碗汤】上举行，有送书活动！这里参与答题不能参与到送书活动哦！&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E5%A6%82%E4%BD%95%E6%89%B9%E9%87%8F%E5%88%A0%E9%99%A4k8s%E8%B5%84%E6%BA%90%E5%AF%B9%E8%B1%A1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%A6%82%E4%BD%95%E6%89%B9%E9%87%8F%E5%88%A0%E9%99%A4k8s%E8%B5%84%E6%BA%90%E5%AF%B9%E8%B1%A1/</guid><description>&lt;h2 class="relative group">title: 如何批量删除k8s资源对象&lt;br />
-date: &amp;lsquo;2019-10-17 14:38:49&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 14:38:49&amp;rsquo;&lt;br />
-tags: [kubernetes]&lt;br />
-permalink: /201910171438kube
-&lt;div id="permalink-201910171438kube" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171438kube" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180630.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E5%AD%A6%E4%B9%A0openresty%E6%97%B6nginx%E7%9A%84%E4%B8%80%E4%B8%AA%E5%9D%91/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%AD%A6%E4%B9%A0openresty%E6%97%B6nginx%E7%9A%84%E4%B8%80%E4%B8%AA%E5%9D%91/</guid><description>&lt;h2 class="relative group">title: 学习openresty时，nginx的一个坑&lt;br />
-date: &amp;lsquo;2019-10-18 13:34:48&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:34:48&amp;rsquo;&lt;br />
-tags: [openresty, nginx]&lt;br />
-permalink: /201910181334nginx
-&lt;div id="permalink-201910181334nginx" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181334nginx" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;h2 class="relative group">正文
-&lt;div id="正文" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;h4 class="relative group">报错：
-&lt;div id="报错" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%e6%8a%a5%e9%94%99" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h4>
-&lt;p>nginx: [error] CreateFile() &amp;ldquo;./logs/nginx.pid&amp;rdquo; failed (2: The system cannot find the file specified)&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AAoperator%E6%89%A9%E5%B1%95kubernetes%E7%9A%84%E8%83%BD%E5%8A%9B/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AAoperator%E6%89%A9%E5%B1%95kubernetes%E7%9A%84%E8%83%BD%E5%8A%9B/</guid><description>&lt;h2 class="relative group">title: 开发一个operator扩展kubernetes的能力&lt;br />
-date: &amp;lsquo;2019-10-18 13:31:08&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:31:08&amp;rsquo;&lt;br />
-tags: [kubernetes]&lt;br />
-permalink: /201910181331k8s
-&lt;div id="permalink-201910181331k8s" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181331k8s" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;h2 class="relative group">正文
-&lt;div id="正文" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>Operator 是 CoreOS 推出的旨在简化复杂有状态应用管理，它是一个感知应用状态的控制器，通过扩展 Kubernetes API 来自动创建、管理和配置应用实例。 Operator 基于 CRD 扩展资源对象，并通过控制器来保证应用处于预期状态。&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E6%88%91%E5%9C%A8github%E4%B8%8A%E7%9A%84%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E6%88%91%E5%9C%A8github%E4%B8%8A%E7%9A%84%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/</guid><description>&lt;h2 class="relative group">title: 我在 GitHub 上的开源项目&lt;br />
-date: &amp;lsquo;2019-10-16 21:27:48&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-16 21:27:48&amp;rsquo;&lt;br />
-tags: [开源, GitHub]&lt;br />
-permalink: /my-github-repos
-&lt;div id="permalink-my-github-repos" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-my-github-repos" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;!-- 该页面会被定时任务自动覆盖，所以请勿手工更新 -->
-&lt;!-- 如果你有更漂亮的排版方式，请发 issue 告诉我们 -->
-&lt;h3 class="relative group">1. &lt;a href="https://github.com/liabio/crawler" target="_blank">crawler&lt;/a> &lt;kbd title="主要编程语言">HTML&lt;/kbd> &lt;span style="font-size: 12px;">&lt;a href="https://github.com/liabio/crawler/watchers"title="关注数" target="_blank">🤩&lt;code>0&lt;/code>&lt;/a>  &lt;a href="https://github.com/liabio/crawler/stargazers"title="收藏数" target="_blank">⭐️&lt;code>12&lt;/code>&lt;/a>  &lt;a href="https://github.com/liabio/crawler/network/members"title="分叉数" target="_blank">🖖&lt;code>6&lt;/code>&lt;/a>&lt;/span>
-&lt;div id="1-crawler-html-" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#1-crawler-html-" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h3>
-&lt;hr />
-&lt;h3 class="relative group">2. &lt;a href="https://github.com/liabio/solo-blog" target="_blank">solo-blog&lt;/a> &lt;kbd title="主要编程语言">&lt;/kbd> &lt;span style="font-size: 12px;">&lt;a href="https://github.com/liabio/solo-blog/watchers"title="关注数" target="_blank">🤩&lt;code>1&lt;/code>&lt;/a>  &lt;a href="https://github.com/liabio/solo-blog/stargazers"title="收藏数" target="_blank">⭐️&lt;code>1&lt;/code>&lt;/a>  &lt;a href="https://github.com/liabio/solo-blog/network/members"title="分叉数" target="_blank">🖖&lt;code>0&lt;/code>&lt;/a>  &lt;a href="http://blog.liabio.cn"title="项目主页" target="_blank">🏠&lt;code>http://blog.liabio.cn&lt;/code>&lt;/a>&lt;/span>
-&lt;div id="2-solo-blog--" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#2-solo-blog--" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h3>
-&lt;p>小碗汤的个人博客 - 记录精彩的程序人生&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E6%8E%A8%E8%8D%90%E4%B8%80%E6%AC%BE%E8%B6%85%E5%A5%BD%E7%94%A8%E7%9A%84%E5%B7%A5%E5%85%B7cmder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E6%8E%A8%E8%8D%90%E4%B8%80%E6%AC%BE%E8%B6%85%E5%A5%BD%E7%94%A8%E7%9A%84%E5%B7%A5%E5%85%B7cmder/</guid><description>&lt;h2 class="relative group">title: 推荐一款超好用的工具cmder&lt;br />
-date: &amp;lsquo;2019-10-18 13:13:44&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:13:44&amp;rsquo;&lt;br />
-tags: [工具, cmder]&lt;br />
-permalink: /201910181313cmder
-&lt;div id="permalink-201910181313cmder" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181313cmder" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>今天来推荐一个超级好用的命令行工具：cmder&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E6%90%AD%E5%BB%BA%E4%B8%AA%E7%A7%81%E6%9C%89docker%E9%95%9C%E5%83%8F%E4%BB%93%E5%BA%93/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E6%90%AD%E5%BB%BA%E4%B8%AA%E7%A7%81%E6%9C%89docker%E9%95%9C%E5%83%8F%E4%BB%93%E5%BA%93/</guid><description>&lt;h2 class="relative group">title: 搭建个私有docker镜像仓库&lt;br />
-date: &amp;lsquo;2019-10-18 13:04:24&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:04:24&amp;rsquo;&lt;br />
-tags: [docker]&lt;br />
-permalink: /201910181304docker
-&lt;div id="permalink-201910181304docker" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181304docker" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>&lt;strong>公有仓库和私有仓库：&lt;/strong>&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%97%B6%E8%A2%ABmysql%E7%9A%84sqlmode%E4%B8%ADonlyfullgroupby%E5%9D%91%E5%80%92%E4%BA%86/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%97%B6%E8%A2%ABmysql%E7%9A%84sqlmode%E4%B8%ADonlyfullgroupby%E5%9D%91%E5%80%92%E4%BA%86/</guid><description>&lt;h2 class="relative group">title: 搭建博客时，被mysql的sql_mode中ONLY_FULL_GROUP_BY坑倒了&lt;br />
-date: &amp;lsquo;2019-11-03 09:54:58&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-11-03 09:54:58&amp;rsquo;&lt;br />
-tags: [mysql, blog]&lt;br />
-permalink: /201911030954mysqlblog
-&lt;div id="permalink-201911030954mysqlblog" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201911030954mysqlblog" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;h2 class="relative group">1、背景
-&lt;div id="1背景" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#1%e8%83%8c%e6%99%af" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>前两天在阿里云服务器上搭建了自己的博客，一切都很顺利，今天在点击归档按钮时，发现是报404。于是我把solo代码在本地运行起来，用本地的mysql数据库，看是否有同样的问题，结果是可以正常访问的。那就看看服务器上的solo日志呗，结果发现了以下报错：&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E6%B5%85%E8%B0%88jsonwebtoken%E5%8F%8A%E5%BA%94%E7%94%A8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E6%B5%85%E8%B0%88jsonwebtoken%E5%8F%8A%E5%BA%94%E7%94%A8/</guid><description>&lt;h2 class="relative group">title: 浅谈json web token及应用&lt;br />
-date: &amp;lsquo;2019-10-18 13:02:25&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 13:02:25&amp;rsquo;&lt;br />
-tags: [golang, jwt]&lt;br />
-permalink: /201910181302jwt
-&lt;div id="permalink-201910181302jwt" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181302jwt" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;blockquote>
-&lt;p>Json Web Token (JWT)，是一个非常轻巧的规范，这个规范允许在网络应用环境间客户端和服务器间较安全的传递信息。该token被设计为紧凑且安全的，特别适用于分布式站点的单点登录（SSO）场景。JWT一般被用来在身份提供者和服务提供者间传递被认证的用户身份信息，以便于从资源服务器获取资源。&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E7%88%AC%E5%8F%96%E7%8F%8D%E7%88%B1%E7%BD%91%E5%90%8E%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF%E5%B1%95%E7%A4%BA/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E7%88%AC%E5%8F%96%E7%8F%8D%E7%88%B1%E7%BD%91%E5%90%8E%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF%E5%B1%95%E7%A4%BA/</guid><description>&lt;h2 class="relative group">title: 爬取珍爱网后用户信息展示&lt;br />
-date: &amp;lsquo;2019-10-17 18:09:21&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 21:25:13&amp;rsquo;&lt;br />
-tags: [golang, 爬虫]&lt;br />
-permalink: /201910171809goang
-&lt;div id="permalink-201910171809goang" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171809goang" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;h2 class="relative group">正文
-&lt;div id="正文" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>golang爬取珍爱网，爬到了3万多用户信息，并存到了elasticsearch中，如下图，查询到了3万多用户信息。&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E7%88%AC%E8%99%AB%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E5%8F%8A%E4%BC%98%E5%8C%96/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E7%88%AC%E8%99%AB%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E5%8F%8A%E4%BC%98%E5%8C%96/</guid><description>&lt;h2 class="relative group">title: 爬虫性能分析及优化&lt;br />
-date: &amp;lsquo;2019-10-18 10:20:58&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 10:20:58&amp;rsquo;&lt;br />
-tags: [golang, 爬虫]&lt;br />
-permalink: /201910181020golang
-&lt;div id="permalink-201910181020golang" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181020golang" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>前两天我们写了单任务版爬虫爬取了珍爱网用户信息，那么它的性能如何呢？&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E7%88%AC%E8%99%AB%E9%81%87%E5%88%B0%E4%BA%86%E7%82%B9%E9%97%AE%E9%A2%98/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E7%88%AC%E8%99%AB%E9%81%87%E5%88%B0%E4%BA%86%E7%82%B9%E9%97%AE%E9%A2%98/</guid><description>&lt;h2 class="relative group">title: 爬虫遇到了点问题&lt;br />
-date: &amp;lsquo;2019-10-18 10:19:34&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 10:19:34&amp;rsquo;&lt;br />
-tags: [golang, 爬虫]&lt;br />
-permalink: /201910181019golang
-&lt;div id="permalink-201910181019golang" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181019golang" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;h2 class="relative group">正文
-&lt;div id="正文" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>golang爬珍爱网代码优化后，运行报了如下的错，找了半小时才找到原因，在此记录一下。&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E7%94%A8go%E8%AF%AD%E8%A8%80%E7%88%AC%E5%8F%96%E7%8F%8D%E7%88%B1%E7%BD%91%E7%AC%AC%E4%B8%80%E5%9B%9E/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E7%94%A8go%E8%AF%AD%E8%A8%80%E7%88%AC%E5%8F%96%E7%8F%8D%E7%88%B1%E7%BD%91%E7%AC%AC%E4%B8%80%E5%9B%9E/</guid><description>&lt;h2 class="relative group">title: 用go语言爬取珍爱网 | 第一回&lt;br />
-date: &amp;lsquo;2019-10-18 10:24:14&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 10:24:14&amp;rsquo;&lt;br />
-tags: [golang, 爬虫]&lt;br />
-permalink: /2019101623181024golang
-&lt;div id="permalink-2019101623181024golang" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-2019101623181024golang" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="image" src="https://img-blog.csdnimg.cn/20191018002129589.jpeg" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E7%94%A8go%E8%AF%AD%E8%A8%80%E7%88%AC%E5%8F%96%E7%8F%8D%E7%88%B1%E7%BD%91%E7%AC%AC%E4%B8%89%E5%9B%9E/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E7%94%A8go%E8%AF%AD%E8%A8%80%E7%88%AC%E5%8F%96%E7%8F%8D%E7%88%B1%E7%BD%91%E7%AC%AC%E4%B8%89%E5%9B%9E/</guid><description>&lt;h2 class="relative group">title: 用go语言爬取珍爱网 | 第三回&lt;br />
-date: &amp;lsquo;2019-10-18 10:21:53&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 10:21:53&amp;rsquo;&lt;br />
-tags: [golang, 爬虫]&lt;br />
-permalink: /201910181022golang
-&lt;div id="permalink-201910181022golang" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181022golang" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>前两节我们获取到了城市的URL和城市名，今天我们来解析用户信息。&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E7%94%A8go%E8%AF%AD%E8%A8%80%E7%88%AC%E5%8F%96%E7%8F%8D%E7%88%B1%E7%BD%91%E7%AC%AC%E4%BA%8C%E5%9B%9E/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E7%94%A8go%E8%AF%AD%E8%A8%80%E7%88%AC%E5%8F%96%E7%8F%8D%E7%88%B1%E7%BD%91%E7%AC%AC%E4%BA%8C%E5%9B%9E/</guid><description>&lt;h2 class="relative group">title: 用go语言爬取珍爱网 | 第二回&lt;br />
-date: &amp;lsquo;2019-10-18 10:23:11&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-18 10:23:11&amp;rsquo;&lt;br />
-tags: [golang, 爬虫]&lt;br />
-permalink: /201910181023golang
-&lt;div id="permalink-201910181023golang" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181023golang" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="image" src="https://img-blog.csdnimg.cn/20191018002356226.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E8%87%AA%E5%8A%A8%E8%AF%84%E8%AE%BAcsdn%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E5%AE%9E%E7%8E%B0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E8%87%AA%E5%8A%A8%E8%AF%84%E8%AE%BAcsdn%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E5%AE%9E%E7%8E%B0/</guid><description>&lt;h2 class="relative group">title: 自动评论csdn博客文章实现&lt;br />
-date: &amp;lsquo;2019-10-17 17:52:19&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 17:52:19&amp;rsquo;&lt;br />
-tags: [blog, java]&lt;br />
-permalink: /201910171752blog
-&lt;div id="permalink-201910171752blog" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171752blog" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20181123.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
-&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E8%BF%9E%E4%B8%8A%E5%85%AC%E5%8F%B8%E7%9A%84vpn%E5%90%8E%E7%94%B5%E8%84%91%E4%B8%8A%E4%B8%8D%E4%BA%86%E5%A4%96%E7%BD%91%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E8%BF%9E%E4%B8%8A%E5%85%AC%E5%8F%B8%E7%9A%84vpn%E5%90%8E%E7%94%B5%E8%84%91%E4%B8%8A%E4%B8%8D%E4%BA%86%E5%A4%96%E7%BD%91%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</guid><description>&lt;h2 class="relative group">title: 连上公司的vpn后，电脑上不了外网解决办法&lt;br />
-date: &amp;lsquo;2019-10-18 13:30:29&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-11-05 15:21:24&amp;rsquo;&lt;br />
-tags: [windows]&lt;br />
-permalink: /201910181330vpn
-&lt;div id="permalink-201910181330vpn" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910181330vpn" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;h2 class="relative group">正文
-&lt;div id="正文" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>最近工作需要连接公司的vpn。连接前电脑可以上外网，微信、网页都可以访问，但是连接上vpn后，只能访问公司网络了，这就有点虐了。消息收不到很不方便，也查不了资料。以下来说道说道怎么解决，因为网上查到的一些资料，只有文字，无图导致理解的费劲儿，所以下文有很多图，也对比了vpn各种配置的图，可能会有点啰嗦，还望海涵！&lt;/p></description></item><item><title/><link>https://kubeinfo.cn/posts/%E9%87%87%E5%9D%91%E6%8C%87%E5%8D%97k8s%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90coredns%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5%E8%BF%87%E7%A8%8B/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E9%87%87%E5%9D%91%E6%8C%87%E5%8D%97k8s%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90coredns%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5%E8%BF%87%E7%A8%8B/</guid><description>&lt;h2 class="relative group">title: 采坑指南——k8s域名解析coredns问题排查过程&lt;br />
-date: &amp;lsquo;2019-10-17 14:40:05&amp;rsquo;&lt;br />
-updated: &amp;lsquo;2019-10-17 14:40:05&amp;rsquo;&lt;br />
-tags: [kubernetes]&lt;br />
-permalink: /201910171439kube
-&lt;div id="permalink-201910171439kube" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#permalink-201910171439kube" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180826.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
-&lt;/figure>
-&lt;/p></description></item></channel></rss>
+&lt;p>本活动在微信公众号【我的小碗汤】上举行，有送书活动！这里参与答题不能参与到送书活动哦！&lt;/p></description></item></channel></rss>
