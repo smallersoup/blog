@@ -37,7 +37,7 @@
   name = "服务监控"
   parent = "百宝箱"
   pre = "heart-pulse"
-  url = "https://kubeinfo.cn/uptime-status/"
+  url = "https://upptime.kubeinfo.cn/"
   weight = 30
 
 [[main]]
