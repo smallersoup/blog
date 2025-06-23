@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AIGC on Advance into Cloud Native</title><link>https://kubeinfo.cn/en/categories/aigc/</link><description>Recent content in AIGC on Advance into Cloud Native</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 15 Sep 2021 05:15:34 +0000</lastBuildDate><atom:link href="https://kubeinfo.cn/en/categories/aigc/index.xml" rel="self" type="application/rss+xml"/><item><title>Build an Image Search System in 5 Minutes</title><link>https://kubeinfo.cn/en/posts/build-an-image-search-system-in-5-minutes/</link><pubDate>Wed, 15 Sep 2021 05:15:34 +0000</pubDate><guid>https://kubeinfo.cn/en/posts/build-an-image-search-system-in-5-minutes/</guid><description>&lt;h1 class="relative group">Build an Image Search System in 5 Minutes
+&lt;div id="build-an-image-search-system-in-5-minutes" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#build-an-image-search-system-in-5-minutes" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h1>
+&lt;h2 class="relative group">Vectors and Vector Databases
+&lt;div id="vectors-and-vector-databases" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#vectors-and-vector-databases" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>In mathematics, a vector is an object that can represent multiple dimensions or characteristics. In our daily life, it can also be used to describe multiple attributes of an object.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://kubeinfo.cn/en/posts/build-an-image-search-system-in-5-minutes/featured.jpg"/></item></channel></rss>
