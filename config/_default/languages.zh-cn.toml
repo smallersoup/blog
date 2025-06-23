@@ -18,7 +18,7 @@ contentDir = "content/zh-cn"
 
 [author]
   name = "小碗汤"
-  image = "img/avatar.png"
+  image = "img/avatar.jpeg"
   headline = "云原生搬砖师"
   bio = "云原生搬砖师"
   links = [
