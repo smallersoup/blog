@@ -16,7 +16,7 @@ buildDrafts = false
 buildFuture = false
 
 [pagination]
-  pagerSize = 100
+  pagerSize = 30
 
 # https://gohugo.io/configuration/build/
 [build]

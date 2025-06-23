@@ -39,7 +39,7 @@ contentDir = "content/en"
   bio = "[Sealos](https://sealos.io) Community Pollinator, Cloud Native Lover ☸️, Blogger, GFW fucker..."
   links = [
     { rss = "/index.xml" },
-    { x-twitter = "https://x.com/andylee8866" },
+    # { x-twitter = "https://x.com/andylee8866" },
     { wechat = "https://images.kubeinfo.cn/uPic/tmpm1ykjt96.webp" },
     { github = "https://github.com/smallersoup" },
   ]

@@ -71,12 +71,12 @@
   url = "/index.xml"
   weight = 200
 
-[[main]]
-  identifier = "twitter"
-  title = "twitter"
-  pre = "x-twitter"
-  url = "https://x.com/andylee8866"
-  weight = 400
+# [[main]]
+#   identifier = "twitter"
+#   title = "twitter"
+#   pre = "x-twitter"
+#   url = "https://x.com/andylee8866"
+#   weight = 400
 
 [[main]]
   identifier = "github"

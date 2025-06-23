@@ -234,7 +234,7 @@ kube-scheduler监视没有分配节点的新创建的 Pod，选择一个节点�
 
 **扩展调度器示例代码：**
 
-*https://github.com/liabio/k8s-scheduler-extender-example*
+*https://github.com/smallersoup/k8s-scheduler-extender-example*
 
 由于默认调度器kube-scheduler需要调用扩展调度程序kube-scheduler-extender，故需要在kube-scheduler的启动参数里配置扩展调度器的地址。需要在master节点主机的/etc/kubernetes目录下的scheduler.yaml中配置如下内容：（static pod方式部署的kube-scheduler不能用configmaps的方式挂载配置文件）
 

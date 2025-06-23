@@ -59,7 +59,7 @@ title="长按识别二维码关注,精彩第一时间送达" height="100%" width
 title="程序员实战"></a></span>
     </ul>
     <ul class="panel_head">
-        <span><a target="_blank" href="https://github.com/liabio">☞ github.com/liabio</a></span>
+        <span><a target="_blank" href="https://github.com/smallersoup">☞ github.com/smallersoup</a></span>
     </ul>
     <ul class="panel_head">
         <span><a href="mailto:coderaction@foxmail.com">☞ coderaction@foxmail.com</a></span>
@@ -135,7 +135,7 @@ title="长按识别二维码关注,精彩第一时间送达" height="100%" width
 title="程序员实战"></a></span>
             </ul>
             <ul class="panel_head">
-                <span><a target="_blank" href="https://github.com/liabio">☞ github.com/liabio</a></span>
+                <span><a target="_blank" href="https://github.com/smallersoup">☞ github.com/smallersoup</a></span>
             </ul>
             <ul class="panel_head">
                 <span><a href="mailto:coderaction@foxmail.com">☞ coderaction@foxmail.com</a></span>
