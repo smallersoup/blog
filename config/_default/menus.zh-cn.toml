@@ -16,11 +16,11 @@
   pageRef = "examples"
   weight = 10
 
-[[main]]
-  name = "网盘"
-  pre = "googledrive"
-  url = "https://pansou.kubeinfo.cn"
-  weight = 12
+#[[main]]
+#  name = "网盘"
+ # pre = "googledrive"
+ # url = "https://pansou.kubeinfo.cn"
+#  weight = 12
 
 [[main]]
   name = "实时访客"
@@ -40,12 +40,12 @@
   url = "https://upptime.kubeinfo.cn/"
   weight = 30
 
-[[main]]
-  name = "共享文本"
-  parent = "百宝箱"
-  pre= "paste"
-  url = "https://privatebin.kubeinfo.cn/"
-  weight = 40
+#[[main]]
+ # name = "共享文本"
+ # parent = "百宝箱"
+ # pre= "paste"
+  #url = "https://privatebin.kubeinfo.cn/"
+  #weight = 40
 
 [[main]]
   name = "趣味截图"
