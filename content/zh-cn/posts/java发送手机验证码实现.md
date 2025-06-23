@@ -94,7 +94,7 @@ https://cloud.tencent.com/product/sms
 
        // 签名
        // NOTE: 这里的签名"腾讯云"只是一个示例，真实的签名需要在短信控制台中申请，另外签名参数使用的是`签名内容`，而不是`签名ID`
-       String smsSign = "我的小碗汤";
+       String smsSign = "进击云原生";
 
        SmsSingleSender sSender = new SmsSingleSender(appId, appKey);
        //第一个参数0表示普通短信,1表示营销短信

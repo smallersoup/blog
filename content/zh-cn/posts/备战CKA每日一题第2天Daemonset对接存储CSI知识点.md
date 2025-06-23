@@ -5,7 +5,6 @@ updated: '2019-11-21 23:24:21'
 tags: [kubernetes, CKA]
 permalink: /201911190954kube
 ---
-> 本活动在微信公众号【我的小碗汤】上举行，这里参与答题无效哦！
 
 **接上一篇[备战CKA每日一题——第1天](https://liabio.blog.csdn.net/article/details/103126903)**
 
@@ -46,6 +45,3 @@ A. PersistentVolumeController + CSI-Provisoner + CSI controller plugin
 B. AttachDetachController + CSI-Attacher + CSI controller plugin
 C. Kubelet + CSI node plugin
 ```
-
-# 作者简洁 
-> 作者：小碗汤，一位热爱、认真写作的小伙，目前维护原创公众号：『我的小碗汤』，专注于写golang、docker、kubernetes等知识等提升硬实力的文章，期待你的关注。 转载说明：务必注明来源（注明：来源于公众号：我的小碗汤， 作者：小碗汤）

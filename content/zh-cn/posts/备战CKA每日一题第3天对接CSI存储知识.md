@@ -5,7 +5,6 @@ updated: '2019-11-21 22:56:55'
 tags: [kubernetes, CKA]
 permalink: /201911212256cka
 ---
-> 本活动在微信公众号【我的小碗汤】上举行，这里参与答题无效哦！
 
 ## 昨日考题
 在Kubernetes PVC+PV体系下通过CSI实现的volume plugins动态创建pv到pv可被pod使用有哪些组件需要参与？
@@ -60,6 +59,3 @@ https://blog.csdn.net/deerjoe/article/details/86300826
 ## 今日考题
 
 > 通过单个命令创建一个deployment并暴露Service。deployment和Service名称为cka-1120，使用nginx镜像， deployment拥有2个pod
-
-# 作者简洁 
-> 作者：小碗汤，一位热爱、认真写作的小伙，目前维护原创公众号：『我的小碗汤』，专注于写golang、docker、kubernetes等知识等提升硬实力的文章，期待你的关注。 转载说明：务必注明来源（注明：来源于公众号：我的小碗汤， 作者：小碗汤）

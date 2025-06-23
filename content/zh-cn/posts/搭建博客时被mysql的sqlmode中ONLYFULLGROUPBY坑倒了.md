@@ -343,17 +343,3 @@ spec:
 [记一次Group by 查询时的ONLY_FULL_GROUP_BY错误以及后续](https://blog.csdn.net/Abysscarry/article/details/79468411)
 
 
-
-
----------
-
-* * *
-
-**本公众号**免费 **提供csdn下载服务，海量IT学习资源**如果你准备入IT坑，励志成为优秀的程序猿，那么这些资源很适合你，包括但不限于java、go、python、springcloud、elk、嵌入式 、大数据、面试资料、前端 等资源。同时我们组建了一个技术交流群，里面有很多大佬，会不定时分享技术文章，如果你想来一起学习提高，可以公众号后台回复【**2**】，免费邀请加技术交流群互相学习提高，会不定期分享编程IT相关资源。
-
-* * *
-
-扫码关注，精彩内容第一时间推给你
-
-![image](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTE2YjU5M2MyZjVjM2VmOGY?x-oss-process=image/format,png)
-

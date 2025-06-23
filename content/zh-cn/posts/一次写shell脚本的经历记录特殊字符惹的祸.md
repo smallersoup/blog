@@ -7,7 +7,6 @@ permalink: /201910181332shell
 ---
 
 
-> 本文首发于微信公众号“我的小碗汤”，扫码文末二维码即可关注，欢迎一起交流！
 
 
 redis在容器化的过程中，涉及到纵向扩pod实例cpu、内存以及redis实例的maxmemory值，statefulset管理的pod需要重启。所以把redis集群的状态检查放到了健康检查中，依赖statefulset的原生能力（pod实例ready后才重启下一个，ready后endpoints controller将pod信息更新到endpoints资源对象中）,而没有在redis operator中写逻辑去判断。

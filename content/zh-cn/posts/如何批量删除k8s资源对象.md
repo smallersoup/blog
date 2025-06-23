@@ -7,7 +7,6 @@ permalink: /201910171438kube
 ---
 ![](https://img.hacpai.com/bing/20180630.jpg?imageView2/1/w/960/h/540/interlace/1/q/100)
 
-> 本文首发于公众号【我的小碗汤】扫描文末二维码关注，一起交流学习
 
 **在云平台开发、中间件容器化时，经常会遇到批量删除k8s资源对象的需求，下面记录一下kubectl和golang发送删除pvc、pv、pod请求的例子，便于后续学习查阅**
 
