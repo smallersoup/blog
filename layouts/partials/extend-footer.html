@@ -82,6 +82,7 @@
 
 {{/* 右下角悬浮按钮 */}}
 
+{{/* 
 <div id="fixed-box">
   <div class="feedback-btn-wrapper">
     <a
@@ -96,7 +97,8 @@
       </button>
     </a>
   </div>
-</div>
+</div> 
+*/}}
 
 <!-- 不蒜子 busuanzi -->
 <script defer src="https://wvprxbiaqrgp.hzh.sealos.run/js"></script>
@@ -157,7 +159,7 @@
 <!-- 鼠标点击特效 -->
 <script type="text/javascript">
 document.addEventListener('DOMContentLoaded', (event) => {
-    var a = ["Docker", "Kubernetes", "Prometheus", "Sealos","FastGPT", "Envoy", "eBPF", "Laf", "Webassembly", "WireGuard", "Tailscale", "Cloud Native"];
+    var a = ["Docker", "Containerd", "Podman", "Kubernetes", "KubeEdge", "Prometheus", "KubeSphere","FastGPT", "Envoy", "eBPF", "KubeNative", "Webassembly", "WireGuard", "Tailscale", "Cloud Native"];
     var a_idx = 0; // Move a_idx outside of the click event handler
 
     document.body.addEventListener('click', function(e) {
