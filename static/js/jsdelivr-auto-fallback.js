@@ -7,7 +7,7 @@
       'cdn.jsdelivr.net',
       'cdn.jsdelivr.us',
       //'jsd.cdn.zzko.cn',
-      'jsdelivr.icloudnative.io'
+      'jsdelivr.kubeinfo.cn'
     ];
     const PREFIX = '//';
     const SOURCE = DEST_LIST[0];

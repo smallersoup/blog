@@ -14,7 +14,7 @@ tocLevels: ["h2", "h3", "h4"]
 tags:
 - Grafana
 categories: Grafana
-img: https://images.icloudnative.io/uPic/202109151325055.png
+img: https://images.kubeinfo.cn/uPic/202109151325055.png
 ---
 
 参考：

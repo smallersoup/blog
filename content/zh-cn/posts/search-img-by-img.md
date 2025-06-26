@@ -17,7 +17,7 @@ tocLevels: ["h2", "h3", "h4"]
 tags:
 - Towhee
 categories: AIGC
-img: https://images.icloudnative.io/uPic/202109151325055.png
+img: https://images.kubeinfo.cn/uPic/202109151325055.png
 ---
 # 手把手带你 5 分钟构建以图搜图系统
 
