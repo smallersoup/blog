@@ -1,0 +1,28 @@
+<section class="text-sm text-neutral-500 dark:text-neutral-400">
+    <span id="span_dt_dt"> </span> 
+    <script defer language="javascript">
+      var uptime_1 = {{ i18n "footer.uptime_1" }}
+      var uptime_2 = {{ i18n "footer.uptime_2" }}
+      var uptime_3 = {{ i18n "footer.uptime_3" }}
+      var uptime_4 = {{ i18n "footer.uptime_4" }}
+      var uptime_5 = {{ i18n "footer.uptime_5" }}
+      function show_date_time(){
+        window.setTimeout("show_date_time()", 1000);
+        BirthDay=new Date("10/8/2019 10:56:12");//这个日期是可以修改的
+        today=new Date();
+        timeold=(today.getTime()-BirthDay.getTime());//其实仅仅改了这里
+        sectimeold=timeold/1000
+        secondsold=Math.floor(sectimeold);
+        msPerDay=24*60*60*1000
+        e_daysold=timeold/msPerDay
+        daysold=Math.floor(e_daysold);
+        e_hrsold=(e_daysold-daysold)*24;
+        hrsold=Math.floor(e_hrsold);
+        e_minsold=(e_hrsold-hrsold)*60;
+        minsold=Math.floor((e_hrsold-hrsold)*60);
+        seconds=Math.floor((e_minsold-minsold)*60);
+        span_dt_dt.innerHTML=uptime_1+daysold+uptime_2+hrsold+uptime_3+minsold+uptime_4+seconds+uptime_5;
+      }
+      show_date_time();
+    </script>
+</section>

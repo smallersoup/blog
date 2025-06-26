@@ -1,0 +1,232 @@
+<div class="busuanzi" style="margin-inline: auto; text-align: center">
+  <div class="busuanzi__item">
+    <span class="busuanzi__item--label text-neutral-500 dark:text-neutral-400">{{ i18n "footer.uv" }}</span>
+    <span id="busuanzi_site_uv" class="busuanzi__item--number text-neutral-500 dark:text-neutral-400"></span>
+  </div>
+  <div class="busuanzi__item">
+    <span class="busuanzi__item--label text-neutral-500 dark:text-neutral-400">{{ i18n "footer.pv" }}</span>
+    <span id="busuanzi_site_pv" class="busuanzi__item--number text-neutral-500 dark:text-neutral-400"></span>
+  </div>
+</div>
+
+<p
+  class="text-sm text-neutral-500 dark:text-neutral-400"
+  style="margin-inline: auto; text-align: center"
+>
+  {{- with replace .Site.Params.copyright "{ year }" now.Year }} {{ . | emojify
+  | markdownify }} {{- else }} &copy; {{ now.Format "2006" }} {{
+  .Site.Params.Author.name | markdownify | emojify }} {{- end }}
+  <br />
+  {{ if eq .Site.Language.Lang "zh-cn" }}
+  本站内容依据
+  <a
+    href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"
+    target="_blank"
+    >CC BY-SA 4.0</a
+  >
+  许可证进行授权，转载请附上出处链接。
+  {{ else }}
+  This work is licensed under the
+  <a
+    href="https://creativecommons.org/licenses/by-nc-nd/4.0/"
+    target="_blank"
+    >Creative Commons Attribution 4.0 License</a
+  >.
+  <br />
+  Feel free to republish or adapt with attribution.
+  {{ end}}
+</p>
+
+<div class="github-badge">
+  <span class="badge-subject">{{ i18n "footer.framework" }}</span
+  ><span class="badge-value bg-blue"
+    ><a style="color: #fff" href="https://gohugo.io/" target="_blank"
+      >Hugo v{{ .Site.Hugo.Version }}</a
+    ></span
+  >
+  <span class="badge-subject">{{ i18n "footer.hosting" }}</span
+  ><span class="badge-value bg-brightgreen"
+    ><a style="color: #fff" href="https://sealos.run" target="_blank"
+      >Sealos</a
+    ></span
+  >
+  <span class="badge-subject">CDN</span
+  ><span class="badge-value bg-blueviolet"
+    ><a style="color: #fff" href="https://vercel.com" target="_blank"
+      >Vercel</a
+    ></span
+  >
+  <span class="badge-subject">{{ i18n "footer.image" }}</span
+  ><span class="badge-value bg-orange"
+    ><a style="color: #fff" href="https://www.jsdelivr.com/" target="_blank"
+      >jsDelivr</a
+    ></span
+  >
+  <span class="badge-subject">{{ i18n "footer.theme" }}</span
+  ><span class="badge-value bg-blue"
+    ><a
+      style="color: #fff"
+      href="https://github.com/nunocoracao/blowfish"
+      target="_blank"
+      >Blowfish</a
+    ></span
+  >
+</div>
+
+{{ partial "uptime.html" }}
+
+
+{{/* 微信QQ跳转，防止被举报 */}}
+{{- partial "weixin-qq.html" . -}}
+
+
+{{/* 右下角悬浮按钮 */}}
+
+<div id="fixed-box">
+  <div class="feedback-btn-wrapper">
+    <a
+      data-umami-event="FastGPT"
+      href="https://github.com/labring/FastGPT"
+      style="text-decoration: none"
+      target="_blank"
+    >
+      <button id="feedback-btn" title="FastGPT">
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512" fill="currentColor"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M320 0c17.7 0 32 14.3 32 32V96H472c39.8 0 72 32.2 72 72V440c0 39.8-32.2 72-72 72H168c-39.8 0-72-32.2-72-72V168c0-39.8 32.2-72 72-72H288V32c0-17.7 14.3-32 32-32zM208 384c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H208zm96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H304zm96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H400zM264 256a40 40 0 1 0 -80 0 40 40 0 1 0 80 0zm152 40a40 40 0 1 0 0-80 40 40 0 1 0 0 80zM48 224H64V416H48c-26.5 0-48-21.5-48-48V272c0-26.5 21.5-48 48-48zm544 0c26.5 0 48 21.5 48 48v96c0 26.5-21.5 48-48 48H576V224h16z"/></svg>
+        <span _msttexthash="6039839" _msthash="295">{{ i18n "footer.ai" }}</span>
+      </button>
+    </a>
+  </div>
+</div>
+
+<!-- 不蒜子 busuanzi -->
+<script defer src="https://wvprxbiaqrgp.hzh.sealos.run/js"></script>
+
+<script>
+  // 在整个文档加载完成后执行函数
+  document.addEventListener("DOMContentLoaded", function () {
+    // 获取用于展示独立访客数（UV）和页面浏览量（PV）的元素
+    const uvE = document.getElementById("busuanzi_site_uv");
+    const pvE = document.getElementById("busuanzi_site_pv");
+
+    // 创建一个用于监视UV元素变化的MutationObserver
+    const uvObs = new MutationObserver((mutationsList) => {
+      // 遍历所有发生的变更
+      for (let mutation of mutationsList) {
+        // 如果变更类型是子元素列表变化
+        if (mutation.type === "childList") {
+          // 断开观察，避免后续的重复处理
+          uvObs.disconnect();
+          // 将元素的内容（即UV计数）增加731632
+          mutation.target.innerHTML =
+            parseInt(mutation.target.innerHTML) + 731632;
+          // 处理完后退出循环
+          break;
+        }
+      }
+    });
+
+    // 创建一个用于监视PV元素变化的MutationObserver
+    const pvObs = new MutationObserver((mutationsList) => {
+      // 遍历所有发生的变更
+      for (let mutation of mutationsList) {
+        // 如果变更类型是子元素列表变化
+        if (mutation.type === "childList") {
+          // 断开观察，避免后续的重复处理
+          pvObs.disconnect();
+          // 将元素的内容（即PV计数）增加1360325
+          mutation.target.innerHTML =
+            parseInt(mutation.target.innerHTML) + 1360325;
+          // 处理完后退出循环
+          break;
+        }
+      }
+    });
+
+    // 配置对象，指明仅监视子元素列表的变化
+    const config = {
+      childList: true,
+    };
+
+    // 开始监视UV和PV元素的变化
+    uvObs.observe(uvE, config);
+    pvObs.observe(pvE, config);
+  });
+</script>
+
+
+<!-- 鼠标点击特效 -->
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', (event) => {
+    var a = ["Docker", "Kubernetes", "Prometheus", "Sealos","FastGPT", "Envoy", "eBPF", "Laf", "Webassembly", "WireGuard", "Tailscale", "Cloud Native"];
+    var a_idx = 0; // Move a_idx outside of the click event handler
+
+    document.body.addEventListener('click', function(e) {
+        var text = a[a_idx];
+        a_idx = (a_idx + 1) % a.length; // Update a_idx on each click
+
+        var span = document.createElement('span');
+        span.textContent = text;
+        span.style.cssText = `
+            z-index: 9999;
+            top: ${e.pageY - 20}px;
+            left: ${e.pageX}px;
+            position: absolute;
+            font-weight: bold;
+            color: ${randomColor()};
+            opacity: 1;
+            transition: opacity 1.5s;
+        `;
+
+        document.body.appendChild(span);
+
+        // Animation
+        var start = null;
+        var duration = 1500; // ms
+        var startY = e.pageY - 20;
+        var endY = startY - 160;
+
+        function frame(time) {
+            if (start === null) start = time;
+            var progress = (time - start) / duration;
+            
+            if (progress < 1) {
+                span.style.top = startY - progress * (startY - endY) + 'px';
+                requestAnimationFrame(frame);
+            } else {
+                span.remove(); // Remove the span after the animation
+            }
+        }
+
+        requestAnimationFrame(frame);
+    });
+});
+
+function randomColor() {
+    var colors = ["#FFDA65", "#00BFFF", "#cb80ff", "#acc2ef", "#87CEEB", "#FFB6C1"];
+    return colors[Math.floor(Math.random() * colors.length)];
+}
+</script>
+
+
+
+<!-- 懒加载背景图片 -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var lazyLoadBackground = function(entries, observer) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        var div = entry.target;
+        var src = div.getAttribute('data-bg');
+        div.style.backgroundImage = "url('" + src + "')";
+        observer.unobserve(entry.target);
+      }
+    });
+  };
+
+  var observer = new IntersectionObserver(lazyLoadBackground);
+  var targets = document.querySelectorAll('.thumbnail_card_related, .thumbnail_card');
+  targets.forEach(function(target) {
+    observer.observe(target);
+  });
+});
+</script>

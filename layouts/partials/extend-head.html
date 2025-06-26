@@ -1,0 +1,222 @@
+{{ if eq .Language.Lang "zh-cn" }}
+<!-- <script defer type="text/javascript" src="{{ "js/jsdelivr-auto-fallback.js" | absURL }}"></script> -->
+
+<!-- LXGW WenKai Screen version -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var link = document.createElement('link');
+  link.href = 'https://jsd.onmicrosoft.cn/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css';
+  link.rel = 'stylesheet';
+
+  document.head.appendChild(link);
+});
+</script>
+
+<!-- Google Font JetBrains Mono -->
+<!--
+<link rel="preconnect" href="https://use.sevencdn.com">
+<link rel="preconnect" href="https://gstatic.loli.net" crossorigin>
+<link href="https://fonts.loli.net/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+-->
+
+<!-- fps id geo-location -->
+
+<div id="fps" style="z-index:999;position:fixed;bottom:3px;right:3px;color:#FFF;font-size:10px;"></div>
+
+<!--<script type="text/javascript" src="https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js"></script>-->
+<!--<script type="text/javascript" src="https://cdn.staticfile.org/jquery/2.2.0/jquery.min.js"></script>-->
+
+<!--web 弹窗弹层组件 -->
+
+<script defer type="text/javascript" src="https://cdn.staticfile.org/layer/3.5.1/layer.min.js"></script>
+
+<!-- fps 函数组件 弹窗信息在fps.js文件里修改-->
+
+<script defer type="text/javascript" src="{{ "js/fps.js" | absURL }}"></script>
+
+<!-- end -->
+{{ end }}
+
+
+
+<!-- start webpushr tracking code --> 
+<script defer>
+  window.addEventListener('scroll', function loadScript(event) {
+    // 检查用户是否已向下滚动页面
+    if (window.scrollY > 100) { // 例如，用户向下滚动超过100px
+      (function(w,d, s, id) {
+        if(typeof(w.webpushr)!=='undefined') return;
+        w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};
+        var js, fjs = d.getElementsByTagName(s)[0];
+        js = d.createElement(s); js.id = id;js.async=1;js.src = "https://cdn.webpushr.com/app.min.js";
+        fjs.parentNode.appendChild(js);
+      }(window,document, 'script', 'webpushr-jssdk'));
+
+      webpushr('setup',{'key':'BHIaDYldZcXlQt38kYXgH48NQZFQkowuo14rNhiIvrGEP5kFU5lb5h-VIMlUkjy-kxygxW4hEvb6GjijlYYlwCk' });
+
+      // 移除滚动监听器，防止重复执行
+      window.removeEventListener('scroll', loadScript);
+    }
+  });
+</script>
+<!-- end webpushr tracking code -->
+
+{{ if eq .Language.Lang "zh-cn" }}
+<!-- 百度收录自动推送 --> 
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', (event) => {
+    const url = 'https://htr4n1.laf.run/baidu-seo?urls=' + window.location.href;
+
+    fetch(url)
+        .then(response => response.json())
+        .then(data => {
+            const responseBody = JSON.parse(data.body);
+
+            // 检查剩余次数和成功状态
+            if (responseBody.remain > 0 && responseBody.success === 1) {
+                console.log('百度收录提交成功，当前api余剩次数：' + responseBody.remain);
+            } else {
+                if (responseBody.remain === 0) {
+                    console.log('已达到今日百度提交上限。');
+                } else {
+                    console.log(responseBody.remain);
+                    console.log('api提交失败');
+                }
+                if (responseBody.not_same_site) {
+                    console.log('未收录的站点：', responseBody.not_same_site.join(', '));
+                }
+            }
+        })
+        .catch(error => {
+            console.error('请求失败，但这可能是因为达到提交上限:', error);
+        });
+});
+ </script>
+
+
+<!-- 百度统计 -->
+<script defer>
+  // 检测页面滚动并在达到指定距离时加载统计脚本
+  function loadScriptOnScroll() {
+    var scrollPosition = window.scrollY || window.pageYOffset;
+
+    // 检测页面是否已滚动超过100px
+    if (scrollPosition > 100) {
+      // 创建并插入统计脚本
+      var _hmt = _hmt || [];
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?efe96f04908ae320df234a4f5626879e";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+
+      // 移除滚动事件监听器，避免重复加载脚本
+      window.removeEventListener('scroll', loadScriptOnScroll);
+    }
+  }
+
+  // 添加滚动事件监听器
+  window.addEventListener('scroll', loadScriptOnScroll);
+</script>
+{{ end }}
+
+
+<!-- umami -->
+{{/*
+<script async src="https://umami.icloudnative.io/oishii" data-website-id="f415abb1-1cb9-402e-a1c4-225ca9d792b0"></script>
+*/}}
+
+<!-- Google tag (gtag.js) -->
+<script defer>
+  function loadAnalyticsScript() {
+    // 创建并插入 Google Analytics 脚本
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://ga.icloudnative.io/gtag/js?id=G-0VHVXWXJMQ';
+    document.head.appendChild(script);
+
+    // 初始化 Google Analytics
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-0VHVXWXJMQ');
+
+    // 移除滚动事件监听器，确保脚本只加载一次
+    window.removeEventListener('scroll', onScrollLoadAnalytics);
+  }
+
+  function onScrollLoadAnalytics() {
+    // 检查用户是否已向下滚动页面
+    if (window.scrollY > 100) { // 例如，用户向下滚动超过100px
+      loadAnalyticsScript();
+    }
+  }
+
+  // 添加滚动事件监听器
+  window.addEventListener('scroll', onScrollLoadAnalytics);
+</script>
+
+<!-- Microsoft Clarity -->
+<script defer>
+  function loadClarityScript() {
+    // 创建并插入 Clarity 跟踪脚本
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "m535olg9md");
+
+    // 移除滚动事件监听器，确保脚本只加载一次
+    window.removeEventListener('scroll', onScrollLoadClarity);
+  }
+
+  function onScrollLoadClarity() {
+    // 检查用户是否已向下滚动页面
+    if (window.scrollY > 100) { // 例如，用户向下滚动超过100px
+      loadClarityScript();
+    }
+  }
+
+  // 添加滚动事件监听器
+  window.addEventListener('scroll', onScrollLoadClarity);
+</script>
+
+
+
+<!--顶部阅读进度条-->
+<div class="top-scroll-bar" style="height: 5px; background-color: blue; width: 0; position: fixed; top: 0; z-index: 100;"></div>
+<script type="text/javascript">
+$(document).ready(function () {
+  $(window).scroll(function(){
+    $(".top-scroll-bar").attr("style", "width: " + ($(this).scrollTop() / ($(document).height() - $(this).height()) * 100) + "%; display: block;");
+  });
+})
+</script>
+
+
+
+<!-- instant.page 预加载 -->
+<script src="https://jsd.onmicrosoft.cn/gh/instantpage/instant.page@master/instantpage.js" type="module"></script>
+
+<!--在用户切换网页时改变浏览器标题-->
+{{ if eq .Language.Lang "zh-cn" }}
+<script type="text/javascript">
+    /*  动态网页标题*/
+    var OriginTitile = document.title,
+    titleTime;
+    document.addEventListener("visibilitychange",
+    function() {
+        if (document.hidden) {
+            document.title = "你别走吖 Σ(っ °Д °;)っ";
+            clearTimeout(titleTime)
+        } else {
+            document.title = "你可算回来了 (｡•ˇ‸ˇ•｡)" + OriginTitile;
+            titleTime = setTimeout(function() {
+                document.title = OriginTitile
+            },
+            2000)
+        }
+    });
+</script>
+{{ end }}
