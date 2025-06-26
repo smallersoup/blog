@@ -4,7 +4,7 @@
 &lt;li>
 &lt;p>不用虚拟机，它可直接编译成机器码，除了glibc外没有其他外部依赖，部署十分方便，就是扔一个文件就完成了。&lt;/p></description></item><item><title>一个神秘现象引发对beego框架的思考</title><link>https://kubeinfo.cn/posts/%E4%B8%80%E4%B8%AA%E7%A5%9E%E7%A7%98%E7%8E%B0%E8%B1%A1%E5%BC%95%E5%8F%91%E5%AF%B9beego%E6%A1%86%E6%9E%B6%E7%9A%84%E6%80%9D%E8%80%83/</link><pubDate>Fri, 18 Oct 2019 12:57:23 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E4%B8%80%E4%B8%AA%E7%A5%9E%E7%A7%98%E7%8E%B0%E8%B1%A1%E5%BC%95%E5%8F%91%E5%AF%B9beego%E6%A1%86%E6%9E%B6%E7%9A%84%E6%80%9D%E8%80%83/</guid><description>&lt;p>小强最近在项目中遇到了一个很奇怪的问题：在整改日志规范时，为了避免影响现有的代码结构以及改动尽可能小的前提下，在调用记日志的SDK处将某一个字段值首字母改为大写，代码示例如下：&lt;/p></description></item><item><title>beego与curl三件事</title><link>https://kubeinfo.cn/posts/beego%E4%B8%8Ecurl%E4%B8%89%E4%BB%B6%E4%BA%8B/</link><pubDate>Thu, 17 Oct 2019 15:23:44 +0000</pubDate><guid>https://kubeinfo.cn/posts/beego%E4%B8%8Ecurl%E4%B8%89%E4%BB%B6%E4%BA%8B/</guid><description>&lt;p>
 &lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190706.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;img class="my-0 rounded-md" loading="lazy" src="https://img.hacpai.com/bing/20190706.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" alt="图片描述: 100" />
 &lt;/figure>
 &lt;/p>
 &lt;h2 class="relative group">正文

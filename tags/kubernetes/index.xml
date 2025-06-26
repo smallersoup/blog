@@ -23,7 +23,8 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#cka%e6%a6%82%e8%bf%b0" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>认证Kubernetes管理员（CKA）计划由Linux基金会和云原生计算基金会（CNCF）创建，作为他们为帮助开发Kubernetes生态系统而不断努力的一部分。作为速度最快的开源项目之一，Kubernetes的使用正在爆炸式增长。&lt;/p></description></item><item><title>备战CKA每日一题——第2天 | Daemonset、对接存储CSI知识点</title><link>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC2%E5%A4%A9daemonset%E5%AF%B9%E6%8E%A5%E5%AD%98%E5%82%A8csi%E7%9F%A5%E8%AF%86%E7%82%B9/</link><pubDate>Tue, 19 Nov 2019 09:54:46 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC2%E5%A4%A9daemonset%E5%AF%B9%E6%8E%A5%E5%AD%98%E5%82%A8csi%E7%9F%A5%E8%AF%86%E7%82%B9/</guid><description>&lt;p>&lt;strong>接上一篇&lt;a href="https://liabio.blog.csdn.net/article/details/103126903" target="_blank">备战CKA每日一题——第1天&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>认证Kubernetes管理员（CKA）计划由Linux基金会和云原生计算基金会（CNCF）创建，作为他们为帮助开发Kubernetes生态系统而不断努力的一部分。作为速度最快的开源项目之一，Kubernetes的使用正在爆炸式增长。&lt;/p></description></item><item><title>备战CKA每日一题——第2天 | Daemonset、对接存储CSI知识点</title><link>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC2%E5%A4%A9daemonset%E5%AF%B9%E6%8E%A5%E5%AD%98%E5%82%A8csi%E7%9F%A5%E8%AF%86%E7%82%B9/</link><pubDate>Tue, 19 Nov 2019 09:54:46 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%A4%87%E6%88%98cka%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%E7%AC%AC2%E5%A4%A9daemonset%E5%AF%B9%E6%8E%A5%E5%AD%98%E5%82%A8csi%E7%9F%A5%E8%AF%86%E7%82%B9/</guid><description>&lt;p>&lt;strong>接上一篇
+&lt;a href="https://kubeinfo.cn/go/?target=aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldC9hcnRpY2xlL2RldGFpbHMvMTAzMTI2OTAz" target="_blank" >备战CKA每日一题——第1天&lt;/a>&lt;/strong>&lt;/p>
 &lt;h2 class="relative group">昨日考题
 &lt;div id="昨日考题" class="anchor">&lt;/div>
 &lt;span
@@ -44,8 +45,8 @@ style="text-decoration-line: none !important;" href="#kubernetes%e5%9e%83%e5%9c%
 &lt;p>&lt;strong>kubernetes版本：1.13.2&lt;/strong>&lt;/p></description></item><item><title>kubernetes垃圾回收器GarbageCollector 源码分析（三）</title><link>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B8%89/</link><pubDate>Mon, 21 Oct 2019 17:40:11 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B8%89/</guid><description>&lt;blockquote>
 &lt;p>&lt;strong>kubernetes版本：1.13.2&lt;/strong>&lt;/p>&lt;/blockquote>
 &lt;p>接前两节：&lt;br />
-&lt;a href="https://liabio.blog.csdn.net/article/details/100081941" target="_blank">kubernetes垃圾回收器GarbageCollector Controller源码分析（一）&lt;/a>&lt;br />
-&lt;a href="https://liabio.blog.csdn.net/article/details/100549251" target="_blank">kubernetes垃圾回收器GarbageCollector Controller源码分析（二）&lt;/a>&lt;/p></description></item><item><title>kubernetes自定义资源对象高级功能</title><link>https://kubeinfo.cn/posts/kubernetes%E8%87%AA%E5%AE%9A%E4%B9%89%E8%B5%84%E6%BA%90%E5%AF%B9%E8%B1%A1%E9%AB%98%E7%BA%A7%E5%8A%9F%E8%83%BD/</link><pubDate>Fri, 18 Oct 2019 13:33:34 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubernetes%E8%87%AA%E5%AE%9A%E4%B9%89%E8%B5%84%E6%BA%90%E5%AF%B9%E8%B1%A1%E9%AB%98%E7%BA%A7%E5%8A%9F%E8%83%BD/</guid><description>&lt;p>kubernetes自定义资源对象再极大程度提高了API Server的可扩展性，让企业能够根据业务需求通过CRD编写controller或者operator来实现生产中各种特殊场景。随着k8s的版本升级，CRD的功能也越来越完善，下面对其中几点进行说明。&lt;/p></description></item><item><title>史上最全k8s必学必会知识梳理</title><link>https://kubeinfo.cn/posts/%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%85%A8k8s%E5%BF%85%E5%AD%A6%E5%BF%85%E4%BC%9A%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86/</link><pubDate>Fri, 18 Oct 2019 13:32:28 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%85%A8k8s%E5%BF%85%E5%AD%A6%E5%BF%85%E4%BC%9A%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86/</guid><description>&lt;h2 class="relative group">正文
+&lt;a href="https://kubeinfo.cn/go/?target=aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldC9hcnRpY2xlL2RldGFpbHMvMTAwMDgxOTQx" target="_blank" >kubernetes垃圾回收器GarbageCollector Controller源码分析（一）&lt;/a>&lt;br />
+&lt;a href="https://kubeinfo.cn/go/?target=aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldC9hcnRpY2xlL2RldGFpbHMvMTAwNTQ5MjUx" target="_blank" >kubernetes垃圾回收器GarbageCollector Controller源码分析（二）&lt;/a>&lt;/p></description></item><item><title>kubernetes自定义资源对象高级功能</title><link>https://kubeinfo.cn/posts/kubernetes%E8%87%AA%E5%AE%9A%E4%B9%89%E8%B5%84%E6%BA%90%E5%AF%B9%E8%B1%A1%E9%AB%98%E7%BA%A7%E5%8A%9F%E8%83%BD/</link><pubDate>Fri, 18 Oct 2019 13:33:34 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubernetes%E8%87%AA%E5%AE%9A%E4%B9%89%E8%B5%84%E6%BA%90%E5%AF%B9%E8%B1%A1%E9%AB%98%E7%BA%A7%E5%8A%9F%E8%83%BD/</guid><description>&lt;p>kubernetes自定义资源对象再极大程度提高了API Server的可扩展性，让企业能够根据业务需求通过CRD编写controller或者operator来实现生产中各种特殊场景。随着k8s的版本升级，CRD的功能也越来越完善，下面对其中几点进行说明。&lt;/p></description></item><item><title>史上最全k8s必学必会知识梳理</title><link>https://kubeinfo.cn/posts/%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%85%A8k8s%E5%BF%85%E5%AD%A6%E5%BF%85%E4%BC%9A%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86/</link><pubDate>Fri, 18 Oct 2019 13:32:28 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%85%A8k8s%E5%BF%85%E5%AD%A6%E5%BF%85%E4%BC%9A%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86/</guid><description>&lt;h2 class="relative group">正文
 &lt;div id="正文" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
@@ -87,17 +88,17 @@ style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-l
 &lt;/h2>
 &lt;p>用以下命令生成代码：&lt;/p></description></item><item><title>kube-apiserver审计日志记录和采集</title><link>https://kubeinfo.cn/posts/kubeapiserver%E5%AE%A1%E8%AE%A1%E6%97%A5%E5%BF%97%E8%AE%B0%E5%BD%95%E5%92%8C%E9%87%87%E9%9B%86/</link><pubDate>Fri, 18 Oct 2019 13:03:22 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubeapiserver%E5%AE%A1%E8%AE%A1%E6%97%A5%E5%BF%97%E8%AE%B0%E5%BD%95%E5%92%8C%E9%87%87%E9%9B%86/</guid><description>&lt;p>Kubernetes 审计功能提供了与安全相关的按时间顺序排列的记录集，记录单个用户、管理员或系统其他组件影响系统的活动顺序。它能帮助集群管理员处理以下问题：&lt;/p></description></item><item><title>k8s中负载均衡器【ingress-nginx】部署</title><link>https://kubeinfo.cn/posts/k8s%E4%B8%AD%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E5%99%A8ingressnginx%E9%83%A8%E7%BD%B2/</link><pubDate>Thu, 17 Oct 2019 14:46:13 +0000</pubDate><guid>https://kubeinfo.cn/posts/k8s%E4%B8%AD%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E5%99%A8ingressnginx%E9%83%A8%E7%BD%B2/</guid><description>&lt;p>
 &lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190422.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;img class="my-0 rounded-md" loading="lazy" src="https://img.hacpai.com/bing/20190422.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" alt="图片描述: 100" />
 &lt;/figure>
 &lt;/p>
 &lt;p>在Kubernetes中，服务和Pod的IP地址仅可以在集群网络内部使用，对于集群外的应用是不可见的。为了使外部的应用能够访问集群内的服务，在Kubernetes 目前 提供了以下几种方案：&lt;/p></description></item><item><title>k8s使用Job执行任务失败了怎么办</title><link>https://kubeinfo.cn/posts/k8s%E4%BD%BF%E7%94%A8job%E6%89%A7%E8%A1%8C%E4%BB%BB%E5%8A%A1%E5%A4%B1%E8%B4%A5%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E/</link><pubDate>Thu, 17 Oct 2019 14:43:07 +0000</pubDate><guid>https://kubeinfo.cn/posts/k8s%E4%BD%BF%E7%94%A8job%E6%89%A7%E8%A1%8C%E4%BB%BB%E5%8A%A1%E5%A4%B1%E8%B4%A5%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E/</guid><description>&lt;p>
 &lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180724.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;img class="my-0 rounded-md" loading="lazy" src="https://img.hacpai.com/bing/20180724.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" alt="图片描述: 100" />
 &lt;/figure>
 &lt;/p>
 &lt;p>Kubernetes 中使用 Job 和 CronJob 两个资源分别提供了一次性任务和定时任务的特性，这两种对象也使用控制器模型来实现资源的管理，我们在这篇文章来介绍Job执行如果失败了会怎么样呢？&lt;/p></description></item><item><title>采坑指南——k8s域名解析coredns问题排查过程</title><link>https://kubeinfo.cn/posts/%E9%87%87%E5%9D%91%E6%8C%87%E5%8D%97k8s%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90coredns%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5%E8%BF%87%E7%A8%8B/</link><pubDate>Thu, 17 Oct 2019 14:40:05 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E9%87%87%E5%9D%91%E6%8C%87%E5%8D%97k8s%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90coredns%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5%E8%BF%87%E7%A8%8B/</guid><description>&lt;p>
 &lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180826.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;img class="my-0 rounded-md" loading="lazy" src="https://img.hacpai.com/bing/20180826.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" alt="图片描述: 100" />
 &lt;/figure>
 &lt;/p>
 &lt;h2 class="relative group">正文
@@ -110,19 +111,20 @@ style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-l
 &lt;/h2>
 &lt;p>前几天，在ucloud上搭建的k8s集群（搭建教程后续会发出）。今天发现域名解析不了。&lt;/p></description></item><item><title>如何批量删除k8s资源对象</title><link>https://kubeinfo.cn/posts/%E5%A6%82%E4%BD%95%E6%89%B9%E9%87%8F%E5%88%A0%E9%99%A4k8s%E8%B5%84%E6%BA%90%E5%AF%B9%E8%B1%A1/</link><pubDate>Thu, 17 Oct 2019 14:38:49 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%A6%82%E4%BD%95%E6%89%B9%E9%87%8F%E5%88%A0%E9%99%A4k8s%E8%B5%84%E6%BA%90%E5%AF%B9%E8%B1%A1/</guid><description>&lt;p>
 &lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180630.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;img class="my-0 rounded-md" loading="lazy" src="https://img.hacpai.com/bing/20180630.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" alt="图片描述: 100" />
 &lt;/figure>
 &lt;/p>
 &lt;p>&lt;strong>在云平台开发、中间件容器化时，经常会遇到批量删除k8s资源对象的需求，下面记录一下kubectl和golang发送删除pvc、pv、pod请求的例子，便于后续学习查阅&lt;/strong>&lt;/p></description></item><item><title>kubernetes垃圾回收器GarbageCollector控制器源码分析（二）</title><link>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%8E%A7%E5%88%B6%E5%99%A8%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%BA%8C/</link><pubDate>Wed, 16 Oct 2019 23:29:12 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%8E%A7%E5%88%B6%E5%99%A8%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%BA%8C/</guid><description>&lt;p>
 &lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190103.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;img class="my-0 rounded-md" loading="lazy" src="https://img.hacpai.com/bing/20190103.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" alt="图片描述: 100" />
 &lt;/figure>
 &lt;/p>
 &lt;blockquote>
 &lt;p>&lt;strong>kubernetes版本：1.13.2&lt;/strong>&lt;/p>&lt;/blockquote>
-&lt;p>接上一节：&lt;a href="https://liabio.blog.csdn.net/article/details/100081941" target="_blank">kubernetes垃圾回收器GarbageCollector Controller源码分析（一）&lt;/a>&lt;/p></description></item><item><title>kubernetes垃圾回收器GarbageCollector控制器源码分析（一）</title><link>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%8E%A7%E5%88%B6%E5%99%A8%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B8%80/</link><pubDate>Wed, 16 Oct 2019 23:14:24 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%8E%A7%E5%88%B6%E5%99%A8%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B8%80/</guid><description>&lt;p>
+&lt;p>接上一节：
+&lt;a href="https://kubeinfo.cn/go/?target=aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldC9hcnRpY2xlL2RldGFpbHMvMTAwMDgxOTQx" target="_blank" >kubernetes垃圾回收器GarbageCollector Controller源码分析（一）&lt;/a>&lt;/p></description></item><item><title>kubernetes垃圾回收器GarbageCollector控制器源码分析（一）</title><link>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%8E%A7%E5%88%B6%E5%99%A8%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B8%80/</link><pubDate>Wed, 16 Oct 2019 23:14:24 +0000</pubDate><guid>https://kubeinfo.cn/posts/kubernetes%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8garbagecollector%E6%8E%A7%E5%88%B6%E5%99%A8%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B8%80/</guid><description>&lt;p>
 &lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20190604.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;img class="my-0 rounded-md" loading="lazy" src="https://img.hacpai.com/bing/20190604.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" alt="图片描述: 100" />
 &lt;/figure>
 &lt;/p>
 &lt;blockquote>

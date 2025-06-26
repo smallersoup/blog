@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docker on 进击云原生</title><link>https://kubeinfo.cn/tags/docker/</link><description>Recent content in Docker on 进击云原生</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 18 Oct 2019 13:04:24 +0000</lastBuildDate><atom:link href="https://kubeinfo.cn/tags/docker/index.xml" rel="self" type="application/rss+xml"/><item><title>搭建个私有docker镜像仓库</title><link>https://kubeinfo.cn/posts/%E6%90%AD%E5%BB%BA%E4%B8%AA%E7%A7%81%E6%9C%89docker%E9%95%9C%E5%83%8F%E4%BB%93%E5%BA%93/</link><pubDate>Fri, 18 Oct 2019 13:04:24 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E6%90%AD%E5%BB%BA%E4%B8%AA%E7%A7%81%E6%9C%89docker%E9%95%9C%E5%83%8F%E4%BB%93%E5%BA%93/</guid><description>&lt;p>&lt;strong>公有仓库和私有仓库：&lt;/strong>&lt;/p>
 &lt;p>**速度：**公有仓库走的公网，速度较慢；私有仓库走的是内网，即局域网；&lt;/p></description></item><item><title>MySql镜像安装</title><link>https://kubeinfo.cn/posts/mysql%E9%95%9C%E5%83%8F%E5%AE%89%E8%A3%85/</link><pubDate>Thu, 17 Oct 2019 15:21:00 +0000</pubDate><guid>https://kubeinfo.cn/posts/mysql%E9%95%9C%E5%83%8F%E5%AE%89%E8%A3%85/</guid><description>&lt;p>
 &lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20181021.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;img class="my-0 rounded-md" loading="lazy" src="https://img.hacpai.com/bing/20181021.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" alt="图片描述: 100" />
 &lt;/figure>
 &lt;/p>
 &lt;h2 class="relative group">正文
@@ -27,16 +27,16 @@ style="text-decoration-line: none !important;" href="#%e5%ae%89%e8%a3%85mysql%e9
 &lt;p>安全组入站策略如下：&lt;/p>
 &lt;p>
 &lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="在这里插入图片描述" src="https://img-blog.csdnimg.cn/20190715082029462.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70" />
+&lt;img class="my-0 rounded-md" loading="lazy" src="https://img-blog.csdnimg.cn/20190715082029462.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" />
 &lt;/figure>
 &lt;br />
 出站策略如下：&lt;br />
 &lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="在这里插入图片描述" src="https://img-blog.csdnimg.cn/20190715082044270.png" />
+&lt;img class="my-0 rounded-md" loading="lazy" src="https://img-blog.csdnimg.cn/20190715082044270.png" alt="在这里插入图片描述" />
 &lt;/figure>
 &lt;/p></description></item><item><title>史上最全docker基础知识汇总</title><link>https://kubeinfo.cn/posts/%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%85%A8docker%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/</link><pubDate>Thu, 17 Oct 2019 14:25:20 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%85%A8docker%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/</guid><description>&lt;p>
 &lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20191002.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;img class="my-0 rounded-md" loading="lazy" src="https://img.hacpai.com/bing/20191002.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" alt="图片描述: 100" />
 &lt;/figure>
 &lt;/p>
 &lt;h2 class="relative group">正文
@@ -49,7 +49,7 @@ style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-l
 &lt;/h2>
 &lt;p>&lt;strong>Docker常用命令&lt;/strong>&lt;/p></description></item><item><title>docker镜像制作必备技能</title><link>https://kubeinfo.cn/posts/docker%E9%95%9C%E5%83%8F%E5%88%B6%E4%BD%9C%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD/</link><pubDate>Thu, 17 Oct 2019 14:18:17 +0000</pubDate><guid>https://kubeinfo.cn/posts/docker%E9%95%9C%E5%83%8F%E5%88%B6%E4%BD%9C%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD/</guid><description>&lt;p>
 &lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180416.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;img class="my-0 rounded-md" loading="lazy" src="https://img.hacpai.com/bing/20180416.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" alt="图片描述: 100" />
 &lt;/figure>
 &lt;/p>
 &lt;h2 class="relative group">正文
@@ -60,4 +60,5 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>使用过docker的都知道dockerfile，其用于定义制作镜像的流程，由一系列命令和参数构成的脚本，这些命令应用于基础镜像并最终创建一个新的镜像。可参考往期文章学习：&lt;a href="https://mp.weixin.qq.com/s/lzFL4eWU8h23sTbFbHEZkg" target="_blank">docker基础知识整理&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>使用过docker的都知道dockerfile，其用于定义制作镜像的流程，由一系列命令和参数构成的脚本，这些命令应用于基础镜像并最终创建一个新的镜像。可参考往期文章学习：
+&lt;a href="https://kubeinfo.cn/go/?target=aHR0cHM6Ly9tcC53ZWl4aW4ucXEuY29tL3MvbHpGTDRlV1U4aDIzc1RiRmJIRVprZw%3d%3d" target="_blank" >docker基础知识整理&lt;/a>&lt;/p></description></item></channel></rss>

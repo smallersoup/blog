@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Slf4j on 进击云原生</title><link>https://kubeinfo.cn/tags/slf4j/</link><description>Recent content in Slf4j on 进击云原生</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 17 Oct 2019 15:22:03 +0000</lastBuildDate><atom:link href="https://kubeinfo.cn/tags/slf4j/index.xml" rel="self" type="application/rss+xml"/><item><title>slf4j打印日志必须的三个依赖包</title><link>https://kubeinfo.cn/posts/slf4j%E6%89%93%E5%8D%B0%E6%97%A5%E5%BF%97%E5%BF%85%E9%A1%BB%E7%9A%84%E4%B8%89%E4%B8%AA%E4%BE%9D%E8%B5%96%E5%8C%85/</link><pubDate>Thu, 17 Oct 2019 15:22:03 +0000</pubDate><guid>https://kubeinfo.cn/posts/slf4j%E6%89%93%E5%8D%B0%E6%97%A5%E5%BF%97%E5%BF%85%E9%A1%BB%E7%9A%84%E4%B8%89%E4%B8%AA%E4%BE%9D%E8%B5%96%E5%8C%85/</guid><description>&lt;p>
 &lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" alt="" src="https://img.hacpai.com/bing/20180329.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" />
+&lt;img class="my-0 rounded-md" loading="lazy" src="https://img.hacpai.com/bing/20180329.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" alt="图片描述: 100" />
 &lt;/figure>
 &lt;/p>
 &lt;h2 class="relative group">正文
