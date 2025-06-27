@@ -47,12 +47,19 @@ document.addEventListener('DOMContentLoaded', function() {
       (function(w,d, s, id) {
         if(typeof(w.webpushr)!=='undefined') return;
         w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};
-        var js, fjs = d.getElementsByTagName(s)[0];
-        js = d.createElement(s); js.id = id;js.async=1;js.src = "https://cdn.webpushr.com/app.min.js";
+        var js, 
+        fjs = d.getElementsByTagName(s)[0];
+        js = d.createElement(s); 
+        js.id = id;
+        js.async=1;
+        js.src = "https://cdn.webpushr.com/app.min.js";
         fjs.parentNode.appendChild(js);
       }(window,document, 'script', 'webpushr-jssdk'));
 
-      webpushr('setup',{'key':'BHIaDYldZcXlQt38kYXgH48NQZFQkowuo14rNhiIvrGEP5kFU5lb5h-VIMlUkjy-kxygxW4hEvb6GjijlYYlwCk' });
+      webpushr('setup', {
+        'key': 'BPaSgcviMxfkNlELfboefkjPEigiszIStgrZEfmp4nsCSXMzLpCphJai8hTOl1o0_yg8u6-SxNz98pdSGro05C4',
+        // 'integration': 'popup'
+      });
 
       // 移除滚动监听器，防止重复执行
       window.removeEventListener('scroll', loadScript);
@@ -208,10 +215,10 @@ $(document).ready(function () {
     document.addEventListener("visibilitychange",
     function() {
         if (document.hidden) {
-            document.title = "你别走吖 Σ(っ °Д °;)っ";
+            document.title = "老板别走吖 Σ(っ °Д °;)っ";
             clearTimeout(titleTime)
         } else {
-            document.title = "你可算回来了 (｡•ˇ‸ˇ•｡)" + OriginTitile;
+            document.title = "老板您可算回来了 (｡•ˇ‸ˇ•｡)" + OriginTitile;
             titleTime = setTimeout(function() {
                 document.title = OriginTitile
             },
