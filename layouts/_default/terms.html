@@ -1,5 +1,6 @@
 {{ define "main" }}
 
+
 {{ .Scratch.Set "scope" "list" }}
 {{ if .Site.Params.taxonomy.showHero | default false }}
 {{ $heroStyle := print "partials/hero/" .Site.Params.taxonomy.heroStyle ".html" }}
@@ -48,8 +49,8 @@
 
   {{ else }}
 
+
   <section class="flex flex-wrap max-w-prose -mx-2 overflow-hidden">
-    {{/* change */}}
     {{ partial "wordcloud.html" . }}
   </section>
 
