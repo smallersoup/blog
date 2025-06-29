@@ -16,14 +16,14 @@ contentDir = "content/zh-cn"
   [params.article]
     editURL = "https://github.com/smallersoup/blog/tree/main/content/zh-cn"
 
-[author]
-  name = "小碗汤"
-  image = "img/avatar.jpeg"
-  headline = "云原生搬砖师"
-  bio = "云原生搬砖师"
-  links = [
-    { rss = "/index.xml" },
-    # { x-twitter = "https://x.com/andylee8866" },
-    { wechat = "https://images.kubeinfo.cn/uPic/tmpm1ykjt96.webp" },
-    { github = "https://github.com/smallersoup" },
-  ]
+  [params.author]
+    name = "小碗汤"
+    image = "img/avatar.jpeg"
+    headline = "云原生搬砖师"
+    bio = "云原生搬砖师"
+    links = [
+      { rss = "/index.xml" },
+      # { x-twitter = "https://x.com/andylee8866" },
+      { wechat = "https://images.kubeinfo.cn/uPic/tmpm1ykjt96.webp" },
+      { github = "https://github.com/smallersoup" },
+    ]

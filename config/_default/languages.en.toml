@@ -12,7 +12,7 @@ contentDir = "content/en"
   dateFormat = "2 January 2006"
   logo = "img/logo.jpeg"
   # secondaryLogo = "PATH"
-  description = "Cloud Native Lab: A specialized blog diving into container technology, Kubernetes, Istio, DevOps practices, Prometheus monitoring, Envoy, Golang development, and trends in cloud-native architecture and microservices."
+  description = "Advance into Cloud Native: A specialized blog diving into container technology, Kubernetes, Istio, DevOps practices, Prometheus monitoring, Envoy, Golang development, and trends in cloud-native architecture and microservices."
   # copyright = "Copy, _right?_ :thinking_face:"
   [params.article]
     editURL = "https://github.com/smallersoup/blog/tree/main/content/en"
@@ -32,14 +32,14 @@ contentDir = "content/en"
     linkAddress = "https://github.com/labring/laf"
     linkEvent = "Laf"
 
-[author]
-  name = "Smallersoup"
-  image = "img/avatar.jpeg"
-  headline = "[Sealos](https://sealos.io) Community Pollinator, Cloud Native Lover ☸️, Blogger, GFW fucker..."
-  bio = "[Sealos](https://sealos.io) Community Pollinator, Cloud Native Lover ☸️, Blogger, GFW fucker..."
-  links = [
-    { rss = "/index.xml" },
-    # { x-twitter = "https://x.com/andylee8866" },
-    { wechat = "https://images.kubeinfo.cn/uPic/tmpm1ykjt96.webp" },
-    { github = "https://github.com/smallersoup" },
-  ]
+  [params.author]
+    name = "AndyLee8866"
+    image = "img/avatar.jpeg"
+    headline = "Cloud Native Lover ☸️, Blogger..."
+    bio = "Cloud Native Lover ☸️, Blogger..."
+    links = [
+      { rss = "/index.xml" },
+      # { x-twitter = "https://x.com/andylee8866" },
+      { wechat = "https://images.kubeinfo.cn/uPic/tmpm1ykjt96.webp" },
+      { github = "https://github.com/smallersoup" },
+    ]
