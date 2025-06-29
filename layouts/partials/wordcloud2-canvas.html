@@ -1,0 +1,124 @@
+<!-- 参考文档：https://github.com/timdream/wordcloud2.js/blob/gh-pages/API.md -->
+<!-- 对于canvas minSize 可以生效，但是dom不行 -->
+<!-- 一些浏览器对 minFontSize 的首选项有限制，首选项也会影响画布。wordcloud.js通过缩放画布来解决这个问题 -->
+<!-- 对于canvas模式，下面的css不会生效 -->
+<!-- <style>
+  #wordcloud {
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px 0;
+  }
+
+  .word {
+      position: relative;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      padding: 8px 16px;
+      display: inline-block;
+      margin: 4px;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+      text-decoration: none; /* Assuming each word is a link */
+  }
+
+  /* 角标样式 */
+  .badge {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 2px 5px;
+      font-size: 0.7em;
+      border-radius: 50%;
+      transform: translate(50%, -50%);
+  }
+
+  /* 多种颜色 */
+  .color-1 { color: rgba(var(--color-primary-700), 1); .dark & { color: #8be9fd; }}
+  .color-2 { color: rgba(var(--color-neutral-700), 1); .dark & { color: rgba(var(--color-neutral-200), 1); }}
+  .color-3 { color: #8B4513; .dark & { color: #ffb86c; }}
+  .color-4 { color: #00668c; .dark & { color: #cee8ff; }}
+  .color-5 { color: #313d44; .dark & { color: #bd93f9; }}
+  /* ... 更多颜色 ... */
+  
+
+  /* Different sizes based on count (example) */
+  .word.size-1 { font-size: 1.0em; }
+  .word.size-2 { font-size: 1.2em; }
+  .word.size-3 { font-size: 1.4em; }
+  .word.size-4 { font-size: 1.6em; }
+  .word.size-5 { font-size: 1.8em; }
+</style> -->
+
+<div id="wordcloud"></div>
+  {{ if eq .Kind "taxonomy" }}
+  <!-- <pre>{{ . | jsonify (dict "indent" " ") }}</pre> -->
+    {{ if or (eq .Type "tags") (eq .Type "categories") }}
+      <canvas id="wordcloud-canvas" width="900" height="350"></canvas>
+      <script src="/js/wordcloud2.js"></script>
+      <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        console.log("DOM fully loaded and parsed");
+        // 自动生成 tags 或 categories 数据
+        var words = [
+          {{- if eq .Type "tags" -}}
+            {{- range $key, $value := .Site.Taxonomies.tags -}}
+              [
+                "{{ $key }}",
+                {{ len $value.Pages }},
+                "{{ absLangURL (print "/tags/" ($key | urlize)) }}"
+              ],
+            {{- end -}}
+          {{- else if eq .Type "categories" -}}
+            {{- range $key, $value := .Site.Taxonomies.categories -}}
+              // console.log("{{ $key }}", {{ len $value.Pages }})
+              [
+                "{{ $key }}",
+                {{ len $value.Pages }},
+                "{{ absLangURL (print "/categories/" ($key | urlize)) }}"
+              ],
+            {{- end -}}
+          {{- end -}}
+        ];
+        // 生成词云
+        WordCloud(document.getElementById('wordcloud-canvas'), {
+          list: words.map(function(item){ return [item[0], item[1], item[2]]; }),
+          gridSize: 8,
+          fontFamily: 'Helvetica Neue, Arial, sans-serif',
+          color: function(word, weight) {
+            var colorIdx = (word.length % 5) + 1;
+            // 检查是否为暗模式
+            var isDark = document.documentElement.classList.contains('dark');
+            switch (colorIdx) {
+              case 1:
+                return isDark ? '#8be9fd' : 'rgba(var(--color-primary-700), 1)';
+              case 2:
+                return isDark ? 'rgba(var(--color-neutral-200), 1)' : 'rgba(var(--color-neutral-700), 1)';
+              case 3:
+                return isDark ? '#ffb86c' : '#8B4513';
+              case 4:
+                return isDark ? '#cee8ff' : '#00668c';
+              case 5:
+                return isDark ? '#bd93f9' : '#313d44';
+              default:
+                return isDark ? '#FFFFFF' : '#000';
+            }
+          },
+          weightFactor: 10,
+          backgroundColor: 'rgba(0,0,0,0)',
+          minRotation: 0,
+          maxRotation: 0,
+          minSize: 10,
+          // minRotation: -Math.PI,
+          // maxRotation: Math.PI,
+          // minFontSize: 30,
+          // maxFontSize: 100,
+          click: function(item, dimension, event) {
+            if(item[2]) window.location.href = item[2];
+          }
+        });
+
+        console.log("WordCloud initialized");
+      });
+      </script>
+    {{ end }}
+  {{ end }}

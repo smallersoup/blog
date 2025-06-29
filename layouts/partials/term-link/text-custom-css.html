@@ -59,17 +59,5 @@
 {{ end }}
 
 <div id="wordcloud">
-  {{ if eq .Kind "taxonomy" }}
-    {{ if eq .Type "tags" }}
-      {{/* 生成标签词云 */}}
-      {{ range $key, $value := .Site.Taxonomies.tags }}
-        {{ template "wordcloud-element" dict "Key" $key "Value" $value }}
-      {{ end }}
-    {{ else if eq .Type "categories" }}
-      {{/* 生成分类词云 */}}
-      {{ range $key, $value := .Site.Taxonomies.categories }}
-        {{ template "wordcloud-element" dict "Key" $key "Value" $value }}
-      {{ end }}
-    {{ end }}
-  {{ end }}
+  {{ template "wordcloud-element" dict "Key" .Page.Title "Value" . }}
 </div>

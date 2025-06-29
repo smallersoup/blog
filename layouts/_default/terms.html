@@ -49,10 +49,10 @@
 
   <section class="flex flex-wrap max-w-prose -mx-2 overflow-hidden">
     <!-- <pre>{{ .Data.Terms | jsonify (dict "indent" " ") }}</pre> -->
-    <!-- {{ range .Data.Terms }} -->
-      <!-- {{ partial "term-link/text.html" . }} -->
-    <!-- {{ end }} -->
-    {{ partial "wordcloud.html" . }}
+    {{ range .Data.Terms }}
+      {{ partial "term-link/text.html" . }}
+    {{ end }}
+    <!-- {{ partial "wordcloud.html" . }} -->
   </section>
 
   {{ end }}
