@@ -655,4 +655,4 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#%e8%83%8c%e6%99%af" aria-label="锚点">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>由于operator创建的redis集群，在kubernetes apiserver重启后，redis集群被异常删除（包括redis exporter statefulset、redis statefulset）。删除后operator将其重建，重新组建集群，实例IP发生变更（中间件容器化，我们开发了固定IP，当statefulset删除后，IP会被回收），导致创建集群失败，最终集群不可用。&lt;/p></description></item></channel></rss>
+&lt;p>由于operator创建的redis集群，在kubernetes apiserver重启后，redis集群被异常删除（包括redis exporter statefulset、redis statefulset）。删除后operator将其重建，重新组建集群，实例IP发生变更（中间件容器化，我们开发了固定IP，当statefulset删除后，IP会被回收），导致创建集群失败，最终集群不可用。&lt;/p></description></item><item><title>Redirect</title><link>https://kubeinfo.cn/go/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/go/</guid><description/></item></channel></rss>
