@@ -10,11 +10,11 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 # https://gohugo.io/content-management/multilingual/#method-2--use-a-configuration-directory
-[[main]]
-  name = "项目"
-  pre = "github"
-  pageRef = "examples"
-  weight = 10
+# [[main]]
+#   name = "项目"
+#   pre = "github"
+#   pageRef = "examples"
+#   weight = 10
 
 #[[main]]
 #  name = "网盘"

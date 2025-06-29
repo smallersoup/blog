@@ -37,7 +37,7 @@ Long Live KubeSphere!
 
 {{< timelineItem icon="github" header="KubeSphere Console is the web-based UI for KubeSphere" badge="Cloud Native" >}}
 <a href="https://github.com/kubesphere/console" target="_blank">
-  <img loading="lazy" class="nozoom" width="100%" height="100%" alt="KubeSphere Console" src="./dashboard-ui.png">
+  <img loading="lazy" class="nozoom" width="100%" height="100%" alt="KubeSphere Console" src="/img/dashboard-ui.png">
 </a>
 {{< /timelineItem >}}
 

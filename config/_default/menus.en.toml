@@ -11,11 +11,11 @@
 # ordered by weight from lowest to highest.
 # https://gohugo.io/content-management/multilingual/#method-2--use-a-configuration-directory
 # https://gohugo.io/content-management/multilingual/#use-translation-tables
-[[main]]
-  name = "Projects"
-  pre = "github"
-  pageRef = "examples"
-  weight = 10
+# [[main]]
+#   name = "Projects"
+#   pre = "github"
+#   pageRef = "examples"
+#   weight = 10
 
 [[main]]
   name = "Analytics"
