@@ -1,75 +1,117 @@
+<!-- 参考文档：https://github.com/timdream/wordcloud2.js/blob/gh-pages/API.md -->
 <style>
   #wordcloud {
-      text-align: center;
-      padding: 20px;
-      border-radius: 10px;
-      margin: 20px 0;
+      text-align: center !important;
+      padding: 20px !important;
+      border-radius: 10px !important;
+      margin: 20px 0 !important;
   }
 
   .word {
-      position: relative;
-      font-family: 'Helvetica Neue', Arial, sans-serif;
-      padding: 8px 16px;
-      display: inline-block;
-      margin: 4px;
-      border-radius: 5px;
-      transition: all 0.3s ease;
-      text-decoration: none; /* Assuming each word is a link */
+      position: relative !important;
+      font-family: 'Helvetica Neue', Arial, sans-serif !important;
+      padding: 8px 16px !important;
+      display: inline-block !important;
+      margin: 4px !important;
+      border-radius: 5px !important;
+      transition: all 0.3s ease !important;
+      text-decoration: none !important; /* Assuming each word is a link */
   }
 
   /* 角标样式 */
   .badge {
-      position: absolute;
-      top: 0;
-      right: 0;
-      padding: 2px 5px;
-      font-size: 0.7em;
-      border-radius: 50%;
-      transform: translate(50%, -50%);
+      position: absolute !important;
+      top: 0 !important;
+      right: 0 !important;
+      padding: 2px 5px !important;
+      font-size: 0.7em !important;
+      border-radius: 50% !important;
+      transform: translate(50%, -50%) !important;
   }
 
   /* 多种颜色 */
-  .color-1 { color: rgba(var(--color-primary-700), 1); .dark & { color: #8be9fd; }}
-  .color-2 { color: rgba(var(--color-neutral-700), 1); .dark & { color: rgba(var(--color-neutral-200), 1); }}
-  .color-3 { color: #8B4513; .dark & { color: #ffb86c; }}
-  .color-4 { color: #00668c; .dark & { color: #cee8ff; }}
-  .color-5 { color: #313d44; .dark & { color: #bd93f9; }}
+  .color-1 { color: rgba(var(--color-primary-700), 1) !important; .dark & { color: #8be9fd !important; }}
+  .color-2 { color: rgba(var(--color-neutral-700), 1) !important; .dark & { color: rgba(var(--color-neutral-200), 1) !important; }}
+  .color-3 { color: #8B4513 !important; .dark & { color: #ffb86c !important; }}
+  .color-4 { color: #00668c !important; .dark & { color: #cee8ff !important; }}
+  .color-5 { color: #313d44 !important; .dark & { color: #bd93f9 !important; }}
   /* ... 更多颜色 ... */
   
 
   /* Different sizes based on count (example) */
-  .word.size-1 { font-size: 1.0em; }
-  .word.size-2 { font-size: 1.2em; }
-  .word.size-3 { font-size: 1.4em; }
-  .word.size-4 { font-size: 1.6em; }
-  .word.size-5 { font-size: 1.8em; }
+  .word.size-1 { font-size: 1.0em !important; }
+  .word.size-2 { font-size: 1.2em !important; }
+  .word.size-3 { font-size: 1.4em !important; }
+  .word.size-4 { font-size: 1.6em !important; }
+  .word.size-5 { font-size: 1.8em !important; }
 </style>
 
-{{ define "wordcloud-element" }}
-  {{ $key := .Key }}
-  {{ $value := .Value }}
-  {{ $title := $value.Page.Title }}
-  {{ $count := len $value.Pages }}
-  {{ $colorClass := printf "color-%d" (add 1 (mod (len $key) 5)) }}
-  {{ $size := cond (ge $count 10) "5" (cond (ge $count 8) "4" (cond (ge $count 6) "3" (cond (ge $count 4) "2" "1"))) }}
-  <span class="word {{ $colorClass }} size-{{ $size }}">
-    <a href="{{ if eq $value.Page.Type "tags" }}{{ absLangURL "/tags/" }}{{ else }}{{ absLangURL "/categories/" }}{{ end }}{{ $key | urlize }}">{{ $title }}</a>
-    <span class="badge">{{ $count }}</span>
-  </span>
-{{ end }}
 
-<div id="wordcloud">
+<div id="wordcloud" style="width: 1200; height: 1200;">
   {{ if eq .Kind "taxonomy" }}
-    {{ if eq .Type "tags" }}
-      {{/* 生成标签词云 */}}
-      {{ range $key, $value := .Site.Taxonomies.tags }}
-        {{ template "wordcloud-element" dict "Key" $key "Value" $value }}
-      {{ end }}
-    {{ else if eq .Type "categories" }}
-      {{/* 生成分类词云 */}}
-      {{ range $key, $value := .Site.Taxonomies.categories }}
-        {{ template "wordcloud-element" dict "Key" $key "Value" $value }}
-      {{ end }}
-    {{ end }}
+    {{ if or (eq .Type "tags") (eq .Type "categories") }}
+<!-- <canvas id="wordcloud-canvas" width="1200" height="1200"></canvas> -->
+<script src="/js/wordcloud2.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      // var words = [
+      //     ["Hello", 1],
+      //     ["Worldxx", 2],
+      //     ["Podmanxxx", 3],
+      //     ["Kubernet", 5],
+      //     ["Container", 7],
+      //     ["Docker", 9],
+      //     ["Dockerppp", 11],
+      // ];
+
+      var words = [
+          {{- if eq .Type "tags" -}}
+            {{- range $key, $value := .Site.Taxonomies.tags -}}
+              [
+                "{{ $key }}",
+                {{ len $value.Pages }},
+                "{{ absLangURL (print "/tags/" ($key | urlize)) }}"
+              ],
+            {{- end -}}
+          {{- else if eq .Type "categories" -}}
+            {{- range $key, $value := .Site.Taxonomies.categories -}}
+              [
+                "{{ $key }}",
+                {{ len $value.Pages }},
+                "{{ absLangURL (print "/categories/" ($key | urlize)) }}"
+              ],
+            {{- end -}}
+          {{- end -}}
+      ];
+
+      // WordCloud(document.getElementById('wordcloud-canvas'), {
+      WordCloud(document.getElementById('wordcloud'), {
+          list: words,
+          // gridSize: 10,
+          fontFamily: 'Helvetica Neue, Arial, sans-serif',
+          classes: function(word, weight) {
+              let sizeClass = 'size-' + (weight > 10 ? 5 : weight > 8 ? 4 : weight > 6 ? 3 : weight > 4 ? 2 : 1);
+              let colorIdx = (word.length % 5) + 1;
+              let classStr = 'word color-' + colorIdx + ' ' + sizeClass;
+              // let classStr = 'color-' + colorIdx;
+              // console.log(word, weight, classStr);
+              return classStr;
+          },
+          drawOutOfBound: true,
+          weightFactor: 10,
+          backgroundColor: 'rgba(0,0,0,0)',
+          minRotation: -Math.PI/1,
+          maxRotation: Math.PI/1,
+          minFontSize: 10,
+          maxFontSize: 100,
+          // shape: The shape of the "cloud" to draw. Can be any polar equation represented as a callback function, or a keyword present. Available presents are circle (default), cardioid (apple or heart shape curve, the most known polar equation), diamond, square, triangle-forward, triangle, (alias of triangle-upright), pentagon, and star.
+          shape: 'circle',
+          click: function(item, dimension, event) {
+              alert("You clicked: " + item[0]);
+          }
+      });
+  });
+</script>
   {{ end }}
+{{ end }}
 </div>

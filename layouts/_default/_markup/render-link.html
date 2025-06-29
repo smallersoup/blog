@@ -1,6 +1,6 @@
 {{ $url := urls.Parse .Destination }}
 {{ $host := lower $url.Host }}
-{{- if or (hasSuffix $host "icloudnative.io") (hasPrefix .Destination "#") -}}
+{{- if or (hasSuffix $host "kubeinfo.cn") (hasPrefix .Destination "#") -}}
     <a href="{{ .Destination }}" {{ with .Title }}title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
 {{- else -}}
     <a href="{{ absLangURL "go" }}/?target={{ .Destination | base64Encode }}" target="_blank" {{ with .Title }}title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
