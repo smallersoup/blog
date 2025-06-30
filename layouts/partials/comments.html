@@ -35,7 +35,7 @@ window.addEventListener("scroll", function() {
 
 
 
-{{ if eq .Site.Language.Lang "zh-cn" }}
+<!-- {{ if eq .Site.Language.Lang "zh-cn" }} -->
 <img style="margin-top: 1.5em;" loading="lazy" src="/img/wechat-official-account.jpg" alt="公众号二维码">
 
 <!-- 引入 iDisqus 的样式表 -->
@@ -44,12 +44,12 @@ window.addEventListener("scroll", function() {
 -->
 
 <!-- 设置评论区的容器 -->
-<div id="comment"></div>
+<!-- <div id="comment"></div> -->
 
 
 
 <!-- 使用 JavaScript 实现懒加载 -->
-<script>
+<!-- <script>
 // 当文档加载完成后，执行以下函数
 document.addEventListener("DOMContentLoaded", function() {
   var iDisqusScriptSrc = "/js/iDisqus.min.js";
@@ -90,8 +90,8 @@ document.addEventListener("DOMContentLoaded", function() {
   // 当这个元素即将出现在视窗中时，IntersectionObserver 会触发
   commentObserver.observe(document.getElementById("comment"));
 });
-</script>
-{{ else }}
+</script> -->
+<!-- {{ else }} -->
 <!-- 设置评论区的容器 -->
 <div style="margin-top:1.5em" id="comment"></div>
 
@@ -156,4 +156,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
     document.addEventListener("DOMContentLoaded", loadGiscusWhenNearViewport);
 </script>
-{{ end }}
+<!-- {{ end }} -->
