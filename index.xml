@@ -172,7 +172,7 @@ style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-l
 &lt;/h2>
 &lt;p>最近做了一个监测k8s服务pod水平伸缩发送邮件的功能（当pod的cpu/内存达到指定阈值后会水平扩展出多个pod、或者指定时间内pod数应扩展到指定数量），一开始写了个格式很low的邮件，像下面这样：&lt;br />
 &lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWNmY2JjMzM4MDBiMGExY2EucG5n?x-oss-process=image/format,png" alt="简单邮件" />
+&lt;img class="my-0 rounded-md" loading="lazy" src="https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/252af43f82840ba8d96777c49de9af32.png" alt="简单邮件" />
 &lt;/figure>
 &lt;/p></description></item><item><title>yum源配置</title><link>https://kubeinfo.cn/posts/yum%E6%BA%90%E9%85%8D%E7%BD%AE/</link><pubDate>Fri, 18 Oct 2019 13:21:40 +0000</pubDate><guid>https://kubeinfo.cn/posts/yum%E6%BA%90%E9%85%8D%E7%BD%AE/</guid><description>&lt;p>在配置yum前首先得说说rpm，在redhat和centos linux系统上，rpm作为软件包管理工具，可以方便的安装、查询、卸载软件包。常见命令如下：&lt;/p></description></item><item><title>NAT模式实现虚拟机共享主机网络</title><link>https://kubeinfo.cn/posts/nat%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%85%B1%E4%BA%AB%E4%B8%BB%E6%9C%BA%E7%BD%91%E7%BB%9C/</link><pubDate>Fri, 18 Oct 2019 13:20:47 +0000</pubDate><guid>https://kubeinfo.cn/posts/nat%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%85%B1%E4%BA%AB%E4%B8%BB%E6%9C%BA%E7%BD%91%E7%BB%9C/</guid><description>&lt;p>上一节我们在虚拟机上搭建了linux系统，并利用桥接模式访问互联网，这一节，我们来配置一下通过NAT模式访问互联网。说到这里有些小伙伴可能要问了，NAT模式和桥接模式有什么区别呢？&lt;/p></description></item><item><title>vmware上安装linux过程记录</title><link>https://kubeinfo.cn/posts/vmware%E4%B8%8A%E5%AE%89%E8%A3%85linux%E8%BF%87%E7%A8%8B%E8%AE%B0%E5%BD%95/</link><pubDate>Fri, 18 Oct 2019 13:20:03 +0000</pubDate><guid>https://kubeinfo.cn/posts/vmware%E4%B8%8A%E5%AE%89%E8%A3%85linux%E8%BF%87%E7%A8%8B%E8%AE%B0%E5%BD%95/</guid><description>&lt;h2 class="relative group">正文
 &lt;div id="正文" class="anchor">&lt;/div>
@@ -534,7 +534,7 @@ style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-l
 &lt;/h2>
 &lt;p>&lt;strong>1. VM8 使用固定IP：&lt;/strong>&lt;br />
 &lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWUzMzA0OGM5ZWU3Njg2ODEucG5n?x-oss-process=image/format,png" alt="VMnet8 IP设置" />
+&lt;img class="my-0 rounded-md" loading="lazy" src="https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/0c5b7b8d8f09e1491ce01376a868beda.png" alt="VMnet8 IP设置" />
 &lt;/figure>
 &lt;/p></description></item><item><title>利用procedure批量插入数据</title><link>https://kubeinfo.cn/posts/%E5%88%A9%E7%94%A8procedure%E6%89%B9%E9%87%8F%E6%8F%92%E5%85%A5%E6%95%B0%E6%8D%AE/</link><pubDate>Thu, 17 Oct 2019 14:47:21 +0000</pubDate><guid>https://kubeinfo.cn/posts/%E5%88%A9%E7%94%A8procedure%E6%89%B9%E9%87%8F%E6%8F%92%E5%85%A5%E6%95%B0%E6%8D%AE/</guid><description>&lt;p>
 &lt;figure>

@@ -16,7 +16,7 @@ style="text-decoration-line: none !important;" href="#%e6%ad%a3%e6%96%87" aria-l
 &lt;/h2>
 &lt;p>最近做了一个监测k8s服务pod水平伸缩发送邮件的功能（当pod的cpu/内存达到指定阈值后会水平扩展出多个pod、或者指定时间内pod数应扩展到指定数量），一开始写了个格式很low的邮件，像下面这样：&lt;br />
 &lt;figure>
-&lt;img class="my-0 rounded-md" loading="lazy" src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWNmY2JjMzM4MDBiMGExY2EucG5n?x-oss-process=image/format,png" alt="简单邮件" />
+&lt;img class="my-0 rounded-md" loading="lazy" src="https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/252af43f82840ba8d96777c49de9af32.png" alt="简单邮件" />
 &lt;/figure>
 &lt;/p></description></item><item><title>SpringMVC实现发送邮件</title><link>https://kubeinfo.cn/posts/springmvc%E5%AE%9E%E7%8E%B0%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6/</link><pubDate>Thu, 17 Oct 2019 18:03:34 +0000</pubDate><guid>https://kubeinfo.cn/posts/springmvc%E5%AE%9E%E7%8E%B0%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6/</guid><description>&lt;h2 class="relative group">正文
 &lt;div id="正文" class="anchor">&lt;/div>
