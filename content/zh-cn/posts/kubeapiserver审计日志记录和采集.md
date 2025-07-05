@@ -177,64 +177,64 @@ k8s目前提供两种日志后端，Log后端和webhook后端，Log后端可以�
 
 **最终配置如下：**
 
-![image](https://img-blog.csdnimg.cn/20191018004829812.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018004829812.jpeg)
 
 修改完成后，kubelet会自动删除重建kube-apiserver的pod（如果pod被删除后，过几分钟还不被创建，可以修改--audit-log-maxbackup的值保存退出，等待pod被创建---这可能是一个bug），重启状态变为running后可以进入容器查看生成的审计日志文件：
 
-![image](https://img-blog.csdnimg.cn/20191018004830142.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018004830142.png)
 
 查看该日志：
 
-![image](https://img-blog.csdnimg.cn/20191018004832126.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018004832126.jpeg)
 
 达到100M后：
 
-![image](https://img-blog.csdnimg.cn/20191018004832638.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018004832638.jpeg)
 
 因为后面要用fluentd作为agent去采集该日志，所以需要把容器内的日志挂载到宿主机目录下，修改kube-apiserver.yaml如下，即将容器内/var/log/kubernetes目录挂载到宿主机的/var/log/kubernetes目录。
 
-![image](https://img-blog.csdnimg.cn/20191018004832845.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018004832845.png)
 
 #### **日志采集**
 
 目前集群中已部署了fluentd elasticsearch日志方案，所以选用fluentd作为 Logging-agent ，Elasticsearch作为  Logging Backend 。集群中的fluentd-es作为DaemonSet 方式运行，根据DaemonSet的特性，应该在每个Node上都会运行fluentd-es的pod，但实际情况是19环境上3个master节点都没有该pod。查看名为fluentd-es-v1.22的DaemonSet yaml可以发现，pod只会运行在有alpha.kubernetes.io/fluentd-ds-ready: “true”标签的node上：
 
-![image](https://img-blog.csdnimg.cn/20191018004833390.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018004833390.jpeg)
 
 查看master节点的node yaml，发现确实没有该标签。故需要在master节点node上添加该标签：
 
-![image](https://img-blog.csdnimg.cn/2019101800483521.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/2019101800483521.jpeg)
 
 添加完label后，可以看到在docker-vm-6节点上pod会被自动创建。
 
 Fluentd的配置文件在容器内的/etc/td-agent/td-agent.conf中配置，部分配置截图如下：
 
-![image](https://img-blog.csdnimg.cn/20191018004835379.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018004835379.jpeg)
 
 该配置由名为fluentd的ConfigMap指定：
 
-![image](https://img-blog.csdnimg.cn/20191018004836830.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018004836830.jpeg)
 
 可以看到配置里并不会去采集、转发审计日志/var/log/kubernetes/kubernetes-audit，所以需要在该ConfigMap中添加以下配置：
 
-![image](https://img-blog.csdnimg.cn/201910180048373.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/201910180048373.png)
 
 添加后的截图如下：
 
-![image](https://img-blog.csdnimg.cn/20191018004838465.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018004838465.jpeg)
 
 之后需要重启一下kube-apiserver节点的fluentd pod，fluentd采集时，也会输出日志到宿主机的/var/log/fluentd.log里，可以看到错误日志等信息，用于定位问题。如果该文件没有审计日志相关错误，日志应该就会被发送到logging-backend：elasticsearch，可以用以下命令验证：
 
 *   先查看elasticsearch的service IP和Port，然后用curl命令调用rest接口查询当前集群中所有index信息：
 
-![image](https://img-blog.csdnimg.cn/20191018004838908.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018004838908.jpeg)
 
 *   查询到审计日志信息如下，大概有220万条记录：
 
-![image](https://img-blog.csdnimg.cn/20191018004839598.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018004839598.png)
 
 详细信息如下，和审计日志文件中记录的一样：
 
-![image](https://img-blog.csdnimg.cn/20191018004841772.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018004841772.jpeg)
 
   后续可以用Kibana进行日志展示，Elasticsearch、Fluentd、Kibana即为大名鼎鼎的EFK日志收集方案，还有ELK等，可以根据项目的需求选择适当的组件。

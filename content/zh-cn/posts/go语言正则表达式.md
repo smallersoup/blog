@@ -9,7 +9,7 @@ permalink: /201910181255golang
 
 比如我们匹配城市列表的时候，会取匹配所有城市的url，如下：
 
-![image](https://img-blog.csdnimg.cn/20191018003712497.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018003712497.png)
 
 
 可以看到图片后是小写字母加数字，那么就可以用以下方式提取：

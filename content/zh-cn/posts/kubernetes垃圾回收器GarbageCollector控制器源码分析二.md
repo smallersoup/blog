@@ -18,7 +18,7 @@ GarbageCollector Controller源码主要分为以下几部分：
  3. `runProcessGraphChanges`从`graphChanges`队列中取出变化的`item`，根据情况放入`attemptToOrphan`队列；
  4. `runAttemptToDeleteWorker`从`attemptToDelete`队列取出，尝试删除垃圾资源；
  5. `runAttemptToOrphanWorker`从`attemptToOrphan`队列取出，处理该孤立的资源；
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190903103422219.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20190903103422219.png)
 代码较复杂，便于讲的更清楚，调整了下讲解顺序。上一节分析了第1部分，本节分析第2、3部分。
 
 ## runProcessGraphChanges处理主流程

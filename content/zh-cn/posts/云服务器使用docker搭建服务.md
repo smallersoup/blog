@@ -11,9 +11,9 @@ permalink: /201910171444docker
 
 安全组入站策略如下：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190715082029462.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20190715082029462.png)
 出站策略如下：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190715082044270.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20190715082044270.png)
 
 登陆EC2后，默认只能用ec2-user用户登陆，然后切换到root：
 ```
@@ -23,7 +23,7 @@ sudo su
 ```
 yum install docker -y
 ```
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190715082141167.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20190715082141167.png)
 **解决方法：**
 在/etc/yum.repos.d/下加CentOS7-Base-163.repo文件：
 ```
@@ -80,7 +80,7 @@ yum install docker -y
 ```
 安装完后如下图：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190715082234248.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20190715082234248.png)
 启动docker：
 ```
 ## 启动 docker 服务
@@ -91,33 +91,33 @@ chkconfig docker on
 ```
 docker version
 ```
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190715082306840.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20190715082306840.png)
 拉取 docker 镜像：
 
 好了，现在让我们直接拉取别人做好的 docker 镜像。这里选择的是 github上的 shadowsock vpn docker 镜像，直接执行以下命令：
 ```
 docker pull oddrationale/docker-shadowsocks
 ```
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190715082329678.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20190715082329678.png)
 运行 docker 镜像：
 
 运行如下命令启动该 docker 镜像。
 ```
 docker run -d -p 8001:8001 oddrationale/docker-shadowsocks -s 0.0.0.0 -p 8001 -k yourpassword-m aes-256-cfb
 ```
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2019071508240372.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/2019071508240372.png)
 运行docker ps -a查看容器是否已成功运行起来了。
 ```
 docker ps -a
 ```
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190715082427543.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20190715082427543.png)
 linux上curl命令调：
 ```
 curl -k localhost:8001
 ```
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190715082442965.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20190715082442965.png)
 windows上curl命令调：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190715082452881.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20190715082452881.png)
 回显如上说明已经部署好了，接下来你要干什么就是你的事了...
 
 

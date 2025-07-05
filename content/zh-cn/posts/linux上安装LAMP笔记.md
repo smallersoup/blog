@@ -7,7 +7,7 @@ permalink: /201910181311linux
 ---
 B哥最近在参加比赛，需要把一个php项目部署到服务器上，故此在linux上安装LAMP环境，用于部署项目，第一次安装，做点儿笔记记录一下。
 
-![image](https://img-blog.csdnimg.cn/20191017235607126.jpeg)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191017235607126.jpeg)
 
 安装条件：
 
@@ -41,7 +41,7 @@ rpm -qa|grep -P "httpd|php|maria"
 
 正常情况输出如下：
 
-![image](https://img-blog.csdnimg.cn/20191017235607313.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191017235607313.jpeg)
 
 启动httpd：
 
@@ -65,13 +65,13 @@ curl -k http://localhost:80 -v
 
 正常返回如下：
 
-![image](https://img-blog.csdnimg.cn/20191017235607534.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191017235607534.jpeg)
 
 **问题解决：**
 
 启动后用curl调返回403 Forbidden：
 
-![image](https://img-blog.csdnimg.cn/20191017235607754.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191017235607754.jpeg)
 
 google查了资料也没有查到解决方法，然后无意间重启了一把竟然好了：
 
@@ -93,7 +93,7 @@ systemctl start mariadb
 ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
 ```
 
-![image](https://img-blog.csdnimg.cn/20191017235607954.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191017235607954.png)
 
 这个谷哥上倒是有解决办法：
 
@@ -109,7 +109,7 @@ systemctl stop mariadb.service
 mysqld_safe --user=mysql --skip-grant-tables --skip-networking &
 ```
 
-![image](https://img-blog.csdnimg.cn/20191017235608529.jpeg)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191017235608529.jpeg)
 
 3、然后登陆数据库：
 
@@ -149,7 +149,7 @@ mysql -uroot -p
 
 输入密码，登陆进去如下：
 
-![image](https://img-blog.csdnimg.cn/20191017235608705.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191017235608705.jpeg)
 
 测试php：
 
@@ -167,7 +167,7 @@ curl -k http://localhost:80/index.php -v
 
 正常情况返回200OK，以及刚才插入Index.php中的字符串：
 
-![image](https://img-blog.csdnimg.cn/20191017235609648.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191017235609648.jpeg)
 
 至此LAMP已搭建完毕，小B哥准备部署项目喽。
 

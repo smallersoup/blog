@@ -71,18 +71,18 @@ cronjob.batch/pi created
 
 **kubectl run执行后，到底发生了什么？**
 有必要看看kubectl源码，入口函数在$GOPATH\src\k8s.io\kubernetes\cmd\clicheck\check_cli_conventions.go中
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191120225914654.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191120225914654.png)
 其中cmd.NewKubectlCommand为构建kubectl以及其子命令行参数。最终的执行业务逻辑的代码都在pkg\kubectl包下面。
 不同的子命令：apply、run、create入口对应的在pkg\kubectl\cmd下面：
-![](https://img-blog.csdnimg.cn/20191120230328728.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191120230328728.png)
 最重要的o.Run(f, cmd, args)中会对kubectl run传入的参数进行一系列校验，填充默认值。
 
 在360行调用o.createGeneratedObject根据不同的generator生成deployment、cronjob、job、pod等资源对象，并向apiserver发送创建请求。
 
 如果设置了expose为true，在372行，同样的调用o.createGeneratedObject生成并创建service。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2019112023064675.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/2019112023064675.png)
 o.createGeneratedObject方法第649行，根据不同的generator实现生成不同的资源对象。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191120231426352.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191120231426352.png)
 run命令对应的generator实现有以下几种，代码位于pkg\kubectl\generate\versioned\generator.go中的DefaultGenerators函数。
 ```go
 	case "run":
@@ -100,7 +100,7 @@ run命令对应的generator实现有以下几种，代码位于pkg\kubectl\gener
 
 
 o.createGeneratedObject方法第689行对生成的资源对象向APIServer发送http创建请求。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191120231300336.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191120231300336.png)
 具体的kubectl run命令的代码，感兴趣的同学可以进一步深挖，我也会在后续的源码分析系列文章中进行更详细的解析。
 
 ## 今日考题

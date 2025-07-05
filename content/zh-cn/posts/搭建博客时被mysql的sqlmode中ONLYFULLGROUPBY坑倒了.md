@@ -270,7 +270,7 @@ root@mysql-75797cf796-84rdl:/# cat /etc/mysql/my.cnf
 !includedir /etc/mysql/conf.d/
 !includedir /etc/mysql/mysql.conf.d/
 ```
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191102234955851.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191102234955851.png)
 可以看到这里包含了两个目录下的文件，查看一下，mysql.conf.d下，发现有我们需要更改的文件
 ```shell
 cat /etc/mysql/mysql.conf.d/mysqld.cnf

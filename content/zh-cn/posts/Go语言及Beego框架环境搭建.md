@@ -53,7 +53,7 @@ permalink: /201910181300golang
 
 **1、 相关软件准备：**
 
-![image](https://img-blog.csdnimg.cn/20191018003906966.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018003906966.png)
 
 *   Git：一个开源的分布式版本控制系统，可以有效、高速的处理从很小到非常大的项目版本管理，分为32和64位安装包。
 
@@ -65,15 +65,15 @@ permalink: /201910181300golang
 
 1、根据操作系统是32位或64位选择对应的go1.8.3.windows-XXX.msi文件，双击开始安装，一路下一步，即可完成安装。安装到选择目标文件夹时，可以选D盘。
 
-![image](https://img-blog.csdnimg.cn/20191018003907164.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018003907164.png)
 
 2、配置环境变量。选择计算机 -> 属性 -> 高级系统设置 -> 环境变量，看系统环境变量里是否有GOROOT（默认刚才安装好后GOROOT是设置好了的，即刚才的安装目录）。为了后续工作的方便，这里配置一下GOPATH，在环境变量里新增一个GOPATH系统变量，如下图所示：
 
-![image](https://img-blog.csdnimg.cn/20191018003907396.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018003907396.jpeg)
 
 最后在Path中在添加上” %GOPATH%bin”(默认go安装包安好，这个也是设置好的)如下图所示：
 
-![image](https://img-blog.csdnimg.cn/20191018003907701.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018003907701.jpeg)
 
 然后确定就行。
 
@@ -81,7 +81,7 @@ permalink: /201910181300golang
 
 win   R，输入cmd，打开命令提示符，输入“go”，出现下图即可：
 
-![image](https://img-blog.csdnimg.cn/201910180039083.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/201910180039083.jpeg)
 
 顺带说一句，Go程序的目录结构是在GOPATH文件夹下的，分为bin, pkg, 和src三个子文件夹 。
 
@@ -99,15 +99,15 @@ win   R，输入cmd，打开命令提示符，输入“go”，出现下图即�
 
 1、如下，选择win64，这个选项决定编译后生成哪个平台的可执行文件。这里选择win64，编译后将生成exe文件。
 
-![image](https://img-blog.csdnimg.cn/20191018003908225.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018003908225.png)
 
 2、点击如下图标，查看GOROOT的路径是否为Go的安装路径。
 
-![image](https://img-blog.csdnimg.cn/20191018003908611.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018003908611.jpeg)
 
 3、点击如下图标查看GOPATH，确定系统GOPATH是否为刚才环境变量里设置的GOPATH，点击确定。
 
-![image](https://img-blog.csdnimg.cn/20191018003908827.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018003908827.jpeg)
 
 然后重启liteIDE即可。
 
@@ -117,7 +117,7 @@ win   R，输入cmd，打开命令提示符，输入“go”，出现下图即�
 
 双击安装我们下载的Git-2.15.1.2-XX-bit.exe，一路下一步安装。安装完成后，鼠标右键可以看到如下图标即可：
 
-![image](https://img-blog.csdnimg.cn/2019101800390934.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/2019101800390934.png)
 
 **5、 Beego**框架**环境搭建：**
 
@@ -133,7 +133,7 @@ https://github.com/astaxie/beego
 
 右键点击“Git Bash”，输入go get -u -v github.com/astaxie/beego 如下图：
 
-![image](https://img-blog.csdnimg.cn/20191018003909208.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018003909208.png)
 
 等一会儿即可。安装完成后，在GOPATH路径下（我这里GOPATH的路径是
 D:\SoftwareAndProgram\program\Go\Development）在D:\SoftwareAndProgram\program\Go\Development\pkg\windows_amd64\github.com\和D:\SoftwareAndProgram\program\Go\Development\src\github.com\路径下能看到astaxie文件夹，还有下级beego文件夹。
@@ -142,7 +142,7 @@ D:\SoftwareAndProgram\program\Go\Development）在D:\SoftwareAndProgram\program\
 
 为了方便的生成框架，右键点击“Git Bash”，输入go get -u -v github.com/beego/bee，如下图：
 
-![image](https://img-blog.csdnimg.cn/20191018003909807.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018003909807.jpeg)
 
 同样也是等一会儿即可。完成后，在D:\SoftwareAndProgram\program\Go\Development\src\github.com\beego路径下能看到bee文件夹。
 
@@ -152,7 +152,7 @@ D:\SoftwareAndProgram\program\Go\Development）在D:\SoftwareAndProgram\program\
 
 在“开始”中找到“命令提示符”，右键“以管理员身份运行”，先进入到GOPATH的bin路径下，再输入“bee new 工程名”，如下图所示:
 
-![image](https://img-blog.csdnimg.cn/20191018003910632.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018003910632.jpeg)
 
 在GOPATH的src目录下会生成以刚才的工程名命名的文件夹。这样一个Beego框架的工程就生成成功了。
 
@@ -160,21 +160,21 @@ D:\SoftwareAndProgram\program\Go\Development）在D:\SoftwareAndProgram\program\
 
 LiteIDE的“文件”中找到“打开目录”，找到刚才生成的工程文件夹，如下图：
 
-![image](https://img-blog.csdnimg.cn/20191018003910352.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018003910352.jpeg)
 
 点击“选择文件夹”，加载整个工程。
 
-![image](https://img-blog.csdnimg.cn/20191018003910610.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018003910610.jpeg)
 
 清晰的MVC一目了然。Ctrl R编译并执行。当然你也可以各种设置断点各种调试。
 
 打开浏览器，输入“http://127.0.0.1:8080”就看到了运行的结果。
 
-![image](https://img-blog.csdnimg.cn/20191018003911731.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018003911731.jpeg)
 
 要结束运行，点击LiteIDE上的“编译输出”后面的红色小按钮即可。
 
-![image](https://img-blog.csdnimg.cn/20191018003911959.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018003911959.png)
 
 **本文用到的软件，可以关注公众号后，后台回复：go环境搭建 ，获得。**
 

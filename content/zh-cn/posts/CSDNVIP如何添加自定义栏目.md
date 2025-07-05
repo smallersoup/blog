@@ -15,7 +15,7 @@ permalink: /201910171433blog
 
 如何在csdn自定义栏目，加赞赏功能，或者其他等引导，让读者能很直观的看到，而不是在每篇文章加，增加自己工作量。这个功能以前对所有用户开放，但是很不幸，这功能被CSDN下架了，看下图：
 
-![custom](https://img-blog.csdnimg.cn/2019101523524513.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![custom](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/2019101523524513.png)
 
 ----
 
@@ -25,12 +25,12 @@ permalink: /201910171433blog
 
 鼠标放到头像处，点击下拉框中的【管理博客】>> 点击侧栏的【博客模块管理】
 
-![custom](https://img-blog.csdnimg.cn/20191015235245852.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![custom](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191015235245852.png)
 
-![custom](https://img-blog.csdnimg.cn/20191015235246987.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![custom](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191015235246987.png)
 
 只能添加一条自定义栏目，栏目内容支持html，可以自由发挥：
-![custom](https://img-blog.csdnimg.cn/20191015235248215.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![custom](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191015235248215.png)
 
 ## 添加公众号引导
 ```html
@@ -42,7 +42,7 @@ title="长按识别二维码关注,精彩第一时间送达" height="100%" width
 </div>
 ```
 ### 效果图
-![custom](https://img-blog.csdnimg.cn/20191015235249267.png)
+![custom](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191015235249267.png)
 
 ## 添加QQ、QQ群、邮箱、友情链接等：
 ```html
@@ -76,12 +76,12 @@ title="程序员实战"></a></span>
 </div>
 ```
 ### 效果图
-![custom](https://img-blog.csdnimg.cn/20191015235249524.png)
+![custom](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191015235249524.png)
 
 * 其中点击QQ会打开登陆QQ的对话框，只需要把href里链接中QQ号换为自己的；
 
 * 点击加入QQ群后会跳转到加群窗口，需要在https://qun.qq.com/join.html 网站中登陆需要绑定的QQ号 >> 选择群 >> 复制网页代码
-![custom](https://img-blog.csdnimg.cn/20191015235250148.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![custom](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191015235250148.png)
 
 * 点击邮箱会打开邮箱登陆窗口，只需修改href中的邮箱即可
 
@@ -95,7 +95,7 @@ title="长按识别提问码 向我提问" height="100%" width="100%">
 ```
 
 ### 效果图
-![custom](https://img-blog.csdnimg.cn/20191015235251206.png)
+![custom](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191015235251206.png)
 
 打赏问答图片由【Chat快问】小程序生成。
 
@@ -169,7 +169,7 @@ title="长按识别 微信|支付宝打赏通用" height="100%" width="100%">
 
 
 ## 整体效果
-![custom](https://img-blog.csdnimg.cn/20191015235253724.png)
+![custom](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191015235253724.png)
 
 
 

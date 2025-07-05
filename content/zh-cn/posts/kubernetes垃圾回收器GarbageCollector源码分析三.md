@@ -18,7 +18,7 @@ GarbageCollector Controller源码主要分为以下几部分：
  3. `runProcessGraphChanges`从`graphChanges`队列中取出变化的`item`，根据情况放入`attemptToOrphan`队列；
  4. `runAttemptToDeleteWorker`从`attemptToDelete`队列取出，尝试删除垃圾资源；
  5. `runAttemptToOrphanWorker`从`attemptToOrphan`队列取出，处理该孤立的资源；
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190903103422219.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20190903103422219.png)
 上一节分析了第2,3部分，本节分析第4、5部分。
 
 ## 终结器
@@ -458,22 +458,22 @@ func deleteOwnerRefStrategicMergePatch(dependentUID types.UID, ownerUIDs ...type
 
 ## 回到初衷
 中间件redis容器化后，在测试环境上部署的redis集群，在kubernetes apiserver重启后，redis集群被异常删除（包括redis exporter statefulset、redis statefulset）。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191021154538243.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191021154538243.png)
 ### 原因定位
 在开发环境上经多次复现，apiserver重启后，通过查询redis operator日志，并没有发现主动去删除redis集群（redis statefulset）、监控实例（redis exporter）。进一步去查看kube-controller-manager的日志，将其日志级别设置--v=5，继续复现，最终在kube-controller-manager日志中发现如下日志：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191021154548906.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191021154548906.png)
 
 可以看到，垃圾回收器garbage collector在处理redis exporter statefulset时，发现其加了ownerReferences，在exporter所在分区（monitoring）查询其owner——redisCluster对象redis-0826，而redisCluster对象redis-0826存在于kube-system分区，所以在monitoring分区查询到的是404 Not Found，garbage collector会将该owner不存在信息（uid）存入缓存absentOwnerCache。
 因redis exporter statefulset的owner不存在，所以gc认为需要回收垃圾，故将其删除掉。同理，当处理redis statefulset时，从缓存中发现owner不存在，也会回收垃圾，将其删除掉。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191021154600217.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191021154600217.png)
  
 经过多次复现故障，发现重启kube-controller-manager时有概率复现。（Apiserver的重启时，kube-controller-manager在连接apiserver失败多次后，也会发生自重启），之所以是概率问题，这和garbage collector将资源对象加入attemptToDelete队列的顺序有关：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191021154616873.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191021154616873.png)
  
 先同步monitoring分区的exporter statefulset，后同步kube-system分区的redis statefulset，就会出现该故障；反之就不会出现故障，这取决于garbage collector启动时全量获取集群内资源（listwatch）的顺序。
 在apiserver和kube-controller-manager正常运行时不出现该故障，可以从garbage collector源码中看到以下代码逻辑：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191021154641446.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191021154650524.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191021154641446.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191021154650524.png)
 Garbage collector中维护一个父子关系图表，controller-manager启动时该图里节点是不存在的，会走上图switch的第一个case，之后图形成之后，会走第二个case。第二个case里只有在owner发生变化时才会触发将资源对象加入attemptToDelete队列，所以在各个组件正常运行时没有出现该故障。
 
 获取图表的接口地址，IP和端口都是controller-manager的，可以重定向到tmp.dot文件
@@ -487,8 +487,8 @@ curl http://127.0.0.1:10252/debug/controllers/garbagecollector/graph?uid=1121121
 dot -Tsvg -o graph2.svg tmp.dot
 ```
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191021154706864.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191021154726832.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191021154706864.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191021154726832.png)
 
 ### 解决方法
 在redis operator创建redis集群时，将exporter放到和redis同一分区。
@@ -499,7 +499,7 @@ dot -Tsvg -o graph2.svg tmp.dot
 1）命名空间范围的从属只能指定同一命名空间中的所有者，以及群集范围的所有者。
 
 2）群集作用域的从属只能指定群集作用域的所有者，而不能指定命名空间作用域的所有者。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191021154741284.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191021154741284.png)
 ## 参考文档
 垃圾回收官方文档：
 

@@ -7,7 +7,7 @@ permalink: /201910181302jwt
 ---
 > Json Web Token (JWT)，是一个非常轻巧的规范，这个规范允许在网络应用环境间客户端和服务器间较安全的传递信息。该token被设计为紧凑且安全的，特别适用于分布式站点的单点登录（SSO）场景。JWT一般被用来在身份提供者和服务提供者间传递被认证的用户身份信息，以便于从资源服务器获取资源。
 
-![image](https://img-blog.csdnimg.cn/20191018004607695.gif)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018004607695.gif)
 
 在web应用中，我们提供的API接口，通过GET或者POST方式调用，在调用过程中，就存在着接口认证及数据的安全性问题。例如如下问题：
 
@@ -37,7 +37,7 @@ token是接口的令牌，好比去衙门办事，“衙门口朝南开，有理
 
 header和payload经过base64编码后用点拼接起来。signature是把header和payload编码和拼接后经过加密算法加密，加密时还要一个密码，这个密码保存在服务器端。大致示意图如下：
 
-![image](https://img-blog.csdnimg.cn/20191018004607894.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018004607894.png)
 
 **Header：**
 
@@ -52,7 +52,7 @@ head由两部分组成，一个是token类型，一个是使用的算法，如�
 
 将以上json进行base64编码，当然编码前将json去格式化，如图：
 
-![image](https://img-blog.csdnimg.cn/2019101800460836.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/2019101800460836.png)
 
 生成的编码为：
 
@@ -111,7 +111,7 @@ payload 里面是 token 的具体内容，这些内容里面有一些是标准�
 eyJpc3MiOiJzbWFsbHNvdXAiLCJpYXQiOjE1Mjg5MDIxOTUsImV4cCI6MTUyODk4ODYzOCwiYXVkIjoid3d3LnNtYWxsc291cC5jb20iLCJzdWIiOiJzbWFsbHNvdXBAcXEuY29tIiwidXNlcklkIjoiMDQxOCJ9
 ```
 
-![image](https://img-blog.csdnimg.cn/20191018004608288.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018004608288.png)
 
 **Signature：**
 
@@ -171,7 +171,7 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJzbWFsbHNvdXAiLCJpYXQiOjE1Mjg5MDI
 
 实际上https://jwt.io/这个网站提供了这个能力，以及各种语言的生成token和解密token的库。
 
-![image](https://img-blog.csdnimg.cn/20191018004608695.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018004608695.jpeg)
 
 go语言生成token和解析token：
 

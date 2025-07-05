@@ -37,7 +37,7 @@ k8s中，利用PVC 描述Pod 所希望使用的持久化存储的大小，可读
 k8s支持编写自己的存储插件FlexVolume 与 CSI。不管哪种方式，都需要经过“两阶段处理”，FlexVolume相比CSI局限性大，一般我们采用CSI方式对接存储。
 
 CSI 插件体系的设计思想把这个Provision阶段（动态创建PV），以及 Kubernetes 里的一部分存储管理功能，从主干代码里剥离出来，做成了几个单独的组件。这些组件会通过 Watch API 监听 Kubernetes 里与存储相关的事件变化，比如 PVC 的创建，来执行具体的存储管理动作。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191119203241308.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191119203241308.png)
 上图中CSI这套存储插件体系中三个独立的外部组件（External Components），即：Driver Registrar、External Provisioner 和 External Attacher，对应的是从 Kubernetes 项目里面剥离出来的部分存储管理功能。
 
 我们需要实现Custom Components这一个二进制，会以gRpc方式提供三个服务：CSI Identity、CSI Controller、CSI Node。
@@ -50,7 +50,7 @@ External Attacher 组件负责Attach阶段。Mount阶段由kubelet里的VolumeMa
 两阶段完成后，kubelet将mount参数传递给docker，创建、启动容器。
 
 整体流程如下图：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191120011113690.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191120011113690.png)
 
 ## 考试体验总结
 https://www.kubernetes.org.cn/5168.html

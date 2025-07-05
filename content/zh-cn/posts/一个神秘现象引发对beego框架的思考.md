@@ -63,11 +63,11 @@ showErr函数中会对错误进行模板渲染，而小强项目早在现网中�
 
 当RunMode为prod时：
 
-![image](https://img-blog.csdnimg.cn/20191018004343115.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018004343115.jpeg)
 
 当RunMode为prod时：
 
-![image](https://img-blog.csdnimg.cn/20191018004343411.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018004343411.jpeg)
 
 dev模式好歹会返回错误信息：slice bounds out of range
 

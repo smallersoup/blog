@@ -5,7 +5,7 @@ updated: '2019-10-18 10:24:14'
 tags: [golang, 爬虫]
 permalink: /2019101623181024golang
 ---
-![image](https://img-blog.csdnimg.cn/20191018002129589.jpeg)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018002129589.jpeg)
 
 我们来用go语言爬取“珍爱网”用户信息。
 
@@ -13,7 +13,7 @@ permalink: /2019101623181024golang
 
 http://www.zhenai.com/zhenghun
 
-![image](https://img-blog.csdnimg.cn/20191018002129914.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018002129914.jpeg)
 
 接下来用go请求该url，代码如下：
 
@@ -56,13 +56,13 @@ func main() {
 
 运行后会发现返回体里有很多乱码：
 
-![image](https://img-blog.csdnimg.cn/20191018002130138.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018002130138.jpeg)
 
 在返回体里可以找到<meta charset="gbk" /> 即编码为gbk，而go默认编码为utf-8，所以就会出现乱码。接下来用第三方库将其编码格式转为utf-8。
 
 由于访问golang.org/x/text需要梯子，不然报错：
 
-![image](https://img-blog.csdnimg.cn/20191018002130356.jpeg)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018002130356.jpeg)
 
 所以在github上下载：
 
@@ -150,7 +150,7 @@ func determinEncoding(r io.Reader) encoding.Encoding {
 
 运行后就看不到乱码了：
 
-![image](https://img-blog.csdnimg.cn/20191018002130554.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWFiaW8uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018002130554.jpeg)
 
 今天先爬到这里，明天将提取返回体中的地址URL和城市，下一节见。
 
