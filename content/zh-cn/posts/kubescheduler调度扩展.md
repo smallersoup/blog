@@ -20,7 +20,7 @@ Kubernetes 自带了一个默认调度器kube-scheduler，其内置了很多节�
 
 * 参考kube-scheduler实现满足自己业务场景的调度程序，并编译镜像，将该程序作为独立的调度器运行到kubernetes集群内，需要用该调度器调度的pod实例，在spec.schedulerName里指定该调度器；
 
-  ![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtYTljZjZkYmVlMzI1Y2I3Ny5wbmc)
+  ![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/90cf6eab4955448333ef4b655d41059c.png)
 
 * 实现“调度扩展程序“：默认调度器kube-scheduler在进行预选时会调用该扩展程序进行过滤节点；在优选时会调用该扩展程序进行给节点打分，或者在bind操作时，调用该扩展器进行bind操作。
 
@@ -48,7 +48,7 @@ Kubernetes 自带了一个默认调度器kube-scheduler，其内置了很多节�
 
 
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtZGZhY2E4Mjk2ZDA4NTY2MC5wbmc)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/85130bad178ffcccd1bc8d33e319b099.png)
 
 kube-scheduler在调度pod实例时，首先获取到Node1、Node2、Node3三个节点信息，进行默认的预选阶段，筛选满足要求的节点，其次再调用扩展程序中的预选算法，选出剩下的节点，假设预选阶段Node3上资源不足被过滤掉，预选结束后只剩Node1和Node2；Node1和Node2进入kube-scheduler默认的优选阶段进行节点打分，其次再调用扩展调度程序中的优选算法进行打分，kube-scheduler会将所有算法的打分结果进行加权求和，获得分数最高的节点作为pod最终bind节点，然后kube-scheduler调用apiserver进行bind操作。 
 
@@ -60,19 +60,19 @@ kube-scheduler在调度pod实例时，首先获取到Node1、Node2、Node3三个
 
 编写扩展调度器程序代码，根据实际业务调度场景编写预选逻辑、优选逻辑：
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtYmYwMTNhNDIyZDAxOGU2Ni5wbmc)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/9a66bc67a121a31e47c6f1ecc0bf5412.png)
 
 实现预选接口，入参为schedulerapi.ExtenderArgs，出参为schedulerapi.ExtenderFilterResult：
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtYjY0MDg3NTY4MDhiMGNkYi5wbmc)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/3695db90f9efc520ba27226cf7d85500.png)
 
 实现优选接口，入参为schedulerapi.ExtenderArgs，出参为schedulerapi.HostPriorityList：
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtZWZiMmViN2Y5YTg2ZTk0Zi5wbmc)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/60304d2191826ac63a7b4f6bd9bdca4c.png)
 
 暴露http接口：
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtNGZlNmNhNDIyY2Q2Y2Q1Mi5wbmc)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/cb37da91863dd830a95a74a821331308.png)
 
 
 
@@ -154,23 +154,23 @@ data:
 
 2、在my-kube-scheduler yaml文件中将configmaps：my-scheduler-config以文件的形式挂载到容器内/my-scheduler目录下，并在启动参数中指定--config=/my-scheduler/config.yaml，使用和默认调度器一样的镜像。
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtN2Q4NDdkYjMzNjMyNDAyNS5wbmc)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/925d2d3dca990f93accc536982d50ee7.png)
 
 增加挂载：
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtMDZhNTVmZGRiMzFjYTI5YS5wbmc)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/ca04d9b9e10c8b496c436f9483e616df.png)
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtNDIzZTg5NjkyYWRkNmQ0ZC5wbmc)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/7107ab6f835ffb89b3e73dd9a3041b0a.png)
 
 ### 扩展调度器镜像制作和部署
 
 1、编译扩展调度程序my-scheduler-extender镜像，以下为Dockerfile：
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtZjI3YWVhNWIzM2U3MzkxMC5wbmc)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/b3ffcff6ec66402b5717559b91c28527.png)
 
 推送my-scheduler-extender镜像到harbor：
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtZDNiYmYwYTRiZTI5YjY5MC5wbmc)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/13b56656d33bb7345ea73b5041f2e829.png)
 
 
 
@@ -216,19 +216,19 @@ spec:
 
 查看my-kube-scheduler pod日志，加载到了policy里的extender信息，获取到了扩展调度器的接口地址：
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtZTFhNWYwNjlmZThjYmVhNC5wbmc)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/8f5f5e7a832a811b44cd663e1446a4ea.png)
 
 
 
 创建一个nginx的pod，指定schedulerName为my-kube-scheduler：
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtMTAyODgxMDk0NzgxZGY1YS5wbmc)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/794ff736ab02bfeca3ca56a8dcca035b.png)
 
 
 
 查看扩展调度器pod日志，发现默认调度器会调用extender扩展调度器，如下为extender日志打印的入参、出参：
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtNmEyODkwMGExZWYzNDQ5YS5wbmc)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/68196af1db24fcf7b919827e0d14c075.png)
 
 
 

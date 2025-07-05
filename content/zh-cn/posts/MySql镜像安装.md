@@ -98,7 +98,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'honey'@'%' IDENTIFIED BY 'honey';
 
 首先需要登陆阿里云后台，添加阿里云安全组策略   具体位置--网络和安全--安全组--配置规则
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtZjRkYTk2NjRiZDIxYjA5ZQ?x-oss-process=image/format,png) 
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/b1c03748c990b3a0d3502e48b1af2c83.png) 
 
 可以选择多配置你需要的端口。
 
@@ -110,7 +110,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'honey'@'%' IDENTIFIED BY 'honey';
 systemctl status firewalld
 ```
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtMzk2ZTEzMGY3ZTUwMmNjZg?x-oss-process=image/format,png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/68043fc950fb13239d3e6716b24041cd.png)
 
 *   关闭防火墙：
 
@@ -177,7 +177,7 @@ systemctl start docker #运行Docker守护进程
 
 这里如果直接启动镜像的话会报这个错误
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtNWNhNGNhZTgwMzZjMWRjNw?x-oss-process=image/format,png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/8745f880fffcb456ea8feac5dbad129f.png)
 
 那么我们只需要重启下docker  ,再去开启你的容器就OK了 
 ```
@@ -186,7 +186,7 @@ systemctl restart docker
 
 那么到这里我们外网就可以正常的去使用阿里云这里的mysql服务
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtYTEzMjJhNDMwYWVkYTM5Yg?x-oss-process=image/format,png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/35c59de54d88381f93f55856fb16f1f7.png)
 
 
 

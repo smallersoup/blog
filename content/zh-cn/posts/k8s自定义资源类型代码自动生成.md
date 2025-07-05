@@ -22,7 +22,7 @@ F0910 19:18:35.552948   12153 main.go:82] Error: Failed making a parser: unable 
         D:/SoftwareAndProgram/program/Go/Development/src/github.com/openshift-evangelist/crd-code-generation/pkg/client (from $GOPATH)
 ```
 这个问题可以参考[issue](https://github.com/kubernetes/code-generator/issues/55)
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTc2YWQ4ZDJjNzUzYTM4YjUucG5n?x-oss-process=image/format,png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/3e85f552280469d10d0c15bffe25a066.png)
 
 可以参考这个文章：
 https://medium.com/@trstringer/create-kubernetes-controllers-for-core-and-custom-resources-62fc35ad64a3
@@ -39,19 +39,19 @@ type "k8s.io/apimachinery/pkg/runtime.Object" in k8s:deepcopy-gen:interfaces tag
 goroutine 1 [running]:
 ```
 这个报错是因为k8s.io/apimachinery这个包目录结构不对，放到vendor目录下找不到，必须放到$GOPATH下的src/k8s.io/apimachinery，具体参考[issue](https://github.com/kubernetes/code-generator/issues/21)
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWZkZDEzYjBlNjBjZGI2NWUucG5n?x-oss-process=image/format,png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/50de8ae6550e0e380954bbfb58ee2a3e.png)
 
 > 我解决了这个问题 。这不起作用，除非k8s.io/apimachinery在GOPATH中，如果它只是在vendor目录下，那么deepcopy无法找到它。至少，这需要在某处记录。如果在vendor目录下也能正常工作，那将会很棒。
 
 目录结构如下：
 $GOPATH/src
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTZjZmI3ZGM4OTlhZjdjMGQucG5n?x-oss-process=image/format,png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/680df73958cfdc4a49e6fa0124e672c4.png)
 
 $GOPATH/src/github.com/
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTBmZjgxNGJhODMxZjEwMmQucG5n?x-oss-process=image/format,png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/1dbf78a43881c04ec67bc77955a84201.png)
 
 ### 第三个报错
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTQ2YWE1ZWUyZWJkMTUxNmEucG5n?x-oss-process=image/format,png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/185c6b7818fa5f451e3248adfc837d2d.png)
 ```sh
 Generating deepcopy funcs
 F0221 09:54:08.335328   26316 main.go:82] Error: Failed executing generator: som                                          e packages had errors:
@@ -61,7 +61,7 @@ unable to format file "D:\\SoftwareAndProgram\\program\\Go\\Development\\src\\gi
 windows上执行报这个错，需要在linux上执行generate-groups.sh 脚本。
 
 ### 最终生成如下：
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTI0YzY5M2FmODAyZTdiZDEucG5n?x-oss-process=image/format,png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/e77908ca30379d872bc61040d05f0a21.png)
 
 ```sh
 [root@master-192 code-generator]# dos2unix generate-groups.sh 

@@ -116,7 +116,7 @@ I am ParentServlet handleGet
 
 
 首先根据url匹配到web.xml中定义的name为myServlet的servlet，所以会到SonServlet中去处理，但是SonServlet没有重写HttpServlet的doGet()方法，它的父类ParentServlet重写了，所以请求会到ParentServlet的doGet()方法，但是这里的doGet方法中的this.handleGet中的this指的是什么呢？我们通过debug看到this其实是SonServlet的实例。
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWM2ODE5ZWJmYjVlOWM3MjcucG5n?x-oss-process=image/format,png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/863bc8980ec5f2c36581a1a3760b061a.png)
 
 由此看来，this.handleGet会去调用SonServlet的方法，这就解释了控制台的输出。
 

@@ -24,7 +24,7 @@ permalink: /201910181332k8s
 
 在k8s的组件中，其中有kube-scheduler和kube-controller-manager两个组件是有leader选举的，这个选举机制是k8s对于这两个组件的高可用保障。需要--leader-elect=true启动参数。即正常情况下kube-scheduler或kube-manager-controller组件的多个副本只有一个是处于业务逻辑运行状态，其它副本则不断的尝试去获取锁，去竞争leader，直到自己成为leader。如果正在运行的leader因某种原因导致当前进程退出，或者锁丢失，则由其它副本去竞争新的leader，获取leader继而执行业务逻辑。
 
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWJlM2VkYjVkOWZlYzUyNzEucG5n?x-oss-process=image/format,png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/cf124107b74449da81c1569976520eac.png)
 
 
 在K8s中， 通过创建资源对象（当前的实现中实现了 ConfigMap 和 Endpoint 两种类型的资源）来维护锁的状态。这两种资源对象存在etcd里，也可以说是用etcd来实现的。
@@ -49,7 +49,7 @@ permalink: /201910181332k8s
 
 *   leader-elect-resource-lock是k8s分布式资源锁的资源对象，目前只支持endpoints和configmaps。
 
-![image](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTVlNzgyNjgxNmFkYWJiYzA?x-oss-process=image/format,png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/ceb6d67c668f9fa6fb6dd862253e5012.png)
 
 **etcd**
 
@@ -65,9 +65,9 @@ K8s中所有元数据的增删改查都是由kube-apiserver来执行的。ETCD�
 
 k8s主要把自己的数据注册在/registry/前缀下面（在ETCD-v3版本后没有了目录的概念，只能一切皆前缀了）。通过观察k8s中deployment、namespace、pod等在ETCD中的表示，可以知道这部分资源的key的格式为/registry/{k8s对象}/{命名空间}/{具体实例名}。
 
-![image](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTg2NmVlMDZiYmU2NWZhNWM?x-oss-process=image/format,png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/1a18d180676cb9fb276d6bf92e754ccf.png)
 
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTM2ZjM1MWZhNzQ5NzY3NDYucG5n?x-oss-process=image/format,png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/6d8f032e39800b35a3060ec4b3de9d6c.png)
 
 
 **kube-controller-manager**
@@ -226,7 +226,7 @@ kube-scheduler监视没有分配节点的新创建的 Pod，选择一个节点�
 
 默认的预选、优选调度算法远不止以上这些。可以通过kube-scheduler的启动参数中加policy-config-file文件、configmaps（过时）、或者--config指定调度器用哪些预选、优选算法。
 
-![image](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWM2ODkyMTZiZTU5ZjI2ZmY?x-oss-process=image/format,png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/923d5dbedc4e2db1fab9110e87efdd5f.png)
 
 **调度算法的扩展**
 
@@ -252,7 +252,7 @@ leaderElection:
   leaderElect: true
 ```
 
-![image](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTc0ZWNiYzNlZDJlYjk4NTA?x-oss-process=image/format,png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/83e43921b469ccfa202f98009b960f08.png)
 
 主要配置是否启用选举机制，以及与API Server交互时认证用的scheduler.conf文件地址，调度策略选择用的scheduler-policy.json：
 
@@ -331,13 +331,13 @@ leaderElection:
 
 里面指定了默认调度器用到的预选、优选算法，以及调用扩展调度器的service地址，预选和Bind接口URI。
 
-![image](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTAzZjE2ODY0YjRiMTgzMGM?x-oss-process=image/format,png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/6afeb640ab64c44314a3a0d51b7b1a59.png)
 
 在/etc/kubernetes/manifests目录下的kube-scheduler.yaml中启动参数中加--config=/etc/kubernetes/scheduler.yaml，该文件通过hostPath的方式挂载到容器内。
 
-![image](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWZjNDkwNzBmYWZhNDlmNDE?x-oss-process=image/format,png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/bc738b16dbd24f4465b000e202806729.png)
 
-![image](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTY4MWNlZjcxOGJhODhjZGI?x-oss-process=image/format,png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/5210da055412e680b427dbf3d6fac2af.png)
 
 **DNS**
 
@@ -365,7 +365,7 @@ kubernetes-dashboard  ClusterIP   10.233.22.223          443/TCP         124d
 
 域名格式如下：
 
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTQ3NTc3NjllNTU5NjIyODcucG5n?x-oss-process=image/format,png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/4ee0267ba62689f33d805cd41f07defd.png)
 
 
 statefulset一般使用Headless Service，如statefulset名为test，创建2个pod，则域名为test-0.test.kube-system.svc.cluster.local和test-1.test.kube-system.svc.cluster.local
@@ -378,7 +378,7 @@ statefulset一般使用Headless Service，如statefulset名为test，创建2个p
 
 在kubernetes集群中，每个Node节点都会启动kubelet进程，用来处理Master节点下发到本节点的任务，管理Pod和其中的容器。kubelet会在API Server上注册节点信息，定期向Master汇报节点资源使用情况，并通过cAdvisor监控容器和节点资源。
 
-![image](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTIyMzc0NjYyMGIzMWM2NTA?x-oss-process=image/format,png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/01c8515a03035ac86d2b1e4362f19b04.png)
 
 *   pod被调度到kubelet所在节点时，调用CNI（Docker 运行或通过 rkt)运行 Pod 的容器;
 
@@ -408,7 +408,7 @@ kube-proxy提供了三种负载均衡器（LB）模式: 一种是基于用户态
 
     iptables模式和ipvs模式的对比
 
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTAyMzcyNjQyZmZlZmRlY2UucG5n?x-oss-process=image/format,png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/7844bec203e3b888ec18ac04b363de32.png)
 
 
 **服务暴露方式**
@@ -419,7 +419,7 @@ kube-proxy提供了三种负载均衡器（LB）模式: 一种是基于用户态
 
 NodePort服务是引导外部流量到你的服务的最原始方式。可以通过访问集群内的每个NodeIP:NodePort的方式，访问到对应Service后端的Endpoint。在所有节点（虚拟机）上开放一个特定端口，任何发送到该端口的流量都被转发到对应服务。
 
-![image](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWYwYTM0ZmIwNmY2ZTVmMjc?x-oss-process=image/format,png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/819fc9b2f416188c77ee9348b2deb24e.png)
 
 NodePort 服务的 YAML 文件类似如下：
 

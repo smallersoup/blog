@@ -69,7 +69,7 @@ nginx: [emerg] "map_hash_bucket_size" directive is duplicate in /etc/nginx/nginx
 nginx: configuration file c test failed
 ```
 
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWY2M2FhYmQ1ZmEyM2U1NGIucG5n?x-oss-process=image/format,png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/878ee43f4cb8699eaa1f8e5fc82b0e58.png)
 
 ### 解决：
 
@@ -164,18 +164,18 @@ map $http_x_group_env $svc_upstream {
 ## 测试
 
 当请求头里加x-group-env为new时，访问后端打印出的是I am new version
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTk0MmViMzQ3MzFiMmJlYTcucG5n?x-oss-process=image/format,png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/c020862ccbf322024d548246d559ee18.png)
 
 当请求头里加x-group-env为old时，访问后端打印出的是I am old version
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTk2MGE2ZGNhMTU5NzFlOWMucG5n?x-oss-process=image/format,png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/cc43cf27dea070fcad7a50a161e6bdc2.png)
 
 最终通过请求头不同实现了将流量分配到不同的后端服务。
 
 将请求头的key变为X-Group-Env，value变为OLD或者NEW也没关系：
-![old](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTg0YTRiZGUxOThmNTgxMTkucG5n?x-oss-process=image/format,png)
+![old](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/2937e11607c916dbc612682936ef03bc.png)
 
 
-![new](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTFlN2RkN2RhYmI0YTdhMzEucG5n?x-oss-process=image/format,png)
+![new](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/686a8b0ffef00bdf8204241b4c71e49d.png)
 
 
 

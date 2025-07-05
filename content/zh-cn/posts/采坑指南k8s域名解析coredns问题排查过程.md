@@ -49,14 +49,14 @@ spec:
         - containerPort: 80
 ```
 创建好之后：
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTRjYTk3NjgyODBhMTBhMDEucG5n)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/22e12082e84919c9747714cd4fad14d2.png)
 因只部署了一个master节点。在master宿主机上直接执行以下命令：
 ```yaml
 nslookup nginx-svc-old.default.svc
 ```
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWQ0YmNmMWU3NGNlMmEwZjcucG5n)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/104e4f6055c37d645662ae7edefbcbd7.png)
 发现不能解析域名。事先也在宿主机上/etc/resolv.conf里配置了nameserver {coredns的podIP}
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWRhMTVjYmRjNmZhYTU1ZjEucG5n)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/1c6f8fcd7c072ff72bc5b1c0b85db477.png)
 这样一来，就以为可能是coredns有问题。。
 
 
@@ -83,7 +83,7 @@ spec:
         image: busybox
 ```
 这里用的是截止2019/07/20，busybox的最新镜像。创建好之后，exec进入容器，执行测试命令
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTRmMTE2MDk5ZGI2NWViYmQucG5n)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/d4ee05e849e887f8e6af5c47979a62c0.png)
 发现解析不了:
 ```yaml
 / # nslookup nginx-svc-old.default.svc
@@ -121,7 +121,7 @@ options ndots:5
 / #
 ```
 这个文件中，配置的 DNS Server，一般就是 K8S 中，kubedns 的 Service 的 ClusterIP，这个IP是虚拟IP，无法ping，但可以访问。
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTEyYWViMjg3MTA2ZmMxMWMucG5n)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/3e39115e254005b56729d181047437b7.png)
 在容器内发请求时，会根据 /etc/resolv.conf 进行解析流程。选择 nameserver 10.96.0.10 进行解析，然后用nginx-svc-old ，依次带入 /etc/resolve.conf 中的 search 域，进行DNS查找，分别是：
 
 
@@ -148,7 +148,7 @@ nginx-svc-old.default.svc.cluster.local -> nginx-svc-old.svc.cluster.local -> ng
 
 
 但查看coredns日志，可以看到并没有报错：
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWM1MTVmYThlMjYzNWMxOTMucG5n)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/8b27907e014d4b391cf7e5abc2e47e7d.png)
 那就说明不是coredns问题了。。
 
 
@@ -157,7 +157,7 @@ nginx-svc-old.default.svc.cluster.local -> nginx-svc-old.svc.cluster.local -> ng
 ```yaml
 *** Can't find nginx-svc-old.default.svc: No answer
 ```
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWY3ZTE4MDBmYmMxYjA0ZmUucG5n)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/e113cc3d77c08ef87aa2ced489c39432.png)
 
 查到了以下两个issue：
 
@@ -165,13 +165,13 @@ nginx-svc-old.default.svc.cluster.local -> nginx-svc-old.svc.cluster.local -> ng
 
 #### issues1：
 https://github.com/kubernetes/kubernetes/issues/66924
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTVlMzJhZDVhZmY2ZmM2NjMucG5n)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/7f1adc3c7e65b64efcddc9afaa122851.png)
 
 
 #### issues2：
 
 https://github.com/easzlab/kubeasz/issues/260
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWU4Yzk5NTQzNTA1ZjVkMDQucG5n)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/6648a62139adbe2d828ac443324c14f6.png)
 发现都说是busybox镜像的问题，从1.28.4以后的镜像都存在这问题。把镜像换成1.28.4试试？修改yaml版本号：
 ```yaml
 apiVersion: extensions/v1beta1
@@ -194,32 +194,32 @@ spec:
         image: busybox:1.28.4
 ```
 重新apply后，进入容器：
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTc3MmZiODRmNjMxYmQxNzUucG5n)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/276879e2708bbb37e1094a05a7b9c575.png)
 
 确实可以成功解析域名了。
 
 
 
 那为什么宿主机上直接执行测试命令，域名不能解析呢？
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWY4Y2UxZGQ3ODk0YmMwNGQucG5n)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/7d20167b9df199a51f58c2a188a7b7b4.png)
 
 继续google，知道resolver域名解析器：
 
 nameserver关键字，如果没指定nameserver就找不到DNS服务器，其它关键字是可选的。nameserver表示解析域名时使用该地址指定的主机为域名服务器。其中域名服务器是按照文件中出现的顺序来查询的，且只有当第一个nameserver没有反应时才查询下面的nameserver，一般不要指定超过3个服务器。
 而我在宿主上/etc/resolv.conf中nameserver如下：
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWEzNmFiNDBjNTA4YzY1YjAucG5n)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/1624f9b3bb1ca8ec5ce2e8082f46944e.png)
 且前三个域名解析服务器后可以通。
 
 
 
 现在试着把coredns的其中一个podIP：192.168.155.73放到第一个nameserver：
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTVmZTU3ODNmNTQ0ZDQzN2UucG5n)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/f9935d249c889ca6f4718e13ba719162.png)
 可以看到现在可以解析了。
 
 
 
 其实最好把kube-dns service的clusterIP放到/etc/resolv.conf中，这样pod重启后也可以解析。
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTZiYjU0NDkzNTM1Mjc3YzMucG5n)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/02eb2f7ea0f000be1faac2aeea1d658d.png)
 
 ## 参考
 

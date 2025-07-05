@@ -205,11 +205,11 @@ applicationContext.xml和spring-mail.xml两个文件都使用了<context:propert
 
 修改以后，测试用类运行成功：
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtNjlhODhlZGY0NGI3Mjk5Mg?x-oss-process=image/format,png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/0b21cf07634d1f09a7ac21eb7009ae74.png)
 
 发送邮件成功：
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtYmZkMTIxZTAxZDMxYTk0MA?x-oss-process=image/format,png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/035997cc140f3aafb42f630511334efc.png)
 
 其实发送邮件还可以用JavaMail实现，需要依赖两个包：
 

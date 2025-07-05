@@ -59,11 +59,11 @@ call batchAdd(10, 'INFO', 'AJG');
 drop procedure batchAdd;
 ```
 ### create procedure batchAdd如图所示：
-![batchAdd_procedure](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWFiZTMzZjA2YWYwMzU3MmMucG5n?x-oss-process=image/format,png)
+![batchAdd_procedure](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/e599aae5f5e3b5e722c08f8936da3b92.png)
 
 
 ### 创建好procedure后,可以通过call batchAdd(10, 'INFO', 'AJG');来调用,如下图所示：
-![call_batchAdd](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTI1MTE4MmYwNWI4ZWUzNzYucG5n?x-oss-process=image/format,png)
+![call_batchAdd](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/5b4bcb20ff2a7bbdb3a9f5e8c772d3b3.png)
 
 
 

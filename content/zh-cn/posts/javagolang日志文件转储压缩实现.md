@@ -105,7 +105,7 @@ func zipFile(source, target string) error {
 }
 ```
 
-![go压缩结果](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWNjNTZkMTEyM2Y5OTFmN2IucG5n?x-oss-process=image/format,png)
+![go压缩结果](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/9bc4cc1b122b1a9bc03f8b5216f320ab.png)
 
 
 ### java版：
@@ -315,7 +315,7 @@ public class ZipFile {
 }  
 ```
 
-![java压缩结果](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTkyYmJmMGNkOTRhMWFkMTUucG5n?x-oss-process=image/format,png)
+![java压缩结果](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/cd2b612fb817fb1a5115e0bab21d1ae4.png)
 
 修改权限也可以利用Java7中NIO.2对元数据文件操作的支持，具体可以查看NIO包的使用，其相关教程见文末说明。
 

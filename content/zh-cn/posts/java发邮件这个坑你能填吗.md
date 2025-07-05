@@ -93,21 +93,21 @@ public class EmailServiceImpl {
 
 上面的代码打包在本地tomcat上运行，可以发送邮件成功。但是将war包部署到亚马逊云服务器上发送邮件报错：
 
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWE1NGMwYzM2NWE0YTk0YzkucG5n?x-oss-process=image/format,png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/6fe14ede87123be1f6341842dd58f420.png)
 
 网上说是由于用户名和密码不正确导致验证失败。但是这不能解释本地能发出去邮件的事实。继续排查、google，实在找不到解决办法。那就试着登陆下outlook邮件看能不能登进去，登陆正常，有一封最近的一次登录存在某些异常的邮件。
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTBmMGVhYWUxZWMzYjllNzgucG5n?x-oss-process=image/format,png)  
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/84e6506973002598509198fc435cf5e0.png)  
 
 
 
 然后点击查看最新活动状态。异常显示最近一次登陆在美国。
 
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTVjNDQ5NDA3MmIzZDM4NjMucG5n?x-oss-process=image/format,png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/bd7b5ca26dc8a55425a644bde032d04b.png)
 
 
 这么一来就知道问题了，由于亚马逊云实际位置在美国，所以发邮件时相当于在异地登陆被拒绝。当点击了“是我本人”之后，重新发邮件，就发出去了。
 
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTcwZGIwMGI0ODdiNzYxYjIucG5n?x-oss-process=image/format,png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/5034178739d02011494eb6a6c601f66c.png)
 
 之所以不用163发邮件，是因为本地部署也可以发出去，放到服务器上也发不出，报554 DT:SPM 163 smtp3，网上说是因为邮件主题和正文中又非法字符导致，目前还没解决，之后再填此坑。
 

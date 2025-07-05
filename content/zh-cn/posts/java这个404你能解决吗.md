@@ -10,19 +10,19 @@ permalink: /201910171756java
 
 今天在tomcat里部署运行了一个小工程，工程结构如下：
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtM2M2MjNmOGMwMmFjNTY5ZQ?x-oss-process=image/format,png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/ba6e7774b3bc5b7339659b63665b8f6e.png)
 
 运行tomcat服务器后，访问index.html，发现报404：
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtZWExNzEwZmE0ZDA4OTJhMQ?x-oss-process=image/format,png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/992368e1fe38f2ac2506ae33bc7bc49a.png)
 
 但是后台接口是正常返回的：
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtNzJiMzk1MGY4YWRiOWQ5OA?x-oss-process=image/format,png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/d4a9ccb29fee59173fbc62ad16db7368.png)
 
 去看webapps里工程目录下，index.html文件是有的，见鬼了，是哪儿出了问题？
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtODNkYTQwZDI1NTRhYTNkOQ?x-oss-process=image/format,png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/de65e64c8f1ef51a3d2287a02a3d5a66.png)
 
 然后看到控制台日志（或者tomcat_home/logs/catalina.log）报错如下：
 
@@ -31,7 +31,7 @@ org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping fo
 und for HTTP request with URI [/artmuseum/index.html] in DispatcherServlet with name 'springmvc'
 ```
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtYzAzNWIwZjk4YzAxOTM0MA?x-oss-process=image/format,png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/97a4d97ea72854f8fa64dab4987b093e.png)
 
 大致意思是springmvc这个servlet处理不了index.html。原来是配置有问题。
 
@@ -123,7 +123,7 @@ DefaultServletHttpRequestHandler使用就是各个Servlet容器自己的默认Se
 
 按照最简单的第三种方式，修改以后，index.html页面访问正常：
 
-![image](https://imgconvert.csdnimg.cn/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzkxMzQ3NjMtOGEyZGM1OGY3YTcyM2M1NQ?x-oss-process=image/format,png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/119c3a9996ab99f06da22678278a84c6.png)
 
 总结一下，归根结底还是自己对SpringMVC不熟悉。
 

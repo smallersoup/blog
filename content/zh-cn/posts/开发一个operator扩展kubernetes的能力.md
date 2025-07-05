@@ -184,13 +184,13 @@ status:
   
 
 结构体定义到`$ProjectName/pkg/apis/{中间件名称}/{版本号}/types.go`里：
-![需要编写的一个go文件](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTRjMjdhNjFkMjIxYjcxOWQucG5n?x-oss-process=image/format,png)
+![需要编写的一个go文件](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/aaf212f1784baa7822e1bb0de016ce6d.png)
 
 types.go中结构体定义根据上面准备的CR yaml定义。如下，其中需要注意的是，必须要给结构体加以下两个注解：
 
 - // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object注解表示：为该类型生成 func (t* T) DeepCopy() *T方法。API类型都需要实现深拷贝；
 - // +genclient注解表示为当前类型生成客户端。
-![type.go中部分结构体定义](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTc0NzczOGM4OGFjNjNjZTkucG5n?x-oss-process=image/format,png)
+![type.go中部分结构体定义](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/6382beca35cd180973cd70fa43ac5368.png)
 
 3、编写$ProjectName/pkg/apis/{中间件名称}/{版本号}/doc.go，其中定义全局tag：// +k8s:deepcopy-gen=package，表示为包中任何类型生成深拷贝方法。package指定版本。
 
@@ -249,7 +249,7 @@ code-generator地址如下，下载后放到$GOPATH/src/k8s.io/目录下：
 ./generate-groups.sh all "harmonycloud.cn/middleware-operator-manager/pkg/clients" "harmonycloud.cn/middleware-operator-manager/pkg/apis" "redis:v1alpha1"
 ```
 执行后将生成以下代码：
-![生成的代码](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTkwYmIwMTg2NjMzMjRlYzEucG5n?x-oss-process=image/format,png)
+![生成的代码](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/69df801cbe3242bea6ba9da61c68a4b2.png)
 
 **生成代码时可能遇到的坑，请参考：**
 k8s自定义资源类型代码自动生成：[https://www.jianshu.com/p/cbeb513250d0](https://www.jianshu.com/p/cbeb513250d0)
@@ -262,7 +262,7 @@ k8s自定义资源类型代码自动生成：[https://www.jianshu.com/p/cbeb5132
 [Extending Kubernetes: Create Controllers for Core and Custom Resources](https://medium.com/@trstringer/create-kubernetes-controllers-for-core-and-custom-resources-62fc35ad64a3)
 
 ## operator主流程代码开发
-![入口](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTFlNjZjZDA4MTc0MWU5NjMucG5n?x-oss-process=image/format,png)
+![入口](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/f20ac248613110011b8cf36986e40589.png)
 首先operator的入口为operator-manager.go里的main函数。
 ```go
 package main
@@ -621,7 +621,7 @@ func (rco *RedisClusterOperator) worker() {
 }
 ```
 从informer监听到资源对象变化，回调函数将资源对象key（namespace/name）放到queue中，到worker取出queue中的key去做处理，处理完成后Done掉key流程图如下：
-![key处理流程](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWRkY2RkYzVkOGE4YzM5ODIucG5n?x-oss-process=image/format,png)
+![key处理流程](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/5fd7c49bcfc70de6e7d9fbd8de520d68.png)
 回调函数将资源对象的key加入到queue中，worker从queue中取出key去处理业务，此时key会被放到processing集合中，表示该key正在被处理。worker处理key时如果遇到错误，该key会根据重试次数是否大于最大重试次数被加入到rateLimited（可以限制添加到queue中速度，最终还会被加入到queue）。worker处理key成功后，Forget(key)表示从rateLimited中清除，Done(key)表示key处理完毕，从processing集合中删除。该代码如下：
 ```go
 func (rco *RedisClusterOperator) processNextWorkItem() bool {
@@ -656,10 +656,10 @@ func (rco *RedisClusterOperator) processNextWorkItem() bool {
 ](https://upload-images.jianshu.io/upload_images/9134763-06e2e4bc6b7135d0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 - 不要改变原始对象（从lister中取出的对象），而要使用DeepCopy，因为缓存在informer之间共享。
-![deepcopy](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTE5YzgxYzEwOGZhNGNjODAucG5n?x-oss-process=image/format,png)
+![deepcopy](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/ee67d136c2e36e15ed82d1ad6810a4de.png)
 
 - 根据CRD构建Statefulset时，给Statefulset加OwnerReferences，这样在删除CRD的时候，可以设置是否级联删除statefulset。
-![设置owner](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTdjMDZiN2E5NDY5YTJiZTIucG5n?x-oss-process=image/format,png)
+![设置owner](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/0db4d1bcaeeb9ec9705e8179280b8463.png)
 
 参考：
 k8s垃圾收集：[https://kubernetes.io/zh/docs/concepts/workloads/controllers/garbage-collection/](https://kubernetes.io/zh/docs/concepts/workloads/controllers/garbage-collection/)
@@ -670,7 +670,7 @@ Kubernetes之Garbage Collection：[https://blog.csdn.net/dkfajsldfsdfsd/article/
 ## 调试
 
 本地用IDE--goland调试代码时，配置如下：
-![1555136612836.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWJiYTg5ZWM1ZWNhODU3ZDcucG5n?x-oss-process=image/format,png)
+![1555136612836.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/1f90429967996d25dd48559a0a2b0b1e.png)
 
 Run kind：选File；
 
@@ -688,7 +688,7 @@ Program arguments：用于指定程序启动参数：
 --kubeconfig=D:\SoftwareAndProgram\program\Go\Development\src\harmonycloud.cn\middleware-operator-manager\artifacts\config60 --v=5
 ```
 --kubeconfig指定kubeconfig文件所在全路径（即k8s集群master节点的/root/.kube/config），其指定k8s集群apiserver地址已经访问时的证书信息。
-![kubeconfig文件](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWQ2NjAzNzAyMmYxOWQyZmIucG5n?x-oss-process=image/format,png)
+![kubeconfig文件](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/d59c7d952fbc155175fcef7d79006f30.png)
 
 --v指定glog日志级别，--v=5表示只输出info小于5和error、warn日志。
 ```go
@@ -801,23 +801,23 @@ glog.Errorf(err.Error())
 用k8s组件中leader选举机制实现redis operator组件的高可用，即正常情况下redis operator组件的多个副本只有一个是处于业务逻辑运行状态，其它副本则不断的尝试去获取锁，去竞争leader，直到自己成为leader。如果正在运行的leader因某种原因导致当前进程退出，或者锁丢失，则由其它副本去竞争新的leader，获取leader继而执行业务逻辑。 
 
 启动两个operator-manager实例：
-![启动了两个实例](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTc3YzYwMmFlZWE2MGIwNzIucG5n?x-oss-process=image/format,png)
+![启动了两个实例](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/eb384ce6cab46348268e41dc60fdcbed.png)
 
 可以看到只有一个实例operator-manager-86d785b5fc-m5rgh在同步事件，处理业务：
-![master实例正在处理业务并renew锁](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWJiZWE0M2IxZTVjNDE4M2UucG5n?x-oss-process=image/format,png)
+![master实例正在处理业务并renew锁](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/250e2965d3d0f45acf0686574bbe3ad8.png)
 
 
 operator-manager-86d785b5fc-sszj2实例一直在竞争尝试获取锁：
-![slave实例正在尝试获取锁](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWYxOTZlNjljZWI1NDQxYjcucG5n?x-oss-process=image/format,png)
+![slave实例正在尝试获取锁](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/c0146ea04e01ea9d2a31611e451ea0aa.png)
 
 
 删除掉正在同步事件的实例operator-manager-86d785b5fc-m5rgh：
-![删除掉master实例](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWMyNjY2OGFlMzBjY2Y1ZjgucG5n?x-oss-process=image/format,png)
+![删除掉master实例](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/9dd676c719a2c959a109b69cc7a4096b.png)
 
 
 实例operator-manager-86d785b5fc-sszj2竞争获取到锁，开始处理业务逻辑：
 
-![slave实例获取到锁，开始处理业务并renew锁](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTg3NTg1NDVjZDMzZjA0NzcucG5n?x-oss-process=image/format,png)
+![slave实例获取到锁，开始处理业务并renew锁](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/d906fee46d8c017ea2118200c899812f.png)
 故可以通过反亲和性防止两个operator-manager实例调度到同一主机上，达到主备高可用。
 
 最后附上源码地址：

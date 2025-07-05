@@ -30,19 +30,19 @@ while [ $a -le 10 ]; do
 
 done
 ```
-![批量curl脚本](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTcyYzgyODJjYWQxODJmZTcucG5n?x-oss-process=image/format,png)
+![批量curl脚本](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/e6c0e7d20e52cc72a5a802afa5196c5f.png)
 
 **执行脚本**
 
 ```sh batch_curl.sh  gege  21```
 
 **执行结果**
-![10次curl执行结果](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTBjZGZjZGQ3Y2M2NDg0MGYucG5n?x-oss-process=image/format,png)
+![10次curl执行结果](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/a601cc1d3cd4f11718a4b23aba08b1f6.png)
 
 **该接口是用go语言提供的demo接口：如下：**
 
 * 目录结构：
-![目录结构](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTA1MjZhNDU4MGQ4Zjc1YmMucG5n?x-oss-process=image/format,png)
+![目录结构](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/2f23d9d94734b016f3235e8ac950d840.png)
 * app.conf
 ```go
 copyrequestbody = true

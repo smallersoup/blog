@@ -12,7 +12,7 @@ permalink: /201910181334nginx
 nginx: [error] CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
 
 博主在执行了nginx -s stop后，再次启动nginx时报错：
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWE0ZjJiZTBkNGRjYTA0OWUucG5n?x-oss-process=image/format,png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/8a2974c018ccd720a11f910f20729d34.png)
 
 
 这个坑主要原因就是没有nginx.pid这个文件，./logs/下找不到nginx.pid文件，看了确实找不到。
@@ -26,13 +26,13 @@ nginx -c  conf/nginx.conf
 那么命令列就需要这样写
 "d:\Program Files\openresty-1.13.6.2-win64\nginx.exe" -c  "d:\Program Files\openresty-1.13.6.2-win64\conf\nginx.conf"
 
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWZkZmQ0NTFkMmJhZGIwMzcucG5n?x-oss-process=image/format,png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/0dbe6a5dd71f30893cee4b8dd7d56b82.png)
 
 生成了nginx.pid文件：
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWI0Y2QzOTA4NGU2YTA4N2MucG5n?x-oss-process=image/format,png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/1e5f12d8993aebd51b7222c2c61959f6.png)
 
 里面只有一个PID号：
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTMxYTRmZjljOWYwZDY3Y2YucG5n?x-oss-process=image/format,png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/2106940106285f2c89c31fa53085899f.png)
 
 
 

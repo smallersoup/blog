@@ -10,10 +10,10 @@ permalink: /201910181325java
 
 
 最近做了一个监测k8s服务pod水平伸缩发送邮件的功能（当pod的cpu/内存达到指定阈值后会水平扩展出多个pod、或者指定时间内pod数应扩展到指定数量），一开始写了个格式很low的邮件，像下面这样：
-![简单邮件](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWNmY2JjMzM4MDBiMGExY2EucG5n?x-oss-process=image/format,png)
+![简单邮件](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/252af43f82840ba8d96777c49de9af32.png)
 
 主流程打通，算个v1版本吧，程序员是个追求完美的人，再说这么低逼格的邮件，给客户看，客户也会不满意。那怎么提高邮件的逼格呢？下面写了个简单的demo，v2版本如下：
-![带模板邮件](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTg5YmZkZTMyYTY5NWRjY2YucG5n?x-oss-process=image/format,png)
+![带模板邮件](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/275d351a046579a4b50f560f88be88b1.png)
 
 感兴趣的小伙伴可以参考，模板可以找你公司前端和美工小姐姐设计。
 
@@ -129,7 +129,7 @@ pod-scale-alarm.html模板文件：
 </body>
 ```
 success-alarm.png图标：
-![image.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTA2MWY4NjBmYWRkMWQ5YTUucG5n?x-oss-process=image/format,png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/4ab725309eaa4743cdada229209b1ade.png)
 
 java代码如下，简单的demo，优化可以自己在项目中去做。
 ```java

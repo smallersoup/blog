@@ -11,7 +11,7 @@ permalink: /201910171448golang
 故通过命令的方式生成go的可执行文件。
 
 * 比如项目结构是这样：
-![项目结构](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWYzZWE1NDMzYWM3MjdjNGMucG5n?x-oss-process=image/format,png)
+![项目结构](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/a049ea484a448fd7ce2cf520f4fb4269.png)
 
 由于依赖了github.com里的beego，所以要加github.com的上级目录到GOPATH。
 #### 1. 打开cmd命令窗口，用命令设置要编译包以及依赖包所在路径的环境变量，即GOPATH(该设置只对该窗口生效):
@@ -25,7 +25,7 @@ permalink: /201910171448golang
 #### 3.然后在src目录下执行go install
 >go install sayHello
 没有报错的话，会在GOPATH下生成bin和pkg目录，可执行文件在bin目录下，如图：
-![可执行文件](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLWQ3OGZiZDY4ZDc5ZTgyMGIucG5n?x-oss-process=image/format,png)
+![可执行文件](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/4fb53dde193070823748a8671e80842d.png)
 
 **注：**
 beego1.7.0前的版本app.conf里的配置加载不到，以下的github有issue可寻：

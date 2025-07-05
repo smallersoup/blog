@@ -518,4 +518,4 @@ https://draveness.me/kubernetes-garbage-collector#
 
 扫码关注，精彩内容第一时间推给你
 
-![image](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy85MTM0NzYzLTYzZTRkMDc2OWM2MGUyODY)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/525626c493d9ff7bc5c99cddd451e203.png)
