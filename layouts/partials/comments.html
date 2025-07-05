@@ -1,159 +1,160 @@
 <!-- 延迟加载 Google Adsense -->
 <script type='text/javascript'>
-//<![CDATA[
-/* 延迟加载 AdSense JS */
-var lazyadsense = !1;
-window.addEventListener("scroll", function() {
-    (0 != document.documentElement.scrollTop && !1 === lazyadsense || 0 != document.body.scrollTop && !1 === lazyadsense) && (! function() {
-        var e = document.createElement("script");
-        e.id = "g_ads_js", e.type = "text/javascript", e.async = "async", e.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3925981084585036";
-        var a = document.getElementsByTagName("script")[0];
-        a.parentNode.insertBefore(e, a)
-    }(), lazyadsense = !0)
-}, !0);
-//]]>
-</script>
-
-<!-- 延迟加载广告推送 -->
-<script>
-    (adsbygoogle = window.adsbygoogle || []).onload = function () {
-        [].forEach.call(document.getElementsByClassName('adsbygoogle'), function () {
-            adsbygoogle.push({})
-        })
-    }
-</script>
-
-<!-- AdSense 广告容器 -->
-<div style="min-height=250px">
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3925981084585036"
-     data-ad-slot="4806125422"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-</div>
-
-
-
-<!-- {{ if eq .Site.Language.Lang "zh-cn" }} -->
-<img style="margin-top: 1.5em;" loading="lazy" src="/img/wechat-official-account.jpg" alt="公众号二维码">
-
-<!-- 引入 iDisqus 的样式表 -->
-<!--
-<link rel="stylesheet" href="{{ "css/iDisqus.min.css" | absURL }}" />
--->
-
-<!-- 设置评论区的容器 -->
-<!-- <div id="comment"></div> -->
-
-
-
-<!-- 使用 JavaScript 实现懒加载 -->
-<!-- <script>
-// 当文档加载完成后，执行以下函数
-document.addEventListener("DOMContentLoaded", function() {
-  var iDisqusScriptSrc = "/js/iDisqus.min.js";
-  // 创建一个新的 IntersectionObserver 对象
-  // 这个对象用于当某个元素进入视窗时触发回调函数
-  var commentObserver = new IntersectionObserver(function(entries) {
-    // 检查观察的元素是否进入视窗
-    if (entries[0].isIntersecting) {
-      // 动态加载 iDisqus 的样式表
-      var link = document.createElement('link');
-      link.rel = 'stylesheet';
-      link.href = "/css/iDisqus.min.css";
-      document.head.appendChild(link);
-
-      // 动态加载 iDisqus 脚本
-      var script = document.createElement('script');
-      script.src = iDisqusScriptSrc;
-      script.onload = function() {
-        // 脚本加载完成后初始化 iDisqus
-        var disq = new iDisqus('comment', {
-          forum: 'fuckcloudnative',
-          api: 'https://disqus.kubeinfo.cn',
-          site: 'https://kubeinfo.cn',
-          emojiPath: 'https://images.kubeinfo.cn/emoji/',
-          mode: 2,
-          timeout: 15,
-          init: true
-        });
-      };
-      document.body.appendChild(script);
-      // 评论区加载后，断开 IntersectionObserver 的连接
-      // 以避免重复执行初始化操作
-      commentObserver.disconnect();
-    }
-  }, { threshold: [0.1] }); // 设置观察者的触发条件，0.1 表示元素有10%进入视窗时触发
-
-  // 开始观察 id 为 'comment' 的元素
-  // 当这个元素即将出现在视窗中时，IntersectionObserver 会触发
-  commentObserver.observe(document.getElementById("comment"));
-});
-</script> -->
-<!-- {{ else }} -->
-<!-- 设置评论区的容器 -->
-<div style="margin-top:1.5em" id="comment"></div>
-
-<script defer>
-    const getStoredTheme = () => (localStorage.getItem("appearance") || "dark") === "dark" ? "https://cdn.jsdelivr.net/gh/yangchuansheng/comments@main/dark.css" : "light";
-    // const getStoredTheme1 = () => (localStorage.getItem("appearance") || "dark") === "dark" ? "light" : "https://cdn.jsdelivr.net/gh/yangchuansheng/comments@main/dark.css";
-
-    const setGiscusTheme = () => {
-        const sendMessage = (message) => {
-            const iframe = document.querySelector('iframe.giscus-frame');
-            if (iframe) {
-                iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-            }
+    //<![CDATA[
+    /* 延迟加载 AdSense JS */
+    var lazyadsense = !1;
+    window.addEventListener("scroll", function() {
+        (0 != document.documentElement.scrollTop && !1 === lazyadsense || 0 != document.body.scrollTop && !1 === lazyadsense) && (! function() {
+            var e = document.createElement("script");
+            e.id = "g_ads_js", e.type = "text/javascript", e.async = "async", e.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3925981084585036";
+            var a = document.getElementsByTagName("script")[0];
+            a.parentNode.insertBefore(e, a)
+        }(), lazyadsense = !0)
+    }, !0);
+    //]]>
+    </script>
+    
+    <!-- 延迟加载广告推送 -->
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).onload = function () {
+            [].forEach.call(document.getElementsByClassName('adsbygoogle'), function () {
+                adsbygoogle.push({})
+            })
         }
-        sendMessage({ setConfig: { theme: getStoredTheme() } })
-    }
-
-    const loadGiscusWhenNearViewport = () => {
-        const commentContainer = document.getElementById("comment"); // 选择评论容器的选择器
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const giscusAttributes = {
-                        "src": "https://giscus.app/client.js",
-                        "data-repo": "smallersoup/blog",
-                        "data-repo-id": "R_kgDOO8mliQ",
-                        "data-category": "Announcements",
-                        "data-category-id": "DIC_kwDOO8mlic4Cr_a8",
-                        "data-mapping": "pathname",
-                        "data-strict": "0",
-                        "data-reactions-enabled": "1",
-                        "data-emit-metadata": "0",
-                        "data-input-position": "bottom",
-                        "data-theme": getStoredTheme(),
-                        "data-lang": "en",
-                        "data-loading": "lazy",
-                        "crossorigin": "anonymous",
-                        "async": "",
-                    };
-
-                    // 动态创建 script 标签
-                    const giscusScript = document.createElement("script");
-                    Object.entries(giscusAttributes).forEach(
-                        ([key, value]) => giscusScript.setAttribute(key, value));
-                    commentContainer.appendChild(giscusScript);
-
-                    // 更新 giscus 主题
-                    const themeSwitcher = document.getElementById("appearance-switcher");
-                    if (themeSwitcher) {
-                        themeSwitcher.addEventListener("click", setGiscusTheme);
-                    }
-
-                    // 停止观察
-                    observer.unobserve(commentContainer);
-                }
+    </script>
+    
+    <!-- AdSense 广告容器 -->
+    <div style="min-height=250px">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-3925981084585036"
+         data-ad-slot="4806125422"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    </div>
+    
+    
+    <img style="margin-top: 1.5em;" loading="lazy" src="/img/wechat-official-account.jpg" alt="公众号二维码">
+    
+    {{ if eq .Site.Language.Lang "we do not use iDisqus"}}
+    
+    
+    <!-- 引入 iDisqus 的样式表 -->
+    <!--
+    <link rel="stylesheet" href="{{ "css/iDisqus.min.css" | absURL }}" />
+    -->
+    
+    <!-- 设置评论区的容器 -->
+    <div id="comment"></div>
+    
+    
+    
+    <!-- 使用 JavaScript 实现懒加载 -->
+    <script>
+    // 当文档加载完成后，执行以下函数
+    document.addEventListener("DOMContentLoaded", function() {
+      var iDisqusScriptSrc = "/js/iDisqus.min.js";
+      // 创建一个新的 IntersectionObserver 对象
+      // 这个对象用于当某个元素进入视窗时触发回调函数
+      var commentObserver = new IntersectionObserver(function(entries) {
+        // 检查观察的元素是否进入视窗
+        if (entries[0].isIntersecting) {
+          // 动态加载 iDisqus 的样式表
+          var link = document.createElement('link');
+          link.rel = 'stylesheet';
+          link.href = "/css/iDisqus.min.css";
+          document.head.appendChild(link);
+    
+          // 动态加载 iDisqus 脚本
+          var script = document.createElement('script');
+          script.src = iDisqusScriptSrc;
+          script.onload = function() {
+            // 脚本加载完成后初始化 iDisqus
+            var disq = new iDisqus('comment', {
+              forum: 'fuckcloudnative',
+              api: 'https://disqus.kubeinfo.cn',
+              site: 'https://kubeinfo.cn',
+              emojiPath: 'https://images.kubeinfo.cn/emoji/',
+              mode: 2,
+              timeout: 15,
+              init: true
             });
-        }, { threshold: 0.1 }); // 可调整阈值以更早或更晚加载
-
-        observer.observe(commentContainer);
-    }
-
-    document.addEventListener("DOMContentLoaded", loadGiscusWhenNearViewport);
-</script>
-<!-- {{ end }} -->
+          };
+          document.body.appendChild(script);
+          // 评论区加载后，断开 IntersectionObserver 的连接
+          // 以避免重复执行初始化操作
+          commentObserver.disconnect();
+        }
+      }, { threshold: [0.1] }); // 设置观察者的触发条件，0.1 表示元素有10%进入视窗时触发
+    
+      // 开始观察 id 为 'comment' 的元素
+      // 当这个元素即将出现在视窗中时，IntersectionObserver 会触发
+      commentObserver.observe(document.getElementById("comment"));
+    });
+    </script>
+    {{ else }}
+    <!-- 设置评论区的容器 -->
+    <div style="margin-top:1.5em" id="comment"></div>
+    
+    <script defer>
+        const getStoredTheme = () => (localStorage.getItem("appearance") || "dark") === "dark" ? "https://cdn.jsdelivr.net/gh/yangchuansheng/comments@main/dark.css" : "light";
+        // const getStoredTheme1 = () => (localStorage.getItem("appearance") || "dark") === "dark" ? "light" : "https://cdn.jsdelivr.net/gh/yangchuansheng/comments@main/dark.css";
+    
+        const setGiscusTheme = () => {
+            const sendMessage = (message) => {
+                const iframe = document.querySelector('iframe.giscus-frame');
+                if (iframe) {
+                    iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+                }
+            }
+            sendMessage({ setConfig: { theme: getStoredTheme() } })
+        }
+    
+        const loadGiscusWhenNearViewport = () => {
+            const commentContainer = document.getElementById("comment"); // 选择评论容器的选择器
+    
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const giscusAttributes = {
+                            "src": "https://giscus.app/client.js",
+                            "data-repo": "smallersoup/blog",
+                            "data-repo-id": "R_kgDOO8mliQ",
+                            "data-category": "Announcements",
+                            "data-category-id": "DIC_kwDOO8mlic4Cr_a8",
+                            "data-mapping": "pathname",
+                            "data-strict": "0",
+                            "data-reactions-enabled": "1",
+                            "data-emit-metadata": "0",
+                            "data-input-position": "bottom",
+                            "data-theme": getStoredTheme(),
+                            "data-lang": "en",
+                            "data-loading": "lazy",
+                            "crossorigin": "anonymous",
+                            "async": "",
+                        };
+    
+                        // 动态创建 script 标签
+                        const giscusScript = document.createElement("script");
+                        Object.entries(giscusAttributes).forEach(
+                            ([key, value]) => giscusScript.setAttribute(key, value));
+                        commentContainer.appendChild(giscusScript);
+    
+                        // 更新 giscus 主题
+                        const themeSwitcher = document.getElementById("appearance-switcher");
+                        if (themeSwitcher) {
+                            themeSwitcher.addEventListener("click", setGiscusTheme);
+                        }
+    
+                        // 停止观察
+                        observer.unobserve(commentContainer);
+                    }
+                });
+            }, { threshold: 0.1 }); // 可调整阈值以更早或更晚加载
+    
+            observer.observe(commentContainer);
+        }
+    
+        document.addEventListener("DOMContentLoaded", loadGiscusWhenNearViewport);
+    </script>
+    {{ end }}
