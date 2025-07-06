@@ -78,7 +78,7 @@ kube-scheduler在调度pod实例时，首先获取到Node1、Node2、Node3三个
 
 **参考：**
 
-<https://github.com/ll837448792/k8s-scheduler-extender-example> 
+<https://github.com/smallersoup/k8s-scheduler-extender-example> 
 
 
 
@@ -237,6 +237,6 @@ spec:
 **参考**
 <https://github.com/kubernetes/community/blob/master/contributors/design-proposals/scheduling/scheduler_extender.md> 
 
-<https://github.com/ll837448792/k8s-scheduler-extender-example> 
+<https://github.com/smallersoup/k8s-scheduler-extender-example> 
 
 * * *

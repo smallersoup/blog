@@ -822,7 +822,7 @@ operator-manager-86d785b5fc-sszj2实例一直在竞争尝试获取锁：
 
 最后附上源码地址：
 
-[https://github.com/ll837448792/middleware-operator-manager](https://github.com/ll837448792/middleware-operator-manager)
+[https://github.com/smallersoup/middleware-operator-manager](https://github.com/smallersoup/middleware-operator-manager)
 
 
 参考：
