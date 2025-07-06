@@ -16,7 +16,7 @@ permalink: /201910171537java
 
 首先国际化资源文件放在了classpath下的i18n目录下：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/10f80654d71352adea8f7023b9d12dac.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/10f80654d71352adea8f7023b9d12dac.png)
 
 mymessage_en_US.properties：
 
@@ -105,7 +105,7 @@ public class ResourceUtils {
 
 启动tomcat打印日志：
 
-![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/f8f5e69dedebc75f59513e8868aeecce.png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/f8f5e69dedebc75f59513e8868aeecce.png)
 
 
 ***2、***

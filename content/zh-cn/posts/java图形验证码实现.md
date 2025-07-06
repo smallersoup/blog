@@ -112,5 +112,5 @@ title="点击更换" src="../Kaptcha"
 
 效果图：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/437bdaaaa61a69ea2331cd57cc10a73c.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/437bdaaaa61a69ea2331cd57cc10a73c.png)
 

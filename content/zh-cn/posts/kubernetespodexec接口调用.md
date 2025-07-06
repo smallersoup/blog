@@ -38,7 +38,7 @@ curl -k \
 	 -H "Sec-Websocket-Version: 13" \
 "https://192.168.26.19:6443/api/v1/namespaces/liano/pods/nginx/exec?command=ls&stdin=true&stout=true&tty=true"
 ```
-![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/79e732b139c04b0359d7df701ce92435.png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/79e732b139c04b0359d7df701ce92435.png)
 
 3、kubernetes开源社区维护了各种语言版本与k8s apiserver交互的client库，比如java库地址如下：
 https://github.com/kubernetes-client/java

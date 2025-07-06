@@ -25,7 +25,7 @@ Context：server、location
 vim /etc/nginx/conf.d/default.conf
 ```
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/ce4eec1d848f7632f93f1d86d382d144.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/ce4eec1d848f7632f93f1d86d382d144.png)
 
 然后检查配置的正确性：
 
@@ -36,7 +36,7 @@ nginx -t -c /etc/nginx/nginx.conf
 
 这里注意了，虽然修改的是default.conf，但是检查的时候始终还是加载nginx.conf，否则报错：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/38b9d8fd95f9bdaed09ad835118d88b7.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/38b9d8fd95f9bdaed09ad835118d88b7.png)
 
 
 因为nginx.conf中include了conf.d目录下的所有.conf文件。
@@ -48,7 +48,7 @@ nginx -t -c /etc/nginx/nginx.conf
 nginx -s reload -c /etc/nginx/nginx.conf
 ```
 
-![image.gif](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/4f4749cff9ee81ff23565bb2cdc0bf00.png)
+![image.gif](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/4f4749cff9ee81ff23565bb2cdc0bf00.png)
 
 **Active connections**: 对后端发起的活动连接数；
 
@@ -79,7 +79,7 @@ Context：location  在location下配置
 
 在配置文件default.conf中加random_index on;并修改很目录为自定义的指定目录。
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/227f462dfff56276a724cb0d56430fa6.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/227f462dfff56276a724cb0d56430fa6.png)
 
 在指定目录里放显示三种颜色的html页面：
 
@@ -153,18 +153,18 @@ title>
 
 然后在default.conf中配置这个目录为根目录，并配置sub_filter：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/1af0c75fabca84c1509c158cde0bc413.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/1af0c75fabca84c1509c158cde0bc413.png)
 
 用于把html中的tomcat修改为nginx，reload nginx后可以看到页面：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/09e6a7624b1f9eefbbd4e2342ebaa11f.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/09e6a7624b1f9eefbbd4e2342ebaa11f.png)
 
 
 但是只修改了第一个tomcat，第二个没有修改；如果要全部替换，需要配置：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/7838f5e8a1d05317b9efb719875574db.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/7838f5e8a1d05317b9efb719875574db.png)
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/d79aa7616ac11897a8a579d5ba1e4b2b.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/d79aa7616ac11897a8a579d5ba1e4b2b.png)
 
 如果遇到页面上没有替换的情况，可能是浏览器缓存导致，需要强制刷新或者清理缓存后刷新。
 

@@ -17,7 +17,7 @@ permalink: /201910181304docker
 
 ***https://hub.docker.com/***
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018005122847.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018005122847.png)
 
 首先登陆：
 
@@ -40,7 +40,7 @@ docker push smallsoup/zookeeper:3.5
 
 已push成功，可以在hub上看到：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018005123310.jpeg)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018005123310.jpeg)
 
 **私有仓：**
 
@@ -176,12 +176,12 @@ For more details, please visit https://github.com/vmware/harbor .
 
 用户名是admin，密码是harbor.cfg中harbor_admin_password的值访问管理页面：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018005123525.jpeg)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018005123525.jpeg)
 
 
 可以创建一个私有仓库micro-service：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018005123727.jpeg)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018005123727.jpeg)
 
 在系统管理->用户管理中添加用户，然后点开上一步创建的项目-->>成员-->>新建成员，并设置权限。
 
@@ -193,7 +193,7 @@ For more details, please visit https://github.com/vmware/harbor .
 
 访客：只有pul
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018005123925.jpeg)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018005123925.jpeg)
 
 将该项目的各个微服务image push到harbor的micro-service项目里：
 
@@ -273,7 +273,7 @@ docker重启后，./install或者docker-compose down;docker-compose up -d重启h
 
 将基础镜像和各个服务镜像push到库上：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018005123244.jpeg)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018005123244.jpeg)
 
 **题外话：**
 

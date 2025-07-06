@@ -16,7 +16,7 @@ Ditto 是一款开源、免费、强大的剪贴板增强工具。可以把复�
 
 平常情况下，Ditto只是系统托盘中的图标。按下热键（默认 ctrl+`）后，会出现的粘贴主界面；再点击右键会弹出功能丰富的菜单
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/60c8afc64c4f656ea86ba8a28712fbc2.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/60c8afc64c4f656ea86ba8a28712fbc2.png)
 
 Ditto中可以保留大量（取决于数据库容量）的历史记录。如果想搜索某条记录，只须在主界面的搜索框中输入文字，过滤后的结果会实时展现出来。
 
@@ -26,7 +26,7 @@ Ditto允许合并粘贴，就是把多条记录，一次性粘贴到目标窗口
 
 Ditto比通常工具更为强大的是，它能输入的不仅是一个“词条”，而可以是“多行文本、带格式的文本、图片和文件”。
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/970998bca2a84fdc741ced1e4721d0fa.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/970998bca2a84fdc741ced1e4721d0fa.png)
 
 当然，Ditto也支持网络分享即一个组内，多人共享剪贴板。还可以切换主题，功能强大，各位请自行占坑尝鲜。
 

@@ -16,19 +16,19 @@ permalink: /201910171438kube
 ```shell
 kubectl delete pod -n kube-system -l "harmonycloud.cn/statefulset=redis-ll-1010-a"
 ```
-![(/img/2019-10-10-batch-delet-k8s-resources/batch-delete-pods.png)\]](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/2019101020392943.png)
+![(/img/2019-10-10-batch-delet-k8s-resources/batch-delete-pods.png)\]](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/2019101020392943.png)
 
 根据label批量删除pvc：
 ```shell
 kubectl delete pvc -n kube-system -l "harmonycloud.cn/statefulset=redis-ll-1010-a"
 ```
-![(/img/2019-10-10-batch-delet-k8s-resources/batch-delete-pvcs.png)\]](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191010203940437.png)
+![(/img/2019-10-10-batch-delet-k8s-resources/batch-delete-pvcs.png)\]](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191010203940437.png)
 
 根据label批量删除pv：
 ```shell
 kubectl delete pv -l "harmonycloud.cn/statefulset=redis-ll-1010-a"
 ```
-![(/img/2019-10-10-batch-delet-k8s-resources/batch-delete-pvs.png)\]](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191010203948989.png)
+![(/img/2019-10-10-batch-delet-k8s-resources/batch-delete-pvs.png)\]](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191010203948989.png)
 
 ## golang发送删除请求
 根据label批量删除pvc、pod、pv

@@ -5,22 +5,22 @@ updated: '2019-10-18 10:23:11'
 tags: [golang, 爬虫]
 permalink: /201910181023golang
 ---
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018002356226.jpeg)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018002356226.jpeg)
 
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018002355495.gif)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018002355495.gif)
 
 
 昨天我们一起爬取珍爱网首页，拿到了城市列表页面，接下来在返回体城市列表中提取城市和url，即下图中的a标签里的href的值和innerText值。
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018002403470.gif)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018002403470.gif)
 
 
 提取a标签，可以通过CSS选择器来选择，如下：
 
 $('#cityList>dd>a');就可以获取到470个a标签：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018002405127.gif)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018002405127.gif)
 
 
 这里只提供一个思路，go语言标准库里没有CSS解析库，通过第三方库可以实现。具体可以参考文章：
@@ -39,12 +39,12 @@ https://github.com/antchfx/xquery
 
 xpath和goquery相比还是比较麻烦的，通过以下这张图可以看出来goquery要活跃的多：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018002405351.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018002405351.png)
 
 
 我们这里不用xpath，也不用goquery提取，用更加通用的正则表达式来提取。
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/2019101800240944.gif)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/2019101800240944.gif)
 
 
 从上图可以看出，返回体中的a标签里都是这种形式，XXX表示城市拼音，XX表示城市中文，其他的都一样。
@@ -200,7 +200,7 @@ func printAllCityInfo(body []byte){
 
 运行后，可以看到输出了URL和City：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/2019101800241098.gif)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/2019101800241098.gif)
 
 
 今天我们完成了URL和城市的提取，明天我们将利用URL，来进一步分析城市的男女性个人信息。

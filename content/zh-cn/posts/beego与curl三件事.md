@@ -45,17 +45,17 @@ CopyRequestBody = true
 HTTPPort = 8081
 ```
 
-![beego1.8.3启动](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/d30c14ed6f24ba1a71c6e2898735809d.png)
+![beego1.8.3启动](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/d30c14ed6f24ba1a71c6e2898735809d.png)
 
 
 同样的app.conf配置，用beego1.6.1启动后：
 
-![beego1.6.1启动](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/7b5d19bc91c5429dac6ee44670fb0e5d.png)
+![beego1.6.1启动](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/7b5d19bc91c5429dac6ee44670fb0e5d.png)
 
 
 但用bee工具启动时加载正常：
 
-![bee工具启动](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/d4edcd11997fa9a0764915a21013f2ec.png)
+![bee工具启动](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/d4edcd11997fa9a0764915a21013f2ec.png)
 
 
 经查阅资料，发现这是beego1.6.1版本的bug，issue见：
@@ -166,17 +166,17 @@ curl -X GET "http://10.119.155.114:8081/jgjgjg/sqasdasda?name=jingge&age=21" -v
 
 我测试过，在windows上用%26代替&，都会导致name取到jingge&age=21整体，而age取不到值，用 \ 转义会导致name取到jingge\，而age取不到值，如下图：
 
-![%26代替&，\转义&](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/c25c076c31c1bfae4fa1fbb3a9f27a0f.png)
+![%26代替&，\转义&](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/c25c076c31c1bfae4fa1fbb3a9f27a0f.png)
 
 
 **%26代替&：**
 
-![%26代替&结果](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/81a73674b57255b0ec9213dc85e4143c.png)
+![%26代替&结果](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/81a73674b57255b0ec9213dc85e4143c.png)
 
 
 **\ 转义&：**
 
-![\ 转义&结果](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/a294e8efd25dcacfede5b5a28e7fd519.png)
+![\ 转义&结果](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/a294e8efd25dcacfede5b5a28e7fd519.png)
 
 
 唯一可行的是在url上加双引号；

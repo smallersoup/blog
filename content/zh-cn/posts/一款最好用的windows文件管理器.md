@@ -45,37 +45,37 @@ XYplorer 是一款资源管理器增强工具，提供多面板操作、将程�
 
 一般的文件管理器要么是只有双面板，要么是只有多标签，而XYplorer做到了真正的双面板多标签，在整理大量文件时实在是利器，即使不慎关闭不必担心，XYplorer 将为您记忆上次打开的所有标签以及双面板状态。
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/1839e9df8aa0f7d5710fa93760a4e9bb.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/1839e9df8aa0f7d5710fa93760a4e9bb.png)
 
 **自动计算文件夹大小：**
 
 以往要用专门的软件或插件才能做到，而XYplorer原生即可计算，相当方便，而且速度非常快！（最牛X的是还能自定义文件夹大小的单位！）
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/f604984f29a4efba042911bcd91c2c44.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/f604984f29a4efba042911bcd91c2c44.png)
 
 **文件筛选：**
 
 XYplorer 还同时提供了强大的文件筛选工具并支持用户自行设定的文件类型 (单种或多种拓展名)，其将为您筛选并显示某一或数个类型的所有文件以方便您进行批量操作。
 
-![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/158cd8c189aa5704c388489a96cdb2c4.png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/158cd8c189aa5704c388489a96cdb2c4.png)
 
 
 **自定义命令：**
 
 在平日整理文件时可能经常需要将某些类型的文件移动至某个文件夹，通过定义 XYplorer 用户命令，您可以先使用筛选工具选择您所需要处理的文件然后按下所定义的快捷键即可将文件备份、移动至指定文件夹，亦可对其路径进行自定义，例如按时间、按长度、按数量等方式建立文件夹等等。您可以单击动作后的技巧找到所有的可代替值，例如时间、路径、长度等。
 
-![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/004c2d9e3aae375fbe558aae3c64b04f.png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/004c2d9e3aae375fbe558aae3c64b04f.png)
 
 
 **文件查找：**
 
 加速查找文件的速度，比windows自带的查找功能流畅速度快，好用不卡。
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/0721a0537ec1eeb8c5ad504b9d3e70bb.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/0721a0537ec1eeb8c5ad504b9d3e70bb.png)
 
 **批量重命名：**
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/6bb8038c270d950dedd2cbf67621f7f1.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/6bb8038c270d950dedd2cbf67621f7f1.png)
 
 以上便是吸引我的点，而且我现在只用了不到20%的功能（对比官方的feature list），可想而知这个软件可定制度相当高，在日后工作中慢慢体会它的强大之处。
 

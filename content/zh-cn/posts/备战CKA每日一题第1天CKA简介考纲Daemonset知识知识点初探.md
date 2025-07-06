@@ -19,7 +19,7 @@ CKA证书的含金量如何？考不考这个证完全取决于个人，因为�
 
 
 ## 考纲如下
-![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191118175827692.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191118175827692.png)
 可访问https://github.com/cncf/curriculum关注最新的考纲变化！
 
 

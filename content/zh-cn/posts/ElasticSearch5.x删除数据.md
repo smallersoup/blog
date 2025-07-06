@@ -23,7 +23,7 @@ curl -XDELETE http://192.168.1.102:9200/dating_profile/zhenai
 
 执行后报错如下：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/2019101800563038.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/2019101800563038.png)
 
 所以现在如果想要删除type有两种选择： 
 
@@ -46,7 +46,7 @@ It is no longer possible to delete the mapping for a type. Instead you should de
 curl -XDELETE http://192.168.1.102:9200/dating_profile/
 ```
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018005630302.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018005630302.png)
 
 删除成功，返回值为：
 
@@ -72,7 +72,7 @@ curl -X POST "http://192.168.1.102:9200/dating_profile/zhenai/_delete_by_query?c
 }'
 ```
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018005630522.jpeg)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018005630522.jpeg)
 
 删除成功，返回值如下：
 
@@ -109,7 +109,7 @@ curl -X POST "http://192.168.1.102:9200/dating_profile,movies/zhenai,movie/_dele
 '
 ```
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018005630726.jpeg)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018005630726.jpeg)
 
 返回值如下：
 
@@ -154,7 +154,7 @@ curl -XPOST "http://192.168.1.102:9200/_reindex?pretty" -H 'Content-Type: applic
 
 这样执行后，旧的index还是存在的，dating_profile和new_dating_profile都可以查到旧数据。
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018005630908.gif)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018005630908.gif)
 
 **ElasticSearch＋ELK日志平台全套视频教程等相关学习资源可以在公众号后台回复【1】加小助手索取。**
 

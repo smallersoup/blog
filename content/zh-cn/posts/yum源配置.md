@@ -52,7 +52,7 @@ rpm -qa | grep yum
 ```sh
 rpm -qa | grep yum | xargs rpm -e --nodeps
 ```
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/1dc5b66193ca9e6e865ea8eb4729d80b.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/1dc5b66193ca9e6e865ea8eb4729d80b.png)
 
 查看系统版本：
 
@@ -60,7 +60,7 @@ rpm -qa | grep yum | xargs rpm -e --nodeps
 cat /etc/redhat-release
 ```
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/8bb6d68a2e09e7945ba48d4ab315b834.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/8bb6d68a2e09e7945ba48d4ab315b834.png)
 
 下载安装软件包：
 
@@ -80,7 +80,7 @@ yum-plugin-fastestmirror-1.1.31-45.el7.noarch.rpm
 #执行yum安装
 rpm -ivh yum*
 ```
-![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/2aa5dabdb9e6db0b391ce07dad08e413.png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/2aa5dabdb9e6db0b391ce07dad08e413.png)
 
 
 这里升级python-urlgrabber和rpm包版本：
@@ -101,7 +101,7 @@ rpm -Uvh python-urlgrabber-3.10-8.el7.noarch.rpm --nodeps
 
 然后安装：
 
-![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/f810c1c0b1dfd72aff9a543b6854f531.png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/f810c1c0b1dfd72aff9a543b6854f531.png)
 
 
 新建配置文件：
@@ -168,7 +168,7 @@ yum clean all
 yum makecache
 ```
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/19380165e2ed882ed56f6c4665f597a1.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/19380165e2ed882ed56f6c4665f597a1.png)
 
 测试源：
 
@@ -176,7 +176,7 @@ yum makecache
 yum update -y --skip-broken
 ```
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/d2fb95bc09ed34346e548607a1ebb7ef.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/d2fb95bc09ed34346e548607a1ebb7ef.png)
 
 可以看到已经可以通过yum安装相关软件包更新。
 

@@ -12,7 +12,7 @@ permalink: /201910171534mysql
 
 大家在使用mysql过程中，可能会遇到类似以下的问题：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/0c97c6ed2de20dc75b2ea7aa4ee78f10.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/0c97c6ed2de20dc75b2ea7aa4ee78f10.png)
 
 模糊匹配 jg%，结果以JG开头的字符串也出现在结果集中，大家很自然的认为是大小写敏感的问题。那么mysql中大小写敏感是如何控制的；数据库名，表名，字段名这些字典对象以及字段值的大小敏感是如何控制的；以及校验规则与索引的关系，这是本文要讨论的内容。
 
@@ -20,20 +20,20 @@ permalink: /201910171534mysql
 
 **windows建库：**
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/939b699be81c9fa0fb49f4e501c1c020.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/939b699be81c9fa0fb49f4e501c1c020.png)
 
 **windows建表：**
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/34aca96a213cf59ef785870e0065785f.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/34aca96a213cf59ef785870e0065785f.png)
 
 **linux建库：**
 
-![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/9876ad22e3f6804ee4b181a66378fdba.png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/9876ad22e3f6804ee4b181a66378fdba.png)
 
 
 **linux建表：**
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/78945980dd95ee4b45ba4d2e76a7000a.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/78945980dd95ee4b45ba4d2e76a7000a.png)
 
 以上可以看出windows下大小写不敏感，linux下是敏感的，故前者不可以同时建test和TEST，而后者可以。
 
@@ -77,12 +77,12 @@ unix下默认值为 0 ；Windows下默认值是 1 ；Mac OS X下默认值是 2
 
 **windows上：**
 
-![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/705c64c6dbdc0b876de9cb021bb4141c.png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/705c64c6dbdc0b876de9cb021bb4141c.png)
 
 
 **linux上：**
 
-![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/846ffa6d693c5c29e389ca8f335d9311.png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/846ffa6d693c5c29e389ca8f335d9311.png)
 
 
 为了避免大小写引发的问题，一种推荐的命名规则是：在定义数据库、表、列的时候全部采用小写字母加下划线的方式，不使用任何大写字母。
@@ -103,11 +103,11 @@ create database test2 default character set utf8  collate utf8_bin;
 
 有时候我们建库时，没有指定校对规则校对时字符大小写敏感，但是我们查询时，又需要对字符比较大小写敏感，就比如开篇中的例子，只想要jg开头的字符串。没关系，mysql提供了collate语法，通过指定utf8_bin校对规则即可。
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/c7a82cf38c4a181f7b29b0bf19735095.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/c7a82cf38c4a181f7b29b0bf19735095.png)
 
 还有另外一种方法，通过binary关键字，将串转为二进制进行比较，由于大小写字符的二进制肯定不同，因此可以认为是区分大小的一种方式。
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/d26b43bcfca053a4402ae9d5ed509aea.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/d26b43bcfca053a4402ae9d5ed509aea.png)
 
 校对规则与索引存储的关系。因为校对规则会用于字符串之间比较，而索引是基于比较有序排列的，因此校对规则会影响记录的索引顺序。下面举一个小例子说明：
 
@@ -130,10 +130,10 @@ insert into test4(name) values('ZBC');
 select * from test3;
 select * from test4;
 ```
-![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/a2a9994e9b3985c9c04674ac49421848.png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/a2a9994e9b3985c9c04674ac49421848.png)
 
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/636429733f2c99bc74979f4816e9719d.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/636429733f2c99bc74979f4816e9719d.png)
 
 从结果可以看到test3和test4返回的结果集中，记录的相对顺序是不同的，因为是全表扫描，返回的记录体现了主键顺序。由于test3表校验规则采用默认的utf8_general_ci，大小写不敏感，因此abc<ABC<ZBC；同理，test4采用utf8_bin，大小写敏感，因此ABD<ZBC<abc。
 

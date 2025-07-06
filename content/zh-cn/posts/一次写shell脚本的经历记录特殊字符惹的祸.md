@@ -31,19 +31,19 @@ fi
 ```
 
 但是判断一直有问题，如下图，在$a后面加个x，会变为在开头覆盖式的加a，结果就是判断结果不相等。
-![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20190528235957739.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20190528235957739.png)
 把redis-cli -c -h {redis实例IP} -a {redis密码} cluster info执行的结果重定向到文件里。
 
 
 
 vi 1.txt查看文件，在vi里用set ff命令查看文件格式为unix，但是文件每一行后面都有一个^M的特殊字符，这就是问题所在了。
-![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20190529000010121.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20190529000010121.png)
 
 最主要是通过cat都看不出来特殊字符的存在。
-![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20190529000018493.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20190529000018493.png)
 
 手动把^M特殊字符删掉就好了。
-![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20190529000024884.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20190529000024884.png)
 
 
 

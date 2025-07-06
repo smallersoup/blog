@@ -185,5 +185,5 @@ go run myServer.go
 
 输出如下：statuscode是我们设置的500，Name也取到了值。
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/7ab39226fab9af8628f3ecbf23913ae0.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/7ab39226fab9af8628f3ecbf23913ae0.png)
 

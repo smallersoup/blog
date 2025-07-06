@@ -18,7 +18,7 @@ permalink: /201910171424docker
 docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 ```
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/bc2034fe56570a046dab738d3ddfc551.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/bc2034fe56570a046dab738d3ddfc551.png)
 
 -e设置环境变量；-e username=zhj
 
@@ -32,11 +32,11 @@ docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 
 -d后台运行容器，并返回容器ID；
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/924684fac352ebc670cc9e44c22196a5.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/924684fac352ebc670cc9e44c22196a5.png)
 
 -v宿主机目录:容器目录。将宿主机目录挂载到容器内。
 
-![image.gif](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/f30ec79b21d23e069bd6450d102497cc.png)
+![image.gif](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/f30ec79b21d23e069bd6450d102497cc.png)
 
 **docker cp**
 
@@ -88,13 +88,13 @@ docker exec -it mynginx /bin/sh /root/runoob.sh
 
 查看容器中运行的进程信息，支持 ps 命令参数;
 
-![image.gif](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/5b56f630dbc243ebf08468ddc0e0fb5d.png)
+![image.gif](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/5b56f630dbc243ebf08468ddc0e0fb5d.png)
 
 **docker inspect**
 
  获取容器/镜像的元数据;
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/dbe937b700c4d7b9c5c6b8b773c8cef4.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/dbe937b700c4d7b9c5c6b8b773c8cef4.png)
 
 **docker login**
 
@@ -146,7 +146,7 @@ docker build -t runoob/ubuntu:v1 .
 docker history runoob/ubuntu:v3
 ```
 
-![image.gif](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/041eed0923231f7e78c2742c56078967.png)
+![image.gif](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/041eed0923231f7e78c2742c56078967.png)
 
 **docker save**
 
@@ -174,7 +174,7 @@ docker load -i my_ubuntu_v3.tar
 
 显示 Docker 版本信息。
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/084ad3db632ecb7747fcd44d6af3c882.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/084ad3db632ecb7747fcd44d6af3c882.png)
 
 **Docker的存储驱动**
 
@@ -200,7 +200,7 @@ Overlay是文件级存储，Device mapper是块级存储，当文件特别大而
 
 overlay驱动只工作在一个lower OverlayFS层之上，因此需要硬链接来实现多层镜像，但overlay2驱动原生地支持多层lowerOverlayFS镜像（最多128层）。因此overlay2驱动在合层相关的命令（如build和commit）中提供了更好的性能，与overlay驱动对比，消耗了更少的inode。
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/a145547bfa79067b025633b5770eecb0.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/a145547bfa79067b025633b5770eecb0.png)
 
 **Docker的网络模式**
 
@@ -293,7 +293,7 @@ RUN ["executable","param1", "param2"]
 
 (等同于exec命令形式)，注意此处必须是双引号(")，因为这种格式被解析为JSON数组。
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/669cfc29fa1806960534b3f40a42da35.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/669cfc29fa1806960534b3f40a42da35.png)
 
 **ARG**
 
@@ -408,7 +408,7 @@ EXPOSE <端口> [<端口>...]
 
 dockerfile中的CMD命令被覆盖：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/c35e82814802289324420a8e421dd7a6.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/c35e82814802289324420a8e421dd7a6.png)
 
 ***CMD：***提供了容器默认的执行命令。Dockerfile 只允许使用一次 CMD 指令。使用多个 CMD 会抵消之前所有的指令，只有最后一个指令生效。CMD 有三种形式：
 

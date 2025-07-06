@@ -30,19 +30,19 @@ while [ $a -le 10 ]; do
 
 done
 ```
-![批量curl脚本](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/e6c0e7d20e52cc72a5a802afa5196c5f.png)
+![批量curl脚本](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/e6c0e7d20e52cc72a5a802afa5196c5f.png)
 
 **执行脚本**
 
 ```sh batch_curl.sh  gege  21```
 
 **执行结果**
-![10次curl执行结果](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/a601cc1d3cd4f11718a4b23aba08b1f6.png)
+![10次curl执行结果](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/a601cc1d3cd4f11718a4b23aba08b1f6.png)
 
 **该接口是用go语言提供的demo接口：如下：**
 
 * 目录结构：
-![目录结构](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/2f23d9d94734b016f3235e8ac950d840.png)
+![目录结构](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/2f23d9d94734b016f3235e8ac950d840.png)
 * app.conf
 ```go
 copyrequestbody = true

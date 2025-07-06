@@ -212,23 +212,23 @@ func usage() {
 go build mysqldataexport.go
 ```
 
-![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/30ff4171c11f0be82aa772dec6ef0aad.png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/30ff4171c11f0be82aa772dec6ef0aad.png)
 
 
 数据库中有test2库下的test表：
 
-![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/0be2f1be962adbf028c6f81c7ae9ca4a.png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/0be2f1be962adbf028c6f81c7ae9ca4a.png)
 
 
 导出其中的数据：
 ```
 .\mysqldataexport.exe -port=3306 -addr="localhost" -user="root" -pwd="mysql" -db="test2" -tables="test"
 ```
-![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/feb133b6844f15f4f7241a91933dc43e.png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/feb133b6844f15f4f7241a91933dc43e.png)
 
 导出结果如下：
 
-![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/035fe6989d835b8f2922f5259b437791.png)
+![image.png](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/035fe6989d835b8f2922f5259b437791.png)
 
 
 

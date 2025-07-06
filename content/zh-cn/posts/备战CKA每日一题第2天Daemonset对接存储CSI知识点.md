@@ -23,7 +23,7 @@ D. apiVersion: apps/v1 kind: DaemonSet metadata: name: fluentd-elasticsearch nam
 在考试时，只能用谷歌浏览器，并打开两个标签页，一个是考题的标签页，另一个是kubernetes官网标签页。https://kubernetes.io/
 查询daemonset的说明文档，见以下链接：
 https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/
-![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191118210527458.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191118210527458.png)
 
 > A Pod Template in a DaemonSet must have a RestartPolicy equal to Always, or be unspecified, which defaults to Always.
 Daemonset里的pod Template下必须有RestartPolicy，如果没指定，会默认为Always

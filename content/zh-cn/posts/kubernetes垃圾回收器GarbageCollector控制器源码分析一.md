@@ -15,7 +15,7 @@ permalink: /201910162317kube
 由于operator创建的redis集群，在kubernetes apiserver重启后，redis集群被异常删除（包括redis exporter statefulset、redis statefulset）。删除后operator将其重建，重新组建集群，实例IP发生变更（中间件容器化，我们开发了固定IP，当statefulset删除后，IP会被回收），导致创建集群失败，最终集群不可用。
 
 经多次复现，apiserver重启后，通过查询redis operator日志，并没有发现主动去删除redis集群（redis statefulset）、监控实例（redis exporter）。进一步去查看kube-controller-manager的日志，将其日志级别设置--v=5，继续复现，最终在kube-controller-manager日志中发现如下日志：
-![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/2019090122334772.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/2019090122334772.png)
 可以看到是garbage collector触发删除操作的。这个问题在apiserver正常的时候是不存在，要想弄其究竟，就得看看kube-controller-manager内置组件garbage collector这个控制器的逻辑。
 
 **由于内容偏长，分为多节来讲：**
@@ -24,7 +24,7 @@ permalink: /201910162317kube
  3. `runProcessGraphChanges`从`graphChanges`队列中取出变化的`item`，根据情况放入`attemptToOrphan`队列；
  4. `runAttemptToDeleteWorker`从`attemptToDelete`队列取出，尝试删除垃圾资源；
  5. `runAttemptToOrphanWorker`从`attemptToOrphan`队列取出，处理该孤立的资源；
-![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20190903103422219.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20190903103422219.png)
 
 ---
 
@@ -51,7 +51,7 @@ func main() {
 }
 ```
 以下代码处去启动`kube-controller-manager`：
-![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20190902115228781.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20190902115228781.png)
 `NewDefaultComponentConfig(ports.InsecureKubeControllerManagerPort)`加载各个控制器的配置：
 ```go
 //NewKubeControllerManagerOptions使用默认配置创建一个新的KubeControllerManagerOptions
@@ -117,7 +117,7 @@ func (s *Scheme) Default(src Object) {
 s.defaulterFuncs类型为map[reflect.Type]func(interface{})，用于根据指针类型获取默认值函数。该map中的数据从哪里来的呢？
 
 代码位于src\k8s.io\kubernetes\pkg\controller\apis\config\v1alpha1\zz_generated.defaults.go
-![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20190902154212234.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20190902154212234.png)
 可以看到默认参数中garbage collector中默认开启gc（EnableGarbageCollector），并发数为20（ConcurrentGCSyncs）
 ```go
 func SetDefaults_GarbageCollectorControllerConfiguration(obj *kubectrlmgrconfigv1alpha1.GarbageCollectorControllerConfiguration) {
@@ -131,7 +131,7 @@ func SetDefaults_GarbageCollectorControllerConfiguration(obj *kubectrlmgrconfigv
 ```
 
 回到Run函数，里面调用了NewControllerInitializers启动所有控制器：
-![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20190902154623724.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20190902154623724.png)
 重点来到启动garbage collector的startGarbageCollectorController函数：
 
 ```go
@@ -199,7 +199,7 @@ func startGarbageCollectorController(ctx ControllerContext) (http.Handler, bool,
 curl http://127.0.0.1:10252/debug/controllers/garbagecollector/graph?uid=11211212edsaddkqedmk12
 ```
 使用graphviz提供的dot.exe可以生成svg格式的图，可用google浏览器查看如下：
-![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20190902233525953.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20190902233525953.png)
 
 ```go
 // curl http://127.0.0.1:10252/debug/controllers/garbagecollector/graph?uid=11211212edsaddkqedmk12
@@ -235,7 +235,7 @@ func (h *debugHTTPHandler) ServeHTTP(w http.ResponseWriter, req *http.Request) {
 }
 ```
 
-![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/2019090223362528.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/2019090223362528.png)
 GarbageCollector通过restMapper定期重置可删除的资源类型，更新GraphBuilder中的monitors，monitors将创建所有资源类型的变更通知回调函数，将变化的资源对象加入到GraphBuilder的graphChanges队列，GraphBuilder的runProcessGraphChanges()会一直从队列中获取变化，构建一个缓存对象之间依赖关系的图形，以及触发dependencyGraphBuilder将可能被垃圾收集的对象排队到`attemptToDelete`队列，并将其依赖项需要孤立的对象排队到`attemptToOrphan`队列。GarbageCollector具有使用这两个队列的工作人员runAttemptToDeleteWorker和runAttemptToOrphanWorker死循环，分别从`attemptToDelete`队列和`attemptToOrphan`队列取出，向API服务器发送请求以相应地删除更新对象。
 
 ```go

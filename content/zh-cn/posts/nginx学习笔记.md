@@ -9,7 +9,7 @@ permalink: /201910181307nginx
 
 web请求通过中间件可以直接调用操作系统，也可以经过中间件把请求分发到多个应用上进行逻辑处理。
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018005844801.jpeg)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018005844801.jpeg)
 
 因为有了中间件，使得大型网站在规划有了更好的层次性，维护上更加方便。也可以实现负载均衡、安全防护等。
 
@@ -30,7 +30,7 @@ linux环境搭建可以参考：
 ping www.taobao.com
 ```
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018005845129.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018005845129.png)
 
 ***2、***
 
@@ -42,7 +42,7 @@ yum源配置可以参考：
 
 用以下命令测试：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018005845421.jpeg)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018005845421.jpeg)
 
 ***3、***
 
@@ -107,7 +107,7 @@ enabled=1
 yum list | grep nginx
 ```
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018005845791.jpeg)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018005845791.jpeg)
 
 ***7、***
 
@@ -181,7 +181,7 @@ systemctl start nginx
 
 然后访问页面：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/201910180058468.jpeg)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/201910180058468.jpeg)
 
 默认利用的是/usr/share/nginx/html目录下的index.html
 

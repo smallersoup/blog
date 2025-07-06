@@ -60,7 +60,7 @@ Ingress
 
 #### Ingress当前的实现方式？  
 
-![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20190715000825125.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20190715000825125.png)
 
 
 
@@ -361,16 +361,16 @@ docker pull registry.cn-hangzhou.aliyuncs.com/google_containers/nginx-ingress-co
 
 安装后，在ingress-nginx命名空间下可以看到pod一直pending，describe pod报如下警告：
 
-![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20190715000810584.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20190715000810584.png)
 
 
 查看master节点默认加了污点，一般不允许pod调度到master节点：
 
-![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/2019071500080638.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/2019071500080638.png)
 
 如果k8s集群只有一个节点，可以在pod的spec下设置容忍该污点：
 
-![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20190715000758386.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20190715000758386.png)
 
 即：
 ```yaml
@@ -382,7 +382,7 @@ docker pull registry.cn-hangzhou.aliyuncs.com/google_containers/nginx-ingress-co
 
 可以看到ingress-nginx pod被调度到master节点，且变为Running
 
-![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20190715000750440.png)
+![在这里插入图片描述](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20190715000750440.png)
 
 看日志报以下警告：
 ```sh

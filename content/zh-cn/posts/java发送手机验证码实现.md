@@ -27,21 +27,21 @@ http://sms.webchinese.cn/
 
 https://cloud.tencent.com/product/sms
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/3a9ad5792abfb0bdc4265ae1ecb28ee0.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/3a9ad5792abfb0bdc4265ae1ecb28ee0.png)
 
 首先需要注册腾讯云账号，注册时可以微信认证，认证时支付1分钱验证是人为操作，这一分钱注册成功后会放到账户中。
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/df210c39f722853b5116b8638f81b7fd.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/df210c39f722853b5116b8638f81b7fd.png)
 
 注册后，需要添加一个应用，这个随便写，创建好后点击 -> 应用名称，然看AppID和AppKey，这个比较重要，调用短信API接口时需要提供。
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/0cbc952633a7ce82c6525473ec4d361e.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/0cbc952633a7ce82c6525473ec4d361e.png)
 
 然后需要在 -> 国内短信 -> 短信内容配置 -> 短信签名中创建签名和短信正文中创建正文模板。
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/3e0bfe93976a8a94ab00da403559de32.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/3e0bfe93976a8a94ab00da403559de32.png)
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/03c504fce98ac8a476674bdcbcd745ef.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/03c504fce98ac8a476674bdcbcd745ef.png)
 
 一个完整的短信由短信签名和短信正文内容两部分组成，您可以根据业务需求分别设置不同的短信正文内容模板，然后进行组合形成最终展示。短信签名+短信正文内容=最终显示内容
 
@@ -123,17 +123,17 @@ https://cloud.tencent.com/product/sms
 
 https://cloud.tencent.com/document/product/382/3771
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/3fc1a9fde25229e2316ed7c8e9ab94cd.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/3fc1a9fde25229e2316ed7c8e9ab94cd.png)
 
 以下有很多错误码，可以供排查问题参考：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/689209fbf33e3dc477f3c2d5f391529a.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/689209fbf33e3dc477f3c2d5f391529a.png)
 
 正常情况下，返回的result为0时表示发送成功，这也是100条次数减1的参考。按照接口要求修改参数后，发送短信成功。
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/1afff37046616de70990f639416014df.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/1afff37046616de70990f639416014df.png)
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/f34ee2a0f6d75f3e4444d3f74fc95fad.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/f34ee2a0f6d75f3e4444d3f74fc95fad.png)
 
 也有很多其他平台提供的短信服务，比如阿里云可以参考以下文章：
 

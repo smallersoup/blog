@@ -9,7 +9,7 @@ kubernetes自定义资源对象再极大程度提高了API Server的可扩展性
 
 以下验证kubernetes版本为1.13.2，docker版本：18.09.5
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/eaa3886beee80673a515559237192ace.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/eaa3886beee80673a515559237192ace.png)
 
 ## Validation（验证）
 
@@ -31,7 +31,7 @@ kubernetes自定义资源对象再极大程度提高了API Server的可扩展性
 
 <https://kubernetes.io/docs/reference/command-line-tools-reference/feature-gates/> 
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/8102ad54fb34c2a5ef669b3d5fbcf876.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/8102ad54fb34c2a5ef669b3d5fbcf876.png)
 
 以下示例将大概对该功能进行应用和说明，在以下示例中，CustomResourceDefinition 对自定义对象应用以下验证：
 
@@ -201,7 +201,7 @@ spec.pod.initImage in body is required
 spec.replicas in body should be a multiple of 2
 ```
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/8cfe98bce56cc80f3cea064acc49f4d3.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/8cfe98bce56cc80f3cea064acc49f4d3.png)
 
 如果所有字段都符合校验逻辑，才可以创建对象。
 
@@ -334,7 +334,7 @@ spec:
 
 执行kubectl get all时会查到pod、service、该crd等属于all categories的资源对象。（这个可能得等几分钟才能生效）
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/imgconvert-csdnimg/0ae02e2503580fca4c4f690e29fb6f06.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/imgconvert-csdnimg/0ae02e2503580fca4c4f690e29fb6f06.png)
 
 
 

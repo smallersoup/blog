@@ -15,26 +15,26 @@ permalink: /201910181320linux
 
 Nat模式，虚拟机通过宿主机所在的网络来访问internet，即虚拟机把宿主机作为路由器来访问互联网。
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018001916330.jpeg)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018001916330.jpeg)
 
 开始配置
 
 1、VM8 使用固定IP：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018001916557.jpeg)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018001916557.jpeg)
 
 2、 这里使用NAT模式：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018001916793.jpeg)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018001916793.jpeg)
 
 3、VM中依次：编辑——>虚拟网络编辑器，点VMnet8 把使用本
 地DHCP的勾去掉，子网IP和主机VM8的IP同网段，然后点NAT设置。
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/2019101800191723.jpeg)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/2019101800191723.jpeg)
 
 #### **网关IP和刚才的IP也是同一个网段。**
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018001917237.jpeg)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018001917237.jpeg)
 
 4. 修改网络配置
 
@@ -44,7 +44,7 @@ vim /etc/sysconfig/network-scripts/ifcfg-eno16777736
 
 增加这些：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018001917447.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018001917447.png)
 
 ```shell
 TYPE=Ethernet

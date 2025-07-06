@@ -9,7 +9,7 @@ permalink: /201910181305golang
 
 就是有一个main.go的main函数里调用了另一个demo.go里的hello()函数。其中main.go和hello.go同属于main包。但是在main.go的目录下执行go run main.go却报hello函数没有定义的错：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018005423929.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018005423929.png)
 
 **代码结构如下：**
 ```shell
@@ -52,7 +52,7 @@ func hello() {
 
 当时我看了以为是他GOPATH配置的有问题，然后自己也按照这样试了一下，报同样的错，在网上查了，也有两篇文章是关于这个错的，也提供了解决方法，即用go run main.go hello.go，试了确实是可以的。
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018005424163.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018005424163.png)
 
 虽然是个很简单的问题，但是也涉及到了go语言底层对于命令行参数的解析。那就来分析一下语言底层的实现吧，看一下底层做了什么，为什么报这个错？
 
@@ -83,11 +83,11 @@ vet         run go tool vet on packages
 
 在Go SDK的src/cmd/go包下有main.go文件中，Command类型的commands数组对该16个命令提供了支持：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018005424337.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018005424337.png)
 
 我们首先知道go语言的初始化流程如下：
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018005424529.jpeg)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018005424529.jpeg)
 
 在执行main.go中的主函数main之前，对import进来的包按顺序初始化，最后初始化main.go中的类型和变量，当初始化到commands数组时，由于cmdRun定义在于main.go同包下的run.go中，那么就先去初始化run.go中的变量和init方法，如下代码，先把cmdRun初始化为Command类型，然后执行init()函数。
 
@@ -146,7 +146,7 @@ for _, cmd := range commands {
 
 这块代码遍历commands数组，当遍历到cmdRun时，cmd.Name()其实就是拿到cmdRun.UsageLine的第一个单词run
 
-![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/csdnimg/20191018005424838.png)
+![image](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/article/csdnimg/20191018005424838.png)
 
 就会进入if分支，由于cmd.CustomFlags没有初始化故为false，走else分支，然后开始解析args命令行参数，args[1:]即取run后的所有参数。然后去执行cmd.Run(cmd, args)，对于cmdRun来说，这里执行的就是run.go中init()的第一行赋值cmdRun.run（上面说了，这是一个函数，不同命令实现方式不同)，即去执行run.go中的runRun函数，该函数主要是将命令行参数当文件去处理，如果是_test为后缀的，即测试文件，直接报错。如果是目录也直接报错（而且go run后面只能包含一个含main函数的go文件）。注意到有这么一行：
 
