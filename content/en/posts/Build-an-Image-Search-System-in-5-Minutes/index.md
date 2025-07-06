@@ -50,7 +50,7 @@ Consider an online recipe platform that stores numerous dish images and correspo
 
 When the user uploads a photo of a dish for searching, the platform first extracts features from the photo to generate an embedding vector, then searches for the most similar dish images in the vector database.
 
-![](https://files.mdnice.com/user/23818/c04c11a2-abac-4c62-aed4-cd69fffa8a7c.png)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/mdnice-u23818/c04c11a2-abac-4c62-aed4-cd69fffa8a7c.png)
 
 The search results return similar dish images along with their recipes. Users can browse these recipes to find the dish they want to make.
 
@@ -64,23 +64,23 @@ Additionally, image search technology has many practical applications in daily l
 
 The Tencent Cloud Vector Database offers powerful capabilities for storing, retrieving, and analyzing large amounts of multi-dimensional vector data, supporting up to 1 billion single-index vectors, millions of QPS, and millisecond-level query latency. Currently, it serves thousands of customers stably, and we can create a vector database instance within minutes.
 
-![](https://files.mdnice.com/user/23818/5c0d57d6-a847-4a38-bdd4-e41605ebe0b0.png)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/mdnice-u23818/5c0d57d6-a847-4a38-bdd4-e41605ebe0b0.png)
 
 > Testing Version: Single availability zone, single node.
 
 The entire creation process takes about 1-2 minutes. Refresh the instance list to see the created instance.
 
-![](https://files.mdnice.com/user/23818/e9b860a0-7a66-4072-924e-c85a2c61d0d9.png)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/mdnice-u23818/e9b860a0-7a66-4072-924e-c85a2c61d0d9.png)
 
-![](https://files.mdnice.com/user/23818/f71c30d8-db63-47a4-9042-aeda616bd153.png)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/mdnice-u23818/f71c30d8-db63-47a4-9042-aeda616bd153.png)
 
 Retrieve the password for username root from the key management, which will be used later:
 
-![](https://files.mdnice.com/user/23818/c19ee898-2ad5-4575-b522-bace74588c1c.png)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/mdnice-u23818/c19ee898-2ad5-4575-b522-bace74588c1c.png)
 
 Enable external access: You can use the system-assigned domain name and port to access the vector database externally:
 
-![](https://files.mdnice.com/user/23818/294824de-cc46-41e5-8c67-b2f6eca14975.png)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/mdnice-u23818/294824de-cc46-41e5-8c67-b2f6eca14975.png)
 
 > It takes about 10 seconds to take effect. Note down the generated domain (HOST) and port (PORT).
 
@@ -114,7 +114,7 @@ This system takes an image as input and retrieves the most similar images based 
 
 The workflow is as follows:
 
-![](https://files.mdnice.com/user/23818/eb9c3ecc-774e-491d-adb9-7a4e4e3bce8c.png)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/mdnice-u23818/eb9c3ecc-774e-491d-adb9-7a4e4e3bce8c.png)
 
 First, use Towhee to preprocess the input image and extract features to obtain the image embedding vector. Then, store this embedding vector into the vector database. When an image needs to be queried, preprocess and extract features from the query image to get the query image embedding vector. Perform similarity search in the vector database using this vector, and the vector database will return the top k similar vectors.
 
@@ -255,7 +255,7 @@ After creation, you can conveniently view and manage the vector database data th
 
 Here is the newly created DB and Collection:
 
-![](https://files.mdnice.com/user/23818/c2b6ecc1-f441-41e2-9e23-926197ba1827.png)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/mdnice-u23818/c2b6ecc1-f441-41e2-9e23-926197ba1827.png)
 
 ### Embedding: Image to Vector, Insert into Database
 
@@ -329,7 +329,7 @@ def __call__(self, *data):
 
 You can use the fields with indexes created before to filter and accurately query the inserted data in DMC, for example, search: `path="./train/goldfish/n01443537_1903.JPEG"`:
 
-![](https://files.mdnice.com/user/23818/94d4dc90-e756-41bb-af93-21900363f987.png)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/mdnice-u23818/94d4dc90-e756-41bb-af93-21900363f987.png)
 
 Since vector data is generally large, it will not be returned by default. If you need to return the vector field, check `retrieveVector`.
 
@@ -410,7 +410,7 @@ We use the `p_search` pipeline to search for images similar to `test/goldfish/*.
 
 Similarly, if you have the vector of an image, you can use DMC to query information about similar images by vector. The results are sorted by `score` in descending order, with a higher score indicating higher similarity.
 
-![](https://files.mdnice.com/user/23818/0fc75c8d-2fad-4091-8a4e-62f144cbf67a.png)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/mdnice-u23818/0fc75c8d-2fad-4091-8a4e-62f144cbf67a.png)
 
 ### Integrating Gradio
 
@@ -453,11 +453,11 @@ Launch the project. Open your browser to `http://127.0.0.1:7860` to see the fina
 
 Input: `test/goldfish/*.JPEG` returns results containing fish.
 
-![](https://files.mdnice.com/user/23818/d8272210-176f-416b-b078-53adf91242a1.png)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/mdnice-u23818/d8272210-176f-416b-b078-53adf91242a1.png)
 
 Input: `test/Afghan_hound/n02088094_4261.JPEG` returns results containing dogs.
 
-![](https://files.mdnice.com/user/23818/013de998-64e7-4c89-ad9b-4335fa6b6ba9.png)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/mdnice-u23818/013de998-64e7-4c89-ad9b-4335fa6b6ba9.png)
 
 ## Summary
 

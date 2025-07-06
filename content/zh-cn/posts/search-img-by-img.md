@@ -49,7 +49,7 @@ img: https://images.kubeinfo.cn/uPic/202109151325055.png
 
 当用户上传一张菜品照片进行搜索时，平台会先对这张照片进行同样的特征提取，生成一个嵌入向量，然后在向量数据库中搜索与之最相似的菜品图片。
 
-![](https://files.mdnice.com/user/23818/c04c11a2-abac-4c62-aed4-cd69fffa8a7c.png)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/mdnice-u23818/c04c11a2-abac-4c62-aed4-cd69fffa8a7c.png)
 
 搜索结果会返回一系列相似的菜品图片以及它们对应的菜谱。用户可以浏览这些菜谱，找到他们想要的菜品，学习如何制作这道菜。
 
@@ -63,23 +63,23 @@ img: https://images.kubeinfo.cn/uPic/202109151325055.png
 
 腾讯云向量数据库提供了强大的存储、检索、分析大量多维向量数据的能力，可支持 10 亿级单索引向量规模、百万级 QPS 及毫秒级查询延迟。目前已稳定服务上千家客户，我们可以在分钟内创建一个向量数据库实例。
 
-![](https://files.mdnice.com/user/23818/5c0d57d6-a847-4a38-bdd4-e41605ebe0b0.png)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/mdnice-u23818/5c0d57d6-a847-4a38-bdd4-e41605ebe0b0.png)
 
 > 测试版：单可用区、单节点。
 
 整个创建过程大概需要 1-2 分钟，刷新实例列表，即可看到创建好的实例。
 
-![](https://files.mdnice.com/user/23818/e9b860a0-7a66-4072-924e-c85a2c61d0d9.png)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/mdnice-u23818/e9b860a0-7a66-4072-924e-c85a2c61d0d9.png)
 
-![](https://files.mdnice.com/user/23818/f71c30d8-db63-47a4-9042-aeda616bd153.png)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/mdnice-u23818/f71c30d8-db63-47a4-9042-aeda616bd153.png)
 
 在密钥管理中获取用户名 root 的密码，下面会用到：
 
-![](https://files.mdnice.com/user/23818/c19ee898-2ad5-4575-b522-bace74588c1c.png)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/mdnice-u23818/c19ee898-2ad5-4575-b522-bace74588c1c.png)
 
 开启外网访问：可以使用系统分配的域名和端口通过外网访问向量数据库：
 
-![](https://files.mdnice.com/user/23818/294824de-cc46-41e5-8c67-b2f6eca14975.png)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/mdnice-u23818/294824de-cc46-41e5-8c67-b2f6eca14975.png)
 
 > 生效时间大概在 10s 内，请记住这里生成的 域名(HOST) 和 端口(PORT)
 
@@ -113,7 +113,7 @@ curl -i -X POST \
 
 工作流程如下：
 
-![](https://files.mdnice.com/user/23818/eb9c3ecc-774e-491d-adb9-7a4e4e3bce8c.png)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/mdnice-u23818/eb9c3ecc-774e-491d-adb9-7a4e4e3bce8c.png)
 
 首先，使用 Towhee 对输入图片进行预处理并提取特征，得到图片的嵌入向量。然后，将这个嵌入向量存入向量数据库中。当需要检索图片时，同样先对查询图片进行预处理和特征提取，得到查询图片的嵌入向量。在向量数据库中对该向量进行相似性检索，向量数据库会返回与该向量相似的 top k 个向量。
 
@@ -268,7 +268,7 @@ test_vdb.create_db_and_collection()
 
 下面是刚刚创建的 DB 和集合：
 
-![](https://files.mdnice.com/user/23818/c2b6ecc1-f441-41e2-9e23-926197ba1827.png)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/mdnice-u23818/c2b6ecc1-f441-41e2-9e23-926197ba1827.png)
 
 ### Embedding：图片转向量、入库
 
@@ -342,7 +342,7 @@ def __call__(self, *data):
 
 可以在 DMC 中，用刚刚创建了索引的字段进行过滤，精确查询到入库后的数据，例如搜索：`path="./train/goldfish/n01443537_1903.JPEG"` ：
 
-![](https://files.mdnice.com/user/23818/94d4dc90-e756-41bb-af93-21900363f987.png)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/mdnice-u23818/94d4dc90-e756-41bb-af93-21900363f987.png)
 
 由于向量数据一般很大，默认不会返回。如果要返回向量字段需要勾选`retrieveVector`。
 
@@ -423,7 +423,7 @@ class SearchTcvdbClient(PyOperator):
 
 同样的，如果知道了一张图片的向量，可以在 DMC 中用向量检索相似的图片信息，查询到的结果默认按照 `score` 由高到低排序，越大表示相似度越高。
 
-![](https://files.mdnice.com/user/23818/0fc75c8d-2fad-4091-8a4e-62f144cbf67a.png)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/mdnice-u23818/0fc75c8d-2fad-4091-8a4e-62f144cbf67a.png)
 
 ### 集成 Gradio
 
@@ -469,11 +469,11 @@ iface.launch()
 
 输入：`test/goldfish/*.JPEG` 返回的结果都包含鱼。
 
-![](https://files.mdnice.com/user/23818/d8272210-176f-416b-b078-53adf91242a1.png)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/mdnice-u23818/d8272210-176f-416b-b078-53adf91242a1.png)
 
 输入：`test/Afghan_hound/n02088094_4261.JPEG` 返回的结果都包含狗。
 
-![](https://files.mdnice.com/user/23818/013de998-64e7-4c89-ad9b-4335fa6b6ba9.png)
+![](https://cdn.jsdelivr.net/gh/smallersoup/jsDelivr-cdn@main/blog/artical/mdnice-u23818/013de998-64e7-4c89-ad9b-4335fa6b6ba9.png)
 
 ## 总结
 
