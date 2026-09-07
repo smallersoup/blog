@@ -1,6 +1,8 @@
 <style>
   #wordcloud {
       text-align: center;
+      width: 100%;
+      box-sizing: border-box;
       padding: 20px;
       border-radius: 10px;
       margin: 20px 0;
@@ -10,11 +12,22 @@
       position: relative;
       font-family: 'Helvetica Neue', Arial, sans-serif;
       padding: 8px 16px;
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
+      min-width: max-content;
       margin: 4px;
       border-radius: 5px;
       transition: all 0.3s ease;
       text-decoration: none; /* Assuming each word is a link */
+      white-space: nowrap;
+  }
+
+  /* The theme allows links to break anywhere so long URLs stay responsive.
+     Tags are short labels, so keep each label together as one cloud item. */
+  .word a {
+      word-break: normal;
+      overflow-wrap: normal;
+      white-space: nowrap;
   }
 
   /* 角标样式 */
