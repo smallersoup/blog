@@ -38,9 +38,10 @@
 {{ end }}
 
 <div id="profile">
-  {{ partial "partials/home/profile.html" . }}
+  {{ partial "home/profile.html" . }}
 </div>
 
+{{ if eq .Language.Lang "zh-cn" }}
 <script>
 // 获取最近一年的文章数据
 {{ $pages := where .Site.RegularPages "Date" ">" (now.AddDate -1 0 0) }}
@@ -224,3 +225,4 @@ function formatDate(date) {
 
 createHeatmap();
 </script>
+{{ end }}

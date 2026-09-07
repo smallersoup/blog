@@ -27,6 +27,7 @@ article:
   redirect_pre: "即将离开 "
   redirect_post: "，跳转到以下外部链接"
   redirect_info: "请自行识别该链接是否安全，请注意您的帐号和财产安全。"
+  redirect_message: "未提供有效的外部链接。"
   direct_link: "立即前往"
 
 author:

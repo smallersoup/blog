@@ -89,7 +89,7 @@
             <div class="redirect-all">
                 <div class="redirect-nrong">
                     <div class="redirect-title">{{ T `article.redirect_pre` | safeHTML }}{{ .Site.Title }}{{ T `article.redirect_post` | safeHTML }}</div>
-                    <a href="" target="_self" rel="noopener noreferrer" aria-label="redirect-link"><span id="redirect-link">{{ T `redirect_link` | safeHTML }}</span></a>
+                    <a id="redirect-anchor" href="" target="_self" rel="noopener noreferrer" aria-label="redirect-link"><span id="redirect-link">{{ T `redirect_link` | safeHTML }}</span></a>
                     <div class="redirect-info">{{ T `article.redirect_info` | safeHTML }}</div>
                     <div class="redirect-tis">
                         <div class="redirect-button"><a href='' target="_self" id='direct-link' rel="noopener noreferrer">{{ T `article.direct_link` | safeHTML }}</a></div>
@@ -108,19 +108,22 @@
 <script>
     const params = new URLSearchParams(window.location.search);
     const encodedTarget = params.get('target');
-    const target = atob(encodedTarget); // 使用 atob 进行 Base64 解码
+    let decodedTarget = '';
 
-    if (target) {
+    try {
+        if (encodedTarget) decodedTarget = decodeURIComponent(atob(encodedTarget));
+    } catch (error) {
+        console.warn('Invalid redirect target', error);
+    }
 
-        const decodedTarget = decodeURIComponent(target);
-
+    if (decodedTarget) {
         document.getElementById('direct-link').href = decodedTarget;
-        document.getElementById('redirect-link').textContent = '' + decodedTarget; // 在新增的元素中显示原地址
-        document.getElementById('redirect-link').href = decodedTarget;
-
+        document.getElementById('redirect-link').textContent = decodedTarget;
+        document.getElementById('redirect-anchor').href = decodedTarget;
     } else {
         const redirectMessageElement = document.getElementById('redirect-link');
-        redirectMessageElement.textContent = '{{ T `redirect_message` | safeHTML }}';
+        redirectMessageElement.textContent = '{{ T `article.redirect_message` | safeHTML }}';
+        document.getElementById('direct-link').closest('.redirect-button').hidden = true;
     }
 </script>
 

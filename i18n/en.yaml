@@ -33,6 +33,7 @@ article:
   redirect_pre: "About to leave "
   redirect_post: ", jump to the following external link"
   redirect_info: "Please assess the safety of the link independently and exercise caution to safeguard your account and property."
+  redirect_message: "No valid external link was provided."
   direct_link: "Proceed"
 
 author:
