@@ -238,6 +238,12 @@ section a {
   word-break: break-all;
 }
 
+/* 正文里的长串（如 Windows 反斜杠路径）不含可断行点，手机端会撑破布局。
+   主题只处理了 code、a 和 table，普通段落需要单独兜底 */
+.article-content {
+  overflow-wrap: break-word;
+}
+
 
 /* katex 样式 */
 .katex {
