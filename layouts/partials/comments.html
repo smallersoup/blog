@@ -1,37 +1,21 @@
-<!-- 延迟加载 Google Adsense -->
-<script type='text/javascript'>
-    //<![CDATA[
-    /* 延迟加载 AdSense JS */
-    var lazyadsense = !1;
-    window.addEventListener("scroll", function() {
-        (0 != document.documentElement.scrollTop && !1 === lazyadsense || 0 != document.body.scrollTop && !1 === lazyadsense) && (! function() {
-            var e = document.createElement("script");
-            e.id = "g_ads_js", e.type = "text/javascript", e.async = "async", e.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3925981084585036";
-            var a = document.getElementsByTagName("script")[0];
-            a.parentNode.insertBefore(e, a)
-        }(), lazyadsense = !0)
-    }, !0);
-    //]]>
-    </script>
-    
-    <!-- 延迟加载广告推送 -->
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).onload = function () {
-            [].forEach.call(document.getElementsByClassName('adsbygoogle'), function () {
-                adsbygoogle.push({})
-            })
-        }
-    </script>
-    
-    <!-- AdSense 广告容器 -->
-    <div style="min-height=250px">
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-3925981084585036"
-         data-ad-slot="4806125422"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    </div>
+<!-- Google AdSense -->
+<script
+    async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4709798421083568"
+    crossorigin="anonymous"></script>
+
+<div style="min-height: 250px">
+    <ins
+        class="adsbygoogle"
+        style="display: block"
+        data-ad-client="ca-pub-4709798421083568"
+        data-ad-slot="8527465465"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+</div>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     
     
     <img style="margin-top: 1.5em;" loading="lazy" src="/img/wechat-official-account.jpg" alt="公众号二维码">
