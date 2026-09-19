@@ -211,27 +211,3 @@ function randomColor() {
     return colors[Math.floor(Math.random() * colors.length)];
 }
 </script>
-
-
-
-<!-- 懒加载背景图片 -->
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  var lazyLoadBackground = function(entries, observer) {
-    entries.forEach(function(entry) {
-      if (entry.isIntersecting) {
-        var div = entry.target;
-        var src = div.getAttribute('data-bg');
-        div.style.backgroundImage = "url('" + src + "')";
-        observer.unobserve(entry.target);
-      }
-    });
-  };
-
-  var observer = new IntersectionObserver(lazyLoadBackground);
-  var targets = document.querySelectorAll('.thumbnail_card_related, .thumbnail_card');
-  targets.forEach(function(target) {
-    observer.observe(target);
-  });
-});
-</script>

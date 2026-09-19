@@ -52,38 +52,6 @@ document.addEventListener('DOMContentLoaded', function() {
 <!-- end webpushr tracking code -->
 
 {{ if eq .Language.Lang "zh-cn" }}
-<!-- 百度收录自动推送 --> 
-<script type="text/javascript">
-document.addEventListener('DOMContentLoaded', (event) => {
-    const url = 'https://htr4n1.laf.run/baidu-seo?urls=' + window.location.href;
-
-    fetch(url)
-        .then(response => response.json())
-        .then(data => {
-            const responseBody = JSON.parse(data.body);
-
-            // 检查剩余次数和成功状态
-            if (responseBody.remain > 0 && responseBody.success === 1) {
-                console.log('百度收录提交成功，当前api余剩次数：' + responseBody.remain);
-            } else {
-                if (responseBody.remain === 0) {
-                    console.log('已达到今日百度提交上限。');
-                } else {
-                    console.log(responseBody.remain);
-                    console.log('api提交失败');
-                }
-                if (responseBody.not_same_site) {
-                    console.log('未收录的站点：', responseBody.not_same_site.join(', '));
-                }
-            }
-        })
-        .catch(error => {
-            console.error('请求失败，但这可能是因为达到提交上限:', error);
-        });
-});
- </script>
-
-
 <!-- 百度统计 -->
 <script defer>
   // 检测页面滚动并在达到指定距离时加载统计脚本
