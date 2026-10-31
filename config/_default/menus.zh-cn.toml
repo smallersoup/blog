@@ -1,4 +1,29 @@
 # -- Main Menu --
+[[main]]
+  name = "文章"
+  pageRef = "posts"
+  weight = 1
+
+[[main]]
+  name = "关于本站"
+  pageRef = "about"
+  weight = 5
+
+[[footer]]
+  name = "关于本站"
+  pageRef = "about"
+  weight = 30
+
+[[footer]]
+  name = "联系与勘误"
+  pageRef = "contact"
+  weight = 40
+
+[[footer]]
+  name = "隐私政策"
+  pageRef = "privacy"
+  weight = 50
+
 # The main menu is displayed in the header at the top of the page.
 # Acceptable parameters are name, pageRef, page, url, title, weight.
 # 

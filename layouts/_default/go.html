@@ -111,7 +111,13 @@
     let decodedTarget = '';
 
     try {
-        if (encodedTarget) decodedTarget = decodeURIComponent(atob(encodedTarget));
+        if (encodedTarget) {
+            const bytes = Uint8Array.from(atob(encodedTarget), char => char.charCodeAt(0));
+            const target = new URL(new TextDecoder().decode(bytes));
+            if (target.protocol === 'http:' || target.protocol === 'https:') {
+                decodedTarget = target.href;
+            }
+        }
     } catch (error) {
         console.warn('Invalid redirect target', error);
     }

@@ -1,4 +1,29 @@
 # -- Main Menu --
+[[main]]
+  name = "Articles"
+  pageRef = "posts"
+  weight = 1
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 5
+
+[[footer]]
+  name = "About"
+  pageRef = "about"
+  weight = 30
+
+[[footer]]
+  name = "Contact"
+  pageRef = "contact"
+  weight = 40
+
+[[footer]]
+  name = "Privacy"
+  pageRef = "privacy"
+  weight = 50
+
 # The main menu is displayed in the header at the top of the page.
 # Acceptable parameters are name, pageRef, page, url, title, weight.
 # 

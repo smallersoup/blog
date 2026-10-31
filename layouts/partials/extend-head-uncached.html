@@ -1,0 +1,10 @@
+{{/* Keep advertising out of redirect, policy, search and taxonomy pages. */}}
+{{ if and hugo.IsProduction (not .Params.noTracking) }}
+  {{ partial "optional-tracking.html" . }}
+  {{ if and (not .Params.noAds) (or .IsHome (and .IsPage (eq .Section "posts"))) }}
+    {{ with site.Params.adsense.client }}
+      <meta name="google-adsense-account" content="{{ . }}">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ . }}" crossorigin="anonymous"></script>
+    {{ end }}
+  {{ end }}
+{{ end }}

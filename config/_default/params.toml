@@ -217,6 +217,10 @@ smartTOCHideUnfocusedChildren = false
   # 增强列表中卡片库的宽度以占据可用全宽
   cardViewScreenWidth = false
 
+[adsense]
+  client = "ca-pub-4709798421083568"
+  slot = "8527465465"
+
 [fathomAnalytics]
   # site = "ABC12345"
   # domain = "llama.yoursite.com"

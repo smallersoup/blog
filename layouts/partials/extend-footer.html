@@ -1,4 +1,5 @@
-<div class="busuanzi" style="margin-inline: auto; text-align: center">
+<div class="top-scroll-bar" style="height: 5px; background-color: blue; width: 0; position: fixed; top: 0; z-index: 100;"></div>
+<div id="site-visit-counts" class="busuanzi" style="margin-inline: auto; text-align: center; display: none">
   <div class="busuanzi__item">
     <span class="busuanzi__item--label text-neutral-500 dark:text-neutral-400">{{ i18n "footer.uv" }}</span>
     <span id="busuanzi_site_uv" class="busuanzi__item--number text-neutral-500 dark:text-neutral-400"></span>
@@ -80,7 +81,7 @@
 
 
 {{/* 微信QQ跳转，防止被举报 */}}
-{{- partial "weixin-qq.html" . -}}
+
 
 
 {{/* 右下角悬浮按钮 */}}
@@ -102,62 +103,6 @@
   </div>
 </div> 
 */}}
-
-<!-- 不蒜子 busuanzi -->
-<script defer src="https://wvprxbiaqrgp.hzh.sealos.run/js"></script>
-
-<script>
-  // 在整个文档加载完成后执行函数
-  document.addEventListener("DOMContentLoaded", function () {
-    // 获取用于展示独立访客数（UV）和页面浏览量（PV）的元素
-    const uvE = document.getElementById("busuanzi_site_uv");
-    const pvE = document.getElementById("busuanzi_site_pv");
-
-    // 创建一个用于监视UV元素变化的MutationObserver
-    const uvObs = new MutationObserver((mutationsList) => {
-      // 遍历所有发生的变更
-      for (let mutation of mutationsList) {
-        // 如果变更类型是子元素列表变化
-        if (mutation.type === "childList") {
-          // 断开观察，避免后续的重复处理
-          uvObs.disconnect();
-          // 将元素的内容（即UV计数）增加731632
-          mutation.target.innerHTML =
-            parseInt(mutation.target.innerHTML) + 731632;
-          // 处理完后退出循环
-          break;
-        }
-      }
-    });
-
-    // 创建一个用于监视PV元素变化的MutationObserver
-    const pvObs = new MutationObserver((mutationsList) => {
-      // 遍历所有发生的变更
-      for (let mutation of mutationsList) {
-        // 如果变更类型是子元素列表变化
-        if (mutation.type === "childList") {
-          // 断开观察，避免后续的重复处理
-          pvObs.disconnect();
-          // 将元素的内容（即PV计数）增加1360325
-          mutation.target.innerHTML =
-            parseInt(mutation.target.innerHTML) + 1360325;
-          // 处理完后退出循环
-          break;
-        }
-      }
-    });
-
-    // 配置对象，指明仅监视子元素列表的变化
-    const config = {
-      childList: true,
-    };
-
-    // 开始监视UV和PV元素的变化
-    uvObs.observe(uvE, config);
-    pvObs.observe(pvE, config);
-  });
-</script>
-
 
 <!-- 鼠标点击特效 -->
 <script type="text/javascript">
