@@ -12,4 +12,18 @@ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-
 &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#vectors-and-vector-databases" aria-label="Anchor"&gt;#&lt;/a&gt;
 &lt;/span&gt;
 &lt;/h2&gt;
-&lt;p&gt;In mathematics, a vector is an object that can represent multiple dimensions or characteristics. In our daily life, it can also be used to describe multiple attributes of an object.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://kubeinfo.cn/en/posts/build-an-image-search-system-in-5-minutes/featured.jpg"/></item><item><title>Redirect</title><link>https://kubeinfo.cn/en/go/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/en/go/</guid><description>&lt;hr /&gt;</description></item></channel></rss>
+&lt;p&gt;In mathematics, a vector is an object that can represent multiple dimensions or characteristics. In our daily life, it can also be used to describe multiple attributes of an object.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://kubeinfo.cn/en/posts/build-an-image-search-system-in-5-minutes/featured.jpg"/></item><item><title>About</title><link>https://kubeinfo.cn/en/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/en/about/</guid><description>&lt;p&gt;kubeinfo.cn is a technical blog maintained by 小碗汤, also known as AndyLee8866. It contains notes on Kubernetes, containers, Go, monitoring and DevOps, including source code reading and troubleshooting.&lt;/p&gt;</description></item><item><title>Contact and corrections</title><link>https://kubeinfo.cn/en/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/en/contact/</guid><description>&lt;p&gt;This blog is maintained by 小碗汤. For corrections, broken links, copyright concerns or privacy issues, use the &lt;a href="https://github.com/smallersoup/blog/issues" target="_blank" rel="noopener noreferrer external"&gt;blog repository&amp;rsquo;s GitHub Issues&lt;/a&gt;
+, the author&amp;rsquo;s &lt;a href="https://github.com/smallersoup" target="_blank" rel="noopener noreferrer external"&gt;GitHub profile&lt;/a&gt;
+, or the site&amp;rsquo;s existing &lt;a href="https://kubeinfo.cn/img/wechat-qr-code.jpg"&gt;WeChat QR code&lt;/a&gt;
+.&lt;/p&gt;</description></item><item><title>Privacy policy</title><link>https://kubeinfo.cn/en/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kubeinfo.cn/en/privacy/</guid><description>&lt;p&gt;Updated on October 31, 2026. This policy applies to kubeinfo.cn, maintained by 小碗汤. Use the &lt;a href="https://kubeinfo.cn/en/contact/"&gt;contact page&lt;/a&gt;
+for privacy questions.&lt;/p&gt;
+&lt;h2 class="relative group"&gt;Website delivery and local storage
+&lt;div id="website-delivery-and-local-storage" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#website-delivery-and-local-storage" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;The site is hosted on GitHub Pages and uses Cloudflare network services. Requests for pages and resources expose information needed to deliver them, such as IP address, request time, URL and browser information. See the &lt;a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer external"&gt;GitHub privacy statement&lt;/a&gt;
+and &lt;a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer external"&gt;Cloudflare privacy policy&lt;/a&gt;
+.&lt;/p&gt;</description></item></channel></rss>

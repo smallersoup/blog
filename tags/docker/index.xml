@@ -56,5 +56,5 @@ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-
 &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e6%ad%a3%e6%96%87" aria-label="锚点"&gt;#&lt;/a&gt;
 &lt;/span&gt;
 &lt;/h2&gt;
-&lt;p&gt;使用过docker的都知道dockerfile，其用于定义制作镜像的流程，由一系列命令和参数构成的脚本，这些命令应用于基础镜像并最终创建一个新的镜像。可参考往期文章学习：
-&lt;a href="https://kubeinfo.cn/go/?target=aHR0cHM6Ly9tcC53ZWl4aW4ucXEuY29tL3MvbHpGTDRlV1U4aDIzc1RiRmJIRVprZw%3d%3d" target="_blank" &gt;docker基础知识整理&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;使用过docker的都知道dockerfile，其用于定义制作镜像的流程，由一系列命令和参数构成的脚本，这些命令应用于基础镜像并最终创建一个新的镜像。可参考往期文章学习：&lt;a href="https://mp.weixin.qq.com/s/lzFL4eWU8h23sTbFbHEZkg" target="_blank" rel="noopener noreferrer external"&gt;docker基础知识整理&lt;/a&gt;
+&lt;/p&gt;</description></item></channel></rss>
